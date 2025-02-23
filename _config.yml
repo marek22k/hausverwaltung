@@ -1,0 +1,38 @@
+title: Verwaltung Müller
+author: Marco Müller
+
+description: 
+
+lang: "de"
+
+menu:
+- title: Startseite
+  url: /
+  weight: 1
+
+- title: Sondereigentumsverwaltung
+  url: /sondereigentumsverwaltung/
+  weight: 2
+
+- title: Miethausverwaltung
+  url: /miethausverwaltung/
+  weight: 3
+
+- title: Nachweise und Zertifikate
+  url: /nachweise-und-zertifikate/
+  weight: 4
+
+- title: Leistungsversprechen
+  url: /leistungsversprechen/
+  weight: 5
+
+- title: Über mich
+  url: /about_me/
+  weight: 6
+
+contact:
+  email: kontakt@.de
+
+url: "test"
+
+include: [".well-known"]

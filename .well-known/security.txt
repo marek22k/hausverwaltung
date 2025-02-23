@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Comment: We are always happy to receive reports of security vulnerabilities. So if you find any, it would be great if you write to us.
+
+Contact: mailto:security@mk16.de
+Contact: mailto:security@p2p-node.de
+Contact: mailto:security@p2p-router.de
+
+Preferred-Languages: de, en
+
+Responsible: Marek Küthe (Owner of Bandura Communications)
+Encryption: openpgp4fpr:9aa28159fceb3cd83bc212017e869146699108c7
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEmqKBWfzrPNg7whIBfoaRRmmRCMcFAmaCzxcACgkQfoaRRmmR
+CMc6SBAAwhqT3bJmPJd9912k7QiGCzBE0dWYnXDYhkU1ldM48g7VQRKxY49LWU4T
+i7q+9sMy1EWm4Jzfn1tlixvEmTXeHpW9L2Ca0biIL6PV+tWMk5Lyf8aK0L9a6nZs
+kVVQoxLv8b0xJtJoUrpB6njzGsO3UpES620e7xDoiNYhmPIeJH7xUMH0YdwnbzDU
+9oZro3pRi84HMkgpZ6LJIrJ5GvSOPlL66d++SAPaXuX0RiyloKni7pAR5eKZUK2y
+TXALUDyp+TljNLrXZJu1+MmnIwXOhRJHfzMvGYi3DU+hO9Va/dv9huG5RCNoMxVe
+n4tEivkPPYXqatlj6i9J9I0umgbHdtsJhtEp+tBUKTtGvfGwfTtnt2TORbfX4twV
+E5q9J+QCqt62AK/dSsJ6TTvjX7WmV3J6rjdGpZF4N+Vi38DZSPQ13YF1YNfZk7iQ
++WiYyvFjeGq0usPxvhjnEob3TCodb/FgXd3l/lv6Bx7Mbo2bg6gr55FrOlP2i1i6
+nr1Qf5cY7fcYxx+FNmVn48K0PNGZEkzlejFq/TaSJFTjW5ChC3O2YgSEqOE+N9Il
+DvDrOs4tkgSsZLIzT2qLZ6ejiFSBG57xAqJkfSi1xS0Vu53r296XlMUNomRGuK5Q
+Du5i4YOh0UB0bIM0VD1gnrPm2z5iauBvxtvVTe207XNb4eOQCH0=
+=miPX
+-----END PGP SIGNATURE-----
+

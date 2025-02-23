@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /age-de.xml
+---
+{% assign min_age = 6 %}{% assign max_age = min_age %}{% for page in site.pages %}
+  {% if page.age and page.age > max_age %}
+    {% assign max_age = page.age %}
+  {% endif %}
+{% endfor %}<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/age-de.xslt"?>
+<age-declaration>
+    <ageblock-basic>
+        <age-issuer>self-d</age-issuer>
+        <last-change>{{ "now" | date: "%Y-%m-%d" }}</last-change>
+        <country>de</country>
+        <label-version>1.0</label-version>
+        <revisit-after>always</revisit-after>
+    </ageblock-basic>
+    <ageblock-labeltype>
+        <xmlfile>true</xmlfile>
+        <httpheader>false</httpheader>
+        <htmlmeta>false</htmlmeta>
+        <label-z>false</label-z>
+        <min-age>{{ min_age }}</min-age>
+        <default-age>{{ max_age }}</default-age>
+    </ageblock-labeltype>
+    <ageblock-labeltype-definition>
+        <labeltype-xmlfile>{% for page in site.pages %}{% if page.age %}
+            <label class="{{ page.permalink | xml_escape }}">
+                <unit>{{ page.title | xml_escape }}</unit>
+                <scope>*{{ page.permalink | xml_escape }}</scope>
+                <protocol>all</protocol>
+                <age>{{ page.age }}</age>
+            </label>{% endif %}{% endfor %}
+            <label class="minimum">
+                <unit>Minimum</unit>
+                <scope>*</scope>
+                <protocol>all</protocol>
+                <age>{{ min_age }}</age>
+            </label>
+            <label class="default">
+                <min-age>{{ min_age }}</min-age>
+                <default-age>{{ max_age }}</default-age>
+            </label>
+        </labeltype-xmlfile>
+    </ageblock-labeltype-definition>
+</age-declaration>

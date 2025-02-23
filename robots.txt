@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /robots.txt
+---
+{% for bot in site.bad_bots %}User-Agent: {{ bot }}
+Disallow: /
+
+{% endfor %}User-Agent: *
+Disallow: /404.html{% for page in site.pages %}{% if page.sitemap == false %}
+Disallow: {{ page.permalink }}{% endif %}{% endfor %}
+Allow: /
+
+Sitemap: /sitemap.xml

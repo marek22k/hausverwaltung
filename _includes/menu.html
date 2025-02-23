@@ -1,0 +1,8 @@
+{% assign menu = site.menu | sort:"weight"  %}
+<nav>
+  {% for node in menu %}
+      <a{% if page.url == node.url %} class="current"{% endif %} href="{{ node.url }}">
+        {{ node.title }}
+      </a>
+  {% endfor %}
+</nav>

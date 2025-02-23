@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /app-ads.txt
+---
+# https://iabtechlab.com/ads-txt
+placeholder.example.com, placeholder, DIRECT, placeholder
+CONTACT=mailto:webmaster@mk16.de

@@ -1,0 +1,19 @@
+
+<meta charset="UTF-8">
+{% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}{% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+<title>{{ title }}</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="description" content="{{ description }}">
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+
+{%- include meta.html -%}
+
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/simple.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+
