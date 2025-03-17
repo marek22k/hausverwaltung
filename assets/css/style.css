@@ -1,4 +1,33 @@
-nav a.current {
-  color: var(--accent) !important;
-  border-color: var(--accent) !important;
+body {
+  max-width: 68em;
+}
+
+#introduction_image_container {
+  display: block;
+  width: 100%;
+}
+
+#introduction_image {
+  width: 100%;
+}
+
+nav > a {
+  background-color: #cccccc;
+  border: 1px solid #0d0d0d;
+  padding: 3px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav > a.current {
+  text-decoration: underline;
+}
+
+nav > a:hover {
+  border: 1px solid #0d0d0d;
+}
+
+.certificate {
+  max-width: 400px;
 }

@@ -19,9 +19,15 @@ __     __                      _ _
     <body>
 
         <header>
-            {%- include menu.html -%}
+            <div id="introduction_image_container">
+                <img src="/assets/img/hannover_panorama.jpg" alt="Panorama von Hannover Linden" id="introduction_image">
+            </div>
             {%- include header.html -%}
         </header>
+
+        <nav>
+            {%- include menu.html -%}
+        </nav>
 
         <main>
             {{ content }}

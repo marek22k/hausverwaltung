@@ -6,7 +6,7 @@ description:
 keywords: ddd
 ---
 
-![Resilienz](/assets/img/nachweise-und-zertifikate/resilienz.jpeg)
-![KI](/assets/img/nachweise-und-zertifikate/ki.jpeg)
-![gewaltfreie Kommunikation](/assets/img/nachweise-und-zertifikate/gewaltfreie_kommunikation.jpeg)
-![Arbeitsschutz](/assets/img/nachweise-und-zertifikate/arbeitsschutz.jpeg)
+<a href="/assets/img/nachweise-und-zertifikate/resilienz.jpeg"><img src="/assets/img/nachweise-und-zertifikate/resilienz.jpeg" alt="Resilienz" class="certificate"></a>
+<a href="/assets/img/nachweise-und-zertifikate/ki.jpeg"><img src="/assets/img/nachweise-und-zertifikate/ki.jpeg" alt="KI" class="certificate"></a>
+<a href="/assets/img/nachweise-und-zertifikate/gewaltfreie_kommunikation.jpeg"><img src="/assets/img/nachweise-und-zertifikate/gewaltfreie_kommunikation.jpeg" alt="gewaltfreie Kommunikation" class="certificate"></a>
+<a href="/assets/img/nachweise-und-zertifikate/arbeitsschutz.jpeg"><img src="/assets/img/nachweise-und-zertifikate/arbeitsschutz.jpeg" alt="Arbeitsschutz" class="certificate"></a>
