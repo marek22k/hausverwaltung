@@ -27,7 +27,7 @@ menu:
   weight: 5
 
 - title: Über mich
-  url: /about_me/
+  url: /ueber_mich/
   weight: 6
 
 contact:

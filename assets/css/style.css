@@ -1,5 +1,21 @@
 body {
   max-width: 68em;
+  background-image: url("/assets/img/hannover_panorama.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+header, main, footer {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+h5, h6 {
+  margin: 0.1em;
 }
 
 #introduction_image_container {
@@ -9,6 +25,15 @@ body {
 
 #introduction_image {
   width: 100%;
+}
+
+#about_me {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#linden_sepia {
+  border-radius: 2px;
 }
 
 nav > a {
