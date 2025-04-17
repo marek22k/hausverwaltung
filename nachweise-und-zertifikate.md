@@ -6,7 +6,7 @@ description:
 keywords: ddd
 ---
 
-<a href="/assets/img/nachweise-und-zertifikate/resilienz.jpeg"><img src="/assets/img/nachweise-und-zertifikate/resilienz.jpeg" alt="Resilienz" class="certificate"></a>
+<a href="/assets/img/nachweise-und-zertifikate/mueller_marco_zert.PDF"><img src="/assets/img/nachweise-und-zertifikate/Zertifikat_Immoverwalter_s1.JPG" alt="Resilienz" class="certificate"></a>
 
 
 <a href="/assets/img/nachweise-und-zertifikate/resilienz.jpeg"><img src="/assets/img/nachweise-und-zertifikate/resilienz.jpeg" alt="Resilienz" class="certificate"></a>
