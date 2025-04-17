@@ -14,7 +14,9 @@ langfristigen Nutzen und Zustand zu sichern.
 <a href="https://badges.ihk-kompetenz.plus/assertion/f215ab3c-9e25-4efe-83a8-da10036371b5?id=U2FsdGVkX19lBDNHu0Cv1IgLjduX0Ui/m%209pxj/c1hfx1jaMzmEQjGfhNLWDXZfG4GEqCM/fldCq4QhMBqIaBQ=="><img src="/assets/img/nachweise-und-zertifikate/badge.png" alt="Immobilienverwalter (IHK)" class="certificate"  width="200" height="200" target="_blank"></a> Mitglied im Verband der Immobilienverwalter Niedersachsen e.V.  
 <a href="https://vdiv-niedersachsen-bremen.de/" target="_blank"><img src="/assets/img/vdivlogo.png" alt="Immobilienverwalter (IHK)" class="Mitgliedschaft im Verband der Immobilienverwalter Niedersachsen" width=25% height=25% ></a>
 
-|1|2||2|3|
+|1|2|
+|---|---|
+|3|4|
 
 ### Ich bin für Sie da.
 
