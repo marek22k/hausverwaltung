@@ -21,6 +21,9 @@ langfristigen Nutzen und Zustand zu sichern.
 ### Ich bin für Sie da.
 
 Setzen Sie auf eine Verwaltung, bei der Ihre Interessen stets im Mittelpunkt stehen. Als Ihr persönlicher Hausverwalter betreue ich Ihre Immobilie mit Sorgfalt, Kompetenz und persönlichem Einsatz. Vertrauen Sie darauf, dass Ihre Immobilie bei mir in besten Händen ist.
+Link zum -->>Kontakt Formular
+Link zum Notfallnummer
+
 
 **Meine Leistungen im Überblick:**
 - [WEG-Verwaltung](/weg-verwaltung/)
