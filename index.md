@@ -11,7 +11,7 @@ mit viel Engagement um die Verwaltung Ihrer Immobilie. Ich lege besonderen Wert 
 werterhaltende Betreuung, bei der Ihre Immobilie kontinuierlich gepflegt wird, um ihren
 langfristigen Nutzen und Zustand zu sichern.
 
-<a href="https://badges.ihk-kompetenz.plus/assertion/f215ab3c-9e25-4efe-83a8-da10036371b5?id=U2FsdGVkX19lBDNHu0Cv1IgLjduX0Ui/m%209pxj/c1hfx1jaMzmEQjGfhNLWDXZfG4GEqCM/fldCq4QhMBqIaBQ=="><img src="/assets/img/nachweise-und-zertifikate/badge.png" alt="Immobilienverwalter (IHK)" class="certificate"></a>
+<a href="https://badges.ihk-kompetenz.plus/assertion/f215ab3c-9e25-4efe-83a8-da10036371b5?id=U2FsdGVkX19lBDNHu0Cv1IgLjduX0Ui/m%209pxj/c1hfx1jaMzmEQjGfhNLWDXZfG4GEqCM/fldCq4QhMBqIaBQ=="><img src="/assets/img/nachweise-und-zertifikate/badge.png" alt="Immobilienverwalter (IHK)" class="certificate"  width="150" height="150" ></a>
 
 ### Ich bin für Sie da.
 
