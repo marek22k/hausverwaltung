@@ -9,26 +9,30 @@ menu:
 - title: Startseite
   url: /
   weight: 1
-
+  
+- title: WEG-Verwaltung
+  url: /wegverwaltung/
+  weight: 2
+  
 - title: Sondereigentumsverwaltung
   url: /sondereigentumsverwaltung/
-  weight: 2
+  weight: 3
 
 - title: Miethausverwaltung
   url: /miethausverwaltung/
-  weight: 3
+  weight: 4
 
 - title: Nachweise und Zertifikate
   url: /nachweise-und-zertifikate/
-  weight: 4
+  weight: 5
 
 - title: Leistungsversprechen
   url: /leistungsversprechen/
-  weight: 5
+  weight: 6
 
 - title: Über mich
   url: /ueber_mich/
-  weight: 6
+  weight: 7
 
 contact:
   email: kontakt@.de
