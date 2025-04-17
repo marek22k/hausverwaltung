@@ -11,7 +11,7 @@ menu:
   weight: 1
   
 - title: WEG-Verwaltung
-  url: /wegverwaltung/
+  url: /weg-verwaltung/
   weight: 2
   
 - title: Sondereigentumsverwaltung
