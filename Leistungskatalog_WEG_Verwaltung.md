@@ -1,3 +1,4 @@
+---
 layout: page
 title: Leistungskatalog WEG Verwaltung
 permalink: /Leistungskatalog_WEG_Verwaltung/
