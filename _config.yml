@@ -36,7 +36,7 @@ menu:
 
   - title: TEST - Leistungskatalog
   url: /Leistungskatalog_WEG_Verwaltung/
-  weight: 7
+  weight: 8
 
 contact:
   email: kontakt@.de
