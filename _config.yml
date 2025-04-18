@@ -34,7 +34,7 @@ menu:
   url: /ueber_mich/
   weight: 7
 
-  - title: TEST - Leistungskatalog
+- title: TEST - Leistungskatalog
   url: /Leistungskatalog_WEG_Verwaltung/
   weight: 8
 
