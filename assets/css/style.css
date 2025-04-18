@@ -56,3 +56,15 @@ nav > a:hover {
 .certificate {
   max-width: 400px;
 }
+
+.flexbox {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.flexbox > * {
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
