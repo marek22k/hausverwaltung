@@ -41,4 +41,5 @@ Weitere Details zu meinen Leistungsversprechen finden Sie auf der entsprechenden
 
 Die grundlegenden Leistungen einer WEG-Verwaltung, die jede gute Verwaltung bieten sollte,
 können Sie in meinem [**Leistungsverzeichnis**](#/Leistungskatalog_WEG_Verwaltung/) einsehen.
+[Leistungskatalog WEG-Verwaltung](/Leistungskatalog_WEG_Verwaltung/)
 Diese beinhalten sämtliche wichtigen Aufgaben, die eine zuverlässige WEG-Verwaltung ausmacht.
