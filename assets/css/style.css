@@ -57,14 +57,18 @@ nav > a:hover {
   max-width: 400px;
 }
 
-.flexbox {
+#certificates_logos {
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-.flexbox > * {
+#certificates_logos > div {
   margin: 10px;
   text-align: center;
   font-weight: bold;
+}
+
+#certificates_logos > div > *:first-child {
+  margin-bottom: 10px;
 }

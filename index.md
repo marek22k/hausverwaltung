@@ -18,7 +18,7 @@ langfristigen Nutzen und Zustand zu sichern.
 |:---:|:---:|
 |||
 
-<div class="flexbox">
+<div id="certificates_logos">
     <div>
         <div>zertifizierter Immobilienverwalter</div>
         <a href="https://badges.ihk-kompetenz.plus/assertion/f215ab3c-9e25-4efe-83a8-da10036371b5?id=U2FsdGVkX19lBDNHu0Cv1IgLjduX0Ui/m%209pxj/c1hfx1jaMzmEQjGfhNLWDXZfG4GEqCM/fldCq4QhMBqIaBQ==" target="_blank"><img src="/assets/img/nachweise-und-zertifikate/badge.png" alt="Immobilienverwalter (IHK)" class="certificate"  width="200" height="200"></a>
