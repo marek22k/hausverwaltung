@@ -39,42 +39,42 @@ Hier erhalten Sie einen Überblick über unser Angebot im Bereich der Immobilien
 
 <div class="leistung-block">
   <a href="/weg-verwaltung/">
-    <img src="https://cdn-icons-png.flaticon.com/512/9430/9430087.png" alt="WEG-Verwaltung">
+    <img src="/assets/img/leistungen/01_WEG.png" alt="WEG-Verwaltung">
     <br/>
     🏘️ WEG-Verwaltung
   </a>
   <br/>
-  <small>Icon: <a href="https://www.flaticon.com/free-icon/building_9430087">Flaticon</a></small>
+  
 </div>
 
 <div class="leistung-block">
   <a href="/se-verwaltung/">
-    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828490.png" alt="SE-Verwaltung">
+    <img src="/assets/img/leistungen/02_SE.png" alt="SE-Verwaltung">
     <br/>
     🏠 SE-Verwaltung
   </a>
   <br/>
-  <small>Icon: <a href="https://www.flaticon.com/free-icon/home_1828490">Flaticon</a></small>
+  
 </div>
 
 <div class="leistung-block">
   <a href="/miethausverwaltung/">
-    <img src="https://cdn-icons-png.flaticon.com/512/4470/4470481.png" alt="Miethausverwaltung">
+    <img src="/assets/img/leistungen/03_miet.png" alt="Miethausverwaltung">
     <br/>
     🏢 Miethausverwaltung
   </a>
   <br/>
-  <small>Icon: <a href="https://www.flaticon.com/free-icon/apartment_4470481">Flaticon</a></small>
+  
 </div>
 
 <div class="leistung-block">
   <a href="/angebot-anfordern/">
-    <img src="https://cdn-icons-png.flaticon.com/512/1250/1250615.png" alt="Angebot anfordern">
+    <img src="/assets/img/leistungen/04-angebot.png" alt="Angebot anfordern">
     <br/>
     📩 Angebot anfordern
   </a>
   <br/>
-  <small>Icon: <a href="https://www.flaticon.com/free-icon/email_1250615">Flaticon</a></small>
+  
 </div>
 
 </div>
