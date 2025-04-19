@@ -39,7 +39,7 @@ Willkommen bei den digitalen Services Ihrer Hausverwaltung. Bitte wählen Sie de
 
 <div class="service-block">
   <a href="/problem-melden/">
-    <img src="assets/img/onlineservices/problemmelden.png" alt="Problem melden">
+    <img src="/assets/img/onlineservices/problemmelden.png" alt="Problem melden">
     <br/>
     🔧 Problem melden
   </a>
