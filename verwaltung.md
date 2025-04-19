@@ -53,7 +53,7 @@ keywords: Hausverwaltung, Kontakt, Zertifikate, Über mich, Tätigkeitsgebiete, 
       <div>Leistungsversprechen</div>
     </a>
   </div>
-
+<br>
   <div class="icon-box">
     <a href="/taetigkeitsgebiete/">
       <img src="/assets/img/verwaltung/04_gebiete.png" alt="Gebiet Icon">
