@@ -39,32 +39,32 @@ Willkommen bei den digitalen Services Ihrer Hausverwaltung. Bitte wählen Sie de
 
 <div class="service-block">
   <a href="/problem-melden/">
-    <img src="https://cdn-icons-png.flaticon.com/512/6195/6195700.png" alt="Problem melden">
+    <img src="assets/img/onlineservices/problemmelden.png" alt="Problem melden">
     <br/>
     🔧 Problem melden
   </a>
   <br/>
-  <small>Icon: <a href="https://www.flaticon.com/free-icon/warning_6195700">Flaticon</a></small>
+  
 </div>
 
 <div class="service-block">
   <a href="/schluessel-bestellen/">
-    <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Schlüssel bestellen">
+    <img src="/assets/img/onlineservices/schluessel.png" alt="Schlüssel bestellen">
     <br/>
     🔑 Schlüssel bestellen
   </a>
   <br/>
-  <small>Icon: <a href="https://www.flaticon.com/free-icon/key_3064197">Flaticon</a></small>
+  
 </div>
 
 <div class="service-block">
   <a href="/online-portal/">
-    <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="Online Portal">
+    <img src="/assets/img/onlineservices/online.png" alt="Online Portal">
     <br/>
     🌐 Online-Portal
   </a>
   <br/>
-  <small>Icon: <a href="https://www.flaticon.com/free-icon/internet_1006771">Flaticon</a></small>
+  
 </div>
 
 </div>
