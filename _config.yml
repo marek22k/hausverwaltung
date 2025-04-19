@@ -14,8 +14,8 @@ menu:
   url: /onlineservice/
   weight: 2
   
-- title: Sondereigentumsverwaltung
-  url: /sondereigentumsverwaltung/
+- title: Leistungen
+  url: /leistungen/
   weight: 3
 
 - title: Miethausverwaltung
