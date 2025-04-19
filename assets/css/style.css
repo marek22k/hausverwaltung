@@ -72,3 +72,15 @@ nav > a:hover {
 #certificates_logos > div > *:first-child {
   margin-bottom: 10px;
 }
+
+#footer_div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#footer_div > div {
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
