@@ -75,12 +75,12 @@ nav > a:hover {
 
 #footer_div {
   display: flex;
-  text-align: center;
+  text-align: left;
   justify-content: space-evenly;
 }
 
 #footer_div > div {
   /* margin: 10px; */
-  text-align: center;
+  text-align: left;
   /* font-weight: bold; */
 }
