@@ -1,3 +1,4 @@
+---
 layout: page
 title: Angebot anfordern
 permalink: /angebot-anfordern/
