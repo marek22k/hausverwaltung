@@ -8,20 +8,21 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, Hausverwalter 
 
 # Tätigkeitsgebiet der Hausverwaltung – Region Hannover und Umgebung
 
-Unsere Hausverwaltung ist im Großraum Hannover tätig und betreut Objekte in einem Umkreis von etwa 50 Kilometern rund um die Landeshauptstadt Niedersachsens. Das Einsatzgebiet umfasst sowohl städtische als auch ländlich geprägte Regionen und ist geografisch wie folgt abgegrenzt:
+Unsere Hausverwaltung ist im Großraum Hannover tätig und betreut Immobilien in einem klar definierten Gebiet rund um die Landeshauptstadt Niedersachsens. Der Tätigkeitsbereich umfasst städtische und ländlich geprägte Regionen und verläuft im Uhrzeigersinn wie folgt:
 
-* **Im Nordwesten** erstreckt sich unser Einzugsbereich bis in die Region **Nienburg (Weser)**.  
-* **Im Norden** reicht unser Tätigkeitsfeld bis **Schwarmstedt** im Aller-Leine-Tal.  
-* **Im Osten** bildet **Uetze** die ungefähre Grenze unseres Wirkungsbereichs.  
-* **Im Süden** orientieren wir uns an der Gemeinde **Giesen** nahe Hildesheim.  
-* **Im Südwesten** erstreckt sich unser Einsatzgebiet bis in den Deister.
-* **Im Westen** liegt die Grenze unseres Einzugsgebiets bei **Auetal** im Schaumburger Land.
+* **Im Norden** beginnt unser Einzugsgebiet in der **Wedemark**, nördlich von Hannover.  
+* **Östlich anschließend** liegt **Burgwedel**, gefolgt von **Burgdorf**, das ebenfalls innerhalb unseres Verwaltungsbereichs liegt.  
+* Weiter südlich betreuen wir Immobilien in **Lehrte** sowie in **Sehnde**, einer der östlichen Randgemeinden der Region.  
+* **Im Süden** erstreckt sich unser Einsatzgebiet bis nach **Sarstedt**, nahe der Grenze zur Region Hildesheim.  
+* Richtung **Südwesten** sind wir auch in **Wennigsen am Deister** aktiv.  
+* **Im Westen** betreuen wir Objekte in **Steinhude**, bekannt für das Steinhuder Meer.  
+* Den Abschluss bildet **Neustadt am Rübenberge** im **Nordwesten**, womit sich der Kreis um Hannover schließt.
 
-Zentrum und Schwerpunkt unserer Tätigkeit ist **Hannover**. Von hier aus koordinieren wir alle verwaltungstechnischen, organisatorischen und technischen Aufgaben rund um die von uns betreuten Immobilien.
+Zentrum und organisatorischer Ausgangspunkt unserer Tätigkeit ist **Hannover** selbst. Von hier aus steuern wir alle verwaltungstechnischen, organisatorischen und technischen Aufgaben rund um die von uns betreuten Immobilien.
 
-Diese geografische Ausrichtung ermöglicht es uns, flexibel und zuverlässig auf die Bedürfnisse unserer Kundinnen und Kunden in der gesamten Region zu reagieren.
+Diese geordnete regionale Ausrichtung ermöglicht uns eine effiziente Betreuung und persönliche Nähe zu unseren Kundinnen und Kunden in der gesamten Region.
 
 
 
 <img src="/assets/img/Karte.jpg" alt="Karte Tätigkeitsgebiete">
-Karte zum vergrößern bitte anklicken.
+
