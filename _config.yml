@@ -10,8 +10,8 @@ menu:
   url: /
   weight: 1
   
-- title: WEG-Verwaltung
-  url: /weg-verwaltung/
+- title: Onlineservice
+  url: /onlineservice/
   weight: 2
   
 - title: Sondereigentumsverwaltung
