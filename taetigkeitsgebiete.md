@@ -2,7 +2,7 @@
 layout: page
 title: Tätigkeitsgebiete
 permalink: /taetigkeitsgebiete/
-description: Hausverwaltung im Raum Hannover: Betreuung von Immobilien im Umkreis von 50 km rund um Hannover, inkl. Nienburg, Schwarmstedt, Uetze, Giesen, Hameln und Auetal – zuverlässig, persönlich und regional erfahren.
+description: Hausverwaltung im Raum Hannover: Betreuung von Immobilien im Umkreis von 50 km rund um Hannover, inkl. Nienburg, Schwarmstedt, Uetze, Giesen, Hameln und Auetal – zuverlässig, persönlich und regional erfahren
 keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, Hausverwalter Region Hannover, Wohnungseigentumsverwaltung, Immobilienservice Hannover, WEG Verwaltung, Mietverwaltung Hannover, Nienburg, Schwarmstedt, Uetze, Giesen, Hameln, Auetal, Hausverwaltung Umgebung Hannover, Hausverwaltung 50 km Umkreis Hannover, Objektverwaltung Hannover
 ---
 
