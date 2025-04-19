@@ -80,7 +80,7 @@ nav > a:hover {
 }
 
 #footer_div > div {
-  margin: 10px;
+  /* margin: 10px; */
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
