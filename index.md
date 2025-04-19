@@ -12,12 +12,6 @@ werterhaltende Betreuung, bei der Ihre Immobilie kontinuierlich gepflegt wird, u
 langfristigen Nutzen und Zustand zu sichern.
 
 
-
-
-||  |
-|:---:|:---:|
-|||
-
 <div id="certificates_logos">
     <div>
         <div>zertifizierter Immobilienverwalter</div>
