@@ -14,7 +14,7 @@ Unsere Hausverwaltung ist im Großraum Hannover tätig und betreut Objekte in ei
 * **Im Norden** reicht unser Tätigkeitsfeld bis **Schwarmstedt** im Aller-Leine-Tal.  
 * **Im Osten** bildet **Uetze** die ungefähre Grenze unseres Wirkungsbereichs.  
 * **Im Süden** orientieren wir uns an der Gemeinde **Giesen** nahe Hildesheim.  
-* **Im Südwesten** betreuen wir Objekte bis in den Raum **Hameln** im Weserbergland.  
+* **Im Südwesten** erstreckt sich unser Einsatzgebiet bis in den Deister.
 * **Im Westen** liegt die Grenze unseres Einzugsgebiets bei **Auetal** im Schaumburger Land.
 
 Zentrum und Schwerpunkt unserer Tätigkeit ist **Hannover**. Von hier aus koordinieren wir alle verwaltungstechnischen, organisatorischen und technischen Aufgaben rund um die von uns betreuten Immobilien.
