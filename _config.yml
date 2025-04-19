@@ -18,8 +18,8 @@ menu:
   url: /leistungen/
   weight: 3
 
-- title: Miethausverwaltung
-  url: /miethausverwaltung/
+- title: Verwaltung
+  url: /verwaltung/
   weight: 4
 
 - title: Nachweise und Zertifikate
