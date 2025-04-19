@@ -2,8 +2,8 @@
 layout: page
 title: Tätigkeitsgebiete
 permalink: /taetigkeitsgebiete/
-description: Unsere Notfallnummer ist rund um die Uhr erreichbar – auch nachts sowie an Wochenenden und Feiertagen. In dringenden Fällen, bei akuten Gefahren für Leben und Gesundheit (außerhalb des Zuständigkeitsbereichs von Feuerwehr oder Polizei) oder bei schwerwiegenden Störungen der Heizungs-, Sanitär- oder Elektrotechnik, können Sie uns direkt kontaktieren. Sollte der Anruf nicht entgegengenommen werden, hinterlassen Sie bitte eine Nachricht – wir melden uns schnellstmöglich zurück. Für nicht dringende Anliegen erfolgt die Rückmeldung am nächsten Werktag zu unseren regulären Geschäftszeiten.
-keywords: Notfallnummer, 24-Stunden-Erreichbarkeit, Notdienst, Heizungsnotfall, Sanitärnotfall, Elektrotechnik Störung, Wochenenddienst, Bereitschaftsdienst, technische Notfälle, Rückrufservice, schnelle Hilfe, dringende Reparaturen, Notfallkontakt, Anrufbeantworter, außerhalb der Geschäftszeiten, Notfallhilfe
+description: Hausverwaltung im Raum Hannover: Betreuung von Immobilien im Umkreis von 50 km rund um Hannover, inkl. Nienburg, Schwarmstedt, Uetze, Giesen, Hameln und Auetal – zuverlässig, persönlich und regional erfahren.
+keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, Hausverwalter Region Hannover, Wohnungseigentumsverwaltung, Immobilienservice Hannover, WEG Verwaltung, Mietverwaltung Hannover, Nienburg, Schwarmstedt, Uetze, Giesen, Hameln, Auetal, Hausverwaltung Umgebung Hannover, Hausverwaltung 50 km Umkreis Hannover, Objektverwaltung Hannover
 ---
 
 # Tätigkeitsgebiet der Hausverwaltung – Region Hannover und Umgebung
