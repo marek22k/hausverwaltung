@@ -28,10 +28,11 @@ langfristigen Nutzen und Zustand zu sichern.
 
 ### Ich bin für Sie da.
 
-Setzen Sie auf eine Verwaltung, bei der Ihre Interessen stets im Mittelpunkt stehen. Als Ihr persönlicher Hausverwalter betreue ich Ihre Immobilie mit Sorgfalt, Kompetenz und persönlichem Einsatz. Vertrauen Sie darauf, dass Ihre Immobilie bei mir in besten Händen ist.
+Setzen Sie auf eine Verwaltung, bei der Ihre Interessen stets im Mittelpunkt stehen. Als Ihr persönlicher Hausverwalter betreue ich Ihre Immobilie mit Sorgfalt, Kompetenz und persönlichem Einsatz. Vertrauen Sie darauf, dass Ihre Immobilie bei mir in besten Händen ist.  
+
 Hier gehts zur:
--[Kontakt](/kontakt/)
--[Notfallnummer](/notfall/)
+- [Kontakt](/kontakt/)
+- [Notfallnummer](/notfall/)
 
 
 **Meine Leistungen im Überblick:**
