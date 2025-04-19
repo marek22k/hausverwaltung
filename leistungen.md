@@ -48,7 +48,7 @@ Hier erhalten Sie einen Überblick über unser Angebot im Bereich der Immobilien
 </div>
 
 <div class="leistung-block">
-  <a href="/se-verwaltung/">
+  <a href="/sondereigentumsverwaltung/">
     <img src="/assets/img/leistungen/02_SE.png" alt="SE-Verwaltung">
     <br/>
     🏠 SE-Verwaltung
