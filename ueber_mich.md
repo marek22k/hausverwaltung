@@ -36,6 +36,9 @@ Ich bin selbstständig in der Immobilienverwaltung tätig – ganz klassisch als
 Ich bin kein Makler und betreibe auch keinen eigenen Hausmeisterservice. Das bedeutet:  
 **Ich bin in meinen Entscheidungen völlig unabhängig – und genau das kommt meinen Kunden zugute.**
 
+Ich mag es, mich **ständig weiterzubilden**, Dinge aus **verschiedenen Perspektiven zu betrachten** und auch mal über den **beruflichen Tellerrand hinauszublicken**.  
+Ich gehe in vielen Bereichen **mit der Zeit** und bin **neuen Entwicklungen gegenüber offen**.
+
 ---
 
 ## 💬 Was mir wichtig ist
@@ -71,7 +74,7 @@ So erfahre ich, was gut läuft – und wo es noch besser geht.
 ## 🧗‍♂️ Und sonst so?
 
 In meiner Freizeit bin ich gern **draußen unterwegs** – beim Wandern oder an Klettersteigen.  
-Wenn ich nicht gerade an einer Wand hänge, findet man mich wahrscheinlich **im Garten oder am See**. Dort tanke ich neue Energie für die täglichen Aufgaben.
+Wenn ich nicht gerade an einer Wand hänge, findet man mich wahrscheinlich **im Garten, am See oder im Fitnessstudio**. Dort tanke ich neue Energie für die täglichen Aufgaben.
 
 Ich bin verheiratet und wir haben drei Kinder – der älteste studiert Informatik, der kleinste geht in den Kindergarten.
 Und irgendwo dazwischen ist auch immer was los 😊
