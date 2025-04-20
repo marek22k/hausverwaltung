@@ -25,6 +25,7 @@ Geboren wurde ich am 7. März 1985 und bin gebürtiger Hannoveraner – und das 
 Ich lebe gern in dieser Stadt, die für mich die grünste und vielseitigste Norddeutschlands ist.
 
 Ich bin selbstständig in der Immobilienverwaltung tätig – ganz klassisch als Einzelunternehmer, aber mit modernem Anspruch und persönlicher Note. Für meine Kunden bin ich der direkte Ansprechpartner, ohne Umwege, ohne Callcenter.
+
 ---
 
 ## 🏠 Mein beruflicher Hintergrund
@@ -71,6 +72,9 @@ So erfahre ich, was gut läuft – und wo es noch besser geht.
 
 In meiner Freizeit bin ich gern **draußen unterwegs** – beim Wandern oder an Klettersteigen.  
 Wenn ich nicht gerade an einer Wand hänge, findet man mich wahrscheinlich **im Garten oder am See**. Dort tanke ich neue Energie für die täglichen Aufgaben.
+
+Ich bin verheiratet und wir haben drei Kinder – der älteste studiert Informatik, der kleinste geht in den Kindergarten.
+Und irgendwo dazwischen ist auch immer was los 😊
 
 ---
 
