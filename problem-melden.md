@@ -26,7 +26,8 @@ keywords: ddd
   </select><br><br>
 
   <label for="liegenschaft">Um welche Liegenschaft geht es?*</label><br>
-  <input type="text" name="liegenschaft" id="liegenschaft" required><br><br>
+  <small>Bitte tragen Sie hier die Adresse des Hauses oder der Wohnung ein, in der das Problem aufgetreten ist.</small><br>
+  <input type="text" name="liegenschaft" id="liegenschaft" required style="width: 100%;"><br><br>
 
   <label for="beschreibung">Bitte beschreiben Sie das Problem*</label><br>
   <textarea name="beschreibung" id="beschreibung" rows="6" placeholder="Was ist das Problem? Seit wann tritt es auf? Können Sie eine Ursache erkennen oder passierte es 'einfach so'?" required></textarea><br><br>
@@ -45,8 +46,8 @@ keywords: ddd
   <label for="telefon">Telefonnummer (optional)</label><br>
   <input type="text" name="telefon" id="telefon"><br><br>
 
-  <label for="email">E-Mail Adresse*</label><br>
-  <input type="email" name="email" id="email" required><br><br>
+ <label for="email">E-Mail Adresse*</label><br>
+<input type="email" name="email" id="email" required style="width: 100%;"><br><br>
 
   <label for="bilder">Bilder anhängen (optional)</label><br>
   <input type="file" name="bilder[]" id="bilder" accept="image/*" multiple><br><br>
