@@ -2,8 +2,8 @@
 layout: page
 title: Problem melden
 permalink: /problem-melden/
-description: ddd
-keywords: ddd
+description: Melden Sie schnell und einfach Probleme rund um Ihre Immobilie – ob Elektrik, Heizung, Wasserschaden oder andere Anliegen. Unser Online-Formular macht es Ihnen leicht, Störungen direkt an Ihre Hausverwaltung zu senden – inklusive Bild-Upload.
+keywords: Problem melden Hausverwaltung, Störung Wohnung, Schaden melden Immobilie, Hausverwaltung Kontaktformular, Reparaturmeldung Mieter, Defekt melden Gebäude, Wasserschaden melden, Heizung kaputt Hausverwaltung, Formular Problem Haus, Bilder hochladen Schadenmeldung
 ---
 
 <h1>🛠️ Problem melden</h1>
