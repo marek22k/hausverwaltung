@@ -58,17 +58,19 @@ Sie suchen eine professionelle, transparente und zuverlässige Verwaltung für I
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #005eb8;
-  color: white;
+  background-color: #FF5722; /* Lebhaftes Orange */
+  color: #FFFFFF; /* Weißer Text */
   padding: 12px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index: 999;
+  transition: background-color 0.3s ease;
 }
+
 .cta-sticky:hover {
-  background-color: #004799;
+  background-color: #E64A19; /* Dunkleres Orange beim Hover */
 }
 </style>
 
