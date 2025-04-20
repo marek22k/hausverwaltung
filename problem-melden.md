@@ -31,11 +31,16 @@ keywords: ddd
   <label for="beschreibung">Bitte beschreiben Sie das Problem*</label><br>
   <textarea name="beschreibung" id="beschreibung" rows="6" placeholder="Was ist das Problem? Seit wann tritt es auf? Können Sie eine Ursache erkennen oder passierte es 'einfach so'?" required></textarea><br><br>
 
-  <label for="vorname">Vorname*</label><br>
-  <input type="text" name="vorname" id="vorname" required><br><br>
-
-  <label for="nachname">Nachname*</label><br>
-  <input type="text" name="nachname" id="nachname" required><br><br>
+  <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 120px;">
+    <label for="vorname">Vorname*</label><br>
+    <input type="text" name="vorname" id="vorname" required style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 120px;">
+    <label for="nachname">Nachname*</label><br>
+    <input type="text" name="nachname" id="nachname" required style="width: 100%;">
+  </div>
+</div><br>
 
   <label for="telefon">Telefonnummer (optional)</label><br>
   <input type="text" name="telefon" id="telefon"><br><br>
