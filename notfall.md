@@ -33,4 +33,4 @@ Wenn ein **akuter Notfall** vorliegt – zum Beispiel ein Wasserschaden, Heizung
 
 ---
 
-**Wenn kein Notfall vorliegt**, kontaktieren Sie uns bitte während der Geschäftszeiten telefonisch oder über unser [Problem melden Formular](problem-melden.html).
+**Wenn kein Notfall vorliegt**, kontaktieren Sie uns bitte während der Geschäftszeiten telefonisch oder über unser [Problem melden Formular](/problem-melden/).
