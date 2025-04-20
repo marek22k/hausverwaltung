@@ -8,9 +8,6 @@ keywords: Notfallnummer, 24-Stunden-Erreichbarkeit, Notdienst, Heizungsnotfall, 
 
 # 🔥 Notfallmeldung
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <img src="https://cdn-icons-png.flaticon.com/512/565/565547.png" alt="Sirene" width="80" style="margin-bottom: 10px;">
-</div>
 
 Unser Notfall-Telefon ist jederzeit erreichbar - auch nachts und an Wochenenden. Sollte niemand ans Telefon gehen, so hinterlassen Sie bitte eine Nachricht auf dem Anrufbeantworter, und ich werde mich umgehend mit Ihnen in Verbindung setzen.
 
