@@ -26,17 +26,6 @@ menu:
   url: /nachweise-und-zertifikate/
   weight: 5
 
-- title: Leistungsversprechen
-  url: /leistungsversprechen/
-  weight: 6
-
-- title: Über mich
-  url: /ueber_mich/
-  weight: 7
-
-- title: TEST - Leistungskatalog
-  url: /Leistungskatalog_WEG_Verwaltung/
-  weight: 8
 
 contact:
   email: kontakt@.de
