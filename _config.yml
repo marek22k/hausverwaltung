@@ -22,13 +22,13 @@ menu:
   url: /verwaltung/
   weight: 4
 
-- title: Nachweise und Zertifikate
-  url: /nachweise-und-zertifikate/
+- title: Notfall-Telefon
+  url: /notfall/
   weight: 5
 
 
 contact:
-  email: kontakt@.de
+  email: info@hausverwaltung-marcomueller.de
 
 url: "test"
 
