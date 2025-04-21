@@ -4,6 +4,18 @@ title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
 ---
 
+<div style="background: linear-gradient(to right, #f5f5f5, #ffffff); padding: 2rem 1rem; margin-bottom: 2rem; border-radius: 8px; text-align: center;">
+  <h1 style="margin: 0 0 1rem 0; font-size: 1.8rem;">Hausverwaltung in Hannover & Umgebung</h1>
+  <p style="max-width: 700px; margin: 0 auto 1.5rem auto; font-size: 1.1rem; line-height: 1.6;">
+    Persönlich. Zertifiziert. Engagiert. <br>
+    Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
+  </p>
+  <a href="/kontakt/" style="display: inline-block; background-color: #003366; color: white; padding: 0.6rem 1.2rem; border-radius: 5px; text-decoration: none; font-weight: bold;">
+    Jetzt Kontakt aufnehmen
+  </a>
+</div>
+
+
 # Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 
 Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie. Ich lege besonderen Wert auf eine **werterhaltende Betreuung**, bei der Ihre Immobilie kontinuierlich gepflegt wird, um ihren langfristigen Nutzen und Zustand zu sichern.
