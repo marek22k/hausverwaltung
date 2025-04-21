@@ -21,7 +21,9 @@ keywords: Problem melden Hausverwaltung, Störung Wohnung, Schaden melden Immobi
     <option value="Heizungsstörung">Heizungsstörung</option>
     <option value="Müll vor der Haustür oder im Hof">Müll vor der Haustür oder im Hof</option>
     <option value="Wasserschaden">Wasserschaden</option>
+    <option value="Schimmel">Schimmel</option>
     <option value="Zugeparkte Einfahrt">Zugeparkte Einfahrt</option>
+    <option value="Verstoss gegen die Hausordnung">Verstoss gegen die Hausordnung</option>
     <option value="Sonstiges">Sonstiges</option>
   </select><br><br>
 
