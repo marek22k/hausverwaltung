@@ -57,11 +57,22 @@ Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich 
 
 ## Persönliche Betreuung
 
-Setzen Sie auf eine Verwaltung, bei der **Ihre Interessen im Mittelpunkt stehen**. Als Ihr persönlicher Hausverwalter betreue ich Ihre Immobilie mit Sorgfalt, Kompetenz und persönlichem Einsatz.  
-**Ihre Immobilie ist bei mir in besten Händen.**
+Setzen Sie auf eine Verwaltung, bei der **Ihre Interessen im Mittelpunkt stehen**.  
+Als Ihr persönlicher Hausverwalter betreue ich Ihre Immobilie mit Sorgfalt, Kompetenz und persönlichem Einsatz.
 
-➡️ [Kontakt aufnehmen](/kontakt/)  
-📞 [Notfallnummer](/notfall/)
+> **Ihre Immobilie ist bei mir in besten Händen.**
+
+<div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
+
+<a href="/kontakt/" style="flex: 1; min-width: 220px; background-color: #003366; color: white; padding: 0.8rem 1.2rem; text-align: center; border-radius: 6px; text-decoration: none; font-weight: bold;">
+📨 Kontakt aufnehmen
+</a>
+
+<a href="/notfall/" style="flex: 1; min-width: 220px; background-color: #c62828; color: white; padding: 0.8rem 1.2rem; text-align: center; border-radius: 6px; text-decoration: none; font-weight: bold;">
+🚨 Notfallnummer
+</a>
+
+</div>
 
 ---
 
