@@ -2,8 +2,8 @@
 layout: page
 title: Online Service
 permalink: /onlineservice/
-description: 
-keywords: ddd
+description: Nutzen Sie die digitalen Services Ihrer Hausverwaltung Marco Müller – einfach, schnell und rund um die Uhr: Schäden melden, Schlüssel bestellen oder auf Unterlagen im Online-Portal zugreifen.
+keywords: Hausverwaltung Online-Service, Schaden melden, Schlüssel nachbestellen, Online-Portal Immobilien, Unterlagen für Eigentümer, Unterlagen für Mieter, Hausverwaltung Marco Müller, WEG-Verwaltung, SE-Verwaltung, Miethausverwaltung, Hannover, digitale Hausverwaltung
 ---
 
 <style>
@@ -29,6 +29,12 @@ keywords: ddd
 .service-block img:hover {
   transform: scale(1.15);
 }
+
+.service-block p {
+  font-size: 0.9em;
+  color: #444;
+  margin-top: 10px;
+}
 </style>
 
 # 🏠 Online-Services Ihrer Hausverwaltung
@@ -43,8 +49,7 @@ Willkommen bei den digitalen Services Ihrer Hausverwaltung. Bitte wählen Sie de
     <br/>
     🔧 Problem melden
   </a>
-  <br/>
-  
+  <p>Hier können Probleme mit Heizung, Elektrik oder anderen Bereichen der Liegenschaft gemeldet werden.</p>
 </div>
 
 <div class="service-block">
@@ -53,8 +58,7 @@ Willkommen bei den digitalen Services Ihrer Hausverwaltung. Bitte wählen Sie de
     <br/>
     🔑 Schlüssel bestellen
   </a>
-  <br/>
-  
+  <p>Hier können Sie bequem Ersatz- oder Zusatzschlüssel bestellen.</p>
 </div>
 
 <div class="service-block">
@@ -63,8 +67,7 @@ Willkommen bei den digitalen Services Ihrer Hausverwaltung. Bitte wählen Sie de
     <br/>
     🌐 Online-Portal
   </a>
-  <br/>
-  
+  <p>Eigentümer und Mieter finden hier alle relevanten Unterlagen rund um ihre Immobilie oder Mietsache.</p>
 </div>
 
 </div>
