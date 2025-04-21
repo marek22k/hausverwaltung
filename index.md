@@ -3,17 +3,28 @@ layout: page
 title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
 ---
+<!-- Herobereich Start -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; background: linear-gradient(to right, #f5f5f5, #ffffff); padding: 2rem 1rem; margin-bottom: 2rem; border-radius: 8px;">
 
-<div style="background: linear-gradient(to right, #f5f5f5, #ffffff); padding: 2rem 1rem; margin-bottom: 2rem; border-radius: 8px; text-align: center;">
-  <h1 style="margin: 0 0 1rem 0; font-size: 1.8rem;">Hausverwaltung in Hannover & Umgebung</h1>
-  <p style="max-width: 700px; margin: 0 auto 1.5rem auto; font-size: 1.1rem; line-height: 1.6;">
-    Persönlich. Zertifiziert. Engagiert. <br>
-    Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
-  </p>
-  <a href="/kontakt/" style="display: inline-block; background-color: #003366; color: white; padding: 0.6rem 1.2rem; border-radius: 5px; text-decoration: none; font-weight: bold;">
-    Jetzt Kontakt aufnehmen
-  </a>
+  <!-- Bildbereich -->
+  <div style="flex: 1 1 300px; text-align: center;">
+    <img src="/assets/img/hero-hausverwaltung.jpg" alt="Moderne Immobilie Hannover" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+  </div>
+
+  <!-- Textbereich -->
+  <div style="flex: 2 1 400px;">
+    <h1 style="margin-top: 0; font-size: 1.8rem;">Hausverwaltung in Hannover & Umgebung</h1>
+    <p style="font-size: 1.1rem; line-height: 1.6;">
+      Persönlich. Zertifiziert. Engagiert.<br>
+      Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
+    </p>
+    <a href="/kontakt/" style="display: inline-block; margin-top: 1rem; background-color: #003366; color: white; padding: 0.6rem 1.2rem; border-radius: 5px; text-decoration: none; font-weight: bold;">
+      Jetzt Kontakt aufnehmen
+    </a>
+  </div>
+
 </div>
+<!-- Herobereich Ende -->
 
 
 # Ihr zertifizierter Hausverwalter für Hannover und Umgebung
