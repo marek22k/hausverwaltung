@@ -4,50 +4,67 @@ title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
 ---
 
-## Ihr zertifizierter Hausverwalter für Hannover und Umgebung
+# Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 
-Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und
-mit viel Engagement um die Verwaltung Ihrer Immobilie. Ich lege besonderen Wert auf eine
-werterhaltende Betreuung, bei der Ihre Immobilie kontinuierlich gepflegt wird, um ihren
-langfristigen Nutzen und Zustand zu sichern.
+Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie. Ich lege besonderen Wert auf eine **werterhaltende Betreuung**, bei der Ihre Immobilie kontinuierlich gepflegt wird, um ihren langfristigen Nutzen und Zustand zu sichern.
 
+---
 
-<div id="certificates_logos">
-    <div>
-        <div>zertifizierter Immobilienverwalter</div>
-        <a href="https://badges.ihk-kompetenz.plus/assertion/f215ab3c-9e25-4efe-83a8-da10036371b5?id=U2FsdGVkX19lBDNHu0Cv1IgLjduX0Ui/m%209pxj/c1hfx1jaMzmEQjGfhNLWDXZfG4GEqCM/fldCq4QhMBqIaBQ==" target="_blank"><img src="/assets/img/nachweise-und-zertifikate/badge.png" alt="Immobilienverwalter (IHK)" class="certificate"  width="200" height="200"></a>
-    </div>
+## Zertifikate & Mitgliedschaften
 
-    <div>
-        <div>Mitglied im Verband der Immobilienverwalter Niedersachsen e.V.</div>
-        <a href="https://vdiv-niedersachsen-bremen.de/" target="_blank"><img src="/assets/img/vdivlogo.png" alt="Immobilienverwalter (IHK)" class="Mitgliedschaft im Verband der Immobilienverwalter Niedersachsen" width="200" height="75"></a>
-    </div>
+<div id="certificates_logos" style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: center; margin-bottom: 2rem;">
+  
+<div style="text-align: center;">
+  <div><strong>Zertifizierter Immobilienverwalter (IHK)</strong></div>
+  <a href="https://badges.ihk-kompetenz.plus/assertion/f215ab3c-9e25-4efe-83a8-da10036371b5?id=U2FsdGVkX19lBDNHu0Cv1IgLjduX0Ui/m%209pxj/c1hfx1jaMzmEQjGfhNLWDXZfG4GEqCM/fldCq4QhMBqIaBQ==" target="_blank">
+    <img src="/assets/img/nachweise-und-zertifikate/badge.png" alt="Immobilienverwalter (IHK)" class="certificate" width="200" height="200">
+  </a>
 </div>
 
+<div style="text-align: center;">
+  <div><strong>Mitglied im Verband der Immobilienverwalter Niedersachsen e.V.</strong></div>
+  <a href="https://vdiv-niedersachsen-bremen.de/" target="_blank">
+    <img src="/assets/img/vdivlogo.png" alt="Mitgliedschaft im VDIV Niedersachsen" width="200" height="75">
+  </a>
+</div>
 
+</div>
 
-### Ich bin für Sie da.
+---
 
-Setzen Sie auf eine Verwaltung, bei der Ihre Interessen stets im Mittelpunkt stehen. Als Ihr persönlicher Hausverwalter betreue ich Ihre Immobilie mit Sorgfalt, Kompetenz und persönlichem Einsatz. Vertrauen Sie darauf, dass Ihre Immobilie bei mir in besten Händen ist.  
+## Persönliche Betreuung
 
-Hier gehts zur:
-- [Kontakt](/kontakt/)
-- [Notfallnummer](/notfall/)
+Setzen Sie auf eine Verwaltung, bei der **Ihre Interessen im Mittelpunkt stehen**. Als Ihr persönlicher Hausverwalter betreue ich Ihre Immobilie mit Sorgfalt, Kompetenz und persönlichem Einsatz.  
+**Ihre Immobilie ist bei mir in besten Händen.**
 
+➡️ [Kontakt aufnehmen](/kontakt/)  
+📞 [Notfallnummer](/notfall/)
 
-**Meine Leistungen im Überblick:**
-- [WEG-Verwaltung](/weg-verwaltung/)
-- [Sondereigentumsverwaltung](/sondereigentumsverwaltung/)
-- [Miethausverwaltung](/miethausverwaltung/)
+---
 
-### Qualität, auf die Sie vertrauen können
+## Leistungen im Überblick
 
-Als Mitglied im **Verband Deutscher Immobilienverwalter (VDIV)** stehe ich für höchste Standards und Qualität in der Verwaltung Ihrer Immobilie. Diese Mitgliedschaft garantiert Ihnen eine professionelle und verantwortungsbewusste Betreuung.
+- 🔹 [WEG-Verwaltung](/weg-verwaltung/)
+- 🔹 [Sondereigentumsverwaltung](/sondereigentumsverwaltung/)
+- 🔹 [Miethausverwaltung](/miethausverwaltung/)
 
-### Nachhaltigkeit und Effizienz durch ein papierloses Büro.
+---
 
-Wo immer es möglich ist, nutze ich das papierlose Büro, um Prozesse effizient zu gestalten und gleichzeitig einen Beitrag zum Umweltschutz zu leisten. So können Sie sicher sein, dass wir sowohl Ihre als auch die Interessen der Umwelt wahren.
+## Qualität, auf die Sie vertrauen können
 
-### Modernste Hausverwaltersoftware für mehr Transparenz und Effizienz.
+Als Mitglied im **Verband Deutscher Immobilienverwalter (VDIV)** garantiere ich Ihnen höchste Standards in der Verwaltung.  
+**Professionell. Verantwortungsbewusst. Verlässlich.**
 
-Durch den Einsatz modernster Softwarelösungen gewährleiste ich eine schnelle, präzise und transparente Verwaltung Ihrer Immobilie. Für Sie bedeutet das, dass alle Informationen jederzeit zugänglich sind und Verwaltungsprozesse effizient und fehlerfrei ablaufen.
+---
+
+## Nachhaltigkeit & Effizienz
+
+**Papierloses Büro:**  
+Wo immer möglich, setze ich auf digitale Abläufe. Das spart Ressourcen und schützt die Umwelt – ohne dabei auf Präzision zu verzichten.
+
+**Moderne Softwarelösungen:**  
+Durch den Einsatz professioneller Hausverwaltersoftware sind alle Informationen für Sie transparent einsehbar.  
+So läuft die Verwaltung Ihrer Immobilie **schnell, effizient und nachvollziehbar**.
+
+---
+
