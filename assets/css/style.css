@@ -84,3 +84,31 @@ nav > a:hover {
   text-align: left;
   /* font-weight: bold; */
 }
+  /* Die 3 Buttons auf der Startseite / Inddex: */
+/* Gemeinsame Button-Basis */
+.button-link {
+  display: inline-block;
+  background-color: #003366;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #001f4d; /* Standard-Border */
+  transition: border-color 0.3s ease;
+}
+
+.button-link.red {
+  background-color: #c62828;
+  border-bottom: 2px solid #8e0000;
+}
+
+/* Hover-Zustand */
+.button-link:hover {
+  border-color: #007acc; /* z.B. ein helleres Blau */
+}
+
+.button-link.red:hover {
+  border-color: #ff5e5e;
+}
