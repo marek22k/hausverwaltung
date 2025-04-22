@@ -18,9 +18,10 @@ sitemap: true
       Persönlich. Zertifiziert. Engagiert.<br>
       Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
     </p>
-    <a href="/kontakt/" style="display: inline-block; margin-top: 1rem; background-color: #003366; color: white; padding: 0.6rem 1.2rem; border-radius: 5px; text-decoration: none; font-weight: bold;">
-      Jetzt Kontakt aufnehmen
+    <a href="/kontakt/" class="button-link" style="margin-top: 1rem;">
+    Jetzt Kontakt aufnehmen
     </a>
+
   </div>
 
 </div>
@@ -64,13 +65,15 @@ Als Ihr persönlicher Hausverwalter betreue ich Ihre Immobilie mit Sorgfalt, Kom
 
 <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
 
-<a href="/kontakt/" style="flex: 1; min-width: 220px; background-color: #003366; color: white; padding: 0.8rem 1.2rem; text-align: center; border-radius: 6px; text-decoration: none; font-weight: bold;">
-📨 Kontakt aufnehmen
+<a href="/kontakt/" class="button-link" style="flex: 1; min-width: 220px;">
+  📨 Kontakt aufnehmen
 </a>
 
-<a href="/notfall/" style="flex: 1; min-width: 220px; background-color: #c62828; color: white; padding: 0.8rem 1.2rem; text-align: center; border-radius: 6px; text-decoration: none; font-weight: bold;">
-🚨 Notfallnummer
+
+<a href="/notfall/" class="button-link red" style="flex: 1; min-width: 220px;">
+  🚨 Notfallnummer
 </a>
+
 
 </div>
 
