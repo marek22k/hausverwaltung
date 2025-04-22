@@ -42,7 +42,7 @@ nav > a {
   padding: 3px;
   margin-right: 10px;
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 
 nav > a.current {
