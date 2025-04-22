@@ -95,20 +95,26 @@ nav > a:hover {
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  border-bottom: 2px solid #001f4d; /* Standard-Border */
+  border-bottom: 2px solid #001f4d;
   transition: border-color 0.3s ease;
 }
 
+/* Farbvarianten */
 .button-link.red {
   background-color: #c62828;
   border-bottom: 2px solid #8e0000;
 }
 
-/* Hover-Zustand */
+/* Hover-Effekt */
 .button-link:hover {
-  border-color: #007acc; /* z.B. ein helleres Blau */
+  border-color: #007acc;
 }
 
 .button-link.red:hover {
   border-color: #ff5e5e;
 }
+
+/* Visited-Zustand: Farbe bleibt weiß */
+.button-link:visited,
+.button-link.red:visited {
+  color: white;
