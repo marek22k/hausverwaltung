@@ -96,26 +96,31 @@ nav > a:hover {
   text-decoration: none;
   font-weight: bold;
   border-bottom: 2px solid #001f4d;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease, color 0.3s ease;
 }
 
-/* Farbvarianten */
+/* Farbvariante für Notfallbutton */
 .button-link.red {
   background-color: #c62828;
   border-bottom: 2px solid #8e0000;
 }
 
-/* Hover-Effekt */
+/* Hover-Zustand: Border- und Textfarbe ändern sich */
 .button-link:hover {
-  border-color: #007acc;
+  border-color: #66b2ff; /* z. B. helleres Blau */
+  color: #cce6ff; /* z. B. helleres Weiß-Blau */
 }
 
 .button-link.red:hover {
-  border-color: #ff5e5e;
+  border-color: #ff8a8a;
+  color: #ffeaea;
 }
 
-/* Visited-Zustand: Farbe bleibt weiß */
-.button-link:visited,
+/* Visited-Zustand: Text bleibt weiß */
+.button-link:visited {
+  color: white;
+}
+
 .button-link.red:visited {
   color: white;
-  }
+}
