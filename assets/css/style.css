@@ -37,12 +37,11 @@ h5, h6 {
 }
 /* Hier beginnt das Style des Menüs */
 nav > a {
-  /* background-color: #cccccc;
-  border: 1px solid #0d0d0d; */
   padding: 3px;
   margin-right: 10px;
   text-decoration: none;
-  /* color: black; */
+  font-size: 1.1em; /* Schriftgröße etwas größer */
+  color: black;
 }
 
 nav > a.current {
@@ -50,8 +49,9 @@ nav > a.current {
 }
 
 nav > a:hover {
-  border: 1px solid #0d0d0d;
+  text-decoration: underline;
 }
+/* Ende Menü */
 
 .certificate {
   max-width: 400px;
