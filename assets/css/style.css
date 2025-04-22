@@ -107,7 +107,8 @@ nav > a:hover {
 
 /* Hover: Border-Farbe ändert sich, Schrift bleibt weiß */
 .button-link:hover {
-  border-color: #66b2ff;
+  background-color: #0059b3;
+  border-color: #66ccff;
 }
 
 .button-link.red:hover {
