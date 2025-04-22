@@ -35,10 +35,10 @@ h5, h6 {
 #linden_sepia {
   border-radius: 2px;
 }
-
+/* Hier beginnt das Style des Menüs */
 nav > a {
-  background-color: #cccccc;
-  border: 1px solid #0d0d0d;
+  /* background-color: #cccccc;
+  border: 1px solid #0d0d0d; */
   padding: 3px;
   margin-right: 10px;
   text-decoration: none;
