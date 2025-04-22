@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
   max-width: 68em;
   background-image: url("/assets/img/hannover_panorama.jpg");
