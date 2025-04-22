@@ -42,7 +42,7 @@ Sie möchten mehr erfahren oder direkt ein unverbindliches Angebot erhalten?
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #FF5722; /* Helles Orange */
+  background-color: #FF5722; /* Lebhaftes Orange */
   color: #FFFFFF;
   padding: 12px 20px;
   border-radius: 8px;
@@ -50,11 +50,17 @@ Sie möchten mehr erfahren oder direkt ein unverbindliches Angebot erhalten?
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index: 999;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cta-sticky:hover {
-  background-color: #E64A19;
+  background-color: #D84315; /* Mutigeres Orange */
+  transform: scale(1.05); /* Sanfte Vergrößerung */
+}
+
+/* Text bleibt weiß, auch nach dem Besuch */
+.cta-sticky:visited {
+  color: #FFFFFF;
 }
 </style>
 
