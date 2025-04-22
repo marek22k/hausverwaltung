@@ -59,18 +59,20 @@ Sie suchen eine professionelle, transparente und zuverlässige Verwaltung für I
   bottom: 20px;
   right: 20px;
   background-color: #FF5722; /* Lebhaftes Orange */
-  color: #FFFFFF; /* Weißer Text */
+  color: #FFFFFF;
   padding: 12px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index: 999;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  /* border entfernt */
 }
 
 .cta-sticky:hover {
-  background-color: #E64A19; /* Dunkleres Orange beim Hover */
+  background-color: #D84315; /* Mutigeres, satteres Orange */
+  transform: scale(1.05); /* Optional: kleiner Vergrößerungseffekt */
 }
 </style>
 
