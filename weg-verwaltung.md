@@ -67,12 +67,16 @@ Sie suchen eine professionelle, transparente und zuverlässige Verwaltung für I
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index: 999;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  /* border entfernt */
 }
 
 .cta-sticky:hover {
-  background-color: #D84315; /* Mutigeres, satteres Orange */
-  transform: scale(1.05); /* Optional: kleiner Vergrößerungseffekt */
+  background-color: #D84315; /* Mutigeres Orange */
+  transform: scale(1.05); /* Sanfte Vergrößerung */
+}
+
+/* Text bleibt weiß, auch nach dem Besuch */
+.cta-sticky:visited {
+  color: #FFFFFF;
 }
 </style>
 
