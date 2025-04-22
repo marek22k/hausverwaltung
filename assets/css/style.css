@@ -96,6 +96,7 @@ nav > a:hover {
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease, color 0.3s ease;
+  border-bottom: none;
   /* border entfernt */
 }
 
@@ -107,11 +108,13 @@ nav > a:hover {
 /* Hover-Effekte */
 .button-link:hover {
   background-color: #0059b3; /* Helleres, kräftigeres Blau */
+  border-bottom: none;
   color: white;
 }
 
 .button-link.red:hover {
   background-color: #e53935; /* Mutigeres, leuchtenderes Rot */
+  border-bottom: none;
   color: white;
 }
 
