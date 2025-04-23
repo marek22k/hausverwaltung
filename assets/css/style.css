@@ -114,8 +114,8 @@ Ende auskommentierung*/
 }
 
 .footer-logo {
-  max-height: 80px;
-  margin: 0 0.5rem;
+  max-height: 120px; /* vorher z. B. 80px */
+  margin: 0 0.75rem;
   vertical-align: middle;
 }
 
