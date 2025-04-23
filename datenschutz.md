@@ -12,9 +12,9 @@ keywords: Datenschutzerklärung Hausverwaltung, Marco Müller, DSGVO, Datenschut
 **Hausverwaltung Marco Müller**  
 Marco Müller  
 [hausverwaltung-marcomueller.de](https://hausverwaltung-marcomueller.de)  
-[Adresse ergänzen]  
-Telefon: [Telefonnummer ergänzen]  
-E-Mail: [E-Mail-Adresse ergänzen]
+Markgrafstraße 29, 30419 Hannover
+Telefon: +49 1573 / 47 900 11  
+E-Mail: datenschutz@hausverwaltung-marcomueller.de
 
 ### 2. Allgemeines zur Datenverarbeitung
 
