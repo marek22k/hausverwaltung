@@ -91,44 +91,46 @@ nav > a:hover {
 Ende auskommentierung*/
 /*NEUER Footer Style */
 
-#footer_div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 2rem;
-  padding: 2rem;
+#footer {
   background-color: #f8f8f8;
   border-top: 1px solid #ddd;
+  padding: 2rem;
   font-size: 0.9rem;
 }
 
-.footer-left {
-  flex: 1 1 50%;
-  min-width: 300px;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1 1 30%;
+  min-width: 200px;
+}
+
+.footer-logo {
+  max-height: 80px;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+}
+
+.footer-center {
+  text-align: center;
 }
 
 .footer-right {
-  flex: 1 1 40%;
-  min-width: 250px;
   text-align: right;
 }
 
-.logo-row {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
+.footer-right a {
+  display: block;
+  margin-bottom: 0.3rem;
 }
-
-.logo-row img {
-  max-height: 100px;
-  height: auto;
-  width: auto;
-  max-width: 100%;
-}
-
 
 
 
