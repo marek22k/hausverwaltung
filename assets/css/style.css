@@ -137,7 +137,8 @@ Ende auskommentierung*/
 #footer a:visited,
 #footer a:active,
 #footer a:focus {
-  text-decoration: none !important;
+  text-decoration: none;
+  border-bottom: none;
 }
 
 
