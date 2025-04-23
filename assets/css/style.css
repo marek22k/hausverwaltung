@@ -95,6 +95,7 @@ Ende auskommentierung*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 2rem;
   padding: 2rem;
   background-color: #f8f8f8;
@@ -102,16 +103,23 @@ Ende auskommentierung*/
   font-size: 0.9rem;
 }
 
-#footer_div > div {
-  flex: 1 1 250px;
+.footer-left {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.footer-right {
+  flex: 1 1 40%;
   min-width: 250px;
+  text-align: right;
 }
 
 .logo-row {
   display: flex;
+  justify-content: flex-end;
   gap: 1rem;
-  align-items: center;
   flex-wrap: wrap;
+  margin-top: 0.5rem;
 }
 
 .logo-row img {
@@ -120,6 +128,7 @@ Ende auskommentierung*/
   width: auto;
   max-width: 100%;
 }
+
 
 
 
