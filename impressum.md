@@ -47,13 +47,7 @@ Markgrafstraße 29
 ### Berufshaftpflichtversicherung
 
 Versichert bei: [Name der Versicherung einfügen]  
-Geltungsbereich: Deutschland
 
-### Berufsbezeichnung
-
-Immobilienverwalter (IHK)  
-Zertifizierter Verwalter gemäß § 26a WEG  
-verliehen in der Bundesrepublik Deutschland
 
 ### Mitgliedschaft
 
