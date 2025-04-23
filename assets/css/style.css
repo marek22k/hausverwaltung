@@ -132,7 +132,15 @@ Ende auskommentierung*/
   margin-bottom: 0.3rem;
 }
 
+#footer a {
+  text-decoration: none;
+  color: inherit;
+}
 
+#footer a:hover {
+  text-decoration: none;
+  opacity: 0.8; /* Optional: dezente optische Rückmeldung beim Hover */
+}
 
 
 
