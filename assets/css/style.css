@@ -105,15 +105,22 @@ Ende auskommentierung*/
 #footer_div > div {
   flex: 1 1 250px;
   min-width: 250px;
-  max-width: 33%;
 }
 
-#footer_div img {
-  display: block;
-  margin-top: 0.5rem;
-  max-width: 100%;
-  height: auto;
+.logo-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
+.logo-row img {
+  max-height: 100px;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
 
 
 
