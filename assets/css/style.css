@@ -76,7 +76,7 @@ nav > a:hover {
 #certificates_logos > div > *:first-child {
   margin-bottom: 10px;
 }
-
+/* alter Footer Style
 #footer_div {
   display: flex;
   text-align: left;
@@ -88,6 +88,36 @@ nav > a:hover {
   text-align: left;
   /* font-weight: bold; */
 }
+Ende auskommentierung*/
+/*NEUER Footer Style */
+
+#footer_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+#footer_div > div {
+  flex: 1 1 250px;
+  min-width: 250px;
+  max-width: 33%;
+}
+
+#footer_div img {
+  display: block;
+  margin-top: 0.5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
   /* Die 3 Buttons auf der Startseite / Inddex: */
 /* Gemeinsame Button-Basis */
 .button-link {
