@@ -104,9 +104,10 @@ sitemap: true
     Ihre Immobilie ist bei mir in den besten Händen.</p>
 
     <p>Verlässlichkeit, Transparenz und Engagement sind Werte, die ich täglich lebe.  
-    Mit einem klaren Leistungsversprechen und einem offenen Ohr für Ihre Anliegen, stehe ich Ihnen als zuverlässiger Partner zur Seite.</p>
+    Dabei profitieren Sie von meiner konsequenten Unabhängigkeit: Ich bin weder als Makler tätig noch betreibe ich einen eigenen Hausmeisterdienst.  
+    Dadurch erfolgt die Auswahl von Dienstleistern ausschließlich im Interesse Ihrer Eigentümergemeinschaft – fair, neutral und zum besten Preis-Leistungs-Verhältnis.</p>
 
-    <p><a href="/leistungsversprechen" style="color: #0056b3; text-decoration: underline;">Hier erfahren Sie mehr über mein Leistungsversprechen</a>.</p>
+    <p>Mit einem klaren <a href="/leistungsversprechen" style="color: #0056b3; text-decoration: underline;">Leistungsversprechen</a> stehe ich Ihnen als zuverlässiger und verantwortungsvoller Partner zur Seite.</p>
   </div>
 
 </div>
