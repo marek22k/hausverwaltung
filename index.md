@@ -115,6 +115,22 @@ sitemap: true
 
 ---
 
+## Nachhaltigkeit, Effizienz & Qualität
+
+**Digitale Prozesse:**  
+Ich setze auf moderne Abläufe – für mehr Umweltschutz, weniger Papierkram und eine effiziente Verwaltung Ihrer Immobilie.
+
+**Professionelle Software:**  
+Ich arbeite mit spezialisierter Hausverwaltersoftware – keine simplen Tabellen, sondern leistungsstarke Systeme für eine transparente und zuverlässige Verwaltung.
+
+**Flexible Belegprüfung:**  
+Ob online von zu Hause oder persönlich vor Ort: Sie wählen, wie Sie Ihre Belege einsehen möchten.
+
+**Qualitätsmanagement:**  
+Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine Dienstleistungen stetig weiter – für eine Verwaltung, die überzeugt.
+
+---
+
 ## Persönliche Betreuung für Ihre Immobilie
 
 <div style="text-align: center; margin-top: 2rem;">
@@ -128,3 +144,4 @@ sitemap: true
 </div>
 
 ---
+
