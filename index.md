@@ -19,7 +19,7 @@ sitemap: true
     </p>
 
 
-<a href="/kontakt/" class="button-link" style="flex: 1; min-width: 220px;">
+<a href="/kontakt/" class="button-link">
   📨 Kontakt aufnehmen
 </a>
     
