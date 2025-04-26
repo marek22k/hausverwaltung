@@ -4,27 +4,26 @@ title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
 ---
 <!-- Herobereich Start -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; background: linear-gradient(to right, #f5f5f5, #ffffff); padding: 2rem 1rem; margin-bottom: 2rem; border-radius: 8px;">
+<div style="position: relative; overflow: hidden; height: 400px; margin-bottom: 2rem; border-radius: 8px;">
 
-  <!-- Bildbereich -->
-  <div style="flex: 1 1 300px; text-align: center;">
-    <img src="/assets/img/hero-hausverwaltung.jpg" alt="Moderne Immobilie Hannover" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+  <!-- Unscharfes Hintergrundbild -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/dsc_0031.jpg') center center / cover no-repeat; filter: blur(5px) brightness(0.8); z-index: 1;">
   </div>
 
-  <!-- Textbereich -->
-  <div style="flex: 2 1 400px;">
-    <h1 style="margin-top: 0; font-size: 1.8rem;">Hausverwaltung in Hannover & Umgebung</h1>
-    <p style="font-size: 1.1rem; line-height: 1.6;">
+  <!-- Inhalt -->
+  <div style="position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; color: white; text-align: center; padding: 1rem;">
+    <h1 style="font-size: 2rem; margin-bottom: 1rem;">Hausverwaltung in Hannover & Umgebung</h1>
+    <p style="font-size: 1.2rem; max-width: 700px; margin-bottom: 1.5rem;">
       Persönlich. Zertifiziert. Engagiert.<br>
       Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
     </p>
-    <a href="/kontakt/" class="button-link" style="margin-top: 1rem;">
-    Jetzt Kontakt aufnehmen
+    <a href="/kontakt/" style="background-color: #ffffff; color: #003366; padding: 0.8rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: bold;">
+      📩 Jetzt Kontakt aufnehmen
     </a>
-
   </div>
 
 </div>
+
 <!-- Herobereich Ende -->
 
 
