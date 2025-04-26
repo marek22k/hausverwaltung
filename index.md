@@ -74,7 +74,8 @@ sitemap: true
 </div>
 
 ---
-Kontakt
+
+## Kontakt
   <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
 
   <a href="/kontakt/" class="button-link" style="flex: 1; min-width: 220px;">
