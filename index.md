@@ -12,8 +12,8 @@ sitemap: true
 
   <!-- Textinhalt -->
   <div style="position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; color: white; text-align: center; padding: 1rem;">
-    <h1 style="font-size: 2rem; margin-bottom: 1rem;">Hausverwaltung in Hannover & Umgebung</h1>
-    <p style="font-size: 1.2rem; max-width: 90%; margin-bottom: 1.5rem;">
+    <h1 style="font-size: 4rem; margin-bottom: 1rem;">Hausverwaltung in Hannover & Umgebung</h1>
+    <p style="font-size: 2.2rem; max-width: 90%; margin-bottom: 1.5rem;">
       Persönlich. Zertifiziert. Engagiert.<br>
       Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
     </p>
