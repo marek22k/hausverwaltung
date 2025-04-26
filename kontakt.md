@@ -8,7 +8,7 @@ sitemap: true
     <h1 style="margin-bottom: 2rem;">Kontaktieren Sie uns</h1>
 
     <div style="display: flex; flex-direction: column; align-items: center; gap: 2rem;">
-        <div>
+        <div class="fade-in" style="animation-delay: 0.2s;">
             <p>
                 <strong>Hausverwaltung Marco Müller</strong><br>
                 Markgrafstraße 29<br>
@@ -18,7 +18,7 @@ sitemap: true
             </p>
         </div>
 
-        <div class="fade-in" style="background: #f9f9f9; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); width: 100%; max-width: 600px;">
+        <div class="fade-in" style="background: #f9f9f9; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); width: 100%; max-width: 600px; animation-delay: 0.8s;">
             <form action="kontakt_aufnehmen.php" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
                 <div style="display: flex; flex-direction: column; text-align: left;">
                     <label for="name">Vor- und Nachname</label>
@@ -48,13 +48,14 @@ sitemap: true
         background-color: #004499;
     }
 
-    /* Animation */
+    /* Basis-Animation */
     .fade-in {
         opacity: 0;
         transform: translateY(20px);
         animation: fadeInAnimation 1s ease-out forwards;
     }
 
+    /* Keyframes */
     @keyframes fadeInAnimation {
         to {
             opacity: 1;
