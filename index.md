@@ -61,7 +61,7 @@ sitemap: true
 
 <!-- Sondereigentumsverwaltung -->
 <div style="flex: 1 1 280px; background: #f5f5f5; padding: 1.2rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <h3>🔑 <a href="/sondereigentumsverwaltung/" style="text-decoration: none; color: #003366;">Sondereigentumsverwaltung</a></h3>
+  <h3>🔑 <a href="/sondereigentumsverwaltung/" style="text-decoration: none; color: #003366;">SE-Verwaltung</a></h3>
   <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
 </div>
 
