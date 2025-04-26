@@ -13,12 +13,12 @@ sitemap: true
                 <strong>Hausverwaltung Marco Müller</strong><br>
                 Markgrafstraße 29<br>
                 30419 Hannover<br>
-                Telefon: <a href="tel:[Telefonnummer einfügen]">+49 1573 4790011</a><br>
+                Telefon: <a href="tel:+4915734790011">+49 1573 4790011</a><br>
                 E-Mail: <a href="mailto:info@hausverwaltung-marcomueller.de">info@hausverwaltung-marcomueller.de</a>
             </p>
         </div>
 
-        <div style="background: #f9f9f9; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); width: 100%; max-width: 600px;">
+        <div class="fade-in" style="background: #f9f9f9; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); width: 100%; max-width: 600px;">
             <form action="kontakt_aufnehmen.php" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
                 <div style="display: flex; flex-direction: column; text-align: left;">
                     <label for="name">Vor- und Nachname</label>
@@ -46,5 +46,19 @@ sitemap: true
 <style>
     button:hover {
         background-color: #004499;
+    }
+
+    /* Animation */
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInAnimation 1s ease-out forwards;
+    }
+
+    @keyframes fadeInAnimation {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 </style>
