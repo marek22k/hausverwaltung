@@ -7,7 +7,7 @@ sitemap: true
 <div style="position: relative; overflow: hidden; height: 400px; margin-bottom: 2rem; border-radius: 8px;">
 
   <!-- Unscharfes Hintergrundbild -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/dsc_0031.jpg') center center / cover no-repeat; filter: blur(5px) brightness(0.8); z-index: 1;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/assets/img/DSC_0031.jpg') center center / cover no-repeat; filter: blur(5px) brightness(0.8); z-index: 1;">
   </div>
 
   <!-- Inhalt -->
