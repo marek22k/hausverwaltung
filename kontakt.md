@@ -11,9 +11,9 @@ sitemap: true
         <div>
             <p>
                 <strong>Hausverwaltung Marco Müller</strong><br>
-                Am Urnenfeld 3<br>
-                30453 Hannover<br>
-                Telefon: <a href="tel:[Telefonnummer einfügen]">[Telefonnummer einfügen]</a><br>
+                Markgrafstraße 29<br>
+                30419 Hannover<br>
+                Telefon: <a href="tel:[Telefonnummer einfügen]">+49 1573 4790011</a><br>
                 E-Mail: <a href="mailto:info@hausverwaltung-marcomueller.de">info@hausverwaltung-marcomueller.de</a>
             </p>
         </div>
