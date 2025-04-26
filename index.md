@@ -17,15 +17,13 @@ sitemap: true
       Persönlich. Zertifiziert. Engagiert.<br>
       Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
     </p>
-   <a href="/kontakt/" style="background-color: #003366; color: white; padding: 0.8rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: bold; transition: background-color 0.3s;">
-    📩 Jetzt Kontakt aufnehmen
-  </a>
-<style>
-a:hover {
-  background-color: #0055a5; /* Helleres Blau beim Hover */
-  color: white; /* Schriftfarbe bleibt weiß */
-}
-</style>
+
+
+<a href="/kontakt/" class="button-link" style="flex: 1; min-width: 220px;">
+  📨 Kontakt aufnehmen
+</a>
+    
+
   </div>
 
 </div>
