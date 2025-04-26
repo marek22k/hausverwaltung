@@ -89,6 +89,16 @@ sitemap: true
     Vertrauen ist die Basis einer erfolgreichen Zusammenarbeit.  
     Als Ihr persönlicher Hausverwalter garantiere ich Ihnen einen verantwortungsvollen Umgang mit Ihrem Eigentum.  
     Ihre Immobilie ist bei mir in den besten Händen.
+
+  <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
+
+  <a href="/kontakt/" class="button-link" style="flex: 1; min-width: 220px;">
+    📨 Kontakt aufnehmen
+  </a>
+  <a href="/notfall/" class="button-link red" style="flex: 1; min-width: 220px;">
+    🚨 Notfallnummer
+  </a>
+    
   </div>
 
 </div>
