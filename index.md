@@ -99,15 +99,18 @@ sitemap: true
 
   <!-- Text -->
   <div style="flex: 2 1 400px; min-width: 280px;">
-    Vertrauen ist die Basis einer erfolgreichen Zusammenarbeit.  
+    <p>Vertrauen ist die Basis einer erfolgreichen Zusammenarbeit.  
     Als Ihr persönlicher Hausverwalter garantiere ich Ihnen einen verantwortungsvollen Umgang mit Ihrem Eigentum.  
-    Ihre Immobilie ist bei mir in den besten Händen.
+    Ihre Immobilie ist bei mir in den besten Händen.</p>
 
+    <p>Verlässlichkeit, Transparenz und Engagement sind Werte, die ich täglich lebe.  
+    Mit einem klaren Leistungsversprechen und einem offenen Ohr für Ihre Anliegen, stehe ich Ihnen als zuverlässiger Partner zur Seite.</p>
 
-    
+    <p><a href="/leistungsversprechen" style="color: #0056b3; text-decoration: underline;">Hier erfahren Sie mehr über mein Leistungsversprechen</a>.</p>
   </div>
 
 </div>
+
 
 ---
 
