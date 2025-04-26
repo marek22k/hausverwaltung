@@ -18,26 +18,28 @@ sitemap: true
             </p>
         </div>
 
-        <form action="kontakt_aufnehmen.php" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
-            <div style="display: flex; flex-direction: column;">
-                <label for="name">Vor- und Nachname</label>
-                <input type="text" id="name" name="name" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px;">
-            </div>
+        <div style="background: #f9f9f9; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+            <form action="kontakt_aufnehmen.php" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
+                <div style="display: flex; flex-direction: column;">
+                    <label for="name">Vor- und Nachname</label>
+                    <input type="text" id="name" name="name" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
 
-            <div style="display: flex; flex-direction: column;">
-                <label for="email">Ihre E-Mail-Adresse</label>
-                <input type="email" id="email" name="email" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px;">
-            </div>
+                <div style="display: flex; flex-direction: column;">
+                    <label for="email">Ihre E-Mail-Adresse</label>
+                    <input type="email" id="email" name="email" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
 
-            <div style="display: flex; flex-direction: column;">
-                <label for="nachricht">Ihre Nachricht</label>
-                <textarea id="nachricht" name="nachricht" rows="6" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px;"></textarea>
-            </div>
+                <div style="display: flex; flex-direction: column;">
+                    <label for="nachricht">Ihre Nachricht</label>
+                    <textarea id="nachricht" name="nachricht" rows="6" required style="padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                </div>
 
-            <button type="submit" style="padding: 1rem; background-color: #0057b8; color: white; font-weight: bold; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
-                Nachricht senden
-            </button>
-        </form>
+                <button type="submit" style="padding: 1rem; background-color: #0057b8; color: white; font-weight: bold; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
+                    Nachricht senden
+                </button>
+            </form>
+        </div>
     </div>
 </section>
 
