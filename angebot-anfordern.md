@@ -46,7 +46,7 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     padding: 0.5rem;
     width: 100%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    transition: border-color 0.3s, box-shadow 0.3s;
+    transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
   }
 
   input[type="text"]:focus,
@@ -54,7 +54,8 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
   input[type="email"]:focus,
   textarea:focus {
     border-color: #0066cc;
-    box-shadow: 0 0 5px rgba(0,102,204,0.3);
+    background-color: #f0f8ff;
+    box-shadow: 0 0 8px rgba(0,102,204,0.4);
     outline: none;
   }
 
