@@ -263,7 +263,11 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 <script>
   document.getElementById('anfrageForm').addEventListener('submit', function(event) {
     event.preventDefault();
-    document.getElementById('anfrageForm').style.display = 'none';
-    document.getElementById('success').style.display = 'block';
+    if (this.checkValidity()) {
+      this.style.display = 'none';
+      document.getElementById('success').style.display = 'block';
+    } else {
+      this.reportValidity();
+    }
   });
 </script>
