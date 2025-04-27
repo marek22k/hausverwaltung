@@ -153,7 +153,7 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
     <div style="margin-top:1rem;">
       <label>
         <input type="checkbox" name="datenschutz" value="akzeptiert" required>
-            Ich habe die <a href="/datenschutzerklaerung/" target="_blank">Datenschutzerklärung</a> gelesen und akzeptiere diese.*
+            Ich habe die <a href="/datenschutz/" target="_blank">Datenschutzerklärung</a> gelesen und akzeptiere diese.*
       </label>
     </div>
   </div>
