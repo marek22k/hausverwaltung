@@ -109,6 +109,7 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     font-size: 1.3rem;
     padding: 1rem 2rem;
     width: 100%;
+    margin-top: 2rem;
   }
 
   @keyframes fadeIn {
@@ -165,11 +166,6 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
           <div class="input-wrapper">
             <input type="text" name="vertragsbeginn" placeholder=" ">
           </div>
-        </div>
-
-        <!-- Absenden Button -->
-        <div style="text-align: center; margin-top: 2rem;">
-          <button type="submit" class="button-link">📄 Angebot anfordern</button>
         </div>
       </div>
 
@@ -252,6 +248,12 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
             Ich habe die <a href="/datenschutz/" target="_blank">Datenschutzerklärung</a> gelesen und akzeptiere diese.*
           </label>
         </div>
+
+        <!-- Absenden Button ganz unten -->
+        <div style="margin-top: 2rem;">
+          <button type="submit" class="button-link">📄 Angebot anfordern</button>
+        </div>
+
       </div>
 
     </form>
