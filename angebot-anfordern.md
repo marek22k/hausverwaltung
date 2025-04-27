@@ -153,15 +153,13 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
     <div style="margin-top:1rem;">
       <label>
         <input type="checkbox" name="datenschutz" value="akzeptiert" required>
-        Die Hinweise zum Datenschutz habe ich gelesen und akzeptiere diese (Bitte Häkchen setzen).*
+            Ich habe die <a href="/datenschutzerklaerung/" target="_blank">Datenschutzerklärung</a> gelesen und akzeptiere diese.*
       </label>
     </div>
   </div>
 
   <!-- Absenden Button -->
   <div style="text-align:center;">
-    <button type="submit" style="padding:0.7rem 1.5rem; background-color:#0066cc; color:white; border:none; border-radius:5px; cursor:pointer; font-size:1.1rem; transition:background-color 0.3s;">
-      Anfrage absenden
-    </button>
+     <button type="submit" class="button-link">📄 Anfrage absenden</button>
   </div>
 </form>
