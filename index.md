@@ -133,13 +133,20 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
 
 ## Persönliche Betreuung für Ihre Immobilie
 
-<div style="text-align: center; margin-top: 2rem;">
-  <img src="/assets/img/dsc_0038_optimiert.jpg" alt="Marco Müller bei Objektbegehung" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-</div>
+<div style="position: relative; overflow: hidden; border-radius: 8px; margin-top: 2rem; height: 300px;">
 
-<div style="margin-top: 2rem; text-align: center; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 1.2rem;">
-  <p>Persönliche Betreuung ist der Schlüssel zu einer nachhaltigen Immobilienverwaltung.  
-  Ich stehe Ihnen mit Fachwissen, Engagement und einem offenen Ohr zur Seite – für Ihre Immobilie in besten Händen.</p>
+  <!-- Hintergrundbild -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/dsc_0038_optimiert.jpg') center center / cover no-repeat; filter: brightness(0.7) blur(2px); z-index: 1;">
+  </div>
+
+  <!-- Text-Overlay -->
+  <div style="position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; color: white; text-align: center; padding: 1rem;">
+    <h2 style="font-size: 2.2rem; margin-bottom: 1rem;">Persönliche Betreuung für Ihre Immobilie</h2>
+    <p style="font-size: 1.2rem; max-width: 600px;">
+      Mit Fachwissen, Engagement und Herz kümmere ich mich um Ihre Immobilie – persönlich, zuverlässig und individuell.
+    </p>
+  </div>
+
 </div>
 
 <div style="margin-top: 2rem; text-align: center;">
