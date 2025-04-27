@@ -1,3 +1,5 @@
+<!-- Angebot anfordern - Optimiertes Layout mit CSS Grid, Animation, besseren Eingabefeldern, Erfolgsnachricht und Validierungshäkchen -->
+
 ---
 layout: page
 title: Angebot anfordern
@@ -5,6 +7,7 @@ permalink: /angebot-anfordern/
 description: Formular zur Angebotsanfrage für eine Hausverwaltung.
 keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sondereigentum, Verwaltung Hannover
 ---
+
 <style>
   .form-container {
     display: flex;
@@ -65,9 +68,12 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 0.5rem;
-    width: 100%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+  }
+
+  .small-input {
+    width: 50%;
   }
 
   input[type="text"]:focus,
@@ -124,16 +130,16 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 
         <div class="form-grid" style="margin-top:1rem;">
           <div class="input-wrapper">
-            <label>Anzahl der Wohneinheiten*:</label><br>
-            <input type="number" name="whg" required placeholder=" ">
+            <label>Anzahl der<br>Wohneinheiten*:</label><br>
+            <input type="number" name="whg" required placeholder=" " class="small-input">
           </div>
           <div class="input-wrapper">
-            <label>Anzahl der Gewerbeeinheiten:</label><br>
-            <input type="number" name="gewerbe" placeholder=" ">
+            <label>Anzahl der<br>Gewerbeeinheiten:</label><br>
+            <input type="number" name="gewerbe" placeholder=" " class="small-input">
           </div>
           <div class="input-wrapper">
-            <label>Anzahl der Garagen/Stellplätze:</label><br>
-            <input type="number" name="garagen" placeholder=" ">
+            <label>Anzahl der<br>Garagen/Stellplätze:</label><br>
+            <input type="number" name="garagen" placeholder=" " class="small-input">
           </div>
         </div>
 
@@ -237,17 +243,4 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 
       <!-- Absenden Button -->
       <div style="text-align: center; margin-top: 2rem;">
-        <button type="submit" class="button-link">📄 Angebot anfordern</button>
-      </div>
-
-    </form>
-  </div>
-</div>
-
-<script>
-  document.getElementById('anfrageForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    document.getElementById('anfrageForm').style.display = 'none';
-    document.getElementById('success').style.display = 'block';
-  });
-</script>
+        <button type="submit" class="b
