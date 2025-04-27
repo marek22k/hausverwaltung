@@ -20,6 +20,28 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     gap: 1rem;
   }
 
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  textarea {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 5px rgba(0,102,204,0.3);
+    outline: none;
+  }
+
   button:hover {
     background-color: #004999;
   }
@@ -39,20 +61,20 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
   <!-- Verwaltungsobjekt -->
   <div class="form-section">
     <label>Anschrift des Verwaltungsobjekts*:</label><br>
-    <input type="text" name="objekt" required style="width:100%; padding:0.5rem; margin-bottom:1rem;">
+    <input type="text" name="objekt" required style="margin-bottom:1rem;">
 
     <div class="form-grid">
       <div>
         <label>Anzahl der Wohneinheiten*:</label><br>
-        <input type="number" name="whg" required style="width:100%; padding:0.5rem;">
+        <input type="number" name="whg" required>
       </div>
       <div>
         <label>Anzahl der Gewerbeeinheiten:</label><br>
-        <input type="number" name="gewerbe" style="width:100%; padding:0.5rem;">
+        <input type="number" name="gewerbe">
       </div>
       <div>
         <label>Anzahl der Garagen/Stellplätze:</label><br>
-        <input type="number" name="garagen" style="width:100%; padding:0.5rem;">
+        <input type="number" name="garagen">
       </div>
     </div>
 
@@ -67,7 +89,7 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 
     <div style="margin-top:1.5rem;">
       <label>Vertragsbeginn gewünscht zum:</label><br>
-      <input type="text" name="vertragsbeginn" style="width:100%; padding:0.5rem;">
+      <input type="text" name="vertragsbeginn">
     </div>
   </div>
 
@@ -112,7 +134,7 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
     </div>
 
     <label>Bemerkungen:</label><br>
-    <textarea name="bemerkungen" rows="6" style="width:100%; padding:0.5rem;"></textarea>
+    <textarea name="bemerkungen" rows="6"></textarea>
   </div>
 
   <!-- Kontaktdaten -->
@@ -120,13 +142,13 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
     <h3>Wie können wir Sie erreichen?</h3>
 
     <label>Name, Vorname*:</label><br>
-    <input type="text" name="name" required style="width:100%; padding:0.5rem; margin-bottom:1rem;">
+    <input type="text" name="name" required style="margin-bottom:1rem;">
 
     <label>E-Mail-Adresse*:</label><br>
-    <input type="email" name="email" required style="width:100%; padding:0.5rem; margin-bottom:1rem;">
+    <input type="email" name="email" required style="margin-bottom:1rem;">
 
     <label>Telefon (optional):</label><br>
-    <input type="text" name="telefon" style="width:100%; padding:0.5rem;">
+    <input type="text" name="telefon">
 
     <div style="margin-top:1rem;">
       <label>
