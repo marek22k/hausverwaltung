@@ -97,12 +97,14 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     display: none;
     text-align: center;
     background: #e0ffe0;
-    padding: 1rem;
-    border: 1px solid #00aa00;
+    padding: 2rem;
+    border: 2px solid #00aa00;
     border-radius: 8px;
     margin-top: 2rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: #006600;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
   }
 
   .button-link {
@@ -162,9 +164,9 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
         </div>
 
         <div style="margin-top:1.5rem;">
-          <label>Vertragsbeginn gewünscht zum:</label><br>
+          <label>Vertragsbeginn gewünscht zum*:</label><br>
           <div class="input-wrapper">
-            <input type="text" name="vertragsbeginn" placeholder=" ">
+            <input type="text" name="vertragsbeginn" required placeholder=" ">
           </div>
         </div>
       </div>
@@ -175,41 +177,41 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 
         <div class="form-grid">
           <div>
-            <label>Gibt es einen Hausmeister?</label><br>
+            <label>Gibt es einen Hausmeister?*</label><br>
             <div class="radio-group">
-              <label><input type="radio" name="hausmeister" value="Ja"> Ja</label>
+              <label><input type="radio" name="hausmeister" value="Ja" required> Ja</label>
               <label><input type="radio" name="hausmeister" value="Nein"> Nein</label>
             </div>
           </div>
 
           <div>
-            <label>Heizungsart:</label><br>
+            <label>Heizungsart*:</label><br>
             <div class="radio-group">
-              <label><input type="radio" name="heizung" value="Zentralheizung"> Zentralheizung</label>
+              <label><input type="radio" name="heizung" value="Zentralheizung" required> Zentralheizung</label>
               <label><input type="radio" name="heizung" value="Etagenheizung"> Etagenheizung</label>
             </div>
           </div>
 
           <div>
-            <label>Bestehen erhebliche Zahlungsrückstände?</label><br>
+            <label>Bestehen erhebliche Zahlungsrückstände?*</label><br>
             <div class="radio-group">
-              <label><input type="radio" name="rueckstaende" value="Ja"> Ja</label>
+              <label><input type="radio" name="rueckstaende" value="Ja" required> Ja</label>
               <label><input type="radio" name="rueckstaende" value="Nein"> Nein</label>
             </div>
           </div>
 
           <div>
-            <label>Sind Rechtsstreitigkeiten anhängig?</label><br>
+            <label>Sind Rechtsstreitigkeiten anhängig?*</label><br>
             <div class="radio-group">
-              <label><input type="radio" name="streitigkeiten" value="Ja"> Ja</label>
+              <label><input type="radio" name="streitigkeiten" value="Ja" required> Ja</label>
               <label><input type="radio" name="streitigkeiten" value="Nein"> Nein</label>
             </div>
           </div>
 
           <div style="grid-column:1 / -1;">
-            <label>Ich bin:</label><br>
+            <label>Ich bin*:</label><br>
             <div class="radio-group" style="margin-top:0.5rem;">
-              <label><input type="radio" name="rolle" value="Beiratsvorsitzender"> Beiratsvorsitzender</label>
+              <label><input type="radio" name="rolle" value="Beiratsvorsitzender" required> Beiratsvorsitzender</label>
               <label><input type="radio" name="rolle" value="Beirat"> Beirat</label>
               <label><input type="radio" name="rolle" value="Eigentümer"> Eigentümer</label>
               <label><input type="radio" name="rolle" value="Allgemein interessiert"> Nur allgemein interessiert</label>
@@ -265,7 +267,9 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
     event.preventDefault();
     if (this.checkValidity()) {
       this.style.display = 'none';
-      document.getElementById('success').style.display = 'block';
+      const successMessage = document.getElementById('success');
+      successMessage.style.display = 'block';
+      setTimeout(() => { successMessage.style.opacity = '1'; }, 50);
     } else {
       this.reportValidity();
     }
