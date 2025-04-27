@@ -1,5 +1,3 @@
-<!-- Angebot anfordern - Optimiertes Layout mit CSS Grid, Animation, besseren Eingabefeldern, Erfolgsnachricht und Validierungshäkchen -->
-
 ---
 layout: page
 title: Angebot anfordern
