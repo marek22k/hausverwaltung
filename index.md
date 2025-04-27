@@ -131,6 +131,7 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
 
 ---
 
+
 ## Persönliche Betreuung für Ihre Immobilie
 
 <div style="position: relative; overflow: hidden; border-radius: 8px; margin-top: 2rem; height: 300px;">
@@ -145,15 +146,14 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
     <p style="font-size: 1.2rem; max-width: 600px;">
       Mit Fachwissen, Engagement und Herz kümmere ich mich um Ihre Immobilie – persönlich, zuverlässig und individuell.
     </p>
+
+    <a href="/kontakt/" class="button-link" style="margin-top: 1.5rem;">
+      📞 Vereinbaren Sie ein unverbindliches Beratungsgespräch
+    </a>
   </div>
 
 </div>
 
-<div style="margin-top: 2rem; text-align: center;">
-  <a href="/kontakt/" style="background-color: #003366; color: white; padding: 0.8rem 1.6rem; border-radius: 6px; text-decoration: none; font-weight: bold;">
-    📞 Vereinbaren Sie ein unverbindliches Beratungsgespräch
-  </a>
-</div>
 
 
 
