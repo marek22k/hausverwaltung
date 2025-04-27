@@ -143,10 +143,11 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
 </div>
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="/kontakt/" class="button-link">
-    📞 Vereinbaren Sie ein unverbindliches Beratungsgespräch
+  <a href="/angebot-anfordern/" class="button-link">
+    📄 Angebot anfordern
   </a>
 </div>
+
 
 
 ---
