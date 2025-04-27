@@ -42,8 +42,16 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     outline: none;
   }
 
-  button:hover {
-    background-color: #004999;
+  .success-message {
+    display: none;
+    text-align: center;
+    background: #e0ffe0;
+    padding: 1rem;
+    border: 1px solid #00aa00;
+    border-radius: 8px;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #006600;
   }
 
   @keyframes fadeIn {
@@ -56,7 +64,11 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
 
 Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind mit * gekennzeichnet.
 
-<form action="angebot-senden.php" method="POST" style="max-width:700px; margin-top:2rem;">
+<div id="success" class="success-message">
+  🎉 Vielen Dank für Ihre Anfrage! Wir melden uns schnellstmöglich bei Ihnen.
+</div>
+
+<form id="anfrageForm" action="angebot-senden.php" method="POST" style="max-width:700px; margin-top:2rem;">
 
   <!-- Verwaltungsobjekt -->
   <div class="form-section">
@@ -153,13 +165,22 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
     <div style="margin-top:1rem;">
       <label>
         <input type="checkbox" name="datenschutz" value="akzeptiert" required>
-            Ich habe die <a href="/datenschutz/" target="_blank">Datenschutzerklärung</a> gelesen und akzeptiere diese.*
+        Ich habe die <a href="/datenschutzerklaerung/" target="_blank">Datenschutzerklärung</a> gelesen und akzeptiere diese.*
       </label>
     </div>
   </div>
 
   <!-- Absenden Button -->
-  <div style="text-align:center;">
-     <button type="submit" class="button-link">📄 Anfrage absenden</button>
+  <div style="text-align: center; margin-top: 2rem;">
+    <button type="submit" class="button-link">📄 Anfrage absenden</button>
   </div>
 </form>
+
+<script>
+  document.getElementById('anfrageForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    document.getElementById('anfrageForm').style.display = 'none';
+    document.getElementById('success').style.display = 'block';
+  });
+</script>
+
