@@ -37,6 +37,10 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     gap: 1rem;
   }
 
+  label {
+    font-weight: 600;
+  }
+
   .input-wrapper {
     position: relative;
   }
@@ -68,6 +72,11 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     padding: 0.5rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+    width: 100%;
+  }
+
+  .large-input {
+    height: 3rem;
   }
 
   .small-input {
@@ -99,6 +108,7 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
   .button-link {
     font-size: 1.3rem;
     padding: 1rem 2rem;
+    width: 100%;
   }
 
   @keyframes fadeIn {
@@ -123,7 +133,7 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
       <div class="form-section">
         <label>Anschrift des Verwaltungsobjekts*:</label><br>
         <div class="input-wrapper">
-          <input type="text" name="objekt" required placeholder=" ">
+          <input type="text" name="objekt" required placeholder=" " class="large-input">
         </div>
 
         <div class="form-grid" style="margin-top:1rem;">
@@ -155,6 +165,11 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
           <div class="input-wrapper">
             <input type="text" name="vertragsbeginn" placeholder=" ">
           </div>
+        </div>
+
+        <!-- Absenden Button -->
+        <div style="text-align: center; margin-top: 2rem;">
+          <button type="submit" class="button-link">📄 Angebot anfordern</button>
         </div>
       </div>
 
@@ -239,6 +254,14 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
         </div>
       </div>
 
-      <!-- Absenden Button -->
-      <div style="text-align: center; margin-top: 2rem;">
-        <button type="submit" class="b
+    </form>
+  </div>
+</div>
+
+<script>
+  document.getElementById('anfrageForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    document.getElementById('anfrageForm').style.display = 'none';
+    document.getElementById('success').style.display = 'block';
+  });
+</script>
