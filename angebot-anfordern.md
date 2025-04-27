@@ -26,7 +26,13 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
 
   .form-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .radio-group {
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
   }
 
@@ -109,7 +115,7 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 
         <div style="margin-top:1.5rem;">
           <label>Gewünschte Verwaltungsart*:</label><br>
-          <div class="form-grid" style="margin-top:0.5rem;">
+          <div class="radio-group" style="margin-top:0.5rem;">
             <label><input type="radio" name="verwaltungsart" value="WEG-Verwaltung" required> WEG-Verwaltung</label>
             <label><input type="radio" name="verwaltungsart" value="Mietverwaltung"> Mietverwaltung</label>
             <label><input type="radio" name="verwaltungsart" value="Sondereigentumsverwaltung"> Sondereigentumsverwaltung</label>
@@ -129,31 +135,39 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
         <div class="form-grid">
           <div>
             <label>Gibt es einen Hausmeister?</label><br>
-            <label><input type="radio" name="hausmeister" value="Ja"> Ja</label>
-            <label><input type="radio" name="hausmeister" value="Nein"> Nein</label>
+            <div class="radio-group">
+              <label><input type="radio" name="hausmeister" value="Ja"> Ja</label>
+              <label><input type="radio" name="hausmeister" value="Nein"> Nein</label>
+            </div>
           </div>
 
           <div>
             <label>Heizungsart:</label><br>
-            <label><input type="radio" name="heizung" value="Zentralheizung"> Zentralheizung</label>
-            <label><input type="radio" name="heizung" value="Etagenheizung"> Etagenheizung</label>
+            <div class="radio-group">
+              <label><input type="radio" name="heizung" value="Zentralheizung"> Zentralheizung</label>
+              <label><input type="radio" name="heizung" value="Etagenheizung"> Etagenheizung</label>
+            </div>
           </div>
 
           <div>
             <label>Bestehen erhebliche Zahlungsrückstände?</label><br>
-            <label><input type="radio" name="rueckstaende" value="Ja"> Ja</label>
-            <label><input type="radio" name="rueckstaende" value="Nein"> Nein</label>
+            <div class="radio-group">
+              <label><input type="radio" name="rueckstaende" value="Ja"> Ja</label>
+              <label><input type="radio" name="rueckstaende" value="Nein"> Nein</label>
+            </div>
           </div>
 
           <div>
             <label>Sind Rechtsstreitigkeiten anhängig?</label><br>
-            <label><input type="radio" name="streitigkeiten" value="Ja"> Ja</label>
-            <label><input type="radio" name="streitigkeiten" value="Nein"> Nein</label>
+            <div class="radio-group">
+              <label><input type="radio" name="streitigkeiten" value="Ja"> Ja</label>
+              <label><input type="radio" name="streitigkeiten" value="Nein"> Nein</label>
+            </div>
           </div>
 
           <div style="grid-column:1 / -1;">
             <label>Ich bin:</label><br>
-            <div class="form-grid" style="margin-top:0.5rem;">
+            <div class="radio-group" style="margin-top:0.5rem;">
               <label><input type="radio" name="rolle" value="Beiratsvorsitzender"> Beiratsvorsitzender</label>
               <label><input type="radio" name="rolle" value="Beirat"> Beirat</label>
               <label><input type="radio" name="rolle" value="Eigentümer"> Eigentümer</label>
