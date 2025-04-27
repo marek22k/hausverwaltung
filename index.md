@@ -137,15 +137,17 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
   <img src="/assets/img/dsc_0038_optimiert.jpg" alt="Marco Müller bei Objektbegehung" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 </div>
 
-<div style="margin-top: 2rem; text-align: center; max-width: 600px; margin-left: auto; margin-right: auto; font-size: 1.2rem;">
-  <p>Persönliche Betreuung ist der Schlüssel zu einer nachhaltigen Immobilienverwaltung.  
+<div style="margin-top: 2rem; text-align: center; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.4rem; line-height: 1.6;">
+  <p><strong>Persönliche Betreuung</strong> ist der Schlüssel zu einer nachhaltigen Immobilienverwaltung.<br>  
   Ich stehe Ihnen mit Fachwissen, Engagement und einem offenen Ohr zur Seite – für Ihre Immobilie in besten Händen.</p>
 </div>
 
-<a href="/kontakt/" class="button-link" style="margin-top: 1.5rem;">
-      📞 Vereinbaren Sie ein unverbindliches Beratungsgespräch
-    </a>
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="/kontakt/" class="button-link">
+    📞 Vereinbaren Sie ein unverbindliches Beratungsgespräch
+  </a>
 </div>
+
 
 ---
 
