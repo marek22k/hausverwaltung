@@ -36,6 +36,27 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
     gap: 1rem;
   }
 
+  .input-wrapper {
+    position: relative;
+  }
+
+  .input-wrapper input:valid:not(:placeholder-shown),
+  .input-wrapper textarea:valid:not(:placeholder-shown) {
+    border-color: #28a745;
+    background-color: #f0fff5;
+  }
+
+  .input-wrapper input:valid:not(:placeholder-shown)::after,
+  .input-wrapper textarea:valid:not(:placeholder-shown)::after {
+    content: '\2713';
+    color: #28a745;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   input[type="text"],
   input[type="number"],
   input[type="email"],
@@ -92,25 +113,27 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 
 <div class="form-container">
   <div class="form-wrapper">
-    <form id="anfrageForm" action="angebot-senden.php" method="POST" style="margin-top:2rem;">
+    <form id="anfrageForm" action="angebot-senden.php" method="POST" style="margin-top:2rem;" novalidate>
 
       <!-- Verwaltungsobjekt -->
       <div class="form-section">
         <label>Anschrift des Verwaltungsobjekts*:</label><br>
-        <input type="text" name="objekt" required style="margin-bottom:1rem;">
+        <div class="input-wrapper">
+          <input type="text" name="objekt" required placeholder=" ">
+        </div>
 
-        <div class="form-grid">
-          <div>
+        <div class="form-grid" style="margin-top:1rem;">
+          <div class="input-wrapper">
             <label>Anzahl der Wohneinheiten*:</label><br>
-            <input type="number" name="whg" required>
+            <input type="number" name="whg" required placeholder=" ">
           </div>
-          <div>
+          <div class="input-wrapper">
             <label>Anzahl der Gewerbeeinheiten:</label><br>
-            <input type="number" name="gewerbe">
+            <input type="number" name="gewerbe" placeholder=" ">
           </div>
-          <div>
+          <div class="input-wrapper">
             <label>Anzahl der Garagen/Stellplätze:</label><br>
-            <input type="number" name="garagen">
+            <input type="number" name="garagen" placeholder=" ">
           </div>
         </div>
 
@@ -125,7 +148,9 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 
         <div style="margin-top:1.5rem;">
           <label>Vertragsbeginn gewünscht zum:</label><br>
-          <input type="text" name="vertragsbeginn">
+          <div class="input-wrapper">
+            <input type="text" name="vertragsbeginn" placeholder=" ">
+          </div>
         </div>
       </div>
 
@@ -178,21 +203,29 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
         </div>
 
         <label>Bemerkungen:</label><br>
-        <textarea name="bemerkungen" rows="6"></textarea>
+        <div class="input-wrapper">
+          <textarea name="bemerkungen" rows="6" placeholder=" "></textarea>
+        </div>
       </div>
 
       <!-- Kontaktdaten -->
       <div class="form-section">
         <h3>Wie können wir Sie erreichen?</h3>
 
-        <label>Name, Vorname*:</label><br>
-        <input type="text" name="name" required style="margin-bottom:1rem;">
+        <div class="input-wrapper">
+          <label>Name, Vorname*:</label><br>
+          <input type="text" name="name" required placeholder=" ">
+        </div>
 
-        <label>E-Mail-Adresse*:</label><br>
-        <input type="email" name="email" required style="margin-bottom:1rem;">
+        <div class="input-wrapper" style="margin-top:1rem;">
+          <label>E-Mail-Adresse*:</label><br>
+          <input type="email" name="email" required placeholder=" ">
+        </div>
 
-        <label>Telefon (optional):</label><br>
-        <input type="text" name="telefon">
+        <div class="input-wrapper" style="margin-top:1rem;">
+          <label>Telefon (optional):</label><br>
+          <input type="text" name="telefon" placeholder=" ">
+        </div>
 
         <div style="margin-top:1rem;">
           <label>
