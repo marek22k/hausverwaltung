@@ -17,8 +17,9 @@ sitemap: true
   background: #f5f5f5;
   padding: 1.2rem;
   border-radius: 8px;
+  border: 1px solid #f5f5f5; /* fester Rahmen passend zur Hintergrundfarbe */
   text-align: center;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
   text-decoration: none;
   color: inherit;
   display: flex;
@@ -29,6 +30,7 @@ sitemap: true
 .leistungsbox:hover {
   transform: scale(1.05);
   background-color: #ffffff;
+  border-color: #ffffff; /* Rahmenfarbe passt sich an */
 }
 
 .leistungsbox h3, .leistungsbox p {
