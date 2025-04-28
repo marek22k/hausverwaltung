@@ -11,19 +11,19 @@ sitemap: true
   padding: 1.2rem;
   border-radius: 8px;
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .leistungsbox:hover {
   transform: scale(1.05);
+  background-color: #ffffff; /* leicht heller Hintergrund beim Hover */
 }
 
-.leistungsbox h3 a {
-  text-decoration: none;
-  color: #003366;
+.leistungsbox h3, .leistungsbox p {
+  margin: 0.5rem 0;
 }
 
-/* Auf kleinen Bildschirmen (unter 768px Breite) leichterer Hover-Effekt */
+/* Auf kleineren Bildschirmen sanftere Vergrößerung */
 @media (max-width: 768px) {
   .leistungsbox:hover {
     transform: scale(1.02);
@@ -81,23 +81,26 @@ sitemap: true
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 1rem;">
 
-  <!-- WEG-Verwaltung -->
-  <div class="leistungsbox">
-    <h3>🏢 <a href="/weg-verwaltung/">WEG-Verwaltung</a></h3>
-    <p>Professionelle Betreuung von Eigentümergemeinschaften – transparent und engagiert.</p>
-  </div>
+  <a href="/weg-verwaltung/" style="text-decoration: none; color: inherit;">
+    <div class="leistungsbox">
+      <h3>🏢 WEG-Verwaltung</h3>
+      <p>Professionelle Betreuung von Eigentümergemeinschaften – transparent und engagiert.</p>
+    </div>
+  </a>
 
-  <!-- Sondereigentumsverwaltung -->
-  <div class="leistungsbox">
-    <h3>🔑 <a href="/sondereigentumsverwaltung/">SE-Verwaltung</a></h3>
-    <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
-  </div>
+  <a href="/sondereigentumsverwaltung/" style="text-decoration: none; color: inherit;">
+    <div class="leistungsbox">
+      <h3>🔑 SE-Verwaltung</h3>
+      <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
+    </div>
+  </a>
 
-  <!-- Miethausverwaltung -->
-  <div class="leistungsbox">
-    <h3>🏠 <a href="/miethausverwaltung/">Miethausverwaltung</a></h3>
-    <p>Komplette Betreuung Ihrer Mietobjekte – kompetent, erfahren und nachhaltig.</p>
-  </div>
+  <a href="/miethausverwaltung/" style="text-decoration: none; color: inherit;">
+    <div class="leistungsbox">
+      <h3>🏠 Miethausverwaltung</h3>
+      <p>Komplette Betreuung Ihrer Mietobjekte – kompetent, erfahren und nachhaltig.</p>
+    </div>
+  </a>
 
 </div>
 
