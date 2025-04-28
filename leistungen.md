@@ -18,17 +18,18 @@ keywords: Hausverwaltung Hannover, Mietshausverwaltung, Sondereigentumsverwaltun
 .leistung-block {
   text-align: center;
   width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.leistung-block:hover {
+  transform: scale(1.1);
 }
 
 .leistung-block img {
   width: 100px;
   height: 100px;
-  transition: transform 0.3s ease;
 }
 
-.leistung-block img:hover {
-  transform: scale(1.15);
-}
 </style>
 
 # 💼 Unsere Leistungen
