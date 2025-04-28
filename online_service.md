@@ -62,7 +62,7 @@ Willkommen bei den digitalen Services Ihrer Hausverwaltung. Bitte wählen Sie de
 </div>
 
 <div class="service-block">
-  <a href="https://dokumente.hausverwaltung-marcomueller.de/">
+  <a href="https://dokumente.hausverwaltung-marcomueller.de/" target="_blank()">
     <img src="/assets/img/onlineservices/online.png" alt="Online Portal">
     <br/>
     🌐 Online-Portal
