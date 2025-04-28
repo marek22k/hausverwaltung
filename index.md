@@ -3,8 +3,15 @@ layout: page
 title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
 ---
-
 <style>
+.online-service-container, .leistungen-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 .leistungsbox {
   flex: 1 1 280px;
   background: #f5f5f5;
@@ -14,16 +21,22 @@ sitemap: true
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+/* NEU: macht den <a>-Link wie einen div-Block */
+.leistungsbox-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .leistungsbox:hover {
   transform: scale(1.05);
-  background-color: #ffffff; /* leicht heller Hintergrund beim Hover */
+  background-color: #ffffff;
 }
 
 .leistungsbox h3, .leistungsbox p {
   margin: 0.5rem 0;
 }
 
-/* Auf kleineren Bildschirmen sanftere Vergrößerung */
 @media (max-width: 768px) {
   .leistungsbox:hover {
     transform: scale(1.02);
@@ -81,21 +94,21 @@ sitemap: true
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 1rem;">
 
-  <a href="/weg-verwaltung/" style="text-decoration: none; color: inherit;">
+  <a href="/weg-verwaltung/" class="leistungsbox-link">
     <div class="leistungsbox">
       <h3>🏢 WEG-Verwaltung</h3>
       <p>Professionelle Betreuung von Eigentümergemeinschaften – transparent und engagiert.</p>
     </div>
   </a>
 
-  <a href="/sondereigentumsverwaltung/" style="text-decoration: none; color: inherit;">
+  <a href="/sondereigentumsverwaltung/" class="leistungsbox-link">
     <div class="leistungsbox">
       <h3>🔑 SE-Verwaltung</h3>
       <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
     </div>
   </a>
 
-  <a href="/miethausverwaltung/" style="text-decoration: none; color: inherit;">
+  <a href="/miethausverwaltung/" class="leistungsbox-link">
     <div class="leistungsbox">
       <h3>🏠 Miethausverwaltung</h3>
       <p>Komplette Betreuung Ihrer Mietobjekte – kompetent, erfahren und nachhaltig.</p>
