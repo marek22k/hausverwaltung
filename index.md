@@ -3,6 +3,34 @@ layout: page
 title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
 ---
+
+<style>
+.leistungsbox {
+  flex: 1 1 280px;
+  background: #f5f5f5;
+  padding: 1.2rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.leistungsbox:hover {
+  transform: scale(1.05);
+}
+
+.leistungsbox h3 a {
+  text-decoration: none;
+  color: #003366;
+}
+
+/* Auf kleinen Bildschirmen (unter 768px Breite) leichterer Hover-Effekt */
+@media (max-width: 768px) {
+  .leistungsbox:hover {
+    transform: scale(1.02);
+  }
+}
+</style>
+
 <!-- Hero-Bereich -->
 <div style="position: relative; overflow: hidden; height: 400px; margin-bottom: 2rem; border-radius: 8px;">
 
