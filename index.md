@@ -29,15 +29,13 @@ sitemap: true
 
 .leistungsbox:hover {
   background-color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   border-color: #ffffff;
 }
 
 .leistungsbox h3, .leistungsbox p {
   margin: 0.5rem 0;
 }
-
-/* Auf kleinen Bildschirmen bleibt es genau gleich */
 </style>
 
 <!-- Hero-Bereich -->
