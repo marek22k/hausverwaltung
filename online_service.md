@@ -18,16 +18,16 @@ keywords: Hausverwaltung Online-Service, Schaden melden, Schlüssel nachbestelle
 .service-block {
   text-align: center;
   width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.service-block:hover {
+  transform: scale(1.1);
 }
 
 .service-block img {
   width: 100px;
   height: 100px;
-  transition: transform 0.3s ease;
-}
-
-.service-block img:hover {
-  transform: scale(1.15);
 }
 
 .service-block p {
