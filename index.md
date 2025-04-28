@@ -81,23 +81,23 @@ sitemap: true
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 1rem;">
 
-<!-- WEG-Verwaltung -->
-<div style="flex: 1 1 280px; background: #f5f5f5; padding: 1.2rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <h3>🏢 <a href="/weg-verwaltung/" style="text-decoration: none; color: #003366;">WEG-Verwaltung</a></h3>
-  <p>Professionelle Betreuung von Eigentümergemeinschaften – transparent und engagiert.</p>
-</div>
+  <!-- WEG-Verwaltung -->
+  <div class="leistungsbox">
+    <h3>🏢 <a href="/weg-verwaltung/">WEG-Verwaltung</a></h3>
+    <p>Professionelle Betreuung von Eigentümergemeinschaften – transparent und engagiert.</p>
+  </div>
 
-<!-- Sondereigentumsverwaltung -->
-<div style="flex: 1 1 280px; background: #f5f5f5; padding: 1.2rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <h3>🔑 <a href="/sondereigentumsverwaltung/" style="text-decoration: none; color: #003366;">SE-Verwaltung</a></h3>
-  <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
-</div>
+  <!-- Sondereigentumsverwaltung -->
+  <div class="leistungsbox">
+    <h3>🔑 <a href="/sondereigentumsverwaltung/">SE-Verwaltung</a></h3>
+    <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
+  </div>
 
-<!-- Miethausverwaltung -->
-<div style="flex: 1 1 280px; background: #f5f5f5; padding: 1.2rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-  <h3>🏠 <a href="/miethausverwaltung/" style="text-decoration: none; color: #003366;">Miethausverwaltung</a></h3>
-  <p>Komplette Betreuung Ihrer Mietobjekte – kompetent, erfahren und nachhaltig.</p>
-</div>
+  <!-- Miethausverwaltung -->
+  <div class="leistungsbox">
+    <h3>🏠 <a href="/miethausverwaltung/">Miethausverwaltung</a></h3>
+    <p>Komplette Betreuung Ihrer Mietobjekte – kompetent, erfahren und nachhaltig.</p>
+  </div>
 
 </div>
 
