@@ -4,7 +4,7 @@ title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
 ---
 <style>
-.online-service-container, .leistungen-container {
+.leistungen-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -19,13 +19,11 @@ sitemap: true
   border-radius: 8px;
   text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-/* NEU: macht den <a>-Link wie einen div-Block */
-.leistungsbox-link {
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .leistungsbox:hover {
@@ -37,6 +35,7 @@ sitemap: true
   margin: 0.5rem 0;
 }
 
+/* Auf kleineren Bildschirmen sanftere Vergrößerung */
 @media (max-width: 768px) {
   .leistungsbox:hover {
     transform: scale(1.02);
@@ -92,27 +91,24 @@ sitemap: true
 
 ## Leistungen im Überblick
 
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 1rem;">
+<div class="leistungen-container">
 
-  <a href="/weg-verwaltung/" class="leistungsbox-link">
-    <div class="leistungsbox">
+  <!-- WEG-Verwaltung -->
+  <a href="/weg-verwaltung/" class="leistungsbox">
       <h3>🏢 WEG-Verwaltung</h3>
       <p>Professionelle Betreuung von Eigentümergemeinschaften – transparent und engagiert.</p>
-    </div>
   </a>
 
-  <a href="/sondereigentumsverwaltung/" class="leistungsbox-link">
-    <div class="leistungsbox">
+  <!-- Sondereigentumsverwaltung -->
+  <a href="/sondereigentumsverwaltung/" class="leistungsbox">
       <h3>🔑 SE-Verwaltung</h3>
       <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
-    </div>
   </a>
 
-  <a href="/miethausverwaltung/" class="leistungsbox-link">
-    <div class="leistungsbox">
+  <!-- Miethausverwaltung -->
+  <a href="/miethausverwaltung/" class="leistungsbox">
       <h3>🏠 Miethausverwaltung</h3>
       <p>Komplette Betreuung Ihrer Mietobjekte – kompetent, erfahren und nachhaltig.</p>
-    </div>
   </a>
 
 </div>
