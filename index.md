@@ -12,48 +12,34 @@ sitemap: true
   margin-top: 1rem;
 }
 
-.leistungsbox-wrapper {
-  flex: 1 1 280px;
-  overflow: hidden; /* verhindert, dass Vergrößerung Platz verschiebt */
-  border-radius: 8px;
-  background: #f5f5f5;
-  border: 1px solid #f5f5f5;
-  transition: background-color 0.3s ease, border-color 0.3s ease;
-}
-
-.leistungsbox-wrapper:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
-
 .leistungsbox {
-  width: 100%;
-  height: 100%;
-  text-align: center;
+  flex: 1 1 280px;
+  background: #f5f5f5;
   padding: 1.2rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
   text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s ease;
+  border: 1px solid #f5f5f5;
 }
 
 .leistungsbox:hover {
-  transform: scale(1.05);
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-color: #ffffff;
 }
 
 .leistungsbox h3, .leistungsbox p {
   margin: 0.5rem 0;
 }
 
-/* Auf kleinen Bildschirmen sanftere Vergrößerung */
-@media (max-width: 768px) {
-  .leistungsbox:hover {
-    transform: scale(1.02);
-  }
-}
+/* Auf kleinen Bildschirmen bleibt es genau gleich */
 </style>
+
 <!-- Hero-Bereich -->
 <div style="position: relative; overflow: hidden; height: 400px; margin-bottom: 2rem; border-radius: 8px;">
 
@@ -104,29 +90,22 @@ sitemap: true
 
 <div class="leistungen-container">
 
-  <div class="leistungsbox-wrapper">
-    <a href="/weg-verwaltung/" class="leistungsbox">
-      <h3>🏢 WEG-Verwaltung</h3>
-      <p>Professionelle Betreuung von Eigentümergemeinschaften – transparent und engagiert.</p>
-    </a>
-  </div>
+  <a href="/weg-verwaltung/" class="leistungsbox">
+    <h3>🏢 WEG-Verwaltung</h3>
+    <p>Professionelle Betreuung von Eigentümergemeinschaften – transparent und engagiert.</p>
+  </a>
 
-  <div class="leistungsbox-wrapper">
-    <a href="/sondereigentumsverwaltung/" class="leistungsbox">
-      <h3>🔑 SE-Verwaltung</h3>
-      <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
-    </a>
-  </div>
+  <a href="/sondereigentumsverwaltung/" class="leistungsbox">
+    <h3>🔑 SE-Verwaltung</h3>
+    <p>Verwaltung Ihres vermieteten Eigentums – zuverlässig und individuell.</p>
+  </a>
 
-  <div class="leistungsbox-wrapper">
-    <a href="/miethausverwaltung/" class="leistungsbox">
-      <h3>🏠 Miethausverwaltung</h3>
-      <p>Komplette Betreuung Ihrer Mietobjekte – kompetent, erfahren und nachhaltig.</p>
-    </a>
-  </div>
+  <a href="/miethausverwaltung/" class="leistungsbox">
+    <h3>🏠 Miethausverwaltung</h3>
+    <p>Komplette Betreuung Ihrer Mietobjekte – kompetent, erfahren und nachhaltig.</p>
+  </a>
 
 </div>
-<br>
 ---
 
 ## Kontakt
