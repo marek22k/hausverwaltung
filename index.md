@@ -15,7 +15,7 @@ sitemap: true
 .leistungsbox {
   flex: 1 1 280px;
   background: #f5f5f5;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border-radius: 8px;
   text-align: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
@@ -31,16 +31,8 @@ sitemap: true
   background-color: #ffffff;
 }
 
-.leistungsbox h3 {
-  margin-top: 0;
-  margin-bottom: 0.8rem;
-  font-size: 1.6rem;
-}
-
-.leistungsbox p {
-  margin: 0;
-  font-size: 1.1rem;
-  color: #444;
+.leistungsbox h3, .leistungsbox p {
+  margin: 0.5rem 0;
 }
 
 /* Auf kleinen Bildschirmen sanftere Vergrößerung */
