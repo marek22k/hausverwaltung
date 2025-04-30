@@ -10,45 +10,69 @@ keywords: WEG-Verwaltung, Hausverwaltung, zertifizierter Verwalter, Wohnungseige
 
 Nach § 19 Abs. 2 Nr. 6 WEG haben die Eigentümer einer Wohnungseigentümergemeinschaft das Recht, einen zertifizierten Verwalter gemäß § 26a WEG zu bestellen. Als zertifizierter Hausverwalter biete ich Ihnen eine professionelle und werterhaltende Verwaltung Ihrer Wohnungseigentümergemeinschaft (WEG). Meine Verwaltung zeichnet sich nicht nur durch moderne Arbeitsmethoden aus, sondern auch durch höchste Transparenz für die Eigentümer.
 
-**💬 Sie möchten wissen, was meine WEG-Verwaltung für Ihre Immobilie leisten kann? [Fordern Sie jetzt ein unverbindliches Angebot an!](/angebot-anfordern/)**
+> **Tipp:** [Fordern Sie jetzt ein unverbindliches Angebot an »](/angebot-anfordern/)
 
-## Zuverlässigkeit, Pünktlichkeit und Verlässlichkeit – Werte, auf die Sie sich verlassen können
+---
 
-Für mich sind **Zuverlässigkeit**, **Pünktlichkeit** und **Verlässlichkeit** die Grundlage einer erfolgreichen WEG-Verwaltung. Ich stelle sicher, dass alle Aufgaben termingerecht erledigt werden und Sie jederzeit auf eine reibungslose und vertrauensvolle Zusammenarbeit zählen können. Ihre Anliegen haben bei mir höchste Priorität, und ich sorge dafür, dass alle Entscheidungen und Maßnahmen stets in Ihrem besten Interesse umgesetzt werden.
-
-## Transparenz und Zugänglichkeit für Sie als Eigentümer
-
-Ein wesentlicher Vorteil meiner WEG-Verwaltung ist der **digitale Zugang**: Als Eigentümer haben Sie über ein benutzerfreundliches **Portal jederzeit vollen Zugriff auf alle relevanten Dokumente Ihrer WEG**. Ob Jahresabrechnung, Versammlungsprotokolle oder aktuelle Verträge – Sie haben alle Informationen stets griffbereit und können diese bequem einsehen.
-
-## Qualität durch kontinuierliche Weiterbildung
-
-Um Ihnen stets den besten Service zu bieten, lege ich großen Wert auf **regelmäßige Schulungen**. Dies garantiert, dass ich immer auf dem neuesten Stand der Gesetzgebung und der Entwicklungen im Bereich der WEG-Verwaltung bleibe. So können Sie sicher sein, dass Ihre Immobilie stets nach den höchsten Standards betreut wird.
-
-## Fall-Management - Ihr Projekt immer im Blick
-
-Im Rahmen meiner WEG-Verwaltung biete ich Ihnen ein transparentes **Fall-Management**. Bei jedem Projekt – sei es eine Sanierung, eine Instandhaltung oder eine Modernisierung – können Sie jederzeit im **Onlineportal den aktuellen Stand einsehen**. Sie haben jederzeit Überblick über den Fortschritt, wie etwa die Anfrage an Dienstleister, die Angebotseinholung, die Vergabe von Aufträgen oder geplante Termine. So sind Sie stets informiert und können den Verlauf jedes Projekts nachvollziehen.
-
-## Weitere Leistungen - Mein Leistungsversprechen für Ihre WEG-Verwaltung
-
-Neben den Standardleistungen einer WEG-Verwaltung, die bereits in meinem Leistungsverzeichnis einsehbar sind, biete ich Ihnen zusätzlich ein Leistungsversprechen, das meine hohen Qualitätsansprüche und die besondere Betreuung, die ich Ihnen garantiere, deutlich macht. Dazu gehören unter anderem:
-- **Schnelle Kommunikation**: Ihre Anfragen werden innerhalb von 24 Stunden telefonisch, innerhalb von 2 Arbeitstagen per E-Mail und innerhalb einer Woche per Brief beantwortet.
-- **Frühzeitige Hausgeldabrechnung**: Sie erhalten die Hausgeldabrechnung spätestens drei Wochen vor der Eigentümerversammlung, damit Sie genügend Zeit haben, diese zu prüfen und eventuelle Fragen zu klären.
-- **Regelmäßige Objektbegehungen**: Ich biete regelmäßige Begehungen Ihrer Immobilie sowie Besprechungen mit den Beiräten und Sprechstunden für Eigentümer und Mieter an. Bei diesen Vor-Ort-Kontrollen werden auch technische Einrichtungen wie Heizungsanlagen gewissenhaft überprüft, um frühzeitig mögliche Mängel zu erkennen.
-
-<div style="background-color: #f9f9f9; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
-  <img src="/assets/img/dsc_0108_optimiert.jpg" alt="Überprüfung Heizungsanlage durch Hausverwalter Marco Müller" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; display: block; margin: 0 auto;">
-  <p style="text-align: center; font-size: 1rem; line-height: 1.5; margin-top: 0.75rem; color: #444;">
-    Sorgfältige technische Kontrolle durch Hausverwalter Marco Müller – hier bei der Überprüfung einer Heizungsanlage
-  </p>
+<div style="background-color: #f4f4f4; padding: 1rem; border-left: 4px solid #999; margin: 1rem 0;">
+<strong>Zuverlässigkeit, Pünktlichkeit und Verlässlichkeit</strong><br>
+Diese Werte sind die Grundlage meiner WEG-Verwaltung. Ich sorge dafür, dass alle Aufgaben termingerecht umgesetzt werden und Ihre Anliegen höchste Priorität haben. Entscheidungen treffe ich immer in Ihrem besten Interesse.
 </div>
 
-- **Kundenorientierte Servicequalität**: Ihre Zufriedenheit ist mir wichtig. Daher führe ich regelmäßig Kundenbefragungen durch, um meine Dienstleistungen kontinuierlich zu verbessern.
+---
 
-Weitere Details zu meinen Leistungsversprechen finden Sie auf der entsprechenden Unterseite. Dort können Sie sich umfassend informieren, wie ich Ihre Immobilie mit höchster Sorgfalt und Qualität verwalte.
+<div style="background-color: #f4f4f4; padding: 1rem; border-left: 4px solid #999; margin: 1rem 0;">
+<strong>Transparenz und digitale Zugänglichkeit</strong><br>
+Über ein benutzerfreundliches Onlineportal haben Eigentümer jederzeit Zugriff auf relevante Dokumente wie Jahresabrechnungen, Versammlungsprotokolle und Verträge. So sind alle Informationen stets griffbereit und übersichtlich einsehbar.
+</div>
+
+---
+
+<div style="background-color: #f4f4f4; padding: 1rem; border-left: 4px solid #999; margin: 1rem 0;">
+<strong>Qualität durch Weiterbildung</strong><br>
+Ich bilde mich regelmäßig weiter, um gesetzliche Anforderungen einzuhalten und Neuerungen in der WEG-Verwaltung kompetent umzusetzen. So garantiere ich einen dauerhaft hohen Qualitätsstandard.
+</div>
+
+---
+
+<div style="background-color: #f4f4f4; padding: 1rem; border-left: 4px solid #999; margin: 1rem 0;">
+<strong>Fall-Management – Projekte im Blick</strong><br>
+Im Rahmen meiner Verwaltung biete ich ein transparentes Fall-Management. Sie können im Onlineportal jederzeit den Status laufender Maßnahmen wie Sanierungen, Angebotseinholungen oder Terminplanungen einsehen.
+</div>
+
+---
+
+## Weitere Leistungen – Mein Leistungsversprechen
+
+Neben den Standardleistungen einer WEG-Verwaltung biete ich Ihnen zusätzliche Serviceelemente, die meine Qualitätsansprüche unterstreichen:
+
+<div style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #ccc; margin: 1rem 0;">
+<strong>Schnelle Kommunikation:</strong><br>
+Antwort innerhalb von 24h telefonisch, 2 Arbeitstagen per E-Mail, 1 Woche per Brief.
+</div>
+
+<div style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #ccc; margin: 1rem 0;">
+<strong>Frühzeitige Hausgeldabrechnung:</strong><br>
+Spätestens drei Wochen vor der Eigentümerversammlung – für ausreichend Prüfzeit.
+</div>
+
+<div style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #ccc; margin: 1rem 0;">
+<strong>Regelmäßige Objektbegehungen:</strong><br>
+Kontrollen vor Ort inklusive technischer Prüfung, Austausch mit Beiräten und Sprechstunden.
+</div>
+
+<div style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #ccc; margin: 1rem 0;">
+<strong>Kundenorientierung:</strong><br>
+Regelmäßige Feedbackumfragen helfen dabei, meinen Service kontinuierlich zu verbessern.
+</div>
+
+![Überprüfung Heizungsanlage durch Hausverwalter Marco Müller](/assets/img/dsc_0108_optimiert.jpg)
+
+---
 
 ## Standardleistungen im Leistungsverzeichnis
 
-Die grundlegenden Leistungen einer WEG-Verwaltung, die jede gute Verwaltung bieten sollte, können Sie in meinem [**Leistungsverzeichnis**](/Leistungskatalog_WEG_Verwaltung/) einsehen. Diese beinhalten sämtliche wichtigen Aufgaben, die eine zuverlässige WEG-Verwaltung ausmacht.
+Die grundlegenden Leistungen einer professionellen WEG-Verwaltung finden Sie in meinem [**Leistungsverzeichnis**](/Leistungskatalog_WEG_Verwaltung/). Dort erfahren Sie im Detail, welche Aufgaben ich zuverlässig für Ihre Gemeinschaft übernehme.
 
 ---
 
@@ -56,17 +80,17 @@ Die grundlegenden Leistungen einer WEG-Verwaltung, die jede gute Verwaltung biet
 
 Sie suchen eine professionelle, transparente und zuverlässige Verwaltung für Ihre Eigentümergemeinschaft in Hannover?
 
-📩 [Fordern Sie jetzt ein unverbindliches Angebot an](/angebot-anfordern/) – ich melde mich schnellstmöglich bei Ihnen!
+📩 **[Fordern Sie jetzt ein unverbindliches Angebot an »](/angebot-anfordern/)**
 
 ---
 
-<!-- Optional: Sticky-Button für dauerhafte Sichtbarkeit -->
+<!-- Sticky CTA Button -->
 <style>
 .cta-sticky {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #FF5722; /* Lebhaftes Orange */
+  background-color: #FF5722;
   color: #FFFFFF;
   padding: 12px 20px;
   border-radius: 8px;
@@ -76,13 +100,10 @@ Sie suchen eine professionelle, transparente und zuverlässige Verwaltung für I
   z-index: 999;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 .cta-sticky:hover {
-  background-color: #D84315; /* Mutigeres Orange */
-  transform: scale(1.05); /* Sanfte Vergrößerung */
+  background-color: #D84315;
+  transform: scale(1.05);
 }
-
-/* Text bleibt weiß, auch nach dem Besuch */
 .cta-sticky:visited {
   color: #FFFFFF;
 }
