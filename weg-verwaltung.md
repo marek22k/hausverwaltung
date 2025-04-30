@@ -33,7 +33,10 @@ Im Rahmen meiner WEG-Verwaltung biete ich Ihnen ein transparentes **Fall-Managem
 Neben den Standardleistungen einer WEG-Verwaltung, die bereits in meinem Leistungsverzeichnis einsehbar sind, biete ich Ihnen zusätzlich ein Leistungsversprechen, das meine hohen Qualitätsansprüche und die besondere Betreuung, die ich Ihnen garantiere, deutlich macht. Dazu gehören unter anderem:
 - **Schnelle Kommunikation**: Ihre Anfragen werden innerhalb von 24 Stunden telefonisch, innerhalb von 2 Arbeitstagen per E-Mail und innerhalb einer Woche per Brief beantwortet.
 - **Frühzeitige Hausgeldabrechnung**: Sie erhalten die Hausgeldabrechnung spätestens drei Wochen vor der Eigentümerversammlung, damit Sie genügend Zeit haben, diese zu prüfen und eventuelle Fragen zu klären.
-- **Regelmäßige Objektbegehungen**: Ich biete regelmäßige Begehungen Ihrer Immobilie sowie Besprechungen mit den Beiräten und Sprechstunden für Eigentümer und Mieter an.
+- **Regelmäßige Objektbegehungen**: Ich biete regelmäßige Begehungen Ihrer Immobilie sowie Besprechungen mit den Beiräten und Sprechstunden für Eigentümer und Mieter an. Bei diesen Vor-Ort-Kontrollen werden auch technische Einrichtungen wie Heizungsanlagen gewissenhaft überprüft, um frühzeitig mögliche Mängel zu erkennen.
+<a href="/assets/img/dsc_0108_optimiert.jpg" target="_blank" style="display: block; max-width: 600px; margin: 1rem 0;">
+  <img src="/assets/img/dsc_0108_optimiert.jpg" alt="Überprüfung Heizungsanlage durch Hausverwalter Marco Müller" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</a>
 - **Kundenorientierte Servicequalität**: Ihre Zufriedenheit ist mir wichtig. Daher führe ich regelmäßig Kundenbefragungen durch, um meine Dienstleistungen kontinuierlich zu verbessern.
 
 Weitere Details zu meinen Leistungsversprechen finden Sie auf der entsprechenden Unterseite. Dort können Sie sich umfassend informieren, wie ich Ihre Immobilie mit höchster Sorgfalt und Qualität verwalte.
