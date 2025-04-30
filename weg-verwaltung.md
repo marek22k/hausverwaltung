@@ -44,6 +44,11 @@ Im Rahmen meiner Verwaltung biete ich ein transparentes Fall-Management. Sie kö
 
 ## Weitere Leistungen – Mein Leistungsversprechen
 
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+
+<!-- Textspalte -->
+<div style="flex: 1 1 300px; min-width: 280px;">
+
 Neben den Standardleistungen einer WEG-Verwaltung biete ich Ihnen zusätzliche Serviceelemente, die meine Qualitätsansprüche unterstreichen:
 
 <div style="background-color: #f9f9f9; padding: 1rem; border-left: 4px solid #ccc; margin: 1rem 0;">
@@ -66,7 +71,15 @@ Kontrollen vor Ort inklusive technischer Prüfung, Austausch mit Beiräten und S
 Regelmäßige Feedbackumfragen helfen dabei, meinen Service kontinuierlich zu verbessern.
 </div>
 
-![Überprüfung Heizungsanlage durch Hausverwalter Marco Müller](/assets/img/dsc_0108_optimiert.jpg)
+</div>
+
+<!-- Bildspalte -->
+<div style="flex: 1 1 300px; min-width: 280px; text-align: center;">
+  <img src="/assets/img/dsc_0108_optimiert.jpg" alt="Überprüfung Heizungsanlage durch Hausverwalter Marco Müller" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+  <p style="font-size: 0.95rem; color: #444; margin-top: 0.5rem;">Sorgfältige technische Kontrolle durch Hausverwalter Marco Müller</p>
+</div>
+
+</div>
 
 ---
 
