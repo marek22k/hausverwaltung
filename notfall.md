@@ -14,7 +14,7 @@ Unser Notfall-Telefon ist jederzeit erreichbar - auch nachts und an Wochenenden.
 ### 🚨 Im Notfall erreichen Sie uns unter:
 
 <div style="text-align: center; font-size: 2.5em; font-weight: bold; color: red; margin-bottom: 30px;">
-  📞 49 1573 4790011
+  📞 +49 1573 4790011
 </div>
 
 Ein Notfall liegt vor, wenn:
