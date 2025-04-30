@@ -37,7 +37,9 @@ Neben den Standardleistungen einer WEG-Verwaltung, die bereits in meinem Leistun
 
 <div style="background-color: #f9f9f9; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
   <img src="/assets/img/dsc_0108_optimiert.jpg" alt="Überprüfung Heizungsanlage durch Hausverwalter Marco Müller" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; display: block; margin: 0 auto;">
-  <p style="text-align: center; font-size: 0.9rem; margin-top: 0.5rem; color: #555;">Sorgfältige technische Kontrolle durch Hausverwalter Marco Müller – hier bei der Überprüfung einer Heizungsanlage</p>
+  <p style="text-align: center; font-size: 1rem; line-height: 1.5; margin-top: 0.75rem; color: #444;">
+    Sorgfältige technische Kontrolle durch Hausverwalter Marco Müller – hier bei der Überprüfung einer Heizungsanlage
+  </p>
 </div>
 
 - **Kundenorientierte Servicequalität**: Ihre Zufriedenheit ist mir wichtig. Daher führe ich regelmäßig Kundenbefragungen durch, um meine Dienstleistungen kontinuierlich zu verbessern.
