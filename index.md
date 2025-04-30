@@ -123,9 +123,9 @@ sitemap: true
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; margin-top: 2rem;">
 
-  <!-- Schlüsselübergabe Bild -->
+  <!-- Schlüsselübergabe Bild – aktualisiert -->
   <div style="flex: 1 1 300px; min-width: 280px;">
-    <img src="/assets/img/dsc_0078_optimiert.jpg" alt="Schlüsselübergabe" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/dsc_0002_zugeschnitten.jpg" alt="Marco Müller übergibt Schlüssel vor moderner Wohnanlage" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
 
   <!-- Text -->
@@ -142,6 +142,7 @@ sitemap: true
   </div>
 
 </div>
+
 
 
 ---
