@@ -75,8 +75,8 @@ Regelmäßige Feedbackumfragen helfen dabei, meinen Service kontinuierlich zu ve
 
 <!-- Bildspalte -->
 <div style="flex: 1 1 300px; min-width: 280px; text-align: center;">
-  <img src="/assets/img/dsc_0108_optimiert.jpg" alt="Überprüfung Heizungsanlage durch Hausverwalter Marco Müller" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-  <p style="font-size: 0.95rem; color: #444; margin-top: 0.5rem;">Sorgfältige technische Kontrolle durch Hausverwalter Marco Müller</p>
+  <img src="/assets/img/dsc_0108_optimiert.jpg" alt="Überprüfung Heizungsanlage durch Hausverwalter Marco Müller" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 0.75rem;">
+  <p style="font-size: 1.1rem; color: #333; font-weight: 500; margin: 0;">Sorgfältige technische Kontrolle durch Hausverwalter Marco Müller</p>
 </div>
 
 </div>
