@@ -65,19 +65,30 @@ sitemap: true
 
 ---
 
+  <!-- Rundes Portrait unten rechts -->
+  <div class="hero-portrait" style="position: absolute; bottom: -45px; right: 30px; z-index: 3;">
+    <img src="/assets/img/portrait_kreis_web.png" alt="Marco Müller" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+  </div>
+
+</div>
+
+---
+
 ## Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; margin-bottom: 2rem;">
 
-  <!-- Portraitfoto -->
+  <!-- Gebäudeansicht statt Portraitfoto -->
   <div style="flex: 1 1 300px; min-width: 280px;">
-    <img src="/assets/img/dsc_0067_optimiert.jpg" alt="Portrait Marco Müller" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/DSC_0047.JPG" alt="Moderne Wohnanlage in Hannover" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
 
   <!-- Text -->
   <div style="flex: 2 1 400px; min-width: 280px;">
     Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.  
-    Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.
+    Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.  
+    
+    Dabei steht Ihre Zufriedenheit im Mittelpunkt: Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.
   </div>
 
 </div>
