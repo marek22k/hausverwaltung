@@ -34,52 +34,62 @@ permalink: /wissenswertes/
 ---
 
 <div id="EichhoernchenInFassade" class="box">
-  <h3> 🐿️ Eichhörnchen in der Fassade – was tun? 🏡</h3>
+ <h1>🐿️ Eichhörnchen in der Fassade – was tun?</h1>
 
-![Eichhörnchen in Fassade](/mnt/data/Eichhoernchen_in_Fassade.jpg)
+  <img src="/assets/img/wissenswertes/Eichhoernchen_in_Fassade.jpg" alt="Eichhörnchen in Fassade" style="max-width:100%; height:auto; margin-bottom: 20px;">
 
-## Wenn die Fassade zum Zuhause wird
+  <h2>Wenn die Fassade zum Zuhause wird</h2>
+  <p>
+    Immer häufiger beobachten wir in <strong>Hannover</strong>, dass sich <strong>Eichhörnchen in Fassaden oder Wärmedämmverbundsystemen (WDVS)</strong> einnisten. Diese cleveren Tiere nutzen kleine Öffnungen oder Schäden in der Dämmung, um sich ein geschütztes Nest zu bauen – besonders zur Brutzeit im Frühjahr und Frühsommer.
+  </p>
+  <p>
+    Als <strong>Hausverwaltung Marco Müller</strong> betreuen wir zahlreiche Wohnanlagen in Hannover und Umgebung und sind mit diesem Thema bestens vertraut. Doch Achtung: Auch wenn es sich aus Sicht der Eigentümer oder Mieter um einen Schaden am Gebäude handelt – <strong>Eichhörnchen stehen unter Artenschutz!</strong>
+  </p>
 
-Immer häufiger beobachten wir in Hannover, dass sich **Eichhörnchen in Fassaden oder Wärmedämmverbundsystemen (WDVS)** einnisten. Diese cleveren Tiere nutzen kleine Öffnungen oder Schäden in der Dämmung, um sich ein geschütztes Nest zu bauen – besonders zur Brutzeit im Frühjahr und Frühsommer.
+  <h2>Artenschutz: Das sagt das Gesetz</h2>
+  <p>
+    Eichhörnchen gehören zu den <strong>besonders geschützten Arten</strong> nach § 44 des Bundesnaturschutzgesetzes (BNatSchG). Das bedeutet:
+  </p>
+  <ul>
+    <li>Das <strong>Entfernen, Stören oder Vertreiben</strong> von Eichhörnchen aus ihrem Nest (Kobel) ist <strong>verboten</strong>.</li>
+    <li>Auch die <strong>Zerstörung des Nestes</strong> oder eine <strong>Sanierung der Fassade</strong> während der Aufzuchtzeit ist nicht erlaubt.</li>
+  </ul>
+  <p>
+    Die Brutzeit erstreckt sich in der Regel von <strong>März bis Ende August</strong>, mit einer möglichen zweiten Wurfzeit im Spätsommer. Erst danach darf gehandelt werden – und auch dann nur mit Vorsicht und ggf. in Abstimmung mit der <strong>Unteren Naturschutzbehörde</strong>.
+  </p>
 
-Als **Hausverwaltung Marco Müller** betreuen wir zahlreiche Wohnanlagen in Hannover und Umgebung und sind mit diesem Thema bestens vertraut. Doch Achtung: Auch wenn es sich aus Sicht der Eigentümer oder Mieter um einen Schaden am Gebäude handelt – **Eichhörnchen stehen unter Artenschutz**!
+  <h2>Was tun bei einem Befall?</h2>
+  <p>Falls Sie vermuten, dass sich Eichhörnchen in Ihrer Hausfassade oder Dämmung eingenistet haben, empfehlen wir folgende Schritte:</p>
+  <ol>
+    <li><strong>Beobachtung:</strong> Gibt es regelmäßige Tierbewegung an einer bestimmten Stelle der Fassade?</li>
+    <li><strong>Dokumentation:</strong> Fotos oder Videos können als Nachweis dienen.</li>
+    <li><strong>Fachliche Einschätzung:</strong> Kontaktieren Sie uns – die <strong>Hausverwaltung Marco Müller in Hannover</strong> – für eine professionelle Beurteilung.</li>
+    <li><strong>Abwarten der Brutzeit:</strong> Erst nach dem Auszug der Jungtiere darf eine Sanierung stattfinden.</li>
+    <li><strong>Fassadensanierung mit Prävention:</strong> Danach sollte die Dämmung fachgerecht instand gesetzt und gegen erneuten Befall gesichert werden.</li>
+  </ol>
 
----
+  <h2>Warum wir handeln müssen</h2>
+  <p>
+    Abgesehen vom Tierwohl können sich durch die tierische Untermiete <strong>Schäden an der Dämmung</strong> ergeben: Wärmeverluste, Feuchtigkeitseintrag und sogar Schimmel können die Folge sein. Daher ist es wichtig, nach Ende der Schutzzeit <strong>zeitnah zu sanieren</strong>.
+  </p>
 
-## Artenschutz: Das sagt das Gesetz
+  <h2>Kontakt & Schadensmeldung</h2>
+  <p>
+    Wenn Sie ein entsprechendes Problem feststellen, können Sie uns dieses ganz einfach über unseren 
+    <a href="http://dv.hausverwaltung-marcomueller.de/problem-melden/" target="_blank">Onlineservice im Bereich „Problem melden“</a> 
+    mitteilen und dort auch passende Fotos hochladen.
+  </p>
 
-Eichhörnchen gehören zu den **besonders geschützten Arten** nach § 44 des Bundesnaturschutzgesetzes (BNatSchG). Das bedeutet:
+  <h2>Fazit</h2>
+  <p>
+    Ein Eichhörnchen in der Fassade mag auf den ersten Blick niedlich wirken – doch es bringt Verantwortung mit sich. 
+    Als erfahrene <strong>Hausverwaltung in Hannover</strong> helfen wir Eigentümern, <strong>rechtskonform und nachhaltig</strong> mit der Situation umzugehen.
+  </p>
 
-- **Das Entfernen, Stören oder Vertreiben** von Eichhörnchen aus ihrem Nest (Kobel) ist **verboten**.
-- Auch **die Zerstörung des Nestes** oder die **Sanierung der Fassade** während der Aufzuchtzeit ist nicht erlaubt.
+  <p><strong>📞 Kontaktieren Sie uns gern bei Fragen rund um dieses Thema:</strong><br>
+  👉 <a href="https://hausverwaltung-marcomueller.de" target="_blank">hausverwaltung-marcomueller.de</a></p>
 
-Die Brutzeit erstreckt sich in der Regel von **März bis Ende August**, mit einer möglichen zweiten Wurfzeit im Spätsommer. Erst danach darf gehandelt werden – und auch dann nur mit Vorsicht und ggf. in Abstimmung mit der **Unteren Naturschutzbehörde**.
-
----
-
-## Was tun bei einem Befall?
-
-Falls Sie vermuten, dass sich Eichhörnchen in Ihrer Hausfassade oder Dämmung eingenistet haben, empfehlen wir folgende Schritte:
-
-1. **Beobachtung:** Gibt es regelmäßige Tierbewegung an einer bestimmten Stelle der Fassade?
-2. **Dokumentation:** Fotos oder Videos können als Nachweis dienen.
-3. **Fachliche Einschätzung:** Kontaktieren Sie uns – die **Hausverwaltung Marco Müller in Hannover** – für eine professionelle Beurteilung.
-   Sie können uns das Problem ganz einfach über unseren [Onlineservice im Bereich "Problem melden"](http://dv.hausverwaltung-marcomueller.de/problem-melden/) mitteilen und dort auch passende Fotos hochladen.
-5. **Abwarten der Brutzeit:** Erst nach dem Auszug der Jungtiere darf eine Sanierung stattfinden.
-6. **Fassadensanierung mit Prävention:** Nach der Brutzeit sollte die Dämmung fachgerecht instand gesetzt und gegen erneuten Befall gesichert werden.
-
----
-
-## Warum wir handeln müssen
-
-Abgesehen vom Tierwohl können sich durch die tierische Untermiete **Schäden an der Dämmung** ergeben: Wärmeverluste, Feuchtigkeitseintrag und sogar Schimmel können die Folge sein. Daher ist es wichtig, nach Ende der Schutzzeit **zeitnah zu sanieren**.
-
----
-
-## Fazit
-
-Ein Eichhörnchen in der Fassade mag auf den ersten Blick niedlich wirken – doch es bringt Verantwortung mit sich. Als erfahrene **Hausverwaltung in Hannover** helfen wir Eigentümern, **rechtskonform und nachhaltig** mit der Situation umzugehen.
-
+  <hr>
   
 </div>
 
