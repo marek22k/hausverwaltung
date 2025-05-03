@@ -133,6 +133,9 @@ sitemap: true
   <a href="/notfall/" class="button-link red" style="flex: 1; min-width: 220px;">
     🚨 Notfallnummer
   </a>
+  <a href="/problem-melden/" class="button-link" style="flex: 1; min-width: 220px;">
+  🛠️ Problem melden
+</a>
   </div>
   
 ---
