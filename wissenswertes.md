@@ -96,6 +96,13 @@ permalink: /wissenswertes/
   <p><strong>📞 Kontaktieren Sie uns gern bei Fragen rund um dieses Thema:</strong><br>
   👉 <a href="https://hausverwaltung-marcomueller.de" target="_blank">hausverwaltung-marcomueller.de</a></p>
 
+<p>
+    📄 <strong>Artikel als PDF herunterladen:</strong><br>
+    👉 <a href="/assets/img/wissenswertes/PDF/Eichhoernchen_in_der_Fassade_Marco_Mueller_FINAL.pdf" target="_blank">
+      Eichhörnchen in der Fassade – Hausverwaltung Marco Müller (PDF)
+    </a>
+  </p>
+  
   <hr>
 </div>
 
