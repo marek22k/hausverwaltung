@@ -38,32 +38,42 @@ sitemap: true
 }
 </style>
 
+<style>
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.2rem !important;
+  }
+  .hero-text p {
+    font-size: 1.4rem !important;
+  }
+  .hero-portrait {
+    width: 90px !important;
+    height: 90px !important;
+    bottom: -30px !important;
+    right: 15px !important;
+  }
+}
+</style>
+
 <!-- Hero-Bereich -->
 <div style="position: relative; overflow: hidden; height: 400px; margin-bottom: 2rem; border-radius: 8px;">
 
   <!-- Hintergrundbild (leicht unscharf) -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/dsc_0030_optimiert.jpg') center center / cover no-repeat; filter: blur(5px) brightness(0.8); z-index: 1;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/DSC_0044.jpg') center center / cover no-repeat; filter: blur(5px) brightness(0.8); z-index: 1;">
   </div>
 
   <!-- Textinhalt -->
-  <div style="position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; color: white; text-align: center; padding: 1rem;">
+  <div class="hero-text" style="position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; color: white; text-align: center; padding: 1rem;">
     <h1 style="font-size: 4rem; margin-bottom: 1rem;">Hausverwaltung in Hannover & Umgebung</h1>
     <p style="font-size: 2.2rem; max-width: 90%; margin-bottom: 1.5rem;">
       Persönlich. Zertifiziert. Engagiert.<br>
       Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
     </p>
 
-
-<a href="/kontakt/" class="button-link">
-  📨 Kontakt aufnehmen
-</a>
-    
-
+    <a href="/kontakt/" class="button-link">
+      📨 Kontakt aufnehmen
+    </a>
   </div>
-
-</div>
-
----
 
   <!-- Rundes Portrait unten rechts -->
   <div class="hero-portrait" style="position: absolute; bottom: -45px; right: 30px; z-index: 3;">
@@ -80,7 +90,7 @@ sitemap: true
 
   <!-- Gebäudeansicht statt Portraitfoto -->
   <div style="flex: 1 1 300px; min-width: 280px;">
-    <img src="/assets/img/DSC_0047.jpg" alt="Moderne Wohnanlage in Hannover" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/DSC_0047.JPG" alt="Moderne Wohnanlage in Hannover" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
 
   <!-- Text -->
