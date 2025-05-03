@@ -80,7 +80,7 @@ sitemap: true
 
   <!-- Gebäudeansicht statt Portraitfoto -->
   <div style="flex: 1 1 300px; min-width: 280px;">
-    <img src="/assets/img/DSC_0047.JPG" alt="Moderne Wohnanlage in Hannover" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/DSC_0047.jpg" alt="Moderne Wohnanlage in Hannover" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
 
   <!-- Text -->
