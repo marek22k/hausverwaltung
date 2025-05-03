@@ -34,9 +34,7 @@ permalink: /wissenswertes/
 ---
 
 <div id="EichhoernchenInFassade" class="box">
-  <h3>💡 Was gehört in eine ordentliche Nebenkostenabrechnung? <small>(01.05.2025)</small></h3>
-  
-# 🐿️ Eichhörnchen in der Fassade – was tun? 🏡
+  <h3> 🐿️ Eichhörnchen in der Fassade – was tun? 🏡</h3>
 
 ![Eichhörnchen in Fassade](/mnt/data/Eichhoernchen_in_Fassade.jpg)
 
