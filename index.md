@@ -56,10 +56,10 @@ sitemap: true
 </style>
 
 <!-- Hero-Bereich -->
-<div style="position: relative; overflow: hidden; height: 400px; margin-bottom: 2rem; border-radius: 8px;">
+<div style="position: relative; overflow: hidden; height: 500px; margin-bottom: 2rem; border-radius: 8px;">
 
   <!-- Hintergrundbild (leicht unscharf) -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/DSC_0044.jpg') center center / cover no-repeat; filter: blur(5px) brightness(0.8); z-index: 1;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/DSC_0044.JPG') center center / cover no-repeat; filter: brightness(0.8); z-index: 1;">
   </div>
 
   <!-- Textinhalt -->
@@ -76,9 +76,7 @@ sitemap: true
   </div>
 
   <!-- Rundes Portrait unten rechts -->
-  <div class="hero-portrait" style="position: absolute; bottom: -45px; right: 30px; z-index: 3;">
-    <img src="/assets/img/portrait_kreis_web.png" alt="Marco Müller" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-  </div>
+  
 
 </div>
 
@@ -90,7 +88,7 @@ sitemap: true
 
   <!-- Gebäudeansicht statt Portraitfoto -->
   <div style="flex: 1 1 300px; min-width: 280px;">
-    <img src="/assets/img/DSC_0047.JPG" alt="Moderne Wohnanlage in Hannover" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/platzhalter_buero.jpg" alt="Marco Müller am Schreibtisch – Platzhalterbild" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
 
   <!-- Text -->
@@ -102,7 +100,6 @@ sitemap: true
   </div>
 
 </div>
-
 ---
 
 ## Leistungen im Überblick
