@@ -76,7 +76,7 @@ permalink: /wissenswertes/
   <h2>Kontakt & Schadensmeldung</h2>
   <p>
     Wenn Sie ein entsprechendes Problem feststellen, können Sie uns dieses ganz einfach über unseren 
-    <a href="http://dv.hausverwaltung-marcomueller.de/problem-melden/" target="_blank">Onlineservice im Bereich „Problem melden“</a> 
+    <a href="/problem-melden/" target="_blank">Onlineservice im Bereich „Problem melden“</a> 
     mitteilen und dort auch passende Fotos hochladen.
   </p>
 
