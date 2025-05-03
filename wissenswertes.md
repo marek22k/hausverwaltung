@@ -36,7 +36,8 @@ permalink: /wissenswertes/
 <div id="EichhoernchenInFassade" class="box">
  <h1>🐿️ Eichhörnchen in der Fassade – was tun?</h1>
 
-  <img src="/assets/img/wissenswertes/Eichhoernchen_in_Fassade.jpg" alt="Eichhörnchen in Fassade" style="max-width:100%; height:auto; margin-bottom: 20px;">
+  <img src="/assets/img/wissenswertes/Eichhoernchen_in_Fassade.jpg" alt="Eichhörnchen in Fassade" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Ein neugieriges Eichhörnchen lugt aus der Fassade – dokumentiert in Hannover.</p>
 
   <h2>Wenn die Fassade zum Zuhause wird</h2>
   <p>
@@ -45,6 +46,9 @@ permalink: /wissenswertes/
   <p>
     Als <strong>Hausverwaltung Marco Müller</strong> betreuen wir zahlreiche Wohnanlagen in Hannover und Umgebung und sind mit diesem Thema bestens vertraut. Doch Achtung: Auch wenn es sich aus Sicht der Eigentümer oder Mieter um einen Schaden am Gebäude handelt – <strong>Eichhörnchen stehen unter Artenschutz!</strong>
   </p>
+
+  <img src="/assets/img/wissenswertes/2.jpg" alt="Eichhörnchen schaut aus Fassade" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Ein weiteres Tier beobachtet die Umgebung aus seinem Unterschlupf im WDVS.</p>
 
   <h2>Artenschutz: Das sagt das Gesetz</h2>
   <p>
@@ -57,6 +61,9 @@ permalink: /wissenswertes/
   <p>
     Die Brutzeit erstreckt sich in der Regel von <strong>März bis Ende August</strong>, mit einer möglichen zweiten Wurfzeit im Spätsommer. Erst danach darf gehandelt werden – und auch dann nur mit Vorsicht und ggf. in Abstimmung mit der <strong>Unteren Naturschutzbehörde</strong>.
   </p>
+
+  <img src="/assets/img/wissenswertes/3.jpg" alt="Zwei Eichhörnchen an Fassade" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Zwei Jungtiere an der beschädigten Fassade – ein klarer Hinweis auf eine bewohnte Niststelle.</p>
 
   <h2>Was tun bei einem Befall?</h2>
   <p>Falls Sie vermuten, dass sich Eichhörnchen in Ihrer Hausfassade oder Dämmung eingenistet haben, empfehlen wir folgende Schritte:</p>
@@ -90,7 +97,6 @@ permalink: /wissenswertes/
   👉 <a href="https://hausverwaltung-marcomueller.de" target="_blank">hausverwaltung-marcomueller.de</a></p>
 
   <hr>
-  
 </div>
 
 <div id="weg-beschluss" class="box">
