@@ -64,8 +64,9 @@ Falls Sie vermuten, dass sich Eichhörnchen in Ihrer Hausfassade oder Dämmung e
 1. **Beobachtung:** Gibt es regelmäßige Tierbewegung an einer bestimmten Stelle der Fassade?
 2. **Dokumentation:** Fotos oder Videos können als Nachweis dienen.
 3. **Fachliche Einschätzung:** Kontaktieren Sie uns – die **Hausverwaltung Marco Müller in Hannover** – für eine professionelle Beurteilung.
-4. **Abwarten der Brutzeit:** Erst nach dem Auszug der Jungtiere darf eine Sanierung stattfinden.
-5. **Fassadensanierung mit Prävention:** Nach der Brutzeit sollte die Dämmung fachgerecht instand gesetzt und gegen erneuten Befall gesichert werden.
+   Sie können uns das Problem ganz einfach über unseren [Onlineservice im Bereich "Problem melden"](http://dv.hausverwaltung-marcomueller.de/problem-melden/) mitteilen und dort auch passende Fotos hochladen.
+5. **Abwarten der Brutzeit:** Erst nach dem Auszug der Jungtiere darf eine Sanierung stattfinden.
+6. **Fassadensanierung mit Prävention:** Nach der Brutzeit sollte die Dämmung fachgerecht instand gesetzt und gegen erneuten Befall gesichert werden.
 
 ---
 
