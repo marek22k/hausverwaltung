@@ -102,35 +102,35 @@ sitemap: true
 </div>
 
 <!-- Vorteile im Kachel-Layout mit Farben -->
-<h2 style="margin-top: 2rem; text-align: center;">Ihre Vorteile auf einen Blick</h2>
+<h2 style="margin-top: 2rem; text-align: center; color: #0056b3;">Ihre Vorteile auf einen Blick</h2>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin-top: 1rem; margin-bottom: 3rem;">
 
-  <div style="flex: 1 1 280px; background: #e8f0fe; color: #1a237e; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-weight: 500;">
+  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Persönlich betreut durch den Inhaber – kein Wechsel, keine Hotline
   </div>
 
-  <div style="flex: 1 1 280px; background: #f1f8e9; color: #33691e; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-weight: 500;">
+  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Online-Zugang zu Belegen und Unterlagen – jederzeit und überall
   </div>
 
-  <div style="flex: 1 1 280px; background: #fff3e0; color: #e65100; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-weight: 500;">
+  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Zertifizierte Kompetenz – geprüfter WEG-Verwalter (IHK)
   </div>
 
-  <div style="flex: 1 1 280px; background: #ede7f6; color: #4527a0; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-weight: 500;">
+  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Klare, transparente Preisstruktur ohne versteckte Kosten
   </div>
 
-  <div style="flex: 1 1 280px; background: #e0f7fa; color: #006064; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-weight: 500;">
+  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Regelmäßiges Feedback für kontinuierliche Qualitätsverbesserung
   </div>
 
-  <div style="flex: 1 1 280px; background: #fce4ec; color: #880e4f; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-weight: 500;">
+  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Regional verwurzelt – bestens vernetzt in Hannover und Umgebung
   </div>
 
-  <div style="flex: 1 1 280px; background: #f3e5f5; color: #4a148c; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-weight: 500;">
+  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Reine Verwaltung – keine Maklerprovision, kein Hausmeistervertrieb
   </div>
 
