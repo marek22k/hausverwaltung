@@ -82,56 +82,68 @@ sitemap: true
 
 ---
 
-## Ihr zertifizierter Hausverwalter für Hannover und Umgebung
+<!-- Mobiler Stil für Vorteilskacheln -->
+<style>
+  @media (max-width: 768px) {
+    .vorteil-box {
+      flex: 1 1 100% !important;
+    }
+    .vorteil-text h2 {
+      font-size: 1.8rem;
+    }
+  }
+</style>
 
-<!-- Textbereich mit Foto und Beschreibung -->
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; margin-bottom: 2rem;">
-
-  <!-- Gebäudeansicht -->
-  <div style="flex: 1 1 300px; min-width: 280px;">
-    <img src="/assets/img/platzhalter_buero.jpg" alt="Marco Müller am Schreibtisch – Platzhalterbild" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  </div>
-
-  <!-- Beschreibungstext -->
-  <div style="flex: 2 1 400px; min-width: 280px;">
-    <h2>Ihr zertifizierter Hausverwalter für Hannover und Umgebung</h2>
-    <p>Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.</p>
-    <p>Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.</p>
-    <p>Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.</p>
-  </div>
-</div>
-
-<!-- Vorteile im Kachel-Layout mit Farben -->
-<h2 style="margin-top: 2rem; text-align: center; color: #0056b3;">Ihre Vorteile auf einen Blick</h2>
+<!-- Vorteile im Kachel-Layout -->
+<h2 class="vorteil-text" style="margin-top: 2rem; text-align: center; color: #0056b3;">Ihre Vorteile auf einen Blick</h2>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin-top: 1rem; margin-bottom: 3rem;">
 
-  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
+  <div class="vorteil-box" style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Persönlich betreut durch den Inhaber – kein Wechsel, keine Hotline
   </div>
 
-  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
+  <div class="vorteil-box" style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Online-Zugang zu Belegen und Unterlagen – jederzeit und überall
   </div>
 
-  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
+  <div class="vorteil-box" style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Zertifizierte Kompetenz – geprüfter WEG-Verwalter (IHK)
   </div>
 
-  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
+  <div class="vorteil-box" style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Klare, transparente Preisstruktur ohne versteckte Kosten
   </div>
 
-  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
+  <div class="vorteil-box" style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Regelmäßiges Feedback für kontinuierliche Qualitätsverbesserung
   </div>
 
-  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
+  <div class="vorteil-box" style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Regional verwurzelt – bestens vernetzt in Hannover und Umgebung
   </div>
 
-  <div style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1rem 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
+  <div class="vorteil-box" style="flex: 1 1 280px; background: #f0f4fa; color: #0056b3; padding: 1.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-weight: 500;">
     ✔ Reine Verwaltung – keine Maklerprovision, kein Hausmeistervertrieb
+  </div>
+
+</div>
+
+<!-- Vorstellungstext mit Bild (mobilfreundlich) -->
+<h2 style="margin-top: 3rem; text-align: center;">Ihr zertifizierter Hausverwalter für Hannover und Umgebung</h2>
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; justify-content: center; margin-bottom: 2rem;">
+
+  <!-- Bild -->
+  <div style="flex: 1 1 300px; min-width: 260px;">
+    <img src="/assets/img/platzhalter_buero.jpg" alt="Marco Müller am Schreibtisch – Platzhalterbild" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  </div>
+
+  <!-- Text -->
+  <div style="flex: 1 1 400px; min-width: 260px;">
+    <p>Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.</p>
+    <p>Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.</p>
+    <p>Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.</p>
   </div>
 
 </div>
