@@ -47,62 +47,61 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
 
 <div class="cert-grid">
 
-<!-- IHK-Zertifikat -->
-<div class="cert-card">
-  <a href="/assets/img/nachweise-und-zertifikate/mueller_marco_zert.PDF" target="_blank">
-    <img src="/assets/img/nachweise-und-zertifikate/Zertifikat_Immoverwalter_s1.JPG" alt="IHK Immobilienverwalter">
-  </a>
-  <div class="cert-title">Zertifizierter Immobilienverwalter (IHK)</div>
-</div>
+  <!-- Reihe 1 -->
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/mueller_marco_zert.PDF" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/Zertifikat_Immoverwalter_s1.JPG" alt="IHK Immobilienverwalter">
+    </a>
+    <div class="cert-title">Zertifizierter Immobilienverwalter (IHK)</div>
+  </div>
 
-<!-- Arbeitsschutz -->
-<div class="cert-card">
-  <a href="/assets/img/nachweise-und-zertifikate/arbeitsschutz.jpeg" target="_blank">
-    <img src="/assets/img/nachweise-und-zertifikate/arbeitsschutz.jpeg" alt="Arbeitsschutz Seminar">
-  </a>
-  <div class="cert-title">Teilnahme: Arbeitsstättenverordnung & Sicherheit</div>
-</div>
+  <div class="cert-card">
+    <img src="/assets/img/platzhalter-zertifikat.jpg" alt="Platzhalter Nachweis" />
+    <div class="cert-title">Sachkundeprüfung WEG-Verwalter – Nachweis (folgt)</div>
+  </div>
 
-<!-- Resilienz -->
-<div class="cert-card">
-  <a href="/assets/img/nachweise-und-zertifikate/resilienz.jpeg" target="_blank">
-    <img src="/assets/img/nachweise-und-zertifikate/resilienz.jpeg" alt="Resilienz Seminar">
-  </a>
-  <div class="cert-title">Resilienztraining (Intensivwoche)</div>
-</div>
+  <!-- Reihe 2 -->
+  <div class="cert-card">
+    <img src="/assets/img/platzhalter-zertifikat.jpg" alt="Platzhalter Nachweis" />
+    <div class="cert-title">Gewerbeerlaubnis nach § 34c GewO – Nachweis (folgt)</div>
+  </div>
 
-<!-- Gewaltfreie Kommunikation -->
-<div class="cert-card">
-  <a href="/assets/img/nachweise-und-zertifikate/gewaltfreie_kommunikation.jpeg" target="_blank">
-    <img src="/assets/img/nachweise-und-zertifikate/gewaltfreie_kommunikation.jpeg" alt="Gewaltfreie Kommunikation">
-  </a>
-  <div class="cert-title">Gewaltfreie Kommunikation</div>
-</div>
+  <div class="cert-card">
+    <a href="/assets/docs/Versicherungsbestaetigung_Pflichtversicherungen_VH251310041.PDF" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/versicherung.jpg" alt="Nachweis Vermögensschadenhaftpflicht" />
+    </a>
+    <div class="cert-title">Vermögensschadenhaftpflicht – andsafe (gültig ab 01.06.2025)</div>
+  </div>
 
-<!-- KI -->
-<div class="cert-card">
-  <a href="/assets/img/nachweise-und-zertifikate/ki.jpeg" target="_blank">
-    <img src="/assets/img/nachweise-und-zertifikate/ki.jpeg" alt="KI Zertifikat">
-  </a>
-  <div class="cert-title">Digitale Kompetenz & KI in der Immobilienverwaltung</div>
-</div>
+  <!-- Reihe 3 -->
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/arbeitsschutz.jpeg" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/arbeitsschutz.jpeg" alt="Arbeitsschutz Seminar">
+    </a>
+    <div class="cert-title">Teilnahme: Arbeitsstättenverordnung & Sicherheit</div>
+  </div>
 
-<!-- Platzhalter: Vermögensschaden -->
-<div class="cert-card">
-  <img src="/assets/img/platzhalter-zertifikat.jpg" alt="Platzhalter Nachweis" />
-  <div class="cert-title">Vermögensschadenshaftpflicht – Nachweis (folgt)</div>
-</div>
+  <!-- Reihe 4: Weitere Zertifikate -->
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/resilienz.jpeg" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/resilienz.jpeg" alt="Resilienz Seminar">
+    </a>
+    <div class="cert-title">Resilienztraining (Intensivwoche)</div>
+  </div>
 
-<!-- Platzhalter: Gewerbeerlaubnis -->
-<div class="cert-card">
-  <img src="/assets/img/platzhalter-zertifikat.jpg" alt="Platzhalter Nachweis" />
-  <div class="cert-title">Gewerbeerlaubnis nach § 34c GewO – Nachweis (folgt)</div>
-</div>
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/gewaltfreie_kommunikation.jpeg" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/gewaltfreie_kommunikation.jpeg" alt="Gewaltfreie Kommunikation">
+    </a>
+    <div class="cert-title">Gewaltfreie Kommunikation</div>
+  </div>
 
-<!-- Platzhalter: Zertifizierter WEG-Verwalter -->
-<div class="cert-card">
-  <img src="/assets/img/platzhalter-zertifikat.jpg" alt="Platzhalter Nachweis" />
-  <div class="cert-title">Sachkundeprüfung WEG-Verwalter – Nachweis (folgt)</div>
-</div>
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/ki.jpeg" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/ki.jpeg" alt="KI Zertifikat">
+    </a>
+    <div class="cert-title">Digitale Kompetenz & KI in der Immobilienverwaltung</div>
+  </div>
 
 </div>
+
