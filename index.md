@@ -59,7 +59,7 @@ sitemap: true
 <div style="position: relative; overflow: hidden; height: 500px; margin-bottom: 2rem; border-radius: 8px;">
 
   <!-- Hintergrundbild (leicht unscharf) -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/DSC_0044.jpg') center center / cover no-repeat; filter: blur(2px) brightness(0.8); z-index: 1;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/assets/img/DSC_0056.jpg') center center / cover no-repeat; filter: blur(2px) brightness(0.8); z-index: 1;">
   </div>
 
   <!-- Textinhalt -->
