@@ -84,36 +84,48 @@ sitemap: true
 
 ## Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 
+<!-- Textbereich mit Foto und Beschreibung -->
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; margin-bottom: 2rem;">
 
-  <!-- Gebäudeansicht statt Portraitfoto -->
+  <!-- Gebäudeansicht -->
   <div style="flex: 1 1 300px; min-width: 280px;">
     <img src="/assets/img/platzhalter_buero.jpg" alt="Marco Müller am Schreibtisch – Platzhalterbild" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
 
-  <!-- Text -->
+  <!-- Beschreibungstext -->
   <div style="flex: 2 1 400px; min-width: 280px;">
-    Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.  
-    Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.  
-    
-    Dabei steht Ihre Zufriedenheit im Mittelpunkt: Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.
+    <h2>Ihr zertifizierter Hausverwalter für Hannover und Umgebung</h2>
+    <p>Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.</p>
+    <p>Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.</p>
+    <p>Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.</p>
   </div>
-
-<!-- Vorteile auf einen Blick -->
-<h2 style="margin-top: 2rem;">Ihre Vorteile auf einen Blick</h2>
-
-<div style="margin-top: 1rem; font-size: 1.2rem; line-height: 1.6;">
-  <ul style="list-style: none; padding-left: 0;">
-    <li style="margin-bottom: 0.5rem;">✔ Persönlich betreut durch den Inhaber – kein Wechsel, keine Hotline</li>
-    <li style="margin-bottom: 0.5rem;">✔ Online-Zugang zu Belegen und Unterlagen – jederzeit und überall</li>
-    <li style="margin-bottom: 0.5rem;">✔ Zertifizierte Kompetenz – geprüfter WEG-Verwalter (IHK)</li>
-    <li style="margin-bottom: 0.5rem;">✔ Klare, transparente Preisstruktur ohne versteckte Kosten</li>
-    <li style="margin-bottom: 0.5rem;">✔ Regelmäßiges Feedback für kontinuierliche Qualitätsverbesserung</li>
-    <li style="margin-bottom: 0.5rem;">✔ Regional verwurzelt – bestens vernetzt in Hannover und Umgebung</li>
-    <li style="margin-bottom: 0.5rem;">✔ Reine Verwaltung – keine Maklerprovision, kein Hausmeistervertrieb</li>
-  </ul>
 </div>
 
+<!-- Vorteile im Kachel-Layout -->
+<h2 style="margin-top: 2rem; text-align: center;">Ihre Vorteile auf einen Blick</h2>
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin-top: 1rem; margin-bottom: 3rem;">
+  <div style="flex: 1 1 280px; background: #f5f5f5; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    ✔ Persönlich betreut durch den Inhaber – kein Wechsel, keine Hotline
+  </div>
+  <div style="flex: 1 1 280px; background: #f5f5f5; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    ✔ Online-Zugang zu Belegen und Unterlagen – jederzeit und überall
+  </div>
+  <div style="flex: 1 1 280px; background: #f5f5f5; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    ✔ Zertifizierte Kompetenz – geprüfter WEG-Verwalter (IHK)
+  </div>
+  <div style="flex: 1 1 280px; background: #f5f5f5; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    ✔ Klare, transparente Preisstruktur ohne versteckte Kosten
+  </div>
+  <div style="flex: 1 1 280px; background: #f5f5f5; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    ✔ Regelmäßiges Feedback für kontinuierliche Qualitätsverbesserung
+  </div>
+  <div style="flex: 1 1 280px; background: #f5f5f5; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    ✔ Regional verwurzelt – bestens vernetzt in Hannover und Umgebung
+  </div>
+  <div style="flex: 1 1 280px; background: #f5f5f5; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    ✔ Reine Verwaltung – keine Maklerprovision, kein Hausmeistervertrieb
+  </div>
 </div>
 ---
 
