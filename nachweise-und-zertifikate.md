@@ -67,7 +67,7 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   </div>
 
   <div class="cert-card">
-    <a href="/assets/docs/Versicherungsbestaetigung_Pflichtversicherungen_VH251310041.PDF" target="_blank">
+    <a href="/assets/img/nachweise-und-zertifikate/Versicherungsbestaetigung_Pflichtversicherungen VH251310041.PDF" target="_blank">
       <img src="/assets/img/nachweise-und-zertifikate/versicherung.jpg" alt="Nachweis Vermögensschadenhaftpflicht" />
     </a>
     <div class="cert-title">Vermögensschadenhaftpflicht – andsafe (gültig ab 01.06.2025)</div>
