@@ -99,6 +99,21 @@ sitemap: true
     Dabei steht Ihre Zufriedenheit im Mittelpunkt: Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.
   </div>
 
+<!-- Vorteile auf einen Blick -->
+<h2 style="margin-top: 2rem;">Ihre Vorteile auf einen Blick</h2>
+
+<div style="margin-top: 1rem; font-size: 1.2rem; line-height: 1.6;">
+  <ul style="list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 0.5rem;">✔ Persönlich betreut durch den Inhaber – kein Wechsel, keine Hotline</li>
+    <li style="margin-bottom: 0.5rem;">✔ Online-Zugang zu Belegen und Unterlagen – jederzeit und überall</li>
+    <li style="margin-bottom: 0.5rem;">✔ Zertifizierte Kompetenz – geprüfter WEG-Verwalter (IHK)</li>
+    <li style="margin-bottom: 0.5rem;">✔ Klare, transparente Preisstruktur ohne versteckte Kosten</li>
+    <li style="margin-bottom: 0.5rem;">✔ Regelmäßiges Feedback für kontinuierliche Qualitätsverbesserung</li>
+    <li style="margin-bottom: 0.5rem;">✔ Regional verwurzelt – bestens vernetzt in Hannover und Umgebung</li>
+    <li style="margin-bottom: 0.5rem;">✔ Reine Verwaltung – keine Maklerprovision, kein Hausmeistervertrieb</li>
+  </ul>
+</div>
+
 </div>
 ---
 
