@@ -80,7 +80,7 @@ sitemap: true
 
 </div>
 
----
+<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
 
 <!-- Mobiler Stil für Vorteilskacheln -->
 <style>
@@ -129,8 +129,7 @@ sitemap: true
 
 </div>
 
-<hr style="margin: 3rem auto; border: none; border-top: 1px solid #ccc; width: 80%;">
-
+<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
 
 <!-- Vorstellungstext mit Bild (mobilfreundlich) -->
 <h2 style="margin-top: 3rem; text-align: center;">Ihr zertifizierter Hausverwalter für Hannover und Umgebung</h2>
@@ -150,7 +149,8 @@ sitemap: true
   </div>
 
 </div>
----
+
+<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
 
 ## Leistungen im Überblick
 
@@ -172,7 +172,8 @@ sitemap: true
   </a>
 
 </div>
----
+
+<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
 
 ## Kontakt
   <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
@@ -188,7 +189,7 @@ sitemap: true
 </a>
   </div>
   
----
+<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
 
 ## Vertrauen und Zuverlässigkeit
 
@@ -216,7 +217,7 @@ sitemap: true
 
 
 
----
+<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
 
 ## Nachhaltigkeit, Effizienz & Qualität
 
@@ -232,7 +233,7 @@ Ob online von zu Hause oder persönlich vor Ort: Sie wählen, wie Sie Ihre Beleg
 **Qualitätsmanagement:**  
 Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine Dienstleistungen stetig weiter – für eine Verwaltung, die überzeugt.
 
----
+<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
 
 ## Persönliche Betreuung für Ihre Immobilie
 
@@ -253,5 +254,5 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
 
 
 
----
+<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
 
