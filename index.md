@@ -178,18 +178,37 @@ sitemap: true
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 ## Kontakt
-  <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
 
-  <a href="/kontakt/" class="button-link" style="flex: 1; min-width: 220px;">
-    📨 Kontakt aufnehmen
-  </a>
-  <a href="/notfall/" class="button-link red" style="flex: 1; min-width: 220px;">
-    🚨 Notfallnummer
-  </a>
-  <a href="/problem-melden/" class="button-link" style="flex: 1; min-width: 220px;">
-  🛠️ Problem melden
-</a>
+<div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
+
+  <div style="flex: 1; min-width: 220px;">
+    <a href="/kontakt/" class="button-link">
+      📨 Kontakt aufnehmen
+    </a>
+    <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #444;">
+      Für allgemeine Fragen, Anliegen oder Informationen zur Verwaltung.
+    </p>
   </div>
+
+  <div style="flex: 1; min-width: 220px;">
+    <a href="/notfall/" class="button-link red">
+      🚨 Notfallnummer
+    </a>
+    <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #444;">
+      Bei akuten Notfällen wie Wasserrohrbruch, Stromausfall oder Gefahr.
+    </p>
+  </div>
+
+  <div style="flex: 1; min-width: 220px;">
+    <a href="/problem-melden/" class="button-link">
+      🛠️ Problem melden
+    </a>
+    <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #444;">
+      Technische Mängel oder Probleme einfach online mitteilen.
+    </p>
+  </div>
+
+</div>
   
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
