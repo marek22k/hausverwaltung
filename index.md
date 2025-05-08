@@ -139,7 +139,7 @@ sitemap: true
 </style>
 
 <!-- Vorteile im Kachel-Layout -->
-<h2 class="vorteil-text" style="margin-top: 2rem; text-align: center; color: #0056b3;">Ihre Vorteile auf einen Blick</h2>
+<h2 class="vorteil-text" style="margin-top: 2rem; text-align: center; color: #0056b3;">Ihre Vorteile auf einen Blick</h2><br>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin-top: 1rem; margin-bottom: 3rem;">
 
