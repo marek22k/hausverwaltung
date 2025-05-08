@@ -150,7 +150,12 @@ sitemap: true
 
 </div>
 
-<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
+<div style="text-align: center; margin: 4rem 0;">
+  <div style="display: inline-block; background: #eef3f9; color: #0056b3; padding: 0.5rem 1.5rem; border-radius: 24px; font-weight: 500; font-size: 1.1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+    🧩 TEST
+  </div>
+</div>
+
 
 ## Leistungen im Überblick
 
