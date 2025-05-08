@@ -59,6 +59,14 @@ sitemap: true
   margin: 2rem 0;               /* Abstand vor und nach dem Abschnitt */
   padding-top: 1rem;            /* Abstand zwischen Linie und Inhalt */
 }
+
+  .section-shadow {
+  background: #fff;             /* weißer Hintergrund (Kartenstil) */
+  border-radius: 5px;           /* abgerundete Ecken passend zum Design */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* subtiler Schattenwurf */
+  padding: 1rem;
+  margin: 2rem 0;
+}
   
 </style>
 
@@ -137,9 +145,13 @@ sitemap: true
 </div>
 
 <section class="section-line">
+  Mal schaun wie die ganze Geschichte ohne Überschrift aussieht...
+</section>
+
+<section class="section-shadow">
   <h2>Thema-Überschrift</h2>
-  <p>Inhalt des Themenbereichs ...
-  blupp</p>
+  <p>Inhalt des Themenbereichs ...</p>
+  Und nun noch eines....
 </section>
 
 
