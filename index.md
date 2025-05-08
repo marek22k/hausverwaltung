@@ -185,8 +185,8 @@ sitemap: true
     <a href="/kontakt/" class="button-link">
       📨 Kontakt aufnehmen
     </a>
-    <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #444;">
-      Für allgemeine Fragen, Anliegen oder Informationen zur Verwaltung.
+    <p style="margin-top: 0.6rem; line-height: 1.5;">
+      Für allgemeine Fragen, Anliegen oder Informationen zur Verwaltung Ihrer Immobilie.
     </p>
   </div>
 
@@ -194,8 +194,8 @@ sitemap: true
     <a href="/notfall/" class="button-link red">
       🚨 Notfallnummer
     </a>
-    <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #444;">
-      Bei akuten Notfällen wie Wasserrohrbruch, Stromausfall oder Gefahr.
+    <p style="margin-top: 0.6rem; line-height: 1.5;">
+      Bei akuten Notfällen wie Wasserrohrbruch, Stromausfall oder sonstiger Gefahr.
     </p>
   </div>
 
@@ -203,8 +203,8 @@ sitemap: true
     <a href="/problem-melden/" class="button-link">
       🛠️ Problem melden
     </a>
-    <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #444;">
-      Technische Mängel oder Probleme einfach online mitteilen.
+    <p style="margin-top: 0.6rem; line-height: 1.5;">
+      Technische Mängel oder Probleme einfach und schnell online melden.
     </p>
   </div>
 
