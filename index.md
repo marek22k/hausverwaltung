@@ -172,7 +172,7 @@ sitemap: true
   </div>
 
 </div>
-
+<!-- Hero-Bereich 
 <section class="section-line">
   Mal schaun wie die ganze Geschichte ohne Überschrift aussieht...
 </section>
@@ -197,10 +197,11 @@ sitemap: true
   <h2>Thema-Überschrift</h2>
   <p>Inhalt des Themenbereichs ...</p>
 </section>
+-->
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
----
+
 
 <!-- Vorstellungstext mit Bild (mobilfreundlich) -->
 <h2 style="margin-top: 3rem; text-align: center;">Ihr zertifizierter Hausverwalter für Hannover und Umgebung</h2>
