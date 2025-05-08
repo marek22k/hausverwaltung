@@ -54,16 +54,45 @@ sitemap: true
   }
 }
 
+ /*feine trennlinie*/
   .section-line {
   border-top: 1px solid #cfd9e3; /* feine Linie in neutralem Farbton */
   margin: 2rem 0;               /* Abstand vor und nach dem Abschnitt */
   padding-top: 1rem;            /* Abstand zwischen Linie und Inhalt */
 }
-
+ /*leichter schatten*/
   .section-shadow {
   background: #fff;             /* weißer Hintergrund (Kartenstil) */
   border-radius: 5px;           /* abgerundete Ecken passend zum Design */
   box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* subtiler Schattenwurf */
+  padding: 1rem;
+  margin: 2rem 0;
+}
+  /*Dezente Farbfläche*/
+  .section-muted {
+  background: #f0f4fa;          /* sehr helle bläuliche Hintergrundfläche */
+  border-radius: 5px;           /* sanft abgerundete Ecken */
+  padding: 1rem;
+  margin: 2rem 0;
+  /* Optional: dünne Umrandung für noch klarere Abgrenzung */
+  /* border: 1px solid #e0e0e0; */
+}
+ /*Auffällige Farben*/
+  .section-accent {
+  background: #0056b3;          /* markante blaue Hintergrundfläche */
+  color: #fff;                  /* helle Schrift für guten Kontrast */
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 2rem 0;
+  /* Hinweis: Bei dunklem Hintergrund ggf. Linkfarbe/Überschrift separat in hellerer Farbe definieren */
+  /* .section-accent a { color: #ffdd33; } */
+}
+/*deutlicher Schatten*/
+  .section-card {
+  background: #fff;
+  border: 1px solid #ccd0d5;     /* feine graue Umrandung zur Abgrenzung */
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* deutlicherer Schatten */
   padding: 1rem;
   margin: 2rem 0;
 }
@@ -154,6 +183,20 @@ sitemap: true
   Und nun noch eines....
 </section>
 
+<section class="section-muted">
+  <h2>Thema-Überschrift</h2>
+  <p>Inhalt des Themenbereichs ...</p>
+</section>
+
+<section class="section-accent">
+  <h2>Thema-Überschrift</h2>
+  <p>Inhalt des Themenbereichs ...</p>
+</section>
+
+<section class="section-card">
+  <h2>Thema-Überschrift</h2>
+  <p>Inhalt des Themenbereichs ...</p>
+</section>
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
