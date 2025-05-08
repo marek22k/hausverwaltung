@@ -53,6 +53,13 @@ sitemap: true
     right: 15px !important;
   }
 }
+
+  .section-line {
+  border-top: 1px solid #cfd9e3; /* feine Linie in neutralem Farbton */
+  margin: 2rem 0;               /* Abstand vor und nach dem Abschnitt */
+  padding-top: 1rem;            /* Abstand zwischen Linie und Inhalt */
+}
+  
 </style>
 
 <!-- Hero-Bereich -->
@@ -128,6 +135,13 @@ sitemap: true
   </div>
 
 </div>
+
+<section class="section-line">
+  <h2>Thema-Überschrift</h2>
+  <p>Inhalt des Themenbereichs ...
+  blupp</p>
+</section>
+
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
