@@ -200,6 +200,8 @@ sitemap: true
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
+---
+
 <!-- Vorstellungstext mit Bild (mobilfreundlich) -->
 <h2 style="margin-top: 3rem; text-align: center;">Ihr zertifizierter Hausverwalter für Hannover und Umgebung</h2>
 
