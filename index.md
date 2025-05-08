@@ -80,7 +80,7 @@ sitemap: true
 
 </div>
 
-<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 <!-- Mobiler Stil für Vorteilskacheln -->
 <style>
@@ -129,7 +129,7 @@ sitemap: true
 
 </div>
 
-<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 <!-- Vorstellungstext mit Bild (mobilfreundlich) -->
 <h2 style="margin-top: 3rem; text-align: center;">Ihr zertifizierter Hausverwalter für Hannover und Umgebung</h2>
@@ -150,11 +150,8 @@ sitemap: true
 
 </div>
 
-<div style="text-align: center; margin: 4rem 0;">
-  <div style="display: inline-block; background: #eef3f9; color: #0056b3; padding: 0.5rem 1.5rem; border-radius: 24px; font-weight: 500; font-size: 1.1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
-    🧩 TEST
-  </div>
-</div>
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
+
 
 
 ## Leistungen im Überblick
@@ -178,7 +175,7 @@ sitemap: true
 
 </div>
 
-<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 ## Kontakt
   <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
@@ -194,7 +191,7 @@ sitemap: true
 </a>
   </div>
   
-<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 ## Vertrauen und Zuverlässigkeit
 
@@ -222,7 +219,7 @@ sitemap: true
 
 
 
-<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 ## Nachhaltigkeit, Effizienz & Qualität
 
@@ -238,7 +235,7 @@ Ob online von zu Hause oder persönlich vor Ort: Sie wählen, wie Sie Ihre Beleg
 **Qualitätsmanagement:**  
 Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine Dienstleistungen stetig weiter – für eine Verwaltung, die überzeugt.
 
-<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 ## Persönliche Betreuung für Ihre Immobilie
 
@@ -259,5 +256,5 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
 
 
 
-<hr style="margin: 3rem auto; border: 0; height: 2px; width: 80%; background: linear-gradient(to right, #0056b3, #cccccc, #0056b3);">
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
