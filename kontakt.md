@@ -13,7 +13,7 @@ sitemap: true
                 <strong>Hausverwaltung Marco Müller</strong><br>
                 Markgrafstraße 29<br>
                 30419 Hannover<br>
-                Telefon: <a href="tel:+4915734790011">+49 1573 4790011</a><br>
+                Telefon: <a href="tel:+4951151544113">0511 - 515 44 113</a><br>
                 E-Mail: <a href="mailto:info@hausverwaltung-marcomueller.de">info@hausverwaltung-marcomueller.de</a>
             </p>
         </div>
