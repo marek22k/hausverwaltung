@@ -67,6 +67,8 @@ Betonschäden an Kragplatten sind kein rein ästhetisches Thema, sondern ein str
 </p>
 </div>
 
+---
+
 <div id="EichhoernchenInFassade" class="box">
  <h1>🐿️ Eichhörnchen in der Fassade – was tun?</h1>
 
@@ -140,10 +142,14 @@ Betonschäden an Kragplatten sind kein rein ästhetisches Thema, sondern ein str
   <hr>
 </div>
 
+---
+
 <div id="weg-beschluss" class="box">
   <h3>🏛️ Wie lange ist ein WEG-Beschluss anfechtbar? <small>(24.04.2025)</small></h3>
   <p>Laut Wohnungseigentumsgesetz (WEG) beträgt die Frist zur Anfechtung eines Beschlusses einen Monat ab Protokollzustellung. Danach ist ein Beschluss in der Regel bestandskräftig, auch wenn formale Fehler vorliegen. Eigentümer sollten daher rasch prüfen, ob ein Beschluss rechtlich korrekt gefasst wurde.</p>
 </div>
+
+---
 
 <div id="digitalportal" class="box">
   <h3>💻 Vorteile der digitalen Belegprüfung <small>(15.04.2025)</small></h3>
