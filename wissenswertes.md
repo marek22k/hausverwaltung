@@ -37,6 +37,8 @@ permalink: /wissenswertes/
 <div id="Kragplatten" class="box">
 
 <h1>Betonschäden an Kragplatten – eine stille Gefahr für Wohnanlagen aus den 60ern in Hannover</h1>
+ <img src="/assets/img/kragplatten1.jpg" alt="Betonschäden an der Kragplatte eines Balkones in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Betonschäden an der Kragplatte eines Balkones in Hannover.</p>
 <p>
 Wer durch Hannover fährt und die schmucken Mehrfamilienhäuser aus den 60er-Jahren betrachtet, ahnt selten, was sich hinter frisch gestrichenen Fassaden verbergen kann. Besonders Kragplatten‐Balkone zeigen jetzt – fast sechs Jahrzehnte nach Errichtung – typische Betonschäden. Auf unserem Foto‐Beispiel aus einem Haus von 1964 erkennt man abgeplatzte Beschichtungen, korrodierten Bewehrungsstahl und deutlich sichtbare Feuchteschlieren. Ursache ist fast immer die damals übliche, heute längst überholte Abdichtungstechnik. Für eine WEG Verwaltung in Hannover und jede Hausverwaltung in Hannover ist dieses Schadensbild mehr als ein kosmetisches Problem: Es betrifft Sicherheit, Werterhalt und Haftung gleichermaßen.
 </p>
@@ -50,6 +52,9 @@ Gerade in Hannover, wo ein gemäßigt-maritimes Klima mit hohen Niederschlagsmen
 <h2>Typische Anzeichen, bevor der Statiker eingreifen muss</h2><p>
 Oft macht sich der Schaden zuerst als bröckelnde Farbe an der Unterseite bemerkbar. Kurz darauf folgen kalkige Ausblühungen entlang der Balkonvorderkante. Ein weiteres Warnsignal ist rostbraunes Sickerwasser an der Fassadenfläche darunter. Spätestens wenn Stahlstäbe sichtbar sind, besteht unmittelbarer Handlungsbedarf – die Tragfähigkeit könnte bereits eingeschränkt sein. Eine Hausverwaltung in Hannover tut gut daran, schon bei ersten Putzabplatzungen einen Sachverständigen einzuschalten und nicht bis zur Verkehrssicherungs­gefährdung zu warten.
 </p>
+
+<img src="/assets/img/kragplatten1.jpg" alt="Nahaufnahme der Betonschäden an der Kragplatte eines Balkones in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Nahaufnahme der Betonschäden an der Kragplatte eines Balkones in Hannover.</p>
 
 <h2>Der Weg zur dauerhaften Sanierung</h2><p>
 Moderne Sanierungskonzepte setzen zunächst auf Freilegen aller korrodierten Bereiche, Reinigen der Bewehrung und das Aufbringen eines korrosions­hemmenden Schutzes. Anschließend wird Reparaturmörtel in statisch gleichwertiger Qualität eingebracht. Kritisch ist die Nachbehandlung: Eine hoch­flexible, rissüber­brückende Abdichtung aus Polymer- oder PU-Schichten wird aufgebracht, darauf folgt ein Gefälleestrich, um stehende Nässe zu verhindern. Abschließend sorgt ein rutschhemmender Belag für sichere Nutzung. Für eine WEG Verwaltung ist es besonders wichtig, dass diese Arbeiten gewerkeüber­greifend koordiniert und baubegleitend überwacht werden – nur so erhalten die Eigentümer eine nachhaltige Lösung.</p>
