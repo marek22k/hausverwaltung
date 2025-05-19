@@ -53,7 +53,7 @@ Gerade in Hannover, wo ein gemäßigt-maritimes Klima mit hohen Niederschlagsmen
 Oft macht sich der Schaden zuerst als bröckelnde Farbe an der Unterseite bemerkbar. Kurz darauf folgen kalkige Ausblühungen entlang der Balkonvorderkante. Ein weiteres Warnsignal ist rostbraunes Sickerwasser an der Fassadenfläche darunter. Spätestens wenn Stahlstäbe sichtbar sind, besteht unmittelbarer Handlungsbedarf – die Tragfähigkeit könnte bereits eingeschränkt sein. Eine Hausverwaltung in Hannover tut gut daran, schon bei ersten Putzabplatzungen einen Sachverständigen einzuschalten und nicht bis zur Verkehrssicherungs­gefährdung zu warten.
 </p>
 
-<img src="/assets/img/kragplatten1.jpg" alt="Nahaufnahme der Betonschäden an der Kragplatte eines Balkones in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
+<img src="/assets/img/kragplatten2.jpg" alt="Nahaufnahme der Betonschäden an der Kragplatte eines Balkones in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
   <p style="font-size:0.9em; color:#666; margin-top: -10px;">Nahaufnahme der Betonschäden an der Kragplatte eines Balkones in Hannover.</p>
 
 <h2>Der Weg zur dauerhaften Sanierung</h2><p>
