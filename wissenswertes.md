@@ -26,12 +26,46 @@ permalink: /wissenswertes/
 ## 🔎 Inhaltsverzeichnis
 
 <ul>
+  <li><a href="#Kragplatten"> Betonschäden an Kragplatten – eine stille Gefahr für Wohnanlagen aus den 60ern in Hannover</a></li>
   <li><a href="#EichhoernchenInFassade">🐿️ Eichhörnchen in der Fassade – was tun? 🏡</a></li>
   <li><a href="#weg-beschluss">🏛️ Wie lange ist ein WEG-Beschluss anfechtbar?</a></li>
   <li><a href="#digitalportal">💻 Vorteile der digitalen Belegprüfung</a></li>
 </ul>
 
 ---
+
+<div id="Kragplatten" class="box">
+
+<h1>Betonschäden an Kragplatten – eine stille Gefahr für Wohnanlagen aus den 60ern in Hannover</h1>
+<p>
+Wer durch Hannover fährt und die schmucken Mehrfamilienhäuser aus den 60er-Jahren betrachtet, ahnt selten, was sich hinter frisch gestrichenen Fassaden verbergen kann. Besonders Kragplatten‐Balkone zeigen jetzt – fast sechs Jahrzehnte nach Errichtung – typische Betonschäden. Auf unserem Foto‐Beispiel aus einem Haus von 1964 erkennt man abgeplatzte Beschichtungen, korrodierten Bewehrungsstahl und deutlich sichtbare Feuchteschlieren. Ursache ist fast immer die damals übliche, heute längst überholte Abdichtungstechnik. Für eine WEG Verwaltung Hannover und jede Hausverwaltung Hannover ist dieses Schadensbild mehr als ein kosmetisches Problem: Es betrifft Sicherheit, Werterhalt und Haftung gleichermaßen.
+</p>
+
+<h2>Warum Kragplatten aus dieser Bauzeit heute versagen</h2><p>
+Die Bauordnung der 60er setzte auf dünne Zementestriche und eine einfache Bitumenlage als Feuchtigkeitssperre. Im Laufe der Jahre drang Wasser durch Mikrorisse ein; Frost-Tau-Wechsel führten zur Betonausblühung, schließlich kam Sauerstoff an die Bewehrung. Rost nimmt mehr Volumen ein als Stahl, der Beton reißt auf, Feuchte dringt tiefer ein – ein Kreislauf, der nur mit fachgerechter Instandsetzung zu stoppen ist.
+
+Gerade in Hannover, wo ein gemäßigt-maritimes Klima mit hohen Niederschlagsmengen und winterlichen Minusgraden zusammentrifft, beschleunigt sich dieser Prozess. Für eine vorausschauende WEG Verwaltung Hannover bedeutet das: Kragplatten aus den 60ern sind heute zwingend ein Prüfpunkt im Instandhaltungs­plan.
+</p>
+
+<h2>Typische Anzeichen, bevor der Statiker eingreifen muss</h2><p>
+Oft macht sich der Schaden zuerst als bröckelnde Farbe an der Unterseite bemerkbar. Kurz darauf folgen kalkige Ausblühungen entlang der Balkonvorderkante. Ein weiteres Warnsignal ist rostbraunes Sickerwasser an der Fassadenfläche darunter. Spätestens wenn Stahlstäbe sichtbar sind, besteht unmittelbarer Handlungsbedarf – die Tragfähigkeit könnte bereits eingeschränkt sein. Eine Hausverwaltung Hannover tut gut daran, schon bei ersten Putzabplatzungen einen Sachverständigen einzuschalten und nicht bis zur Verkehrssicherungs­gefährdung zu warten.
+</p>
+
+<h2>Der Weg zur dauerhaften Sanierung</h2><p>
+Moderne Sanierungskonzepte setzen zunächst auf Freilegen aller korrodierten Bereiche, Reinigen der Bewehrung und das Aufbringen eines korrosions­hemmenden Schutzes. Anschließend wird Reparaturmörtel in statisch gleichwertiger Qualität eingebracht. Kritisch ist die Nachbehandlung: Eine hoch­flexible, rissüber­brückende Abdichtung aus Polymer- oder PU-Schichten wird aufgebracht, darauf folgt ein Gefälleestrich, um stehende Nässe zu verhindern. Abschließend sorgt ein rutschhemmender Belag für sichere Nutzung. Für eine WEG Verwaltung Hannover ist besonders wichtig, dass diese Arbeiten gewerkeüber­greifend koordiniert und baubegleitend überwacht werden – nur so erhalten die Eigentümer eine nachhaltige Lösung.</p>
+
+<h2>Finanzierung innerhalb der WEG</h2><p>
+Die Sanierung von Kragplatten ist selten billig. Erfahrungsgemäß liegen die Kosten zwischen 350 € und 600 € pro Quadratmeter, abhängig von Schadensgrad und gewünschter Oberflächengestaltung. Eine professionelle Hausverwaltung Hannover kalkuliert daher frühzeitig Rücklagen und stellt Ausschüttungen des Wirtschafts­plans entsprechend auf. In vielen Fällen lässt sich eine Sonderumlage vermeiden, wenn die Maßnahme rechtzeitig in die Liquiditätsplanung aufgenommen wird.
+</p>
+
+<h2>Rechtliche Verantwortung und Haftung</h2><p>
+Bleiben die Schäden unbehandelt, kann herabfallender Beton Passanten gefährden – eine Haftpflicht­thematik, die nicht allein die Gemeinschaft, sondern auch die Verwaltung treffen kann. Die WEG Verwaltung Hannover ist verpflichtet, ihrer Überwachungs­pflicht nachzukommen und bei Gefahr in Verzug sofort zu handeln. Das umfasst eine unverzügliche Absperrung des betroffenen Bereichs und die Beauftragung einer fachkundigen Prüfung.
+</p>
+
+<h2>Fazit: Werterhalt braucht Weitblick</h2><p>
+Betonschäden an Kragplatten sind kein rein ästhetisches Thema, sondern ein strukturelles Problem, das dringend angegangen werden muss. Ein Gebäude aus den 60er-Jahren kann mit professioneller Unterstützung jedoch problemlos fit für die nächsten Jahrzehnte werden. Eine engagierte WEG Verwaltung Hannover sowie eine vorausschauende Hausverwaltung Hannover schaffen dafür die Grundlagen: durch regelmäßige Sichtkontrollen, vorausschauende Rücklagen­bildung und qualitäts­gesicherte Sanierung. So bleibt der Balkon nicht nur ein Ort zum Durchatmen, sondern auch ein dauerhaft sicheres Bauteil der Wohnanlage.
+</p>
+</div>
 
 <div id="EichhoernchenInFassade" class="box">
  <h1>🐿️ Eichhörnchen in der Fassade – was tun?</h1>
