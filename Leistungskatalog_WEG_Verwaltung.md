@@ -2,8 +2,8 @@
 layout: page
 title: Leistungskatalog WEG Verwaltung
 permalink: /Leistungskatalog_WEG_Verwaltung/
-description: 
-keywords: ddd
+description: Umfassender Leistungskatalog für WEG Verwaltung in Hannover – Versicherung, Wartung, Finanzen, Versammlungen und digitale Transparenz sichern den Werterhalt Ihrer Immobilie
+keywords: Leistungskatalog WEG Verwaltung, WEG Verwaltung Hannover, Eigentümergemeinschaft, Immobilienverwaltung Leistungen, Versicherungsmanagement, Wartungsverträge, Instandhaltungsplanung, Hausgeldabrechnung, Eigentümerversammlung, Instandsetzungsmaßnahmen
 ---
 
 ## Leistungskatalog für WEG Verwaltung 
