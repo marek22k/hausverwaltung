@@ -2,7 +2,7 @@
 layout: page
 title: Wissenswertes
 permalink: /wissenswertes/
-description: Ratgeberseite der Hausverwaltung Marco Müller: Betonschäden an Kragplatten, Eichhörnchen in der Fassade, Fristen zur Anfechtung von WEG-Beschlüssen und Vorteile digitaler Belegprüfung – praxisnah für Wohnanlagen in Hannover.
+description: Ratgeberseite der Hausverwaltung Marco Müller - Betonschäden an Kragplatten, Eichhörnchen in der Fassade, Fristen zur Anfechtung von WEG-Beschlüssen und Vorteile digitaler Belegprüfung – praxisnah für Wohnanlagen in Hannover.
 keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen fassade hannover, artenschutz wdvs, weg beschluss anfechtung frist, digitale belegprüfung hausverwaltung, wohnanlage instandhaltung, hausverwaltung marco müller, ratgeber immobilienverwaltung, hannover wohnungseigentümer
 ---
 
