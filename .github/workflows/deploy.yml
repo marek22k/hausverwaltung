@@ -1,9 +1,7 @@
 
 name: Deploy Jekyll site to provider
 
-on:
-  push:
-    branches: ["main"]
+on: workflow_dispatch
 
 permissions:
   contents: read
@@ -39,4 +37,4 @@ jobs:
           server: ${{ secrets.ftp_server }}
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: "/httpdocs"
+          server-dir: "/httpdocs/"
