@@ -2,6 +2,7 @@
 layout: page
 title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
+description: Zertifizierte, persönliche Hausverwaltung in Hannover & Umgebung. WEG-, SE- & Miethausverwaltung, digitaler Service, transparente Preise, regionaler Fokus.
 ---
 <style>
 .leistungen-container {
