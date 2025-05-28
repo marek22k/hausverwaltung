@@ -47,9 +47,10 @@ Markgrafstraße 29
 
 Versichert bei: andSafe mit der Vertragsnummer: VH251310041
 
+<!--
  /* Ersteinmal ausgetrennt, da noch kein Mitglied im VDIV*/
 /*### Mitgliedschaft*/
 /*Mitglied im **Verband der Immobilienverwalter Niedersachsen/Bremen e. V.**  */
 /*[https://vdiv-niedersachsen-bremen.de](https://vdiv-niedersachsen-bremen.de)*/
-
+-->
 
