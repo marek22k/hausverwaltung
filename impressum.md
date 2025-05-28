@@ -53,10 +53,4 @@ Mitglied im **Verband der Immobilienverwalter Niedersachsen/Bremen e. V.**
 [https://vdiv-niedersachsen-bremen.de](https://vdiv-niedersachsen-bremen.de)
 
 */
-### Streitschlichtung
 
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:  
-[https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr)
-
-Unsere E-Mail-Adresse finden Sie oben im Impressum.  
-Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
