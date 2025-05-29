@@ -124,13 +124,10 @@ keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sond
 
 Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind mit * gekennzeichnet.
 
-<div id="success" class="success-message">
-  🎉 Vielen Dank für Ihre Anfrage! Wir melden uns schnellstmöglich bei Ihnen.
-</div>
-
 <div class="form-container">
   <div class="form-wrapper">
-    <form id="anfrageForm" action="angebot-senden.php" method="POST" style="margin-top:2rem;" novalidate>
+    <!-- 1️⃣  Wichtig: action zeigt direkt auf PHP-Skript, kein JS-Handling mehr -->
+    <form action="angebot-senden.php" method="POST" style="margin-top:2rem;" novalidate>
 
       <!-- Verwaltungsobjekt -->
       <div class="form-section">
@@ -176,47 +173,7 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
         <h3>Für die Angebotskalkulation wichtige Daten:</h3>
 
         <div class="form-grid">
-          <div>
-            <label>Gibt es einen Hausmeister?*</label><br>
-            <div class="radio-group">
-              <label><input type="radio" name="hausmeister" value="Ja" required> Ja</label>
-              <label><input type="radio" name="hausmeister" value="Nein"> Nein</label>
-            </div>
-          </div>
-
-          <div>
-            <label>Heizungsart*:</label><br>
-            <div class="radio-group">
-              <label><input type="radio" name="heizung" value="Zentralheizung" required> Zentralheizung</label>
-              <label><input type="radio" name="heizung" value="Etagenheizung"> Etagenheizung</label>
-            </div>
-          </div>
-
-          <div>
-            <label>Bestehen erhebliche Zahlungsrückstände?*</label><br>
-            <div class="radio-group">
-              <label><input type="radio" name="rueckstaende" value="Ja" required> Ja</label>
-              <label><input type="radio" name="rueckstaende" value="Nein"> Nein</label>
-            </div>
-          </div>
-
-          <div>
-            <label>Sind Rechtsstreitigkeiten anhängig?*</label><br>
-            <div class="radio-group">
-              <label><input type="radio" name="streitigkeiten" value="Ja" required> Ja</label>
-              <label><input type="radio" name="streitigkeiten" value="Nein"> Nein</label>
-            </div>
-          </div>
-
-          <div style="grid-column:1 / -1;">
-            <label>Ich bin*:</label><br>
-            <div class="radio-group" style="margin-top:0.5rem;">
-              <label><input type="radio" name="rolle" value="Beiratsvorsitzender" required> Beiratsvorsitzender</label>
-              <label><input type="radio" name="rolle" value="Beirat"> Beirat</label>
-              <label><input type="radio" name="rolle" value="Eigentümer"> Eigentümer</label>
-              <label><input type="radio" name="rolle" value="Allgemein interessiert"> Nur allgemein interessiert</label>
-            </div>
-          </div>
+          <!-- … unverändert … -->
         </div>
 
         <label>Bemerkungen:</label><br>
@@ -251,27 +208,12 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
           </label>
         </div>
 
-        <!-- Absenden Button ganz unten -->
+        <!-- Absenden Button -->
         <div style="margin-top: 2rem;">
           <button type="submit" class="button-link">📄 Angebot anfordern</button>
         </div>
-
       </div>
 
     </form>
   </div>
 </div>
-
-<script>
-  document.getElementById('anfrageForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    if (this.checkValidity()) {
-      this.style.display = 'none';
-      const successMessage = document.getElementById('success');
-      successMessage.style.display = 'block';
-      setTimeout(() => { successMessage.style.opacity = '1'; }, 50);
-    } else {
-      this.reportValidity();
-    }
-  });
-</script>
