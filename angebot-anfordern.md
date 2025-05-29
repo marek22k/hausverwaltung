@@ -127,7 +127,7 @@ Bitte füllen Sie das nachfolgende Formular vollständig aus. Pflichtfelder sind
 <div class="form-container">
   <div class="form-wrapper">
     <!-- 1️⃣  Wichtig: action zeigt direkt auf PHP-Skript, kein JS-Handling mehr -->
-    <form action="angebot-senden.php" method="POST" style="margin-top:2rem;" novalidate>
+    <form action="angebot-senden.php" method="POST" style="margin-top:2rem;">
 
       <!-- Verwaltungsobjekt -->
       <div class="form-section">
