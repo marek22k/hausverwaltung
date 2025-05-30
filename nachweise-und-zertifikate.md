@@ -62,8 +62,10 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
 
   <!-- Reihe 2 -->
   <div class="cert-card">
-    <img src="/assets/img/platzhalter-zertifikat.jpg" alt="Platzhalter Nachweis" />
-    <div class="cert-title">Gewerbeerlaubnis nach § 34c GewO – Nachweis (folgt)</div>
+    <a href="/assets/img/nachweise-und-zertifikate/Gewerbeerlaubnis.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/GewoS1.JPG" alt="Nachweis der Erteilung einer Gewerbeerlaubnis nach §34C GewO." />
+      <div class="cert-title">Gewerbeerlaubnis nach § 34c GewO.</div>
+    </a>
   </div>
 
   <div class="cert-card">
