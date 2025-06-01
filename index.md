@@ -150,6 +150,17 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
     text-decoration: none;
     color: #fff;
   }
+
+  /* Unterstreichung für das Thumbnail-Link komplett abschalten */
+.zoom-thumb,
+.zoom-thumb:visited,
+.zoom-thumb:hover,
+.zoom-thumb:focus {
+  text-decoration: none;   /* keine Linie */
+  outline: none;           /* verhindert gestrichelten Fokus-Rahmen in einigen Browsern */
+  border: none;            /* falls alte Browser noch einen Link-Rahmen zeigen */
+  display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift */
+}
   
 </style>
 
@@ -268,7 +279,7 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
   <div style="flex:1 1 300px;min-width:260px;">
     <a href="#imgModal" class="zoom-thumb">
       <img src="/assets/img/DSC_0063_web_opt.jpg"
-           alt="Marco Müller am Schreibtisch"
+           alt="Marco Müller vor einem Gebäude"
            style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);">
     </a>
   </div>
