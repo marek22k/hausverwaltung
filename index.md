@@ -270,6 +270,17 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
 
 </div>
 
+<!-- ===================  Overlay  =================== -->
+<div id="imgModal" class="zoom-overlay" aria-hidden="true">
+  <!-- Schließen-Link (führt zu leerem Hash) -->
+  <a href="#!" class="zoom-close" aria-label="Schließen">&times;</a>
+  <!-- Großes Bild -->
+  <a href="#!" aria-label="Schließen per Klick auf Overlay">
+    <img src="/assets/img/DSC_0063_web_opt.jpg" alt="Marco Müller – vergrößert">
+  </a>
+</div>
+
+
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 
