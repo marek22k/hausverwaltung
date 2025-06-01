@@ -100,32 +100,47 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
 }
 
 /* Hier beginnt die Bild Vergrössern Funktion*/
- /* Thumbnail – leichtes Hover-Feedback */
-  .zoom-thumb { cursor: zoom-in; }
+/* Thumbnail – leichtes Hover-Feedback */
+  .zoom-thumb {
+    cursor: zoom-in;
+    transition: opacity .2s;
+  }
   .zoom-thumb:hover { opacity: .85; }
 
-  /* Overlay (initial unsichtbar) */
+  /* Overlay – zunächst unsichtbar & nicht klickbar */
   .zoom-overlay {
     position: fixed;
     inset: 0;
-    display: none;               /* wird erst durch :target sichtbar */
+    display: flex;                       /* bleibt renderbar → Animation möglich */
     align-items: center;
     justify-content: center;
     background: rgba(0,0,0,.8);
-    cursor: zoom-out;            /* deutet Schließen an */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity .35s ease-out;
     z-index: 1000;
+    cursor: zoom-out;
   }
-  /* Wenn das Element vom URL-Hash getroffen wird → anzeigen */
-  .zoom-overlay:target { display: flex; }
+  /* Sichtbar, sobald Ziel des URL-Hashes */
+  .zoom-overlay:target {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
 
+  /* Großes Bild mit sanftem Aufskalieren */
   .zoom-overlay img {
     max-width: 90vw;
     max-height: 90vh;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0,0,0,.3);
+    transform: scale(.8);                /* Startgröße 80 % */
+    transition: transform .35s cubic-bezier(.25,.46,.45,.94);
   }
+  .zoom-overlay:target img { transform: scale(1); }
 
-  /* Optionale Schließen-Schaltfläche (oben rechts) */
+  /* Optionale Schließen-Schaltfläche */
   .zoom-close {
     position: absolute;
     top: 1rem;
@@ -134,7 +149,6 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
     line-height: 1;
     text-decoration: none;
     color: #fff;
-    cursor: pointer;
   }
   
 </style>
@@ -250,14 +264,12 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
 
 <div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:flex-start;justify-content:center;margin-bottom:2rem;">
 
-  <!-- Bild als Link: führt zum Overlay-Hash -->
+  <!-- Bild als Link: öffnet Overlay -->
   <div style="flex:1 1 300px;min-width:260px;">
     <a href="#imgModal" class="zoom-thumb">
-      <img
-        src="/assets/img/DSC_0063_web_opt.jpg"
-        alt="Marco Müller am Schreibtisch"
-        style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);"
-      >
+      <img src="/assets/img/DSC_0063_web_opt.jpg"
+           alt="Marco Müller am Schreibtisch"
+           style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);">
     </a>
   </div>
   
@@ -270,12 +282,12 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
 
 </div>
 
-<!-- ===================  Overlay  =================== -->
+<!-- =============== Overlay =============== -->
 <div id="imgModal" class="zoom-overlay" aria-hidden="true">
-  <!-- Schließen-Link (führt zu leerem Hash) -->
+  <!-- Schließen-Link: Hash entfernen → Overlay verschwindet -->
   <a href="#!" class="zoom-close" aria-label="Schließen">&times;</a>
-  <!-- Großes Bild -->
-  <a href="#!" aria-label="Schließen per Klick auf Overlay">
+  <!-- Großes Bild (Klick auf Bild oder Hintergrund schließt ebenfalls) -->
+  <a href="#!" aria-label="Schließen">
     <img src="/assets/img/DSC_0063_web_opt.jpg" alt="Marco Müller – vergrößert">
   </a>
 </div>
