@@ -25,8 +25,8 @@ Web: [https://hausverwaltung-marcomueller.de](https://hausverwaltung-marcomuelle
 ### Umsatzsteuer-ID
 Steuernummer: 26/030/88097
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: in Erteilung
-### Gewerbeanmeldung
-Die Gewerbeanmeldung nach § 34c GewO wurde durch die Industrie- und Handelskammer Hannover erteilt.
+### Gewerbeerlaubnis
+Die Gewerbeerlaubnis nach § 34c GewO wurde durch die Industrie- und Handelskammer Hannover erteilt.
 
 ### Aufsichtsbehörde
 
