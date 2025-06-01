@@ -212,7 +212,7 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
 
   <!-- Bild -->
   <div style="flex: 1 1 300px; min-width: 260px;">
-    <img src="/assets/img/platzhalter_buero.jpg" alt="Marco Müller am Schreibtisch – Platzhalterbild" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/DSC_0063_web_opt.jpg" alt="Marco Müller am Schreibtisch – Platzhalterbild" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
 
   <!-- Text -->
@@ -292,7 +292,7 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
 
   <!-- Schlüsselübergabe Bild – aktualisiert -->
   <div style="flex: 1 1 300px; min-width: 280px;">
-    <img src="/assets/img/DSC_0012_web.jpg" alt="Marco Müller übergibt Schlüssel vor moderner Wohnanlage" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/DSC_0070_webopt.jpg" alt="Marco Müller übergibt Schlüssel vor moderner Wohnanlage" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
 
   <!-- Text -->
