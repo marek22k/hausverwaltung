@@ -98,6 +98,44 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
   padding: 1rem;
   margin: 2rem 0;
 }
+
+/* Hier beginnt die Bild Vergrössern Funktion*/
+ /* Thumbnail – leichtes Hover-Feedback */
+  .zoom-thumb { cursor: zoom-in; }
+  .zoom-thumb:hover { opacity: .85; }
+
+  /* Overlay (initial unsichtbar) */
+  .zoom-overlay {
+    position: fixed;
+    inset: 0;
+    display: none;               /* wird erst durch :target sichtbar */
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.8);
+    cursor: zoom-out;            /* deutet Schließen an */
+    z-index: 1000;
+  }
+  /* Wenn das Element vom URL-Hash getroffen wird → anzeigen */
+  .zoom-overlay:target { display: flex; }
+
+  .zoom-overlay img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.3);
+  }
+
+  /* Optionale Schließen-Schaltfläche (oben rechts) */
+  .zoom-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    line-height: 1;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+  }
   
 </style>
 
@@ -206,15 +244,23 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
 
 
 <!-- Vorstellungstext mit Bild (mobilfreundlich) -->
-<h2 style="margin-top: 3rem; text-align: center;">Ihr zertifizierter Hausverwalter für Hannover und Umgebung</h2>
+<h2 style="margin-top:3rem;text-align:center;">
+  Ihr zertifizierter Hausverwalter für Hannover und Umgebung
+</h2>
 
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; justify-content: center; margin-bottom: 2rem;">
+<div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:flex-start;justify-content:center;margin-bottom:2rem;">
 
-  <!-- Bild -->
-  <div style="flex: 1 1 300px; min-width: 260px;">
-    <img src="/assets/img/DSC_0063_web_opt.jpg" alt="Marco Müller am Schreibtisch – Platzhalterbild" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <!-- Bild als Link: führt zum Overlay-Hash -->
+  <div style="flex:1 1 300px;min-width:260px;">
+    <a href="#imgModal" class="zoom-thumb">
+      <img
+        src="/assets/img/DSC_0063_web_opt.jpg"
+        alt="Marco Müller am Schreibtisch"
+        style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);"
+      >
+    </a>
   </div>
-
+  
   <!-- Text -->
   <div style="flex: 1 1 400px; min-width: 260px;">
     <p>Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.</p>
