@@ -366,28 +366,44 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
   
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
-## Vertrauen und Zuverlässigkeit
+<!-- ===================  Abschnitt: Vertrauen & Zuverlässigkeit  =================== -->
+<h2>Vertrauen und Zuverlässigkeit</h2>
 
-<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; margin-top: 2rem;">
+<div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:center;justify-content:center;margin-top:2rem;">
 
-  <!-- Schlüsselübergabe Bild – aktualisiert -->
-  <div style="flex: 1 1 300px; min-width: 280px;">
-    <img src="/assets/img/DSC_0070_webopt.jpg" alt="Marco Müller übergibt Schlüssel vor moderner Wohnanlage" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <!-- Bild als Link mit Zoom-Effekt -->
+  <div style="flex:1 1 300px;min-width:280px;">
+    <!-- neues Overlay-Ziel: #trustModal -->
+    <a href="#trustModal" class="zoom-thumb">
+      <img src="/assets/img/DSC_0070_webopt.jpg"
+           alt="Marco Müller übergibt Schlüssel vor moderner Wohnanlage"
+           style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);">
+    </a>
   </div>
 
   <!-- Text -->
-  <div style="flex: 2 1 400px; min-width: 280px;">
+  <div style="flex:2 1 400px;min-width:280px;">
     <p>Vertrauen ist die Basis einer erfolgreichen Zusammenarbeit.  
-    Als Ihr persönlicher Hausverwalter garantiere ich Ihnen einen verantwortungsvollen Umgang mit Ihrem Eigentum.  
-    Ihre Immobilie ist bei mir in den besten Händen.</p>
+       Als Ihr persönlicher Hausverwalter garantiere ich Ihnen einen verantwortungsvollen Umgang mit Ihrem Eigentum.  
+       Ihre Immobilie ist bei mir in den besten Händen.</p>
 
     <p>Verlässlichkeit, Transparenz und Engagement sind Werte, die ich täglich lebe.  
-    Dabei profitieren Sie von meiner konsequenten Unabhängigkeit: Ich bin weder als Makler tätig noch betreibe ich einen eigenen Hausmeisterdienst.  
-    Dadurch erfolgt die Auswahl von Dienstleistern ausschließlich im Interesse Ihrer Eigentümergemeinschaft – fair, neutral und zum besten Preis-Leistungs-Verhältnis.</p>
+       Dabei profitieren Sie von meiner konsequenten Unabhängigkeit: Ich bin weder als Makler tätig noch betreibe ich einen eigenen Hausmeisterdienst.  
+       Dadurch erfolgt die Auswahl von Dienstleistern ausschließlich im Interesse Ihrer Eigentümergemeinschaft – fair, neutral und zum besten Preis-Leistungs-Verhältnis.</p>
 
-    <p>Mit einem klaren <a href="/leistungsversprechen" style="color: #0056b3; text-decoration: underline;">Leistungsversprechen</a> stehe ich Ihnen als zuverlässiger und verantwortungsvoller Partner zur Seite.</p>
+    <p>Mit einem klaren <a href="/leistungsversprechen" style="color:#0056b3;text-decoration:underline;">Leistungsversprechen</a> stehe ich Ihnen als zuverlässiger und verantwortungsvoller Partner zur Seite.</p>
   </div>
+</div>
 
+<!-- ===================  Overlay für dieses Bild  =================== -->
+<div id="trustModal" class="zoom-overlay" aria-hidden="true">
+  <!-- Schließen-Symbol -->
+  <a href="#!" class="zoom-close" aria-label="Schließen">&times;</a>
+  <!-- Großes Bild (Klick schließt ebenfalls) -->
+  <a href="#!" aria-label="Schließen">
+    <img src="/assets/img/DSC_0070_webopt.jpg"
+         alt="Marco Müller übergibt Schlüssel – vergrößert">
+  </a>
 </div>
 
 
