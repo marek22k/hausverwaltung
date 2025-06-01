@@ -333,7 +333,7 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
 ## Persönliche Betreuung für Ihre Immobilie
 
 <div style="text-align: center; margin-top: 2rem;">
-  <img src="/assets/img/dsc_0038_optimiert.jpg" alt="Marco Müller bei Objektbegehung" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="/assets/img/DSC_0063_web_opt.jpg" alt="Marco Müller bei Objektbegehung" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 </div>
 
 <div style="margin-top: 2rem; text-align: center; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.4rem; line-height: 1.6;">
