@@ -275,7 +275,7 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
 
 <div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:flex-start;justify-content:center;margin-bottom:2rem;">
 
-  <!-- Bild als Link: öffnet Overlay -->
+  <!-- Linkes Vorschaubild -->
   <div style="flex:1 1 300px;min-width:260px;">
     <a href="#imgModal" class="zoom-thumb">
       <img src="/assets/img/DSC_0063_web_opt.jpg"
@@ -283,21 +283,29 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
            style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);">
     </a>
   </div>
-  
-  <!-- Text -->
-  <div style="flex: 1 1 400px; min-width: 260px;">
+
+  <!-- Rechter Textblock + Logo -->
+  <div style="
+        flex:1 1 400px;
+        min-width:260px;
+        display:flex;
+        flex-direction:column;
+        gap:1rem;
+      ">
     <p>Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.</p>
     <p>Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.</p>
     <p>Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.</p>
+
+    <!-- Zertifizierter-Verwalter-Logo -->
+    <img src="/assets/img/zW.jpg"
+         alt="Zertifizierter Verwalter nach §26a WEG"
+         style="max-width:160px;height:auto;align-self:flex-start;border-radius:4px;">
   </div>
-  <img src="/assets/img/zW.jpg" alt="Zertifizierter Verwalter nach §26a WEG">
 </div>
 
 <!-- =============== Overlay =============== -->
 <div id="imgModal" class="zoom-overlay" aria-hidden="true">
-  <!-- Schließen-Link: Hash entfernen → Overlay verschwindet -->
   <a href="#!" class="zoom-close" aria-label="Schließen">&times;</a>
-  <!-- Großes Bild (Klick auf Bild oder Hintergrund schließt ebenfalls) -->
   <a href="#!" aria-label="Schließen">
     <img src="/assets/img/DSC_0063_web_opt.jpg" alt="Marco Müller – vergrößert">
   </a>
