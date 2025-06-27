@@ -285,22 +285,26 @@ keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung
   </div>
 
   <!-- Rechter Textblock + Logo -->
-  <div style="
-        flex:1 1 400px;
-        min-width:260px;
-        display:flex;
-        flex-direction:column;
-        gap:1rem;
-      ">
-    <p>Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.</p>
-    <p>Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.</p>
-    <p>Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.</p>
+ <div style="
+      flex:1 1 400px;
+      min-width:260px;
+      display:flex;
+      flex-direction:column;
+      gap:1rem;
+    ">
+  <p>Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.</p>
+  <p>Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.</p>
+  <p>Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.</p>
 
-    <!-- Zertifizierter-Verwalter-Logo -->
-    <img src="/assets/img/zW.jpg"
-         alt="Zertifizierter Verwalter nach §26a WEG"
-         style="max-width:160px;height:auto;align-self:flex-start;border-radius:4px;">
-  </div>
+  <!-- Zertifizierter-Verwalter-Logo -->
+  <img src="/assets/img/zW.jpg"
+       alt="Zertifizierter Verwalter nach §26a WEG"
+       style="
+         width:225px;           /* ~40 % größer als vorher */
+         height:auto;
+         align-self:center;    /* zentriert in der Spalte */
+         border-radius:4px;
+       ">
 </div>
 
 <!-- =============== Overlay =============== -->
