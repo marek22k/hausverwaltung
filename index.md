@@ -289,7 +289,7 @@ Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 <p>Als gebürtiger Hannoveraner und zertifizierter Hausverwalter kümmere ich mich persönlich und mit viel Engagement um die Verwaltung Ihrer Immobilie.</p>
 <p>Besonders wichtig ist mir eine <strong>werterhaltende Betreuung</strong>, bei der Ihre Immobilie kontinuierlich gepflegt und professionell verwaltet wird.</p>
 <p>Durch transparente Kommunikation, digitale Zugänge zu Unterlagen und persönliche Erreichbarkeit biete ich Ihnen eine moderne, verlässliche Verwaltung mit klaren Werten.</p>
-     <img src="/assets/img/zWk.jpg" alt="Zertifizierter Verwalter nach §26a WEG">
+ <p><img src="/assets/img/zWk.jpg" alt="Zertifizierter Verwalter nach §26a WEG"></p>
 </div>
 
   
