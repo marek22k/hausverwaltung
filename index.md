@@ -271,7 +271,7 @@ font-size: 1.8rem;
 <!-- Vorstellungstext mit Bild (mobilfreundlich) -->
 <h2 style="margin-top:3rem;text-align:center;">
 Ihr zertifizierter Hausverwalter für Hannover und Umgebung
-</h2><br>
+</h2>
 
 <div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:flex-start;justify-content:center;margin-bottom:2rem;">
 
