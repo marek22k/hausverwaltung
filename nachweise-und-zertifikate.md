@@ -50,14 +50,16 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   <!-- Reihe 1 -->
   <div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/mueller_marco_zert.PDF" target="_blank">
-      <img src="/assets/img/nachweise-und-zertifikate/Zertifikat_Immoverwalter_s1.JPG" alt="IHK Immobilienverwalter">
+      <img src="/assets/img/nachweise-und-zertifikate/Zertifikat_Immoverwalter_s1.JPG" alt="Immobilienverwalter (IHK)">
     </a>
-    <div class="cert-title">Zertifizierter Immobilienverwalter (IHK)</div>
+    <div class="cert-title">Immobilienverwalter (IHK)</div>
   </div>
 
   <div class="cert-card">
-    <img src="/assets/img/platzhalter-zertifikat.jpg" alt="Platzhalter Nachweis" />
-    <div class="cert-title">Sachkundeprüfung WEG-Verwalter – Nachweis (folgt)</div>
+    <a href="/assets/img/nachweise-und-zertifikate/scan_zertifizierterVerwalter.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/zV.JPG" alt="zertifizierter Verwalter nach §26a WEG">
+    </a>
+    <div class="cert-title">zertifizierter Verwalter nach §26a WEG</div>
   </div>
 
   <!-- Reihe 2 -->
