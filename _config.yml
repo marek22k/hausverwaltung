@@ -9,11 +9,11 @@ menu:
 - title: Startseite
   url: /
   weight: 1
-  
+
 - title: Onlineservice
   url: /onlineservice/
   weight: 2
-  
+
 - title: Leistungen
   url: /leistungen/
   weight: 3
@@ -30,6 +30,6 @@ menu:
 contact:
   email: info@hausverwaltung-marcomueller.de
 
-url: "test"
+domain: https://hausverwaltung-marcomueller.de
 
 include: [".well-known"]

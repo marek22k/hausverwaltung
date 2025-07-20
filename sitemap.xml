@@ -6,7 +6,7 @@ permalink: /sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in site.pages %}
     <url>
-        <loc>https://hausverwaltung-marcomueller.de{{ page.permalink | xml_escape }}</loc>
+        <loc>{{ site.domain }}{{ page.permalink | xml_escape }}</loc>
     </url>
     {% endfor %}
 </urlset>
