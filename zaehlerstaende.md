@@ -6,7 +6,7 @@ description: Online-Formular zum Übermitteln von Zählerständen an die Hausver
 keywords: zaehlerstand, wasserzaehler ablesen, zaehlerstaende hausverwaltung, formular zaehlerstand
 ---
 
-# 📊 Zählerstände ablesen
+# Zählerstände ablesen
 
 <form action="/zaehlerstand.php" method="post"
       enctype="multipart/form-data"
