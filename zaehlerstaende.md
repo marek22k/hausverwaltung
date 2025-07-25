@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Zählerstände ablesen"
+permalink: /zaehlerstaende/
 ---
 
-<!-- Sektion über gesamte Höhe; Inhalt exakt in die Mitte legen -->
-<section class="min-h-screen py-12 bg-gray-100 flex flex-col items-center justify-center">
+<section class="min-h-screen flex flex-col items-center justify-center py-12 bg-gray-100">
 
-  <!-- Container: begrenzte Breite + automatische Zentrierung -->
-  <div class="w-full max-w-4xl mx-auto px-4">
+  <!-- Container: mittig, max 4xl breit – dank mx-auto horizontal zentriert -->
+  <div class="mx-auto max-w-4xl w-full md:w-auto px-4">
 
     <h1 class="text-4xl md:text-5xl font-bold text-center mb-12">
       Zählerstände ablesen
@@ -15,12 +15,11 @@ title: "Zählerstände ablesen"
 
     <div class="bg-white shadow-2xl rounded-2xl p-10">
 
-      <!-- Formular: zweispaltig ab md-Breakpoint, Felder/Labels zentriert -->
       <form id="zaehlerstand-form"
             action="/zaehlerstand.php"
             method="POST"
             enctype="multipart/form-data"
-            class="grid gap-8 md:grid-cols-2 justify-items-center place-items-center text-lg">
+            class="grid gap-8 md:grid-cols-2 place-items-center text-lg">
 
         <!-- Name der Liegenschaft -->
         <div class="flex flex-col md:col-span-2 items-center w-full">
