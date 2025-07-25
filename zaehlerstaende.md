@@ -2,37 +2,35 @@
 layout: default
 title: "Zählerstände ablesen"
 ---
+<section class="py-12 bg-gray-100 flex justify-center">
+  <div class="w-full max-w-4xl px-4">
+    <h1 class="text-4xl font-bold text-center mb-12">Zählerstände ablesen</h1>
 
-<section class="py-12 bg-gray-100">
-  <div class="container mx-auto px-4">
-    <h1 class="text-3xl font-bold text-center mb-10">Zählerstände ablesen</h1>
-
-    <!-- Card-Container -->
-    <div class="bg-white shadow-xl rounded-2xl p-8 max-w-3xl mx-auto">
-      <!-- enctype für Bild-Upload -->
-      <form id="zaehlerstand-form" action="/zaehlerstand.php" method="POST" enctype="multipart/form-data" class="space-y-6 md:space-y-0 md:grid md:grid-cols-2 md:gap-6">
+    <div class="bg-white shadow-2xl rounded-2xl p-10">
+      <!-- Größere Schrift + zentrierte Ausrichtung -->
+      <form id="zaehlerstand-form" action="/zaehlerstand.php" method="POST" enctype="multipart/form-data" class="grid gap-8 md:grid-cols-2 justify-items-center text-lg">
         <!-- Name der Liegenschaft -->
-        <div class="flex flex-col md:col-span-2">
-          <label for="liegenschaft" class="font-semibold text-sm mb-1">Name der Liegenschaft</label>
-          <input type="text" id="liegenschaft" name="liegenschaft" placeholder="z. B. Musterhaus GmbH" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        <div class="flex flex-col md:col-span-2 items-center w-full">
+          <label for="liegenschaft" class="font-semibold mb-2">Name der Liegenschaft</label>
+          <input type="text" id="liegenschaft" name="liegenschaft" placeholder="z. B. Musterhaus GmbH" class="w-full max-w-md p-4 border rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500" required />
         </div>
 
         <!-- Zählernummer -->
-        <div class="flex flex-col">
-          <label for="zaehlernummer" class="font-semibold text-sm mb-1">Zählernummer</label>
-          <input type="text" id="zaehlernummer" name="zaehlernummer" placeholder="123456789" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        <div class="flex flex-col items-center w-full">
+          <label for="zaehlernummer" class="font-semibold mb-2">Zählernummer</label>
+          <input type="text" id="zaehlernummer" name="zaehlernummer" placeholder="123456789" class="w-full max-w-md p-4 border rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500" required />
         </div>
 
         <!-- Zählerstand (Textfeld) -->
-        <div class="flex flex-col">
-          <label for="zaehlerstand" class="font-semibold text-sm mb-1">Zählerstand</label>
-          <input type="text" id="zaehlerstand" name="zaehlerstand" placeholder="000123.45" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        <div class="flex flex-col items-center w-full">
+          <label for="zaehlerstand" class="font-semibold mb-2">Zählerstand</label>
+          <input type="text" id="zaehlerstand" name="zaehlerstand" placeholder="000123.45" class="w-full max-w-md p-4 border rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500" required />
         </div>
 
         <!-- Zählerart -->
-        <div class="flex flex-col">
-          <label for="zaehlerart" class="font-semibold text-sm mb-1">Zählerart</label>
-          <select id="zaehlerart" name="zaehlerart" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        <div class="flex flex-col items-center w-full">
+          <label for="zaehlerart" class="font-semibold mb-2">Zählerart</label>
+          <select id="zaehlerart" name="zaehlerart" class="w-full max-w-md p-4 border rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500" required>
             <option value="" disabled selected hidden>Bitte wählen</option>
             <option>Kaltwasserzähler</option>
             <option>Wärmemengenzähler</option>
@@ -41,36 +39,36 @@ title: "Zählerstände ablesen"
         </div>
 
         <!-- Typ -->
-        <div class="flex flex-col">
-          <label for="typ" class="font-semibold text-sm mb-1">Typ</label>
-          <select id="typ" name="typ" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        <div class="flex flex-col items-center w-full">
+          <label for="typ" class="font-semibold mb-2">Typ</label>
+          <select id="typ" name="typ" class="w-full max-w-md p-4 border rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500" required>
             <option value="" disabled selected hidden>Bitte wählen</option>
             <option>Wohnungszähler</option>
             <option>Allgemeiner Zähler</option>
           </select>
         </div>
 
-        <!-- Bis wann geeicht (optional) -->
-        <div class="flex flex-col">
-          <label for="geeicht_bis" class="font-semibold text-sm mb-1">Geeicht bis (optional)</label>
-          <input type="date" id="geeicht_bis" name="geeicht_bis" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <!-- Geeicht bis (Textfeld) -->
+        <div class="flex flex-col items-center w-full">
+          <label for="geeicht_bis" class="font-semibold mb-2">Geeicht bis (optional)</label>
+          <input type="text" id="geeicht_bis" name="geeicht_bis" placeholder="TT.MM.JJJJ" class="w-full max-w-md p-4 border rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500" />
         </div>
 
-        <!-- Bild-Upload (optional) -->
-        <div class="flex flex-col">
-          <label for="bild" class="font-semibold text-sm mb-1">Foto vom Zählerstand (optional)</label>
-          <input type="file" id="bild" name="bild" accept="image/*" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <!-- Bild-Upload -->
+        <div class="flex flex-col items-center w-full">
+          <label for="bild" class="font-semibold mb-2">Foto vom Zählerstand (optional)</label>
+          <input type="file" id="bild" name="bild" accept="image/*" class="w-full max-w-md p-4 border rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500 file:bg-blue-50 file:border-0 file:p-3 file:rounded-lg" />
         </div>
 
         <!-- Name Person -->
-        <div class="flex flex-col md:col-span-2">
-          <label for="person" class="font-semibold text-sm mb-1">Name der ablesenden/übermittelnden Person</label>
-          <input type="text" id="person" name="person" placeholder="Max Mustermann" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        <div class="flex flex-col md:col-span-2 items-center w-full">
+          <label for="person" class="font-semibold mb-2">Name der ablesenden/übermittelnden Person</label>
+          <input type="text" id="person" name="person" placeholder="Max Mustermann" class="w-full max-w-md p-4 border rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500" required />
         </div>
 
         <!-- Submit-Button -->
         <div class="md:col-span-2 text-center mt-4">
-          <button type="submit" class="inline-block w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-xl transition transform hover:-translate-y-0.5 hover:shadow-lg">
+          <button type="submit" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-12 rounded-xl text-xl transition transform hover:-translate-y-0.5 hover:shadow-2xl">
             Zählerstand absenden
           </button>
         </div>
@@ -81,8 +79,6 @@ title: "Zählerstände ablesen"
 
 <script>
 // Prefill-Funktion: Liest URL-Parameter aus und füllt Felder vor.
-// Beispiel:
-// /zaehlerstaende_form.html?liegenschaft=Musterhaus&zaehlernummer=4711&zaehlerstand=123,45&zaehlerart=Gaszähler&typ=Wohnungszähler&geeicht_bis=2030-12-31&person=Max%20Mustermann
 
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
