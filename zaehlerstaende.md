@@ -8,7 +8,7 @@ keywords: zaehlerstand, wasserzaehler ablesen, zaehlerstaende hausverwaltung, fo
 
 # Zählerstände ablesen
 
-<form action="/zaehlerstand.php" method="post"
+<form action="zaehlerstand.php" method="post"
       enctype="multipart/form-data"
       style="background:#fff; padding:25px 30px; border-radius:12px;
              max-width:700px; margin:auto;
