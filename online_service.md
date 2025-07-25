@@ -85,7 +85,7 @@ Willkommen bei den digitalen Services Ihrer Hausverwaltung. Bitte wählen Sie de
 
 <!-- Zählerablesung (NEU) -->
 <div class="service-block">
-  <a href="/zaehlerablesung/" aria-label="Zählerstände übermitteln">
+  <a href="/zaehlerstaende/" aria-label="Zählerstände übermitteln">
     <img src="/assets/img/onlineservices/zaehler.png" alt="Symbol: Zählwerk">
     <br/>
     📊 Zählerablesung
