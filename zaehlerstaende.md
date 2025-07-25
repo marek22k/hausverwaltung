@@ -32,6 +32,12 @@ keywords: zaehlerstand, wasserzaehler ablesen, zaehlerstaende hausverwaltung, fo
          placeholder="000123.45"
          style="width:100%; padding:14px; margin:6px 0 14px;">
 
+  <!-- Pflichtfeld, aber ohne Prefill -->
+  <label for="abgelesen_am">Zählerstand&nbsp;abgelesen&nbsp;am</label>
+  <input type="text" id="abgelesen_am" name="abgelesen_am" required
+         placeholder="TT.MM.JJJJ"
+         style="width:100%; padding:14px; margin:6px 0 14px;">
+
   <label for="zaehlerart">Zählerart</label>
   <select id="zaehlerart" name="zaehlerart" required
           style="width:100%; padding:14px; margin:6px 0 14px;">
@@ -60,7 +66,7 @@ keywords: zaehlerstand, wasserzaehler ablesen, zaehlerstaende hausverwaltung, fo
 
   <h2 style="color:#003366; text-align:center;">Ihre Angaben</h2>
 
-  <label for="person">Name der ablesenden/übermittelnden Person</label>
+  <label for="person">Name der ablesenden/übermittelnden&nbsp;Person</label>
   <input type="text" id="person" name="person" required
          placeholder="Max&nbsp;Mustermann"
          style="width:100%; padding:14px; margin:6px 0 20px;">
@@ -76,23 +82,31 @@ keywords: zaehlerstand, wasserzaehler ablesen, zaehlerstaende hausverwaltung, fo
 
 <script>
 /* -------- Prefill per URL-Parameter -------- */
+/* Feld 'abgelesen_am' absichtlich NICHT gelistet */
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
-  const fields = ['liegenschaft','zaehlernummer','zaehlerstand',
-                  'zaehlerart','typ','geeicht_bis','person'];
-  fields.forEach(id=>{
-    if(params.has(id)){
-      const el=document.getElementById(id);
-      if(!el) return;
-      if(el.tagName.toLowerCase()==='select'){
-        [...el.options].forEach(o=>{
-          if(o.text.toLowerCase()===params.get(id).toLowerCase()
-             || o.value.toLowerCase()===params.get(id).toLowerCase()){
-            o.selected=true;
+  const fields = [
+    'liegenschaft',
+    'zaehlernummer',
+    'zaehlerstand',
+    'zaehlerart',
+    'typ',
+    'geeicht_bis',
+    'person'
+  ];
+  fields.forEach(id => {
+    if (params.has(id)) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      if (el.tagName.toLowerCase() === 'select') {
+        const wanted = params.get(id).toLowerCase();
+        [...el.options].forEach(o => {
+          if (o.text.toLowerCase() === wanted || o.value.toLowerCase() === wanted) {
+            o.selected = true;
           }
         });
-      }else{
-        el.value=params.get(id);
+      } else {
+        el.value = params.get(id);
       }
     }
   });
