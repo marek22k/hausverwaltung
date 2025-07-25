@@ -3,68 +3,96 @@ layout: default
 title: "Zählerstände ablesen"
 ---
 
-<h1 class="text-2xl font-bold mb-6">Zählerstände ablesen</h1>
+<section class="py-12 bg-gray-100">
+  <div class="container mx-auto px-4">
+    <h1 class="text-3xl font-bold text-center mb-10">Zählerstände ablesen</h1>
 
-<form id="zaehlerstand-form" action="/zaehlerstand.php" method="POST" class="grid gap-4 max-w-xl">
-  <!-- Name der Liegenschaft -->
-  <label class="block">
-    <span class="font-semibold">Name der Liegenschaft</span>
-    <input type="text" id="liegenschaft" name="liegenschaft" class="w-full border rounded p-2" required />
-  </label>
+    <!-- Card-Container -->
+    <div class="bg-white shadow-xl rounded-2xl p-8 max-w-3xl mx-auto">
+      <!-- enctype für Bild-Upload -->
+      <form id="zaehlerstand-form" action="/zaehlerstand.php" method="POST" enctype="multipart/form-data" class="space-y-6 md:space-y-0 md:grid md:grid-cols-2 md:gap-6">
+        <!-- Name der Liegenschaft -->
+        <div class="flex flex-col md:col-span-2">
+          <label for="liegenschaft" class="font-semibold text-sm mb-1">Name der Liegenschaft</label>
+          <input type="text" id="liegenschaft" name="liegenschaft" placeholder="z. B. Musterhaus GmbH" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        </div>
 
-  <!-- Zählernummer -->
-  <label class="block">
-    <span class="font-semibold">Zählernummer</span>
-    <input type="text" id="zaehlernummer" name="zaehlernummer" class="w-full border rounded p-2" required />
-  </label>
+        <!-- Zählernummer -->
+        <div class="flex flex-col">
+          <label for="zaehlernummer" class="font-semibold text-sm mb-1">Zählernummer</label>
+          <input type="text" id="zaehlernummer" name="zaehlernummer" placeholder="123456789" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        </div>
 
-  <!-- Zählerart -->
-  <label class="block">
-    <span class="font-semibold">Zählerart</span>
-    <select id="zaehlerart" name="zaehlerart" class="w-full border rounded p-2" required>
-      <option value="">Bitte wählen</option>
-      <option>Kaltwasserzähler</option>
-      <option>Wärmemengenzähler</option>
-      <option>Gaszähler</option>
-    </select>
-  </label>
+        <!-- Zählerstand (Textfeld) -->
+        <div class="flex flex-col">
+          <label for="zaehlerstand" class="font-semibold text-sm mb-1">Zählerstand</label>
+          <input type="text" id="zaehlerstand" name="zaehlerstand" placeholder="000123.45" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        </div>
 
-  <!-- Typ -->
-  <label class="block">
-    <span class="font-semibold">Typ</span>
-    <select id="typ" name="typ" class="w-full border rounded p-2" required>
-      <option value="">Bitte wählen</option>
-      <option>Wohnungszähler</option>
-      <option>Allgemeiner Zähler</option>
-    </select>
-  </label>
+        <!-- Zählerart -->
+        <div class="flex flex-col">
+          <label for="zaehlerart" class="font-semibold text-sm mb-1">Zählerart</label>
+          <select id="zaehlerart" name="zaehlerart" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+            <option value="" disabled selected hidden>Bitte wählen</option>
+            <option>Kaltwasserzähler</option>
+            <option>Wärmemengenzähler</option>
+            <option>Gaszähler</option>
+          </select>
+        </div>
 
-  <!-- Zählerstand -->
-  <label class="block">
-    <span class="font-semibold">Zählerstand</span>
-    <input type="number" step="0.01" id="zaehlerstand" name="zaehlerstand" class="w-full border rounded p-2" required />
-  </label>
+        <!-- Typ -->
+        <div class="flex flex-col">
+          <label for="typ" class="font-semibold text-sm mb-1">Typ</label>
+          <select id="typ" name="typ" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+            <option value="" disabled selected hidden>Bitte wählen</option>
+            <option>Wohnungszähler</option>
+            <option>Allgemeiner Zähler</option>
+          </select>
+        </div>
 
-  <!-- Name der ablesenden/übermittelnden Person -->
-  <label class="block">
-    <span class="font-semibold">Name der ablesenden/übermittelnden Person</span>
-    <input type="text" id="person" name="person" class="w-full border rounded p-2" required />
-  </label>
+        <!-- Bis wann geeicht (optional) -->
+        <div class="flex flex-col">
+          <label for="geeicht_bis" class="font-semibold text-sm mb-1">Geeicht bis (optional)</label>
+          <input type="date" id="geeicht_bis" name="geeicht_bis" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
 
-  <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Zählerstand absenden</button>
-</form>
+        <!-- Bild-Upload (optional) -->
+        <div class="flex flex-col">
+          <label for="bild" class="font-semibold text-sm mb-1">Foto vom Zählerstand (optional)</label>
+          <input type="file" id="bild" name="bild" accept="image/*" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
+
+        <!-- Name Person -->
+        <div class="flex flex-col md:col-span-2">
+          <label for="person" class="font-semibold text-sm mb-1">Name der ablesenden/übermittelnden Person</label>
+          <input type="text" id="person" name="person" placeholder="Max Mustermann" class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required />
+        </div>
+
+        <!-- Submit-Button -->
+        <div class="md:col-span-2 text-center mt-4">
+          <button type="submit" class="inline-block w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-xl transition transform hover:-translate-y-0.5 hover:shadow-lg">
+            Zählerstand absenden
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
 
 <script>
 // Prefill-Funktion: Liest URL-Parameter aus und füllt Felder vor.
-// Beispiel-Link: /zaehlerstaende_form.html?liegenschaft=Musterhaus&zaehlernummer=4711&zaehlerart=Gasz\u00e4hler&typ=Wohnungsz\u00e4hler&person=Max%20Mustermann
+// Beispiel:
+// /zaehlerstaende_form.html?liegenschaft=Musterhaus&zaehlernummer=4711&zaehlerstand=123,45&zaehlerart=Gaszähler&typ=Wohnungszähler&geeicht_bis=2030-12-31&person=Max%20Mustermann
 
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const map = {
     liegenschaft: 'liegenschaft',
     zaehlernummer: 'zaehlernummer',
+    zaehlerstand: 'zaehlerstand',
     zaehlerart: 'zaehlerart',
     typ: 'typ',
+    geeicht_bis: 'geeicht_bis',
     person: 'person'
   };
   Object.entries(map).forEach(([param, id]) => {
