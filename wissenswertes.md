@@ -83,25 +83,6 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
     zertifizierter Verwalter nach § 26a WEG, wäre so etwas nicht passiert.
   </blockquote>
 
-  <h2>Unser Lösungsansatz – Schritt für Schritt</h2>
-  <p>
-    Als erfahrene Hausverwaltung in Hannover unterstützen wir Sie dabei,
-    die Umstellung von aha <strong>proaktiv</strong> zu meistern:
-  </p>
-  <ul>
-    <li><strong>Bestandsaufnahme:</strong> Wir überprüfen vor Ort, ob Behältergrößen und -anzahl den Richtlinien entsprechen.</li>
-    <li><strong>Flächen-Check:</strong> Wir vermessen Ihren Müllplatz und prüfen Erweiterungs­möglichkeiten.</li>
-    <li><strong>Beantragung & Koordination:</strong> Benötigte Container werden rechtzeitig bestellt und Liefertermine abgestimmt.</li>
-    <li><strong>Monitoring:</strong> Nach der Umstellung beobachten wir Füllstände und passen Behältergrößen ggf. an.</li>
-  </ul>
-
-  <h2>Kontakt</h2>
-  <p>
-    Haben Sie Fragen oder möchten Sie Ihre Müllplatz­situation prüfen lassen?<br>
-     <a href="https://hausverwaltung-marcomueller.de" target="_blank">hausverwaltung-marcomueller.de</a><br>
-     <a href="/problem-melden/" target="_blank">Problem melden</a>
-  </p>
-
   <hr>
 </div>
 
