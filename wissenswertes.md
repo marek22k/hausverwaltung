@@ -28,6 +28,7 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 ## 🔎 Inhaltsverzeichnis
 
 <ul>
+  <li><a href="#AltpapierAbholung">Altpapier-Abholung nur noch alle 14 Tage – was bedeutet das für Ihre Wohnanlage?</a></li>
   <li><a href="#Kragplatten"> Betonschäden an Kragplatten – eine stille Gefahr für Wohnanlagen aus den 60ern in Hannover</a></li>
   <li><a href="#EichhoernchenInFassade">🐿️ Eichhörnchen in der Fassade – was tun? 🏡</a></li>
   <li><a href="#weg-beschluss">🏛️ Wie lange ist ein WEG-Beschluss anfechtbar?</a></li>
@@ -35,6 +36,77 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 </ul>
 
 ---
+
+<div id="AltpapierAbholung" class="box">
+  <h1>♻️ Altpapier-Abholung nur noch alle 14 Tage – was bedeutet das für Ihre Wohnanlage? <small>(26.07.2025)</small></h1>
+
+  <!-- Beispielbild: kann später ersetzt oder entfernt werden -->
+  <img src="/assets/img/wissenswertes/Altpapier.jpeg" alt="Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover.</p>
+
+  <p>
+    <strong>Ab August</strong> fährt die <em>aha</em> nur noch alle vierzehn Tage vor, um das Altpapier in Hannover abzuholen.
+    Damit das reibungslos klappt, müssen <strong>Hausverwaltungen jetzt genau hinschauen</strong>:
+  </p>
+
+  <ul>
+    <li>Welche Behältergrößen passen zu den Bewohnerzahlen?</li>
+    <li>Wie viel Platz ist auf dem Müllplatz tatsächlich vorhanden?</li>
+    <li>Braucht es vielleicht sogar eine <strong>Erweiterung</strong> des Müllplatzes?</li>
+  </ul>
+
+  <p>
+    Laut aha reichen für vier Wohneinheiten bereits <strong>660 Liter</strong>. Rechnet man das hoch, benötigt ein Haus
+    mit 32 Parteien eigentlich <strong>vier große 1 100-Liter-Container</strong>, um das drohende Papierchaos zu vermeiden.
+  </p>
+
+  <h2>Praxisbeispiel: „Eine Tonne für 32 Wohneinheiten?“</h2>
+  <p>
+    Bei einer Fremdbegehung haben wir etwas gesehen, das man kaum glauben mag:
+    Vor einem Objekt mit genau diesen 32 Wohneinheiten stand <strong>nur eine einzelne kleine Papiertonne</strong> –
+    ein Behältnis, das höchstens für eine Handvoll Nachbarn gedacht sein könnte.
+  </p>
+
+  <p>
+    Die Folgen liegen sprichwörtlich auf der Straße:
+  </p>
+  <ol>
+    <li>Kartons und Zeitungen <strong>stapeln sich</strong> neben der Tonne.</li>
+    <li>Aus Verzweiflung landet wertvolles Altpapier im <strong>Restmüll</strong>.</li>
+    <li>Teure <strong>Sonderleerungen</strong> werden fällig, Restmüllkapazität schrumpft.</li>
+    <li>Am Ende steigen die <strong>Müllgebühren</strong> – zulasten von Eigentümern und Mietern, obwohl
+        Altpapier doch eigentlich kostenlos abgeholt wird.</li>
+  </ol>
+
+  <blockquote style="font-style: italic; border-left: 4px solid #007ACC; padding-left: 1em;">
+    Zufriedenheit klingt anders. Mit <strong>Hausverwaltung Marco Müller</strong>,
+    zertifizierter Verwalter nach § 26a WEG, wäre so etwas nicht passiert.
+  </blockquote>
+
+  <h2>Unser Lösungsansatz – Schritt für Schritt</h2>
+  <p>
+    Als erfahrene Hausverwaltung in Hannover unterstützen wir Sie dabei,
+    die Umstellung von aha <strong>proaktiv</strong> zu meistern:
+  </p>
+  <ul>
+    <li><strong>Bestandsaufnahme:</strong> Wir überprüfen vor Ort, ob Behältergrößen und -anzahl den Richtlinien entsprechen.</li>
+    <li><strong>Flächen-Check:</strong> Wir vermessen Ihren Müllplatz und prüfen Erweiterungs­möglichkeiten.</li>
+    <li><strong>Beantragung & Koordination:</strong> Benötigte Container werden rechtzeitig bestellt und Liefertermine abgestimmt.</li>
+    <li><strong>Monitoring:</strong> Nach der Umstellung beobachten wir Füllstände und passen Behältergrößen ggf. an.</li>
+  </ul>
+
+  <h2>Kontakt</h2>
+  <p>
+    Haben Sie Fragen oder möchten Sie Ihre Müllplatz­situation prüfen lassen?<br>
+     <a href="https://hausverwaltung-marcomueller.de" target="_blank">hausverwaltung-marcomueller.de</a><br>
+     <a href="/problem-melden/" target="_blank">Problem melden</a>
+  </p>
+
+  <hr>
+</div>
+
+
+
 
 <div id="Kragplatten" class="box">
 
