@@ -13,16 +13,24 @@ keywords: Hausverwaltung, Kontakt, Zertifikate, Über mich, Tätigkeitsgebiete, 
   gap: 2rem;
   justify-content: center;
   margin-top: 2rem;
+  padding: 1rem;
 }
 
 .icon-box {
   text-align: center;
   transition: transform 0.3s ease;
-  max-width: 150px;
+  max-width: 200px;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  animation: fadeInUp 0.6s ease-in-out;
 }
 
 .icon-box:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .icon-box img {
@@ -34,6 +42,23 @@ keywords: Hausverwaltung, Kontakt, Zertifikate, Über mich, Tätigkeitsgebiete, 
   font-size: 0.9rem;
   margin-top: 0.5rem;
   color: #555;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .icon-box {
+    max-width: 100%;
+  }
 }
 </style>
 
