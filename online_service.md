@@ -45,13 +45,11 @@ keywords: Hausverwaltung Online-Service, digitale Hausverwaltung Hannover, Schad
   text-decoration: none;
   color: inherit;
   font-weight: 600;
-  font-size: 1.1rem;
   display: inline-block;
   margin-top: 0.25rem;
 }
 
 .service-block p {
-  font-size: 1.125rem;
   line-height: 1.6;
   margin-top: 1rem;
   color: #222;
