@@ -15,7 +15,6 @@ keywords: Hausverwaltung Hannover, WEG-Verwaltung FAQ, Mietverwaltung Fragen, So
 }
 
 .faq-section h2 {
-  font-size: 1.75rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #111;
@@ -36,7 +35,6 @@ details[open] {
 
 summary {
   font-weight: bold;
-  font-size: 1.5rem;
   cursor: pointer;
   outline: none;
   color: #111;
@@ -52,25 +50,11 @@ details[open] summary::marker {
 
 details p {
   margin-top: 1rem;
-  font-size: 1.25rem;
   line-height: 1.8;
   color: #222;
   white-space: pre-line;
 }
 
-@media (max-width: 600px) {
-  .faq-section h2 {
-    font-size: 1.5rem;
-  }
-
-  summary {
-    font-size: 1.3rem;
-  }
-
-  details p {
-    font-size: 1.2rem;
-  }
-}
 </style>
 
 <div class="faq-section">
