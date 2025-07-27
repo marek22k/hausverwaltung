@@ -2,8 +2,8 @@
 layout: page
 title: Angebot anfordern
 permalink: /angebot-anfordern/
-description: Formular zur Angebotsanfrage für eine Hausverwaltung.
-keywords: Hausverwaltung, Angebot, Anfrage, WEG-Verwaltung, Mietverwaltung, Sondereigentum, Verwaltung Hannover
+description: Fordern Sie jetzt Ihr persönliches Angebot zur WEG-Verwaltung, Mietverwaltung oder Sondereigentumsverwaltung in Hannover und Umgebung online an.
+keywords: Hausverwaltung Hannover, Angebot Hausverwaltung, Verwaltungskosten Immobilie, WEG-Verwaltung Angebot, Mietverwaltung Hannover, Sondereigentum verwalten, Verwalter finden Hannover, Hausverwalter gesucht, Immobilienverwaltung Anfrage, Verwalterwechsel Formular, Verwaltung Angebot einholen, Verwaltung Mehrfamilienhaus Hannover
 ---
 
 <style>
