@@ -45,7 +45,7 @@ keywords: Hausverwaltung Hannover, WEG-Verwaltung Hannover, Miethausverwaltung H
   text-decoration: none;
   color: inherit;
   font-weight: 600;
-  font-size: 1.1rem;
+  <!-- font-size: 1.1rem; -->
   display: inline-block;
   margin-top: 0.25rem;
 }
