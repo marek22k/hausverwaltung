@@ -2,8 +2,8 @@
 layout: page
 title: Hausverwaltung - Hannover und Umgebung
 sitemap: true
-description: Zertifizierte, persönliche Hausverwaltung in Hannover & Umgebung. WEG-, SE- & Miethausverwaltung, digitaler Service, transparente Preise, regionaler Fokus.
-keywords: Hausverwaltung Hannover, Immobilienverwaltung Hannover, WEG Verwaltung, Sondereigentumsverwaltung, SE Verwaltung, Miethausverwaltung, zertifizierter Hausverwalter, persönliche Hausverwaltung, digitale Hausverwaltung, Eigentümergemeinschaft, transparente Hausverwaltung, Region Hannover Immobilien, Verwaltung Mietobjekte, Hausverwalter Hannover, Immobilienservice Hannover
+description: Zertifizierte Hausverwaltung in Hannover, persönlich betreut vom Inhaber. WEG-, SE- und Miethausverwaltung, digital, transparent und effizient verwaltet.
+keywords: Hausverwaltung Hannover, WEG Verwaltung Hannover, Mietverwaltung Hannover, Sondereigentumsverwaltung Hannover, Immobilienverwaltung Region Hannover, persönliche Hausverwaltung, digitale Hausverwaltung, zertifizierter Verwalter §26a, Hausverwalter Hannover, Immobilienservice Hannover, Verwaltung Eigentümergemeinschaft, Verwalterwechsel Hannover, Verwaltung von Mietobjekten, transparente Hausverwaltung, Online Hausverwaltung, Verwaltung Wohnanlage Hannover, nachhaltige Hausverwaltung, Eigentümerportal Hausverwaltung
 ---
 <style>
 .leistungen-container {
