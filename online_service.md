@@ -2,8 +2,8 @@
 layout: page
 title: Online Service
 permalink: /onlineservice/
-description: Nutzen Sie die digitalen Services Ihrer Hausverwaltung Marco Müller – einfach, schnell und rund um die Uhr; Schäden melden, Schlüssel bestellen, Zählerstände übermitteln oder auf Unterlagen im Online-Portal zugreifen.
-keywords: Hausverwaltung Online-Service, Schaden melden, Schlüssel nachbestellen, Zählerablesung, Zählerstände, Online-Portal Immobilien, Unterlagen für Eigentümer, Unterlagen für Mieter, Hausverwaltung Marco Müller, WEG-Verwaltung, SE-Verwaltung, Miethausverwaltung, Hannover, digitale Hausverwaltung
+description: Digitale Services der Hausverwaltung Marco Müller: Schäden melden, Schlüssel bestellen, Zählerstände übermitteln oder Unterlagen im Online-Portal einsehen – jederzeit.
+keywords: Hausverwaltung Online-Service, digitale Hausverwaltung Hannover, Schaden melden Hausverwaltung, Schlüssel nachbestellen Verwaltung, Zählerstände übermitteln, Onlineportal Hausverwaltung, Eigentümerzugang Hausverwaltung, Dokumente WEG Verwaltung, SE-Verwaltung online, Miethausverwaltung digital, Unterlagen für Mieter, Hausverwalter Marco Müller, Verwaltung Hannover Onlinezugang, Immobilienservice digital, Mieterdienst Hausverwaltung
 ---
 
 <style>
