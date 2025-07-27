@@ -39,9 +39,9 @@ keywords: Hausverwaltung Hannover, Hausverwaltung Marco Müller, Kontakt Hausver
 }
 
 .icon-box p {
-  font-size: 1.125rem;
+  <!-- font-size: 1.125rem;
   line-height: 1.6;
-  margin-top: 1rem;
+  margin-top: 1rem; -->
   color: #222;
 }
 
