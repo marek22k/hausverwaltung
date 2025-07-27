@@ -16,8 +16,8 @@ keywords: Hausverwaltung Fragen, FAQ, WEG, Verwaltung Hannover, Antworten, Marco
 details {
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin-bottom: 1.25rem;
-  padding: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
   background-color: #f9f9f9;
 }
 
@@ -28,9 +28,10 @@ details[open] {
 
 summary {
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   cursor: pointer;
   outline: none;
+  color: #111;
 }
 
 summary::marker {
@@ -42,11 +43,21 @@ details[open] summary::marker {
 }
 
 details p {
-  margin-top: 0.75rem;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #333;
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #222;
   white-space: pre-line;
+}
+
+@media (max-width: 600px) {
+  summary {
+    font-size: 1.2rem;
+  }
+
+  details p {
+    font-size: 1.1rem;
+  }
 }
 </style>
 
