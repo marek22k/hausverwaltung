@@ -82,7 +82,7 @@ keywords: Hausverwaltung, Kontakt, Zertifikate, Über mich, Tätigkeitsgebiete, 
 
   <div class="icon-box">
     <a href="/faq/">
-      <img src="/assets/img/verwaltung/faq_icon.png" alt="Fragen Icon">
+      <img src="/assets/img/faq_icon.png" alt="Fragen Icon">
       <div>Fragen & Antworten</div>
     </a>
     <p>Antworten auf häufig gestellte Fragen zu unseren Leistungen und Abläufen.</p>
