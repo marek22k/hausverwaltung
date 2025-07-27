@@ -13,6 +13,13 @@ keywords: Hausverwaltung Fragen, FAQ, WEG, Verwaltung Hannover, Antworten, Marco
   padding: 0 1rem;
 }
 
+.faq-section h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
 details {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -28,7 +35,7 @@ details[open] {
 
 summary {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   cursor: pointer;
   outline: none;
   color: #111;
@@ -44,26 +51,30 @@ details[open] summary::marker {
 
 details p {
   margin-top: 1rem;
-  font-size: 1.125rem;
-  line-height: 1.7;
+  font-size: 1.25rem;
+  line-height: 1.8;
   color: #222;
   white-space: pre-line;
 }
 
 @media (max-width: 600px) {
+  .faq-section h2 {
+    font-size: 1.5rem;
+  }
+
   summary {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   details p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 </style>
 
 <div class="faq-section">
 
-## Häufig gestellte Fragen
+<h2>Häufig gestellte Fragen</h2>
 
 <details>
 <summary>Was macht Hausverwaltung Marco Müller als moderne Hausverwaltung aus?</summary>
@@ -166,6 +177,8 @@ Natürlich hat moderne Software auch ihren Preis, doch sie ist eine gezielte Inv
 
 <details>
 <summary>Verfügen Sie in Ihrem Büro über einen eigenen Besprechungsraum?</summary>
+<
+
 <p>Ja, ich habe einen separaten, modern ausgestatteten Besprechungsraum, den wir für kleinere Eigentümerversammlungen oder vertrauliche Gespräche nutzen können.</p>
 </details>
 
