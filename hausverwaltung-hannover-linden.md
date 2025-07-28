@@ -7,11 +7,29 @@ image: /assets/img/hero-linden.webp
 lang: de
 ---
 
+<style>
+/* Button Style – identisch zur Hauptseite */
+.button-link {
+  display: inline-block;
+  background: #0056b3;
+  color: #fff !important;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.button-link:hover { background: #004494; }
+</style>
+
 # Hausverwaltung in Hannover-Linden – Ihr lokaler Verwalter vor Ort
 
-Persönlich, zertifiziert, nah an Ihren Mietern.
+Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwalter für Hannover-Linden, wo bunte Gründerzeitfassaden, die Limmerstraße und das Ihmeufer den Ton angeben. Als zertifizierter Verwalter nach § 26a WEG betreue ich Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum persönlich, gewährleiste transparente Abrechnungen, digitalen 24/7-Belegzugang und feste Ansprechpartner ohne Call-Center, damit Sie sich auf das Wesentliche konzentrieren können.
 
-[Kostenloses Erstgespräch](#kontakt){: .btn-primary }
+<div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:1rem;">
+  <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+  <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
+</div>
 
 ## Warum wir der richtige Partner in Linden sind
 
