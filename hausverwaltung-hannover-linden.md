@@ -22,7 +22,7 @@ lang: de
 .button-link:hover { background: #004494; }
 </style>
 
-# Hausverwaltung in Hannover-Linden – Ihr lokaler Verwalter vor Ort
+# Hausverwaltung Hannover-Linden, zertifizierte Betreuung für WEG, Mietshäuser und Sondereigentum
 
 Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwalter für Hannover-Linden, wo bunte Gründerzeitfassaden, die Limmerstraße und das Ihmeufer den Ton angeben. Als zertifizierter Verwalter nach § 26a WEG betreue ich Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum persönlich, gewährleiste transparente Abrechnungen, digitalen 24/7-Belegzugang und feste Ansprechpartner ohne Call-Center, damit Sie sich auf das Wesentliche konzentrieren können.
 
