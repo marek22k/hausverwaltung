@@ -331,6 +331,52 @@ Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 
 </div>
 
+<h3>WEG‑Verwaltung Hannover</h3>
+Als persönliche, zertifizierte WEG-Verwaltung in Hannover betreuen wir speziell kleine und mittelgroße Eigentümergemeinschaften, sichern den Werterhalt Ihres Gemeinschaftseigentums und stehen Ihnen als Immobilienverwalter (IHK) sowie zertifizierter Verwalter nach §26a WEG mit regionaler Marktkenntnis, digitaler Kompetenz und hohem Engagement zur Seite, damit Sie sich auf transparente Abläufe, feste Ansprechpartner und eine verlässliche Kostenstruktur verlassen können.
+
+Wir übernehmen die komplette kaufmännische Verwaltung – von der fristgerechten Einberufung und professionellen Moderation Ihrer jährlichen Eigentümerversammlung über die rechtssichere Erstellung der Hausgeldabrechnung bis hin zur konsequenten Umsetzung und Überwachung sämtlicher Beschlüsse und halten uns durch kontinuierliche Fortbildungen immer auf dem neuesten Stand der Gesetzgebung, damit Ihre Gemeinschaft rechtlich und wirtschaftlich optimal aufgestellt bleibt. 
+
+Regelmäßige Objektbegehungen, die Koordination von Hausmeister-, Reinigungs-, Winterdienst- und Gartenpflegeeinsätzen sowie die Organisation von Reparaturen bis hin zu energetischen Sanierungen garantieren eine lückenlose technische Betreuung, bei der Qualität, Kostenkontrolle und Nachhaltigkeit zusammenkommen, sodass Sie langfristig von niedrigen Betriebskosten und einer gepflegten Immobilie profitieren.
+
+Über unser benutzerfreundliches Online-Portal greifen Sie rund um die Uhr auf Belege, Verträge und Protokolle zu, verfolgen den Fortschritt laufender Projekte in Echtzeit und genießen kurze Reaktionszeiten ohne Call-Center-Schleifen – persönlich betreut durch den Inhaber, ohne Maklerprovisionen oder hausinterne Dienstleistungsverkäufe, dafür mit klarem Fokus auf Ihre Interessen. Fordern Sie jetzt Ihr unverbindliches Angebot für eine moderne WEG-Verwaltung in Hannover an und erleben Sie, wie einfach professionelle Hausverwaltung sein kann.
+
+<a href="/weg-verwaltung/">Weitere Informationen zur WEG-Verwaltung</a>
+<div style="text-align: center; margin-top: 2rem;">
+<a href="/angebot-anfordern/" class="button-link">
+📄 Angebot anfordern
+</a>
+</div>
+
+<h3>SE‑Verwaltung</h3>
+Als Sondereigentumsverwaltung in Hannover verbinden wir persönliche Betreuung mit digitaler Effizienz, damit Ihre vermietete Eigentumswohnung nicht nur ihren Wert behält, sondern auch nachhaltig Rendite erwirtschaftet. Wir agieren als verlässliche Schnittstelle zwischen Wohnungseigentümer, Mietern und dem WEG-Verwalter, übernehmen die detaillierte Abrechnung einschließlich Nebenkosten, sorgen für ein reibungsloses Mieterwechsel-Management von der Inserat­schaltung bis zur protokollierten Wohnungsübergabe und behalten dabei stets alle rechtlichen Vorgaben im Blick – geprüft nach § 26a WEG und kontinuierlich geschult.
+
+Dank unseres 24/7-Online-Portals greifen Sie und Ihre Mieter jederzeit auf Verträge, Belege und Statusberichte zu, verfolgen Reparaturaufträge und kommunizieren ohne Hotline-Warteschleifen direkt mit dem Inhaber. Klar definierte Prozesse, transparente Preisstrukturen ohne versteckte Kosten sowie regionale Marktkenntnis machen die SE-Verwaltung von Hausverwaltung Marco Müller zu einer stressfreien, kalkulierbaren Investition – ganz gleich, ob Sie nur eine Wohnung oder ein ganzes Portfolio besitzen.
+
+<a href="/sondereigentumsverwaltung/">Weitere Informationen zur Sondereigentumsverwaltung</a>
+<div style="text-align: center; margin-top: 2rem;">
+<a href="/angebot-anfordern/" class="button-link">
+📄 Angebot anfordern
+</a>
+</div>
+
+<h3>Mietverwaltung für Miethäuser</h3>
+Als persönliche Miethausverwaltung in Hannover verbinden wir regionales Markt-Know-how mit digitaler Effizienz, sodass Ihr Mietshaus rechtssicher betreut wird, seinen Wert behält und gleichzeitig eine planbare Rendite erwirtschaftet.
+
+Unsere tagesaktuelle Mieteingangskontrolle prüft jede Zahlung automatisiert, löst bei Bedarf sofort Mahnprozesse aus und stellt Ihnen im Online-Portal transparente Reportings bereit. Sie behalten Einnahmen, Rückstände und Nebenkosten jederzeit im Blick, ohne selbst Tabellen führen zu müssen.
+
+Proaktive Wartungszyklen, engmaschige Objektbegehungen und ein bewährtes Handwerker-Netzwerk halten die Instandhaltungskosten kalkulierbar, verhindern unerwartete Schäden und minimieren Leerstände, wodurch Ihr Gebäude dauerhaft einen gepflegten Eindruck hinterlässt.
+Bei einem Mieterwechsel übernehmen wir die komplette Neuvermietung: marktgerechte Exposés, Besichtigungsmanagement, gründliche Bonitätsprüfung inklusive SCHUFA-Score, rechtssichere Vertragsgestaltung und eine lückenlos protokollierte Wohnungs­übergabe sorgen dafür, dass ausschließlich zuverlässige, zahlungsstarke Mieter einziehen - ganz ohne Maklerprovision
+
+Dank unserer Unabhängigkeit von eigenen Dienstleistungsverkäufen holen wir für jede Maßnahme Vergleichsangebote ein, verhandeln Konditionen und optimieren laufende Verträge, sodass Sie dauerhaft von fairen Preisen und dem besten Preis-Leistungs-Verhältnis profitieren.
+Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach professionelle Mietshausverwaltung in Hannover sein kann.
+
+<a href="/miethausverwaltung/">Weitere Informationen zur Mietshausverwaltung</a>
+<div style="text-align: center; margin-top: 2rem;">
+<a href="/angebot-anfordern/" class="button-link">
+📄 Angebot anfordern
+</a>
+</div>
+
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 ## Kontakt
