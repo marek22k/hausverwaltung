@@ -5,6 +5,8 @@ description: "Ob WEG-, Miet- oder SE-Verwaltung: Wir betreuen Ihr Objekt in Hann
 permalink: /hausverwaltung-hannover-linden/
 image: /assets/img/hero-linden.webp
 lang: de
+robots: noindex, nofollow   
+sitemap: false             
 ---
 
 <style>
