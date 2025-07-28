@@ -176,7 +176,13 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 <h2 style="font-size: 4rem; margin-bottom: 1rem;">Hausverwaltung in Hannover & Umgebung</h2>
 <p style="font-size: 2.2rem; max-width: 90%; margin-bottom: 1.5rem;">
  Persönlich. Zertifiziert. Engagiert.<br>
- Für Eigentümergemeinschaften, Miethäuser und Sondereigentum.
+ Für Eigentümergemeinschaften, Miethäuser und Sondereigentum. <br><br>
+
+<!-- === Telefon in Sichtbereich === -->
+  <a href="tel:+4951151544113" style="font-size:1.6rem;color:#ffdd33;text-decoration:none;font-weight:700;">
+    ☎ 0511 515 44 113
+  </a>
+
 </p>
 
 <a href="/kontakt/" class="button-link">
@@ -237,32 +243,7 @@ font-size: 1.8rem;
 </div>
 
 </div>
-<!-- Hero-Bereich 
-<section class="section-line">
- Mal schaun wie die ganze Geschichte ohne Überschrift aussieht...
-</section>
 
-<section class="section-shadow">
- <h2>Thema-Überschrift</h2>
- <p>Inhalt des Themenbereichs ...</p>
- Und nun noch eines....
-</section>
-
-<section class="section-muted">
- <h2>Thema-Überschrift</h2>
- <p>Inhalt des Themenbereichs ...</p>
-</section>
-
-<section class="section-accent">
- <h2>Thema-Überschrift</h2>
- <p>Inhalt des Themenbereichs ...</p>
-</section>
-
-<section class="section-card">
- <h2>Thema-Überschrift</h2>
- <p>Inhalt des Themenbereichs ...</p>
-</section>
--->
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
