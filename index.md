@@ -455,6 +455,85 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
+<!-- ===================  FAQ  =================== -->
+<h2 id="faq" style="text-align:center;margin-top:3rem;">
+  Häufig gestellte Fragen zur Hausverwaltung in Hannover
+</h2>
+
+<div class="faq-section" style="max-width:900px;margin:0 auto;">
+
+  <details>
+    <summary>Gibt es einen 24/7&nbsp;Notdienst bei Rohrbruch oder Stromausfall?</summary>
+    <p>Ja – bei akuten technischen Störungen, egal ob Rohrbruch, Heizungsausfall
+       oder kompletter Stromausfall, erreichen Sie mich und mein Team rund um
+       die Uhr über unsere zentrale Notdienstnummer. So ist schnelle Hilfe
+       garantiert und Folgeschäden werden minimiert.</p>
+  </details>
+
+  <details>
+    <summary>Führen Sie regelmäßige Objektbegehungen durch?</summary>
+    <p>Mindestens einmal pro Jahr, bei Bedarf aber häufiger,
+       begutachte ich jede Liegenschaft persönlich. Dabei werden
+       alle Bauteile fotografisch dokumentiert, Instandhaltungs­maßnahmen
+       geplant und im Anschluss mit Beirat und Eigentümern abgestimmt –
+       für einen langfristigen Werterhalt Ihrer Immobilie.</p>
+  </details>
+
+  <details>
+    <summary>Arbeiten Sie als Hausverwalter auch digital?</summary>
+    <p>Absolut. Eigentümer und Mieter erhalten über ein
+       verschlüsseltes Online‑Portal 24/7 Zugriff auf Belege,
+       Abrechnungen und Versammlungs­protokolle. Automatisierte
+       Buchhaltung und papierlose Prozesse sorgen für Transparenz,
+       Tempo und Nachhaltigkeit.</p>
+  </details>
+
+  <details>
+    <summary>Warum sollte man sich für einen zertifizierten Verwalter (§&nbsp;26a WEG) entscheiden?</summary>
+    <p>Als zertifizierter Verwalter erfülle ich alle gesetzlichen
+       Anforderungen, bilde mich regelmäßig weiter und garantiere Ihnen
+       eine rechtssichere, professionelle Verwaltung. Das schafft
+       Vertrauen und erleichtert wichtige Beschlussfassungen in Ihrer
+       Eigentümergemeinschaft.</p>
+  </details>
+
+</div>
+
+<!-- FAQPage‑Schema zur SEO‑Aufwertung -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  { "@type":"Question",
+    "name":"Gibt es einen 24/7 Notdienst bei Rohrbruch oder Stromausfall?",
+    "acceptedAnswer":{"@type":"Answer",
+      "text":"Ja – bei akuten technischen Störungen erreichen Sie uns rund um die Uhr über unsere zentrale Notdienstnummer."}},
+  { "@type":"Question",
+    "name":"Führen Sie regelmäßige Objektbegehungen durch?",
+    "acceptedAnswer":{"@type":"Answer",
+      "text":"Mindestens einmal jährlich begutachten wir jede Liegenschaft persönlich und halten alle Ergebnisse nachvollziehbar fest."}},
+  { "@type":"Question",
+    "name":"Arbeiten Sie als Hausverwalter auch digital?",
+    "acceptedAnswer":{"@type":"Answer",
+      "text":"Ja, mit einem sicheren Online‑Portal für Belege, Abrechnungen und transparente Kommunikation."}},
+  { "@type":"Question",
+    "name":"Warum sollte man sich für einen zertifizierten Verwalter entscheiden?",
+    "acceptedAnswer":{"@type":"Answer",
+      "text":"Ein zertifizierter Verwalter garantiert gesetzeskonforme, professionelle Verwaltung und kontinuierliche Weiterbildung."}}
+ ]
+}
+</script>
+<!-- ===================  /FAQ  =================== -->
+
+<p style="text-align:center; margin-top:1.5rem;">
+  <a href="/faq/" style="color:#0056b3; text-decoration:underline; font-weight:600;">
+    ➜ Hier finden Sie weitere häufig gestellte Fragen
+  </a>
+</p>
+
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
+
 ## Persönliche Betreuung für Ihre Immobilie
 
 <div style="text-align: center; margin-top: 2rem;">
