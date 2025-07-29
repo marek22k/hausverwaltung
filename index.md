@@ -439,6 +439,7 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
 
 <!-- ===== Kundenbewertungen-Widget ===== -->
 <style>
+  /* =================== Widget-Layout (unverändert) =================== */
   #review-widget{
     max-width:600px;
     margin:2rem auto;
@@ -448,18 +449,27 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     font-family:system-ui,Arial,sans-serif;
     position:relative;
     background:#fff;
-    overflow:visible;                   /* Pfeile dürfen herausragen */
+    overflow:visible;           /* Pfeile dürfen herausragen */
   }
   #review-widget h2{
     font-size:1.5rem;
     margin:-0.5rem 0 1.2rem;
     text-align:center;
   }
-  #review-widget .rating{color:#f5c518;font-size:1.4rem;letter-spacing:.15rem;margin-bottom:.4rem}
+
+  /* ========= 1) Sterne jetzt doppelt so groß ========= */
+  #review-widget .rating{
+    color:#f5c518;
+    font-size:2.8rem;           /* vorher 1.4rem → jetzt ×2 */
+    letter-spacing:.12rem;
+    margin-bottom:.6rem;
+    line-height:1;
+  }
+
   #review-widget .username{font-weight:600;margin-bottom:.6rem}
   #review-widget .text{line-height:1.45}
 
-  /* ——— Navigations-Buttons ——— */
+  /* ========= 2) Navigations-Pfeile komplett außerhalb ========= */
   #review-widget .nav-btn{
     all:unset;
     cursor:pointer;
@@ -467,32 +477,26 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     line-height:1;
     position:absolute;
     top:50%;
-    transform:translateY(-50%);        /* Y-Zentrierung */
+    transform:translateY(-50%);
     color:#555;
     padding:.4rem .7rem;
     border-radius:6px;
     background:#fff8;
     transition:background .2s;
-    z-index:5;                         /* sicher über allem */
+    z-index:5;                  /* über Inhalt */
   }
-  /* ► Pfeile komplett nach draußen schieben */
-  #review-prev{
-    left:0;
-    transform:translate(-140%, -50%);  /* 140 % seiner Breite nach links */
-  }
-  #review-next{
-    right:0;
-    transform:translate(140%, -50%);   /* 140 % seiner Breite nach rechts */
-  }
+  /* links / rechts ca. 56 px außerhalb (3.5 rem) */
+  #review-prev{ left:-3.5rem; }
+  #review-next{ right:-3.5rem; }
   #review-widget .nav-btn:hover{background:#f5f5f5}
 
-  /* Auf sehr schmalen Displays (z. B. Handy) nach innen holen */
+  /* Auf schmalen Displays (<480 px) Pfeile wieder in die Box holen */
   @media(max-width:480px){
-    #review-prev{transform:translate(0,-50%); left:0;}
-    #review-next{transform:translate(0,-50%); right:0;}
+    #review-prev{ left:0; }
+    #review-next{ right:0; }
   }
 
-  /* Quellen-Hinweis jetzt in normaler Schriftgröße (kein extra .8 rem) */
+  /* Quellen-Hinweis bleibt normal groß */
   #review-widget .source-note{
     margin-top:1.3rem;
     text-align:center;
