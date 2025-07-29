@@ -162,6 +162,27 @@ border: none;            /* falls alte Browser noch einen Link-Rahmen zeigen */
 display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift */
 }
 
+/* Das sind die Button Styles für "Bewertung abgeben" ganz unten */
+.review-cta{
+  display:flex;
+  justify-content:center;
+  gap:1.2rem;
+  margin-top:1rem;
+}
+.btn-review{
+  padding:.6rem 1.1rem;
+  border:2px solid #0072e5;
+  border-radius:6px;
+  font-weight:600;
+  text-decoration:none;
+  color:#0072e5;
+  transition:all .2s;
+}
+.btn-review:hover{
+  background:#0072e5;
+  color:#fff;
+}
+ 
 </style>
 
 <!-- Hero-Bereich -->
@@ -463,6 +484,14 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     margin-bottom:.6rem;
     line-height:1;
   }
+
+/* Sterne hinter Name – inline, aber weiter doppelt so groß */
+.username .rating{
+  font-size:2.8rem;          /* wie zuvor */
+  margin-left:.35rem;        /* kleiner Abstand */
+  vertical-align:mi
+
+ 
   #review-widget .username{font-weight:600;margin-bottom:.6rem}
   #review-widget .text{line-height:1.45}
   #review-widget .source-note{
@@ -531,11 +560,14 @@ function render(i){
   const r = reviews[i];
   widget.insertAdjacentHTML("afterbegin",
     `<div class="content">
-       <div class="rating">★★★★★</div>
-       <div class="username">${r.name}</div>
+       <div class="username">
+         ${r.name}
+         <span class="rating">★★★★★</span>
+       </div>
        <p class="text">${r.text}</p>
      </div>`);
 }
+
 function cycle(step=1){ index = (index+step+reviews.length)%reviews.length; render(index); }
 function start(){ if(intervalSeconds>0) timer=setInterval(()=>cycle(1), intervalSeconds*1000); }
 function stop(){ clearInterval(timer); }
@@ -552,6 +584,15 @@ start();
 </script>
 <!-- ===== Ende Kundenbewertungen-Widget ===== -->
 
+
+<div class="review-cta">
+  <a class="btn-review" href="https://g.page/r/CQoAu3RM8shtEBM/review" target="_blank">
+    Auf&nbsp;Google bewerten
+  </a>
+  <a class="btn-review" href="https://www.golocal.de/writeReview/5ac6cbf17dd9b66c1e1e85b46b6cd040/?backUrl=https%3A%2F%2Fwww.golocal.de%2Fhannover%2Fhausverwaltung-grundstuecksverwaltung%2Fhausverwaltung-marco-mueller-YVzYL%2F%3Fsrrsp%3Dhausverwaltung%2Bmarco%2Bm%25C3%25BCller" target="_blank">
+    Auf&nbsp;GoLocal bewerten
+  </a>
+</div>
 
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
