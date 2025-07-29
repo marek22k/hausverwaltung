@@ -439,17 +439,15 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
 
 <!-- ===== Kundenbewertungen-Widget ===== -->
 <style>
-  /* =================== Widget-Layout (unverändert) =================== */
+  /* ───────── Rahmen / Grund-Layout ───────── */
   #review-widget{
     max-width:600px;
     margin:2rem auto;
-    padding:2rem 2.5rem 3rem;
+    padding:2rem 2.5rem 2.5rem;
     border:2px solid #ddd;
     border-radius:16px;
     font-family:system-ui,Arial,sans-serif;
-    position:relative;
     background:#fff;
-    overflow:visible;           /* Pfeile dürfen herausragen */
   }
   #review-widget h2{
     font-size:1.5rem;
@@ -457,66 +455,57 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     text-align:center;
   }
 
-  /* ========= 1) Sterne jetzt doppelt so groß ========= */
+  /* Sterne doppelt so groß */
   #review-widget .rating{
     color:#f5c518;
-    font-size:2.8rem;           /* vorher 1.4rem → jetzt ×2 */
+    font-size:2.8rem;          /* ×2 */
     letter-spacing:.12rem;
     margin-bottom:.6rem;
     line-height:1;
   }
-
   #review-widget .username{font-weight:600;margin-bottom:.6rem}
   #review-widget .text{line-height:1.45}
-
-  /* ========= 2) Navigations-Pfeile komplett außerhalb ========= */
-  #review-widget .nav-btn{
-    all:unset;
-    cursor:pointer;
-    font-size:2rem;
-    line-height:1;
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    color:#555;
-    padding:.4rem .7rem;
-    border-radius:6px;
-    background:#fff8;
-    transition:background .2s;
-    z-index:5;                  /* über Inhalt */
-  }
-  /* links / rechts ca. 56 px außerhalb (3.5 rem) */
-  #review-prev{ left:-3.5rem; }
-  #review-next{ right:-3.5rem; }
-  #review-widget .nav-btn:hover{background:#f5f5f5}
-
-  /* Auf schmalen Displays (<480 px) Pfeile wieder in die Box holen */
-  @media(max-width:480px){
-    #review-prev{ left:0; }
-    #review-next{ right:0; }
-  }
-
-  /* Quellen-Hinweis bleibt normal groß */
   #review-widget .source-note{
     margin-top:1.3rem;
     text-align:center;
   }
+
+  /* ───────── Navigations-Leiste unter dem Widget ───────── */
+  .review-nav{
+    display:flex;
+    justify-content:center;
+    gap:2.5rem;
+    margin-top:.6rem;
+  }
+  .review-nav button{
+    all:unset;
+    cursor:pointer;
+    font-size:2rem;
+    line-height:1;
+    padding:.25rem .6rem;
+    border-radius:6px;
+    background:#fff8;
+    transition:background .2s;
+  }
+  .review-nav button:hover{background:#f5f5f5}
 </style>
 
 <div id="review-widget" aria-live="polite">
   <h2>Das sagen unsere Kunden</h2>
-
-  <!-- Dynamischer Inhalt kommt per JS -->
-  <button id="review-prev" class="nav-btn" aria-label="Vorherige Bewertung">❮</button>
-  <button id="review-next" class="nav-btn" aria-label="Nächste Bewertung">❯</button>
-
+  <!-- Dynamischer Inhalt wird per JS eingefügt -->
   <p class="source-note">
     Alle Bewertungen stammen von Google &amp; GoLocal&nbsp;(5&nbsp;Sterne)
   </p>
 </div>
 
+<!-- Pfeile jetzt unterhalb der Box -->
+<div class="review-nav">
+  <button id="review-prev" aria-label="Vorherige Bewertung">❮</button>
+  <button id="review-next" aria-label="Nächste Bewertung">❯</button>
+</div>
+
 <script>
-/* Bewertungen – bereits eingetragen */
+/* Bewertungen – deine Texte */
 const reviews = [
   {name:"Ela Pluta", text:`Unsere WEG ist sehr zufrieden mit Herr Müller. Er arbeitet schnell, zuverlässig und kommuniziert stets transparent. Besonders hervorzuheben: er hat das Chaos der Vorverwaltung schnell in den Griff bekommen. Man merkt seine Erfahrung und dass ihm die Anliegen der Eigentümer wichtig sind.`},
   {name:"Kornelia Lal", text:`Seit wir unsere Immobilie von dieser Hausverwaltung betreuen lassen, haben wir deutlich weniger Sorgen. Herr Müller kümmert sich um alles, ist stets freundlich und für jedes Problem wird eine Lösung gefunden. Besonders beeindruckend ist die zügige Bearbeitung von Anliegen und die dabei gelebte Transparenz.`},
@@ -527,19 +516,20 @@ const reviews = [
   {name:"Dolvice", text:`Der Wechsel zur Hausverwaltung Marco Müller verlief völlig reibungslos. Nachdem unsere alte WEG-Verwaltung vieles vernachlässigt hatte, wurden die Unterlagen von Herrn Müller schnell und ordentlich aufbereitet. Besonders positiv fällt auch die gute Erreichbarkeit auf.`}
 ];
 
-/* Konfiguration – 0 = nur manuell */
+/* Konfiguration: 0 = nur manuell, sonst Auto-Wechsel */
 const intervalSeconds = 6;
 
 /* Slider-Logik */
-const widget = document.getElementById("review-widget");
-const prevBtn= document.getElementById("review-prev");
-const nextBtn= document.getElementById("review-next");
-let index = 0, timer;
+const widget   = document.getElementById("review-widget");
+const prevBtn  = document.getElementById("review-prev");
+const nextBtn  = document.getElementById("review-next");
+let   index    = 0;
+let   timer;
 
 function render(i){
   widget.querySelector(".content")?.remove();
   const r = reviews[i];
-  nextBtn.insertAdjacentHTML("beforebegin",
+  widget.insertAdjacentHTML("afterbegin",
     `<div class="content">
        <div class="rating">★★★★★</div>
        <div class="username">${r.name}</div>
@@ -561,6 +551,7 @@ render(index);
 start();
 </script>
 <!-- ===== Ende Kundenbewertungen-Widget ===== -->
+
 
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
