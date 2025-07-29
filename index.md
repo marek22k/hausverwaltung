@@ -536,7 +536,7 @@ Vertrauen entsteht durch zufriedene Kunden, entdecken Sie aktuelle Rezensionen, 
 </div>
 
 <!-- Pfeile jetzt unterhalb der Box -->
-<div class="review-nav">
+<div class="review-nav" text-align:center;>
   <button id="review-prev" aria-label="Vorherige Bewertung">❮</button>
   <button id="review-next" aria-label="Nächste Bewertung">❯</button>
 </div>
