@@ -448,6 +448,7 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     font-family:system-ui,Arial,sans-serif;
     position:relative;
     background:#fff;
+    overflow:visible;                  /* Pfeile dürfen herausragen */
   }
   #review-widget h2{
     font-size:1.5rem;
@@ -457,7 +458,7 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
   #review-widget .rating{color:#f5c518;font-size:1.4rem;letter-spacing:.15rem;margin-bottom:.4rem}
   #review-widget .username{font-weight:600;margin-bottom:.6rem}
   #review-widget .text{line-height:1.45}
-  #review-widget .source-note{font-size:.8rem;color:#666;margin-top:1.3rem;text-align:center}
+  #review-widget .source-note{margin-top:1.3rem;text-align:center}  /* normale Schriftgr. */
 
   /* Navigations-Buttons */
   #review-widget .nav-btn{
@@ -474,9 +475,10 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     background:#fff8;
     transition:background .2s;
   }
+  /* Pfeile stehen jetzt deutlicher außerhalb des Rahmens */
+  #review-prev{left:-3.5rem}
+  #review-next{right:-3.5rem}
   #review-widget .nav-btn:hover{background:#f5f5f5}
-  #review-prev{left:-2.5rem}   /* links */
-  #review-next{right:-2.5rem}  /* rechts */
 
   /* Bei sehr schmalen Displays rücken die Pfeile nach innen */
   @media(max-width:480px){
@@ -493,12 +495,12 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
   <button id="review-next" class="nav-btn" aria-label="Nächste Bewertung">❯</button>
 
   <p class="source-note">
-    Alle Bewertungen stammen von Google &amp; GoLocal&nbsp;(5 Sterne)
+    Alle Bewertungen stammen von Google &amp; GoLocal&nbsp;(5&nbsp;Sterne)
   </p>
 </div>
 
 <script>
-/* 1) Bewertungen – bereits eingetragen */
+/* Bewertungen – bereits eingetragen */
 const reviews = [
   {name:"Ela Pluta", text:`Unsere WEG ist sehr zufrieden mit Herr Müller. Er arbeitet schnell, zuverlässig und kommuniziert stets transparent. Besonders hervorzuheben: er hat das Chaos der Vorverwaltung schnell in den Griff bekommen. Man merkt seine Erfahrung und dass ihm die Anliegen der Eigentümer wichtig sind.`},
   {name:"Kornelia Lal", text:`Seit wir unsere Immobilie von dieser Hausverwaltung betreuen lassen, haben wir deutlich weniger Sorgen. Herr Müller kümmert sich um alles, ist stets freundlich und für jedes Problem wird eine Lösung gefunden. Besonders beeindruckend ist die zügige Bearbeitung von Anliegen und die dabei gelebte Transparenz.`},
@@ -509,24 +511,24 @@ const reviews = [
   {name:"Dolvice", text:`Der Wechsel zur Hausverwaltung Marco Müller verlief völlig reibungslos. Nachdem unsere alte WEG-Verwaltung vieles vernachlässigt hatte, wurden die Unterlagen von Herrn Müller schnell und ordentlich aufbereitet. Besonders positiv fällt auch die gute Erreichbarkeit auf.`}
 ];
 
-/* 2) Konfiguration – 0 = nur manuell, sonst Auto-Wechsel alle x Sekunden */
+/* Konfiguration – 0 = nur manuell */
 const intervalSeconds = 6;
 
-/* 3) Slider-Logik */
+/* Slider-Logik */
 const widget = document.getElementById("review-widget");
 const prevBtn= document.getElementById("review-prev");
 const nextBtn= document.getElementById("review-next");
 let index = 0, timer;
 
 function render(i){
-  widget.querySelector(".content")?.remove();                      // alten Inhalt säubern
+  widget.querySelector(".content")?.remove();
   const r = reviews[i];
-  const html = `<div class="content">
-                  <div class="rating">★★★★★</div>
-                  <div class="username">${r.name}</div>
-                  <p class="text">${r.text}</p>
-                </div>`;
-  nextBtn.insertAdjacentHTML("beforebegin", html);                 // Buttons behalten
+  nextBtn.insertAdjacentHTML("beforebegin",
+    `<div class="content">
+       <div class="rating">★★★★★</div>
+       <div class="username">${r.name}</div>
+       <p class="text">${r.text}</p>
+     </div>`);
 }
 function cycle(step=1){ index = (index+step+reviews.length)%reviews.length; render(index); }
 function start(){ if(intervalSeconds>0) timer=setInterval(()=>cycle(1), intervalSeconds*1000); }
@@ -543,6 +545,7 @@ render(index);
 start();
 </script>
 <!-- ===== Ende Kundenbewertungen-Widget ===== -->
+
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
