@@ -421,74 +421,6 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
   Dadurch erfolgt die Auswahl von Dienstleistern ausschließlich im Interesse Ihrer Eigentümergemeinschaft – fair, neutral und zum besten Preis-Leistungs-Verhältnis.</p>
 
 <p>Mit einem klaren <a href="/leistungsversprechen" style="color:#0056b3;text-decoration:underline;">Leistungsversprechen</a> stehe ich Ihnen als zuverlässiger und verantwortungsvoller Partner zur Seite.</p>
-
-
-<!-- ===== Bewertungen-Slider  (einfach in deine Startseite einfügen) ===== -->
-<style>
-  /* Grund-Layout */
-  #review-widget           {max-width:480px;margin:2rem auto;padding:1.5rem;border:1px solid #ddd;border-radius:12px;font-family:system-ui,Arial,sans-serif;position:relative}
-  #review-widget .rating   {color:#f5c518;font-size:1.4rem;letter-spacing:.15rem;margin-bottom:.3rem}
-  #review-widget .username {font-weight:600;margin-bottom:.5rem}
-  #review-widget .text     {line-height:1.4}
-  /* Pfeile */
-  #review-widget button    {all:unset;cursor:pointer;font-size:2rem;line-height:1;position:absolute;top:50%;transform:translateY(-50%);color:#555;padding:.3rem .6rem;border-radius:6px}
-  #review-widget button:hover{background:#f5f5f5}
-  #prev                    {left:-2.5rem}
-  #next                    {right:-2.5rem}
-</style>
-
-<div id="review-widget" aria-live="polite">
-  <!-- Inhalt wird per JS eingesetzt -->
-  <button id="prev" aria-label="Vorherige Bewertung">❮</button>
-  <button id="next" aria-label="Nächste Bewertung">❯</button>
-</div>
-
-<script>
-/* *** 1) Deine Bewertungen hier eintragen  *********************************************/
-const reviews = [
-  {name:"Anna K.", text:"Exzellenter Service – immer wieder gern!"},
-  {name:"Marco L.", text:"Schnell, freundlich und sehr kompetent. Absolute Empfehlung."},
-  {name:"Sven P.", text:"Top-Verwalter, kümmert sich um alles. 5 Sterne!"}
-];
-
-/* *** 2) Konfiguration ***************************************************************/
-const intervalSeconds = 5;   // nach wie vielen Sekunden automatisch weitergeblättert wird
-
-/* *** 3) Slider-Logik (nichts mehr ändern notwendig) *********************************/
-const box   = document.getElementById("review-widget");
-const prevB = document.getElementById("prev");
-const nextB = document.getElementById("next");
-let   idx   = 0;
-let   timer;
-
-function draw(i){
-  const r = reviews[i];
-  box.querySelector(".content")?.remove();                     // alten Inhalt löschen
-  const html = `<div class="content">
-                  <div class="rating">★★★★★</div>
-                  <div class="username">${r.name}</div>
-                  <p class="text">${r.text}</p>
-                </div>`;
-  box.insertAdjacentHTML("afterbegin", html);
-}
-function next(n=1){ idx = (idx+n+reviews.length)%reviews.length; draw(idx); }
-function startTimer(){ timer = setInterval(()=>next(1), intervalSeconds*1000); }
-function stopTimer(){ clearInterval(timer); }
-
-prevB.addEventListener("click", () => { stopTimer(); next(-1); });
-nextB.addEventListener("click", () => { stopTimer(); next(1);  });
-document.addEventListener("keydown", e=>{
-  if(e.key==="ArrowLeft")  { stopTimer(); next(-1); }
-  if(e.key==="ArrowRight") { stopTimer(); next(1);  }
-});
-
-draw(idx);          // erste Bewertung zeigen
-startTimer();       // Auto-Lauf starten
-</script>
-<!-- ===== Ende Bewertungen-Slider =================================================== -->
-
-
-
 </div>
 </div>
 
@@ -503,7 +435,114 @@ startTimer();       // Auto-Lauf starten
 </a>
 </div>
 
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
+<!-- ===== Kundenbewertungen-Widget ===== -->
+<style>
+  #review-widget{
+    max-width:600px;
+    margin:2rem auto;
+    padding:2rem 2.5rem 3rem;
+    border:2px solid #ddd;             /* Rahmen breiter */
+    border-radius:16px;
+    font-family:system-ui,Arial,sans-serif;
+    position:relative;
+    background:#fff;
+  }
+  #review-widget h2{
+    font-size:1.5rem;
+    margin:-0.5rem 0 1.2rem;
+    text-align:center;
+  }
+  #review-widget .rating{color:#f5c518;font-size:1.4rem;letter-spacing:.15rem;margin-bottom:.4rem}
+  #review-widget .username{font-weight:600;margin-bottom:.6rem}
+  #review-widget .text{line-height:1.45}
+  #review-widget .source-note{font-size:.8rem;color:#666;margin-top:1.3rem;text-align:center}
+
+  /* Navigations-Buttons */
+  #review-widget .nav-btn{
+    all:unset;
+    cursor:pointer;
+    font-size:2rem;
+    line-height:1;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    color:#555;
+    padding:.4rem .7rem;
+    border-radius:6px;
+    background:#fff8;
+    transition:background .2s;
+  }
+  #review-widget .nav-btn:hover{background:#f5f5f5}
+  #review-prev{left:-2.5rem}   /* links */
+  #review-next{right:-2.5rem}  /* rechts */
+
+  /* Bei sehr schmalen Displays rücken die Pfeile nach innen */
+  @media(max-width:480px){
+    #review-prev{left:0}
+    #review-next{right:0}
+  }
+</style>
+
+<div id="review-widget" aria-live="polite">
+  <h2>Das sagen unsere Kunden</h2>
+
+  <!-- Dynamischer Inhalt kommt per JS -->
+  <button id="review-prev" class="nav-btn" aria-label="Vorherige Bewertung">❮</button>
+  <button id="review-next" class="nav-btn" aria-label="Nächste Bewertung">❯</button>
+
+  <p class="source-note">
+    Alle Bewertungen stammen von Google &amp; GoLocal&nbsp;(5 Sterne)
+  </p>
+</div>
+
+<script>
+/* 1) Bewertungen – bereits eingetragen */
+const reviews = [
+  {name:"Ela Pluta", text:`Unsere WEG ist sehr zufrieden mit Herr Müller. Er arbeitet schnell, zuverlässig und kommuniziert stets transparent. Besonders hervorzuheben: er hat das Chaos der Vorverwaltung schnell in den Griff bekommen. Man merkt seine Erfahrung und dass ihm die Anliegen der Eigentümer wichtig sind.`},
+  {name:"Kornelia Lal", text:`Seit wir unsere Immobilie von dieser Hausverwaltung betreuen lassen, haben wir deutlich weniger Sorgen. Herr Müller kümmert sich um alles, ist stets freundlich und für jedes Problem wird eine Lösung gefunden. Besonders beeindruckend ist die zügige Bearbeitung von Anliegen und die dabei gelebte Transparenz.`},
+  {name:"Marek", text:`Wer in Hannover einen guten WEG-Verwalter sucht, sollte Herr Müller in Betracht ziehen. Professionell, freundlich und immer mit Blick auf die Bedürfnisse unserer Eigentümergemeinschaft – so geht moderne Hausverwaltung.`},
+  {name:"Heike2615", text:`Fragen werden schnell beantwortet und Entscheidungen nachvollziehbar erklärt. Man fühlt sich ernst genommen und gut betreut.`},
+  {name:"LeonBecker", text:`Unsere WEG wurde dieses Jahr mitten in der laufenden Periode von Herrn Müller übernommen, nachdem die vorherige Verwaltung praktisch alle Aufgaben eingestellt hatte. Selbst dringende Überweisungen blieben liegen. Herr Müller hat sich mit enormem Einsatz durch das Chaos gearbeitet, sämtliche Rückstände aufgeholt, Zahlungen sofort veranlasst und uns in kürzester Zeit wieder auf den aktuellen Stand gebracht. Kommunikation und Transparenz sind dabei vorbildlich: Wir werden regelmäßig informiert und Fragen werden schnell beantwortet. So stelle ich mir professionelle Hausverwaltung vor. Dankeschön und eine klare Empfehlung!`},
+  {name:"Arno2020", text:`Kompetente und zuverlässige Verwaltung. Sehr gute Erreichbarkeit und transparente Abläufe.`},
+  {name:"Dolvice", text:`Der Wechsel zur Hausverwaltung Marco Müller verlief völlig reibungslos. Nachdem unsere alte WEG-Verwaltung vieles vernachlässigt hatte, wurden die Unterlagen von Herrn Müller schnell und ordentlich aufbereitet. Besonders positiv fällt auch die gute Erreichbarkeit auf.`}
+];
+
+/* 2) Konfiguration – 0 = nur manuell, sonst Auto-Wechsel alle x Sekunden */
+const intervalSeconds = 6;
+
+/* 3) Slider-Logik */
+const widget = document.getElementById("review-widget");
+const prevBtn= document.getElementById("review-prev");
+const nextBtn= document.getElementById("review-next");
+let index = 0, timer;
+
+function render(i){
+  widget.querySelector(".content")?.remove();                      // alten Inhalt säubern
+  const r = reviews[i];
+  const html = `<div class="content">
+                  <div class="rating">★★★★★</div>
+                  <div class="username">${r.name}</div>
+                  <p class="text">${r.text}</p>
+                </div>`;
+  nextBtn.insertAdjacentHTML("beforebegin", html);                 // Buttons behalten
+}
+function cycle(step=1){ index = (index+step+reviews.length)%reviews.length; render(index); }
+function start(){ if(intervalSeconds>0) timer=setInterval(()=>cycle(1), intervalSeconds*1000); }
+function stop(){ clearInterval(timer); }
+
+prevBtn.addEventListener("click", ()=>{stop(); cycle(-1);});
+nextBtn.addEventListener("click", ()=>{stop(); cycle(1);});
+document.addEventListener("keydown", e=>{
+  if(e.key==="ArrowLeft"){stop(); cycle(-1);}
+  if(e.key==="ArrowRight"){stop(); cycle(1);}
+});
+
+render(index);
+start();
+</script>
+<!-- ===== Ende Kundenbewertungen-Widget ===== -->
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
