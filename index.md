@@ -200,7 +200,7 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
  Für Eigentümergemeinschaften, Miethäuser und Sondereigentum. <br><br>
 
 <!-- === Telefon in Sichtbereich === -->
-  <a href="tel:+4951151544113" style="font-size:1.8rem;color:#ffdd33;text-decoration:none;font-weight:700;">
+  <a href="tel:+4951151544113" style="font-size:2.8rem;color:#ffdd33;text-decoration:none;font-weight:700;">
     ☎ 0511 515 44 113
   </a>
 
@@ -508,6 +508,7 @@ Vertrauen entsteht durch zufriedene Kunden, entdecken Sie aktuelle Rezensionen, 
   width:max-content;        /* nur so breit wie die Pfeile */
   margin:0.8rem auto 0;     /* oben Abstand, dann auto-zentriert */
   text-align:center;        /* falls mehrere Buttons */
+  align:center;
 }
 
 .review-nav button{
