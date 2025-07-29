@@ -499,23 +499,25 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     text-align:center;
   }
 
-  /* ───── Navigation unter der Box zentrieren ───── */
+/* ---------------- Zentrierte Navigation ---------------- */
 .review-nav{
-  display:flex;            /* Flex-Layout */
-  justify-content:center;  /* horizontal mittig */
-  align-items:center;      /* vertikal mittig (falls nötig) */
-  gap:2.5rem;              /* Abstand zwischen den Pfeilen */
-  margin-top:0.8rem;       /* Abstand zur Box */
-  width:100%;              /* nimmt gesamte Zeile ein → zentriert im Seiten-Raster */
+  /* block-Element mit Auto-Margins → steht immer mittig   */
+  display:block;
+  width:max-content;        /* nur so breit wie die Pfeile */
+  margin:0.8rem auto 0;     /* oben Abstand, dann auto-zentriert */
+  text-align:center;        /* falls mehrere Buttons */
 }
+
 .review-nav button{
   all:unset;
-  cursor:pointer;
+  display:inline-flex;      /* lässt sich wunderbar zentrieren */
+  align-items:center;justify-content:center;
   font-size:2rem;
   line-height:1;
   padding:.25rem .6rem;
   border-radius:6px;
   background:#fff8;
+  cursor:pointer;
   transition:background .2s;
 }
 .review-nav button:hover{background:#f5f5f5;}
@@ -587,6 +589,7 @@ start();
 </script>
 <!-- ===== Ende Kundenbewertungen-Widget ===== -->
 
+<h3>Zufrieden? Jetzt auf Google oder GoLocal bewerten</h3>
 Sind Sie mit unserer Hausverwaltung in Hannover zufrieden, bedanken wir uns herzlich, wenn Sie Ihre positive Erfahrung teilen. Klicken Sie einfach auf „Jetzt bei Google bewerten“ oder „Bewertung auf GoLocal abgeben“, hinterlassen Sie eine kurze Rezension und helfen Sie so anderen Eigentümern, die richtige Verwaltung zu finden.
 
 <div class="review-cta">
