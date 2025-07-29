@@ -421,6 +421,74 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
   Dadurch erfolgt die Auswahl von Dienstleistern ausschließlich im Interesse Ihrer Eigentümergemeinschaft – fair, neutral und zum besten Preis-Leistungs-Verhältnis.</p>
 
 <p>Mit einem klaren <a href="/leistungsversprechen" style="color:#0056b3;text-decoration:underline;">Leistungsversprechen</a> stehe ich Ihnen als zuverlässiger und verantwortungsvoller Partner zur Seite.</p>
+
+
+<!-- ===== Bewertungen-Slider  (einfach in deine Startseite einfügen) ===== -->
+<style>
+  /* Grund-Layout */
+  #review-widget           {max-width:480px;margin:2rem auto;padding:1.5rem;border:1px solid #ddd;border-radius:12px;font-family:system-ui,Arial,sans-serif;position:relative}
+  #review-widget .rating   {color:#f5c518;font-size:1.4rem;letter-spacing:.15rem;margin-bottom:.3rem}
+  #review-widget .username {font-weight:600;margin-bottom:.5rem}
+  #review-widget .text     {line-height:1.4}
+  /* Pfeile */
+  #review-widget button    {all:unset;cursor:pointer;font-size:2rem;line-height:1;position:absolute;top:50%;transform:translateY(-50%);color:#555;padding:.3rem .6rem;border-radius:6px}
+  #review-widget button:hover{background:#f5f5f5}
+  #prev                    {left:-2.5rem}
+  #next                    {right:-2.5rem}
+</style>
+
+<div id="review-widget" aria-live="polite">
+  <!-- Inhalt wird per JS eingesetzt -->
+  <button id="prev" aria-label="Vorherige Bewertung">❮</button>
+  <button id="next" aria-label="Nächste Bewertung">❯</button>
+</div>
+
+<script>
+/* *** 1) Deine Bewertungen hier eintragen  *********************************************/
+const reviews = [
+  {name:"Anna K.", text:"Exzellenter Service – immer wieder gern!"},
+  {name:"Marco L.", text:"Schnell, freundlich und sehr kompetent. Absolute Empfehlung."},
+  {name:"Sven P.", text:"Top-Verwalter, kümmert sich um alles. 5 Sterne!"}
+];
+
+/* *** 2) Konfiguration ***************************************************************/
+const intervalSeconds = 5;   // nach wie vielen Sekunden automatisch weitergeblättert wird
+
+/* *** 3) Slider-Logik (nichts mehr ändern notwendig) *********************************/
+const box   = document.getElementById("review-widget");
+const prevB = document.getElementById("prev");
+const nextB = document.getElementById("next");
+let   idx   = 0;
+let   timer;
+
+function draw(i){
+  const r = reviews[i];
+  box.querySelector(".content")?.remove();                     // alten Inhalt löschen
+  const html = `<div class="content">
+                  <div class="rating">★★★★★</div>
+                  <div class="username">${r.name}</div>
+                  <p class="text">${r.text}</p>
+                </div>`;
+  box.insertAdjacentHTML("afterbegin", html);
+}
+function next(n=1){ idx = (idx+n+reviews.length)%reviews.length; draw(idx); }
+function startTimer(){ timer = setInterval(()=>next(1), intervalSeconds*1000); }
+function stopTimer(){ clearInterval(timer); }
+
+prevB.addEventListener("click", () => { stopTimer(); next(-1); });
+nextB.addEventListener("click", () => { stopTimer(); next(1);  });
+document.addEventListener("keydown", e=>{
+  if(e.key==="ArrowLeft")  { stopTimer(); next(-1); }
+  if(e.key==="ArrowRight") { stopTimer(); next(1);  }
+});
+
+draw(idx);          // erste Bewertung zeigen
+startTimer();       // Auto-Lauf starten
+</script>
+<!-- ===== Ende Bewertungen-Slider =================================================== -->
+
+
+
 </div>
 </div>
 
