@@ -499,24 +499,27 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     text-align:center;
   }
 
-  /* ───────── Navigations-Leiste unter dem Widget ───────── */
-  .review-nav{
-    display:flex;
-    justify-content:center;
-    gap:2.5rem;
-    margin-top:.6rem;
-  }
-  .review-nav button{
-    all:unset;
-    cursor:pointer;
-    font-size:2rem;
-    line-height:1;
-    padding:.25rem .6rem;
-    border-radius:6px;
-    background:#fff8;
-    transition:background .2s;
-  }
-  .review-nav button:hover{background:#f5f5f5}
+  /* ───── Navigation unter der Box zentrieren ───── */
+.review-nav{
+  display:flex;            /* Flex-Layout */
+  justify-content:center;  /* horizontal mittig */
+  align-items:center;      /* vertikal mittig (falls nötig) */
+  gap:2.5rem;              /* Abstand zwischen den Pfeilen */
+  margin-top:0.8rem;       /* Abstand zur Box */
+  width:100%;              /* nimmt gesamte Zeile ein → zentriert im Seiten-Raster */
+}
+.review-nav button{
+  all:unset;
+  cursor:pointer;
+  font-size:2rem;
+  line-height:1;
+  padding:.25rem .6rem;
+  border-radius:6px;
+  background:#fff8;
+  transition:background .2s;
+}
+.review-nav button:hover{background:#f5f5f5;}
+  
 </style>
 
 <div id="review-widget" aria-live="polite">
@@ -584,6 +587,7 @@ start();
 </script>
 <!-- ===== Ende Kundenbewertungen-Widget ===== -->
 
+Sind Sie mit unserer Hausverwaltung in Hannover zufrieden, bedanken wir uns herzlich, wenn Sie Ihre positive Erfahrung teilen. Klicken Sie einfach auf „Jetzt bei Google bewerten“ oder „Bewertung auf GoLocal abgeben“, hinterlassen Sie eine kurze Rezension und helfen Sie so anderen Eigentümern, die richtige Verwaltung zu finden.
 
 <div class="review-cta">
   <a class="btn-review" href="https://g.page/r/CQoAu3RM8shtEBM/review" target="_blank">
