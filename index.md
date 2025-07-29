@@ -182,7 +182,73 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
   background:#0072e5;
   color:#fff;
 }
+
+ /* ───────── Style vom Bewertungs Widget ───────── */
+  /* ───────── Rahmen / Grund-Layout ───────── */
+  #review-widget{
+    max-width:600px;
+    margin:2rem auto;
+    padding:2rem 2.5rem 2.5rem;
+    border:2px solid #ddd;
+    border-radius:16px;
+    font-family:system-ui,Arial,sans-serif;
+    background:#fff;
+  }
+  #review-widget h2{
+    font-size:1.5rem;
+    margin:-0.5rem 0 1.2rem;
+    text-align:center;
+  }
+
+  /* Sterne doppelt so groß */
+  #review-widget .rating{
+    color:#f5c518;
+    font-size:2.8rem;          /* ×2 */
+    letter-spacing:.12rem;
+    margin-bottom:.6rem;
+    line-height:1;
+  }
+
+/* Sterne hinter Name – inline, aber weiter doppelt so groß */
+.username .rating{
+  font-size:2.8rem;          /* wie zuvor */
+  margin-left:.35rem;        /* kleiner Abstand */
+  vertical-align:mi
+
  
+  #review-widget .username{font-weight:600;margin-bottom:.6rem}
+  #review-widget .text{line-height:1.45}
+  #review-widget .source-note{
+    margin-top:1.3rem;
+    text-align:center;
+  }
+
+/* ---------------- Zentrierte Navigation ---------------- */
+.review-nav{
+  /* block-Element mit Auto-Margins → steht immer mittig   */
+  display:block;
+  width:max-content;        /* nur so breit wie die Pfeile */
+  margin:0.8rem auto 0;     /* oben Abstand, dann auto-zentriert */
+  text-align:center;        /* falls mehrere Buttons */
+  align:center;
+}
+
+.review-nav button{
+  all:unset;
+  display:inline-flex;      /* lässt sich wunderbar zentrieren */
+  align-items:center;justify-content:center;
+  font-size:2rem;
+  line-height:1;
+  padding:.25rem .6rem;
+  border-radius:6px;
+  background:#fff8;
+  cursor:pointer;
+  transition:background .2s;
+}
+.review-nav button:hover{background:#f5f5f5;}
+
+
+  
 </style>
 
 <!-- Hero-Bereich -->
@@ -461,71 +527,7 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
 Vertrauen entsteht durch zufriedene Kunden, entdecken Sie aktuelle Rezensionen, die unsere Kompetenz in WEG-, SE- und Miethausverwaltung bestätigen, und sehen Sie, wie einfach professionelle Verwaltung sein kann.
 
 <!-- ===== Kundenbewertungen-Widget ===== -->
-<style>
-  /* ───────── Rahmen / Grund-Layout ───────── */
-  #review-widget{
-    max-width:600px;
-    margin:2rem auto;
-    padding:2rem 2.5rem 2.5rem;
-    border:2px solid #ddd;
-    border-radius:16px;
-    font-family:system-ui,Arial,sans-serif;
-    background:#fff;
-  }
-  #review-widget h2{
-    font-size:1.5rem;
-    margin:-0.5rem 0 1.2rem;
-    text-align:center;
-  }
 
-  /* Sterne doppelt so groß */
-  #review-widget .rating{
-    color:#f5c518;
-    font-size:2.8rem;          /* ×2 */
-    letter-spacing:.12rem;
-    margin-bottom:.6rem;
-    line-height:1;
-  }
-
-/* Sterne hinter Name – inline, aber weiter doppelt so groß */
-.username .rating{
-  font-size:2.8rem;          /* wie zuvor */
-  margin-left:.35rem;        /* kleiner Abstand */
-  vertical-align:mi
-
- 
-  #review-widget .username{font-weight:600;margin-bottom:.6rem}
-  #review-widget .text{line-height:1.45}
-  #review-widget .source-note{
-    margin-top:1.3rem;
-    text-align:center;
-  }
-
-/* ---------------- Zentrierte Navigation ---------------- */
-.review-nav{
-  /* block-Element mit Auto-Margins → steht immer mittig   */
-  display:block;
-  width:max-content;        /* nur so breit wie die Pfeile */
-  margin:0.8rem auto 0;     /* oben Abstand, dann auto-zentriert */
-  text-align:center;        /* falls mehrere Buttons */
-  align:center;
-}
-
-.review-nav button{
-  all:unset;
-  display:inline-flex;      /* lässt sich wunderbar zentrieren */
-  align-items:center;justify-content:center;
-  font-size:2rem;
-  line-height:1;
-  padding:.25rem .6rem;
-  border-radius:6px;
-  background:#fff8;
-  cursor:pointer;
-  transition:background .2s;
-}
-.review-nav button:hover{background:#f5f5f5;}
-  
-</style>
 
 <div id="review-widget" aria-live="polite">
   <h2>Das sagen unsere Kunden</h2>
