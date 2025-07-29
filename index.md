@@ -200,7 +200,7 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
  Für Eigentümergemeinschaften, Miethäuser und Sondereigentum. <br><br>
 
 <!-- === Telefon in Sichtbereich === -->
-  <a href="tel:+4951151544113" style="font-size:1.6rem;color:#ffdd33;text-decoration:none;font-weight:700;">
+  <a href="tel:+4951151544113" style="font-size:1.8rem;color:#ffdd33;text-decoration:none;font-weight:700;">
     ☎ 0511 515 44 113
   </a>
 
