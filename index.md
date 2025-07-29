@@ -443,12 +443,12 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     max-width:600px;
     margin:2rem auto;
     padding:2rem 2.5rem 3rem;
-    border:2px solid #ddd;             /* Rahmen breiter */
+    border:2px solid #ddd;
     border-radius:16px;
     font-family:system-ui,Arial,sans-serif;
     position:relative;
     background:#fff;
-    overflow:visible;                  /* Pfeile dürfen herausragen */
+    overflow:visible;                   /* Pfeile dürfen herausragen */
   }
   #review-widget h2{
     font-size:1.5rem;
@@ -458,9 +458,8 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
   #review-widget .rating{color:#f5c518;font-size:1.4rem;letter-spacing:.15rem;margin-bottom:.4rem}
   #review-widget .username{font-weight:600;margin-bottom:.6rem}
   #review-widget .text{line-height:1.45}
-  #review-widget .source-note{margin-top:1.3rem;text-align:center}  /* normale Schriftgr. */
 
-  /* Navigations-Buttons */
+  /* ——— Navigations-Buttons ——— */
   #review-widget .nav-btn{
     all:unset;
     cursor:pointer;
@@ -468,22 +467,35 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
     line-height:1;
     position:absolute;
     top:50%;
-    transform:translateY(-50%);
+    transform:translateY(-50%);        /* Y-Zentrierung */
     color:#555;
     padding:.4rem .7rem;
     border-radius:6px;
     background:#fff8;
     transition:background .2s;
+    z-index:5;                         /* sicher über allem */
   }
-  /* Pfeile stehen jetzt deutlicher außerhalb des Rahmens */
-  #review-prev{left:-3.5rem}
-  #review-next{right:-3.5rem}
+  /* ► Pfeile komplett nach draußen schieben */
+  #review-prev{
+    left:0;
+    transform:translate(-140%, -50%);  /* 140 % seiner Breite nach links */
+  }
+  #review-next{
+    right:0;
+    transform:translate(140%, -50%);   /* 140 % seiner Breite nach rechts */
+  }
   #review-widget .nav-btn:hover{background:#f5f5f5}
 
-  /* Bei sehr schmalen Displays rücken die Pfeile nach innen */
+  /* Auf sehr schmalen Displays (z. B. Handy) nach innen holen */
   @media(max-width:480px){
-    #review-prev{left:0}
-    #review-next{right:0}
+    #review-prev{transform:translate(0,-50%); left:0;}
+    #review-next{transform:translate(0,-50%); right:0;}
+  }
+
+  /* Quellen-Hinweis jetzt in normaler Schriftgröße (kein extra .8 rem) */
+  #review-widget .source-note{
+    margin-top:1.3rem;
+    text-align:center;
   }
 </style>
 
