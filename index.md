@@ -457,6 +457,8 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
 </div>
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
+<h3>Ihre Meinung zählt und spricht für sich</h3>
+Vertrauen entsteht durch zufriedene Kunden, entdecken Sie aktuelle Rezensionen, die unsere Kompetenz in WEG-, SE- und Miethausverwaltung bestätigen, und sehen Sie, wie einfach professionelle Verwaltung sein kann.
 
 <!-- ===== Kundenbewertungen-Widget ===== -->
 <style>
@@ -528,7 +530,7 @@ Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach pr
   <h2>Das sagen unsere Kunden</h2>
   <!-- Dynamischer Inhalt wird per JS eingefügt -->
   <p class="source-note">
-    Alle Bewertungen stammen von Google &amp; GoLocal&nbsp;(5&nbsp;Sterne)
+    Alle Bewertungen stammen von Google &amp; GoLocal&nbsp;
   </p>
 </div>
 
