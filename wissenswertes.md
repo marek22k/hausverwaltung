@@ -40,8 +40,9 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 
 <div id="EmailVsBrief" class="box">
   <h1>💌 E-Mail statt Brief, warum moderne Immobilienverwaltung digital kommuniziert <small>(30.07.2025)</small></h1>
-  <img src="/assets/img/wissenswertes/emailoderbrief.jpeg" alt="Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
-  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover.</p>
+    <img src="/assets/img/wissenswertes/emailvsbrief.webp" alt="Briefe liegen auf einem Tisch" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Briefe liegen auf einem Tisch, alle Briefe wurden am 30.07. zugestellt. Teilweise waren die Briefe über 6 Tage unterwegs.</p>
+  
 
   <p>Am 30. Juli 2025 lagen drei Briefe in meinem Briefkasten, abgestempelt am 24., 25. und 28. Juli. Der älteste war ganze sechs Tage innerhalb Hannovers unterwegs. Das zeigt deutlich, warum wir bei der <strong>Hausverwaltung Marco Müller</strong> auf eine <strong>moderne Verwaltung</strong> mit Schwerpunkt E-Mail setzen.</p>
 
@@ -67,8 +68,8 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
   <h1>♻️ Altpapier-Abholung nur noch alle 14 Tage – was bedeutet das für Ihre Wohnanlage? <small>(26.07.2025)</small></h1>
 
   <!-- Beispielbild: kann später ersetzt oder entfernt werden -->
-  <img src="/assets/img/wissenswertes/emailvsbrief.webp" alt="Briefe liegen auf einem Tisch" style="max-width:100%; height:auto; margin-bottom: 10px;">
-  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Briefe liegen auf einem Tisch, alle Briefe wurden am 30.07. zugestellt. Teilweise waren die Briefe über 6 Tage unterwegs.</p>
+  <img src="/assets/img/wissenswertes/Altpapier.jpeg" alt="Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover.</p>
 
   <p>
     <strong>Ab August</strong> fährt die <em>aha</em> nur noch alle vierzehn Tage vor, um das Altpapier in Hannover abzuholen.
