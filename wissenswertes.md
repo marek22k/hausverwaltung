@@ -28,6 +28,7 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 ## 🔎 Inhaltsverzeichnis
 
 <ul>
+  <li><a href="#EmailVsBrief">💌 E-Mail statt Brief, digitale Kommunikation in der Immobilienverwaltung</a></li>
   <li><a href="#AltpapierAbholung">Altpapier-Abholung nur noch alle 14 Tage – was bedeutet das für Ihre Wohnanlage?</a></li>
   <li><a href="#Kragplatten"> Betonschäden an Kragplatten – eine stille Gefahr für Wohnanlagen aus den 60ern in Hannover</a></li>
   <li><a href="#EichhoernchenInFassade">🐿️ Eichhörnchen in der Fassade – was tun? 🏡</a></li>
@@ -37,12 +38,37 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 
 ---
 
+<div id="EmailVsBrief" class="box">
+  <h1>💌 E-Mail statt Brief, warum moderne Immobilienverwaltung digital kommuniziert <small>(30.07.2025)</small></h1>
+  <img src="/assets/img/wissenswertes/emailoderbrief.jpeg" alt="Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover.</p>
+
+  <p>Am 30. Juli 2025 lagen drei Briefe in meinem Briefkasten, abgestempelt am 24., 25. und 28. Juli. Der älteste war ganze sechs Tage innerhalb Hannovers unterwegs. Das zeigt deutlich, warum wir bei der <strong>Hausverwaltung Marco Müller</strong> auf eine <strong>moderne Verwaltung</strong> mit Schwerpunkt E-Mail setzen.</p>
+
+  <h2>Vorteile der E-Mail auf einen Blick</h2>
+  <ul>
+    <li>Sofortige Zustellung in Sekunden, während ein Brief Tage benötigt</li>
+    <li>Geringere Kosten, da Porto, Papier und Druck entfallen</li>
+    <li>Weitaus bessere CO₂-Bilanz, weil Transportfahrten und Papierproduktion wegfallen</li>
+    <li>Einfache Archivierung, Lesebestätigung und klarer Zeitstempel für revisionssichere Dokumentation</li>
+    <li>Schnelle Rückmeldungen ermöglichen zügige Beschlussfassungen in der <strong>WEG Verwaltung</strong></li>
+    <li>Orts- und zeitunabhängiger Zugriff für Eigentümer, Beiräte und Dienstleister</li>
+    <li>Verbesserte Transparenz und Nachvollziehbarkeit in der <strong>Immobilienverwaltung</strong></li>
+  </ul>
+
+  <p>Bei <strong>Hausverwalter Müller</strong> verbinden wir Nachhaltigkeit, Effizienz und Transparenz. Setzen Sie ebenfalls auf digitale Kommunikation, um eine zukunftssichere Immobilienverwaltung ohne lange Wartezeiten zu genießen.</p>
+
+  <p>Kontaktieren Sie mich gern per E-Mail oder besuchen Sie meine Website, um mehr über die Vorteile digitaler Kommunikation in der <strong>WEG Verwaltung</strong> zu erfahren.</p>
+  <hr>
+</div>
+
+
 <div id="AltpapierAbholung" class="box">
   <h1>♻️ Altpapier-Abholung nur noch alle 14 Tage – was bedeutet das für Ihre Wohnanlage? <small>(26.07.2025)</small></h1>
 
   <!-- Beispielbild: kann später ersetzt oder entfernt werden -->
-  <img src="/assets/img/wissenswertes/Altpapier.jpeg" alt="Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover" style="max-width:100%; height:auto; margin-bottom: 10px;">
-  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Überfüllte Papiertonnen vor einem Mehrfamilienhaus in Hannover.</p>
+  <img src="/assets/img/wissenswertes/emailvsbrief.webp" alt="Briefe liegen auf einem Tisch" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Briefe liegen auf einem Tisch, alle Briefe wurden am 30.07. zugestellt. Teilweise waren die Briefe über 6 Tage unterwegs.</p>
 
   <p>
     <strong>Ab August</strong> fährt die <em>aha</em> nur noch alle vierzehn Tage vor, um das Altpapier in Hannover abzuholen.
