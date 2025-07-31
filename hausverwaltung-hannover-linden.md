@@ -56,6 +56,8 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwal
   </article>
 </div>
 
+<img src="/assets/img/linden-kuhengarten.webp" alt="Küchengartenpavillon in Hannover-Linden" style="width:100%;height:auto;margin:1.5rem 0;border-radius:8px;">
+
 ## Linden im Überblick
 
 * **44.941&nbsp;Einwohner (2020)**
