@@ -55,7 +55,12 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwal
   </article>
 </div>
 
-<img src="/assets/img/hero-linden.webp" alt="Küchengartenpavillon in Hannover-Linden" style="width:100%;height:auto;margin:1.5rem 0;border-radius:8px;">
+<a href="/assets/img/hero-linden.webp" target="_blank" 
+   style="display:block;width:max-content;margin:1.5rem auto;">
+  <img src="/assets/img/hero-linden.webp"
+       alt="Küchengartenpavillon in Hannover-Linden"
+       style="width:100%;max-width:480px;height:auto;border-radius:8px;cursor:pointer;">
+</a>
 
 ## Linden im Überblick
 
