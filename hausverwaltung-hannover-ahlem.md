@@ -99,6 +99,9 @@ Ahlem bietet Kapitalanlegern stabile Mieteinnahmen. Wir kümmern uns um die Verw
        sizes="(max-width:600px) 92vw, 480px"
        style="width:100%;max-width:480px;height:auto;border-radius:8px;cursor:pointer;">
 </a>
+**Bildnachweis:**  
+*Ahlem Rathaus (ehemaliges)*, Foto von [AxelHH](https://commons.wikimedia.org/wiki/User:AxelHH), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ahlem_Rathaus_ehemaliges.jpg)  
+Lizenz: [CC BY-SA 3.0 DE](https://creativecommons.org/licenses/by-sa/3.0/de/)
 
 ## Ahlem im Überblick
 
@@ -123,8 +126,8 @@ Ahlem bietet Kapitalanlegern stabile Mieteinnahmen. Wir kümmern uns um die Verw
   <p>Ja, wir übernehmen selbstverständlich auch kompakte Mehrfamilien­häuser in Ahlem, inklusive persönlicher Ansprechpartner, sorgfältiger Mietverwaltung und schneller Reaktionszeiten.</p>
 </details>
 <details>
-  <summary>Wie erfolgt die Übernahme meiner Immobilie?<span class="sr-only"> (Antwort einblenden)</span></summary>
-  <p>Nach einer gemeinsamen Bestandsaufnahme digitalisieren wir alle relevanten Unterlagen, stimmen uns mit Eigentümern, Mietern und Dienstleistern ab und erstellen einen klaren Fahrplan für die ersten Wochen, sodass der Wechsel der Hausverwaltung reibungslos verläuft.</p>
+  <summary>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?<span class="sr-only"> (Antwort einblenden)</span></summary>
+  <p>Bei uns stehen Transparenz, Erreichbarkeit und strukturierte Abläufe im Mittelpunkt. Als inhabergeführte Hausverwaltung bieten wir keine anonymen Callcenter, sondern direkte Ansprechpartner. Die Kombination aus digitaler Arbeitsweise, persönlichem Einsatz vor Ort und laufender Qualitätssicherung macht unsere Betreuung zuverlässig, modern und nachhaltig – für Eigentümergemeinschaften und Miethäuser gleichermaßen.</p>
 </details>
 
 ## Jetzt unverbindlich beraten lassen {#kontakt}
