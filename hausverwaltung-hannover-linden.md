@@ -3,7 +3,6 @@ layout: page
 title: "Hausverwaltung in Hannover-Linden – Ihr lokaler Verwalter vor Ort"
 description: "Ob WEG-, Miet- oder SE-Verwaltung: Wir betreuen Ihr Objekt in Hannover-Linden zuverlässig. Jetzt unverbindliches Angebot anfordern!"
 permalink: /hausverwaltung-hannover-linden/
-image: /assets/img/hero-linden.webp
 lang: de
 robots: noindex, nofollow   
 sitemap: false             
@@ -56,7 +55,7 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwal
   </article>
 </div>
 
-<img src="/assets/img/linden-kuhengarten.webp" alt="Küchengartenpavillon in Hannover-Linden" style="width:100%;height:auto;margin:1.5rem 0;border-radius:8px;">
+<img src="/assets/img/hero-linden.webp" alt="Küchengartenpavillon in Hannover-Linden" style="width:100%;height:auto;margin:1.5rem 0;border-radius:8px;">
 
 ## Linden im Überblick
 
