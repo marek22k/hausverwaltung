@@ -19,40 +19,12 @@ sitemap: false
   font-weight:600;
   text-decoration:none;
   color:#fff !important;
-  background:#00418f;            /* höherer Kontrast als #0056b3 */
+  background:#00418f;            
   transition:background .2s ease,transform .05s ease;
 }
-.button-link:hover{
-  background:#003274;
-}
-.button-link:active{
-  transform:scale(.97);
-}
-.button-link:focus-visible{
-  outline:3px solid currentColor;
-  outline-offset:3px;
-}
-
-/* --------------------------------------------------
-   Cards – responsives Grid-Layout
-   -------------------------------------------------- */
-.cards{
-  display:grid;
-  gap:1.5rem;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  margin-block:1.5rem;
-}
-.cards article{
-  padding:1.25rem 1rem;
-  border:1px solid #dfe4ea;
-  border-radius:10px;
-  background:#f9fbfd;
-  box-shadow:0 2px 4px rgba(0,0,0,.03);
-}
-.cards h3{
-  margin-top:0;
-  font-size:1.25rem;
-}
+.button-link:hover{ background:#003274; }
+.button-link:active{ transform:scale(.97); }
+.button-link:focus-visible{ outline:3px solid currentColor; outline-offset:3px; }
 
 /* --------------------------------------------------
    FAQ / Disclosure – besseres UX & a11y
@@ -69,11 +41,9 @@ summary{
   cursor:pointer;
   font-weight:600;
   position:relative;
-  padding-right:1.75rem;   /* Platz für Icon */
+  padding-right:1.75rem;
 }
-summary::-webkit-details-marker{display:none;}       /* Standard-Pfeil ausblenden */
-
-/* eigenes Pfeil-Icon */
+summary::-webkit-details-marker{ display:none; }
 summary::after{
   content:"▸";
   position:absolute;
@@ -82,24 +52,13 @@ summary::after{
   font-size:1.1rem;
 }
 details[open] summary::after{ transform:rotate(90deg); }
-
-details[open]{
-  box-shadow:0 2px 6px rgba(0,0,0,.04);
-}
-
-/* Tastaturfokus sichtbar */
-summary:focus-visible{
-  outline:3px solid #00418f;
-  outline-offset:2px;
-}
+details[open]{ box-shadow:0 2px 6px rgba(0,0,0,.04); }
+summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 /* --------------------------------------------------
-   Global Fokus-Fallback (falls noch keine Klasse)
+   Global Fokus-Fallback
    -------------------------------------------------- */
-*:focus-visible{
-  outline:3px solid #00418f;
-  outline-offset:2px;
-}
+*:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 </style>
 
 ## Hausverwaltung Hannover-Linden, zertifizierte Betreuung für WEG, Mietshäuser und Sondereigentum
@@ -113,26 +72,30 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwal
 
 ## Warum wir der richtige Partner in Linden sind
 
-* Zertifizierter WEG-Verwalter, tief verwurzelt in Hannover-Linden und geprüft nach § 26a WEG, sorgt für rechtssichere Verwaltung historischer wie moderner Mehrfamilienhäuser  
-* Gebürtiger Hannoveraner mit Büro nur fünf Minuten vom Küchengarten, dank engem Netzwerk lokaler Handwerksbetriebe jederzeit persönlich vor Ort und schnell einsatzbereit  
-* 24 / 7-Online-Portal für Eigentümer und Mieter, alle Belege, Abrechnungen und Protokolle Ihrer Immobilie in Linden jederzeit abrufbar, null Papierkram, volle Transparenz  
+* Zertifizierter WEG-Verwalter, tief verwurzelt in Hannover-Linden und geprüft nach § 26a WEG – rechtssichere Verwaltung historischer wie moderner Mehrfamilienhäuser  
+* Gebürtiger Hannoveraner mit Büro nur fünf Minuten vom Küchengarten – dank engem Netzwerk lokaler Handwerksbetriebe jederzeit persönlich vor Ort  
+* 24 / 7-Online-Portal für Eigentümer und Mieter – alle Belege, Abrechnungen und Protokolle jederzeit abrufbar, null Papierkram, volle Transparenz  
 
 ## Unsere Leistungen
 
-<div class="cards">
-  <article>
-    <h3>WEG-Verwaltung</h3>
-    <p>Mit unserem Büro nur fünf Minuten vom Küchengarten entfernt verwalten wir Ihre Wohnungseigentümer­gemeinschaft persönlich und rechtssicher, koordinieren Handwerksfirmen aus Hannover-Linden effizient, halten alle Beschlüsse und Belege rund um die Uhr digital bereit, sorgen so für transparente Abläufe und sichern langfristig den Wert Ihres Gemeinschaftseigentums in Linden Hannover.</p>
-  </article>
-  <article>
-    <h3>Mietverwaltung</h3>
-    <p>Ob charmante Altbauwohnung in der Limmerstraße oder moderner Neubau nahe dem Lindener Hafen, wir übernehmen den gesamten Vermietungs­prozess, prüfen Interessenten sorgfältig, erstellen rechtssichere Verträge, überwachen pünktliche Mieteingänge, erstellen übersichtliche Nebenkosten­abrechnungen und gewährleisten durch unsere 24 / 7-Notfall-Hotline schnellen Service bei allen Anliegen Ihrer Mieter.</p>
-  </article>
-  <article>
-    <h3>Sondereigentums­verwaltung</h3>
-    <p>Für Kapitalanleger einzelner Wohnungen innerhalb einer Lindener WEG bieten wir eine maßgeschneiderte Betreuung, übernehmen Bonitäts-Checks, kümmern uns um Mieterkommunikation und Instandhaltungen, dokumentieren alle Maßnahmen transparent online, garantieren faire Fixpreise ohne versteckte Kosten und schützen Ihre Rendite verlässlich auf dem stark nachgefragten Wohnungsmarkt in Hannover-Linden.</p>
-  </article>
-</div>
+### WEG-Verwaltung
+Mit unserem Büro nur fünf Minuten vom Küchengarten entfernt verwalten wir Ihre Wohnungseigentümer­gemeinschaft persönlich und rechtssicher, koordinieren Handwerksfirmen aus Hannover-Linden effizient, halten alle Beschlüsse und Belege rund um die Uhr digital bereit, sorgen so für transparente Abläufe und sichern langfristig den Wert Ihres Gemeinschaftseigentums in Hannover-Linden.
+
+<a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
+
+---
+
+### Mietverwaltung
+Ob charmante Altbauwohnung in der Limmerstraße oder moderner Neubau nahe dem Lindener Hafen – wir übernehmen den gesamten Vermietungs­prozess, prüfen Interessenten sorgfältig, erstellen rechtssichere Verträge, überwachen pünktliche Mieteingänge, erstellen übersichtliche Nebenkosten­abrechnungen und gewährleisten durch unsere 24 / 7-Notfall-Hotline schnellen Service bei allen Anliegen Ihrer Mieter.
+
+<a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
+
+---
+
+### Sondereigentums­verwaltung
+Für Kapitalanleger einzelner Wohnungen innerhalb einer Lindener WEG bieten wir eine maßgeschneiderte Betreuung, übernehmen Bonitäts-Checks, kümmern uns um Mieterkommunikation und Instandhaltungen, dokumentieren alle Maßnahmen transparent online, garantieren faire Fixpreise ohne versteckte Kosten und schützen Ihre Rendite verlässlich auf dem stark nachgefragten Wohnungsmarkt in Hannover-Linden.
+
+<a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
 
 <a href="/assets/img/hero-linden.webp" target="_blank" 
    style="display:block;width:max-content;margin:1.5rem auto;">
@@ -202,7 +165,7 @@ Füllen Sie das folgende Formular aus oder rufen Sie uns an unter **0511 - 515 4
   "telephone": "+49-511-123456",
   "url": "https://hausverwaltung-marcomueller.de/hausverwaltung-hannover-linden/",
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "08:30", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "08:30", "closes": "17:00" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:30", "closes": "14:00" }
   ],
   "sameAs": [
