@@ -150,7 +150,7 @@ Füllen Sie das folgende Formular aus oder rufen Sie uns an unter **0511 - 515 4
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Hausverwaltung Marco Müller",
-  "image": "https://hausverwaltung-marcomueller.de/assets/img/og-engelbostel.jpg",
+  "image": "https://hausverwaltung-marcomueller.de/assets/img/Logo1_QUADRAT_klein_fett.jpg"
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Markgrafstraße 29",
