@@ -93,7 +93,7 @@ Ahlem bietet Kapitalanlegern stabile Mieteinnahmen. Wir kümmern uns um die Verw
 <a href="/assets/img/hero-ahlem.webp" target="_blank" 
    style="display:block;width:max-content;margin:1.5rem auto;">
   <img src="/assets/img/hero-ahlem.webp"
-       alt="Wohngebiet in Hannover-Ahlem mit Reihenhäusern und Bäumen"
+       alt="Ahlem Rathaus (ehemaliges)"
        width="480" height="320"
        loading="lazy" decoding="async"
        sizes="(max-width:600px) 92vw, 480px"
@@ -113,7 +113,8 @@ Lizenz: [CC BY-SA 3.0 DE](https://creativecommons.org/licenses/by-sa/3.0/de/)
 
 * **Gedenkstätte Ahlem** – historischer Ort mit Bildungszentrum  
 * **Heisterbergallee** – grüne Hauptachse mit guter Anbindung  
-* **Tramlinie 10** – direkte Verbindung in die Innenstadt
+* **Stadtbahnlinie 10** – direkte Verbindung in die Innenstadt
+* **Regiobus 700** – direkte Verbindung in die Innenstadt oder Stadtaußwärts
 
 ## FAQ zur Hausverwaltung in Ahlem
 
