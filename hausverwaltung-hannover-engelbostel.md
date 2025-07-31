@@ -158,17 +158,31 @@ Füllen Sie das folgende Formular aus oder rufen Sie uns an unter **0511 - 515 4
     "postalCode": "30419",
     "addressCountry": "DE"
   },
-  "geo": { "@type": "GeoCoordinates", "latitude": 52.457, "longitude": 9.672 },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.457,
+    "longitude": 9.672
+  },
   "areaServed": "Hannover-Engelbostel",
   "telephone": "+49-511-51544113",
   "url": "https://hausverwaltung-marcomueller.de/hausverwaltung-hannover-engelbostel/",
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "08:30", "closes": "17:00" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:30", "closes": "14:00" }
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Friday",
+      "opens": "10:00",
+      "closes": "19:00"
+    }
   ],
   "sameAs": [
-    "https://www.facebook.com/HausverwaltungMüller",
-    "https://g.page/r/CdZ-XYZ"
+    "https://www.facebook.com/people/Hausverwaltung-Marco-M%C3%BCller/61577081051084/",
+    "https://maps.app.goo.gl/DB1pMfFugyUfpdmn6"
   ]
 }
 </script>
