@@ -24,7 +24,7 @@ sitemap: false
 .button-link:hover { background: #004494; }
 </style>
 
-# Hausverwaltung Hannover-Linden, zertifizierte Betreuung für WEG, Mietshäuser und Sondereigentum
+## Hausverwaltung Hannover-Linden, zertifizierte Betreuung für WEG, Mietshäuser und Sondereigentum
 
 Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwalter für Hannover-Linden, wo bunte Gründerzeitfassaden, die Limmerstraße und das Ihmeufer den Ton angeben. Als zertifizierter Verwalter nach § 26a WEG betreue ich Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum persönlich, gewährleiste transparente Abrechnungen, digitalen 24/7-Belegzugang und feste Ansprechpartner ohne Call-Center, damit Sie sich auf das Wesentliche konzentrieren können.
 
@@ -35,24 +35,24 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwal
 
 ## Warum wir der richtige Partner in Linden sind
 
-* 20&nbsp;Jahre Erfahrung mit Lindener Altbauten
-* Sitz 5&nbsp;Min. vom Küchengarten entfernt
-* 24&nbsp;/&nbsp;7‑Notfall‑Hotline
+* Zertifizierter WEG-Verwalter, tief verwurzelt in Hannover-Linden und geprüft nach § 26a WEG, sorgt für rechtssichere Verwaltung historischer wie moderner Mehrfamilienhäuser 
+* Gebürtiger Hannoveraner mit Büro nur fünf Minuten vom Küchengarten, dank engem Netzwerk lokaler Handwerksbetriebe jederzeit persönlich vor Ort und schnell einsatzbereit
+* 24 / 7-Online-Portal für Eigentümer und Mieter, alle Belege, Abrechnungen und Protokolle Ihrer Immobilie in Linden jederzeit abrufbar, null Papierkram, volle Transparenz
 
 ## Unsere Leistungen
 
 <div class="cards">
   <article>
     <h3>WEG‑Verwaltung</h3>
-    <p>Professionelle Betreuung Ihrer Wohnungseigentümergemeinschaft.</p>
+    <p>Mit unserem Büro nur fünf Minuten vom Küchengarten entfernt verwalten wir Ihre Wohnungseigentümer­gemeinschaft persönlich und rechtssicher, koordinieren Handwerksfirmen aus Hannover-Linden effizient, halten alle Beschlüsse und Belege rund um die Uhr digital bereit, sorgen so für transparente Abläufe und sichern langfristig den Wert Ihres Gemeinschaftseigentums in Linden Hannover.</p>
   </article>
   <article>
     <h3>Mietverwaltung</h3>
-    <p>Kompletter Service von der Vermietung bis zur Nebenkostenabrechnung.</p>
+    <p>Ob charmante Altbauwohnung in der Limmerstraße oder moderner Neubau nahe dem Lindener Hafen, wir übernehmen den gesamten Vermietungs­prozess, prüfen Interessenten sorgfältig, erstellen rechtssichere Verträge, überwachen pünktliche Mieteingänge, erstellen übersichtliche Nebenkosten­abrechnungen und gewährleisten durch unsere 24 ⁄ 7-Notfall-Hotline schnellen Service bei allen Anliegen Ihrer Mieter.</p>
   </article>
   <article>
     <h3>Sondereigentums­verwaltung</h3>
-    <p>Individuelle Verwaltung einzelner Wohnungen innerhalb einer WEG.</p>
+    <p>Für Kapitalanleger einzelner Wohnungen innerhalb einer Lindener WEG bieten wir eine maßgeschneiderte Betreuung, übernehmen Bonitäts-Checks, kümmern uns um Mieterkommunikation und Instandhaltungen, dokumentieren alle Maßnahmen transparent online, garantieren faire Fixpreise ohne versteckte Kosten und schützen Ihre Rendite verlässlich auf dem stark nachgefragten Wohnungsmarkt in Hannover-Linden.</p>
   </article>
 </div>
 
@@ -68,34 +68,24 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem zertifizierten Hausverwal
 * **Küchengartenpavillon** – historisches Wahrzeichen
 * **Drei warme Brüder** – imposantes Industriedenkmal
 
-## Referenzobjekte in Linden
-
-| Objekt | Lage | Einheiten | Statement |
-|--------|------|-----------|-----------|
-| ![Altbau Limmerstraße](/assets/img/ref-limmerstr.jpg){: alt="Gründerzeit-Altbau in der Limmerstraße verwaltet von Hausverwaltung Müller" width="200" } | Limmerstraße 75 | 12 | "Zuverlässige Verwaltung, schnelle Kommunikation." – Eigentümergemeinschaft |
-| ![Mehrparteienhaus Küchengarten](/assets/img/ref-kuechengarten.jpg){: alt="Mehrparteienhaus nahe Küchengarten" width="200" } | Gartenallee 3 | 18 | "Seit 2016 ohne Leerstand." – Vermieterin S. Krüger |
-| ![Loft Linden-Mitte](/assets/img/ref-loft-linden.jpg){: alt="Loftgebäude in Linden-Mitte" width="200" } | Minister-Stüve-Straße 10 | 8 | "Transparente Abrechnungen jedes Jahr." – Investor D. Hahn |
-
 ## FAQ zur Hausverwaltung in Linden
 
+<details> <summary>Was kostet eine WEG-Verwaltung?</summary> <p>Die Vergütung orientiert sich an Faktoren wie Anzahl der Einheiten, Lage und Zustand des Gemeinschaftseigentums, wir erstellen Ihnen auf Wunsch ein maßgeschneidertes Angebot für Ihre Wohnanlage in Hannover-Linden.</p> </details> <details> <summary>Betreuen Sie auch kleinere Miethäuser?</summary> <p>Ja, wir übernehmen selbstverständlich auch kompakte Mehrfamilien­häuser in Linden, inklusive persönlicher Ansprechpartner, sorgfältiger Mietverwaltung und schneller Reaktionszeiten.</p> </details> 
 <details>
-  <summary>Was kostet eine WEG‑Verwaltung?</summary>
-  <p>Die Kosten starten ab 25 € pro Einheit und Monat und richten sich nach Größe und Zustand der Anlage.</p>
-</details>
-<details>
-  <summary>Betreuen Sie auch kleinere Miethäuser?</summary>
-  <p>Ja, wir übernehmen die Verwaltung bereits ab drei Wohneinheiten.</p>
-</details>
-<details>
-  <summary>Wie läuft die Objektübergabe ab?</summary>
-  <p>Wir führen eine Bestandsaufnahme durch, übernehmen alle Unterlagen digital und stellen einen Projektplan für die ersten 100 Tage auf.</p>
+  <summary>Wie erfolgt die Übernahme meiner Immobilie?</summary>
+  <p>Nach einer gemeinsamen Bestandsaufnahme digitalisieren wir alle relevanten Unterlagen, stimmen uns mit Eigentümern, Mietern und Dienstleistern ab und erstellen einen klaren Fahrplan für die ersten Wochen, sodass der Wechsel der Hausverwaltung reibungslos verläuft.</p>
 </details>
 
 ## Jetzt unverbindlich beraten lassen {#kontakt}
 
-Füllen Sie das folgende Formular aus oder rufen Sie uns an unter **0511 ‑ 123456**.
+Füllen Sie das folgende Formular aus oder rufen Sie uns an unter **0511 - 515 44 113**.
 
 <!-- Kontaktformular-Embed oder Include -->
+
+<div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:1rem;">
+  <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+  <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
+</div>
 
 ---
 
