@@ -101,12 +101,11 @@ Kapitalanleger aus der Region oder dem Umland vertrauen uns bei der Verwaltung i
        loading="lazy" decoding="async"
        sizes="(max-width:600px) 92vw, 480px"
        style="width:100%;max-width:480px;height:auto;border-radius:8px;cursor:pointer;">
+</a>
 <figcaption>
   St. Martinskirche Engelbostel rIMG 4047, Foto: Lorsch, Wikimedia Commons, 
   Lizenz: <a href="https://creativecommons.org/licenses/by/3.0/de/deed.de">CC BY‑SA 3.0</a>
 </figcaption>
-</a>
-
 
 ## Engelbostel im Überblick
 
