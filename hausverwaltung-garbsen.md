@@ -40,27 +40,37 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für G
 
 ## Unsere Leistungen
 
-<div style="display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:center;margin-bottom:2rem;">
+<div style="display:flex;flex-direction:column;gap:2rem;margin-bottom:2rem;">
 
-  <div style="flex:1 1 300px;max-width:360px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <h3 style="margin-top:0;">WEG-Verwaltung</h3>
-    <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
-    <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
+  <!-- Box 1: links -->
+  <div style="display:flex;justify-content:flex-start;">
+    <div style="max-width:540px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+      <h3 style="margin-top:0;">WEG-Verwaltung</h3>
+      <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
+      <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
+    </div>
   </div>
 
-  <div style="flex:1 1 300px;max-width:360px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <h3 style="margin-top:0;">Mietverwaltung</h3>
-    <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
-    <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
+  <!-- Box 2: rechts -->
+  <div style="display:flex;justify-content:flex-end;">
+    <div style="max-width:540px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+      <h3 style="margin-top:0;">Mietverwaltung</h3>
+      <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
+      <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
+    </div>
   </div>
 
-  <div style="flex:1 1 300px;max-width:360px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <h3 style="margin-top:0;">Sondereigentums­verwaltung</h3>
-    <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
-    <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
+  <!-- Box 3: links -->
+  <div style="display:flex;justify-content:flex-start;">
+    <div style="max-width:540px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+      <h3 style="margin-top:0;">Sondereigentums­verwaltung</h3>
+      <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
+      <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
+    </div>
   </div>
 
 </div>
+
 
 <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
 
