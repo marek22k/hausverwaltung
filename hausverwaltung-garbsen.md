@@ -5,6 +5,7 @@ description: "Ob WEG-, Miet- oder SE‑Verwaltung: Wir betreuen Ihr Objekt in Ga
 permalink: /hausverwaltung-garbsen/
 lang: de
 sitemap: true
+keywords: Hausverwaltung Garbsen, WEG-Verwaltung Garbsen, Mietverwaltung Garbsen, Sondereigentumsverwaltung Garbsen, Hausverwaltung Hannover, Verwalter Garbsen, Immobilienverwaltung Garbsen, Hausverwalter Garbsen
 ---
 
 <style>
@@ -70,9 +71,11 @@ Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnun
        style="width:100%;max-width:480px;height:auto;border-radius:8px;cursor:pointer;">
 </a>
 
+<!-- Originalbild: https://commons.wikimedia.org/wiki/File:Garbsen,_OT_Altgarbsen,_Hannoversche_Stra%C3%9Fe.jpg -->
+
 **Bildnachweis:**  
 *Garbsen, OT Altgarbsen – Hannoversche Straße*, Foto von Ingo Rickmann, via Wikimedia Commons  
-Lizenz: [CC BY‑SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+Lizenz: [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 ## Garbsen im Überblick
 
