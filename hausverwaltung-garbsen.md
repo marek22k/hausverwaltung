@@ -40,11 +40,40 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für G
 
 ## Unsere Leistungen
 
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+  }
+
+  .fade-in.delay-1 { animation-delay: 0.1s; }
+  .fade-in.delay-2 { animation-delay: 0.3s; }
+  .fade-in.delay-3 { animation-delay: 0.5s; }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+.box-service {
+  max-width: 540px;
+  background: #f9fbfd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-left: 6px solid #00418f;
+}
+</style>
+
 <div style="display:flex;flex-direction:column;gap:2rem;margin-bottom:2rem;">
 
   <!-- Box 1: links -->
   <div style="display:flex;justify-content:flex-start;">
-    <div style="max-width:540px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+    <div class="box-service fade-in delay-1">
       <h3 style="margin-top:0;">WEG-Verwaltung</h3>
       <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
       <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
@@ -53,7 +82,7 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für G
 
   <!-- Box 2: rechts -->
   <div style="display:flex;justify-content:flex-end;">
-    <div style="max-width:540px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+    <div class="box-service fade-in delay-2">
       <h3 style="margin-top:0;">Mietverwaltung</h3>
       <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
       <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
@@ -62,7 +91,7 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für G
 
   <!-- Box 3: links -->
   <div style="display:flex;justify-content:flex-start;">
-    <div style="max-width:540px;background:#f9fbfd;padding:1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+    <div class="box-service fade-in delay-3">
       <h3 style="margin-top:0;">Sondereigentums­verwaltung</h3>
       <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
       <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
@@ -70,7 +99,6 @@ Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für G
   </div>
 
 </div>
-
 
 <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
 
