@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Hausverwaltung in Garbsen – Ihr lokaler Verwalter vor Ort"
+title: "Hausverwaltung Garbsen – Persönlich, digital, zertifiziert"
 description: "Ob WEG-, Miet- oder SE‑Verwaltung: Wir betreuen Ihr Objekt in Garbsen zuverlässig. Jetzt unverbindliches Angebot anfordern!"
 permalink: /hausverwaltung-garbsen/
 lang: de
@@ -25,7 +25,19 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 ## Hausverwaltung Garbsen, zertifizierte Betreuung für WEG, Mietshäuser und Sondereigentum
 
-Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für Garbsen. Die Stadt mit etwa 60.600 Einwohnern bietet Gewerbe, Wohnviertel und eine direkte Verbindung zur Landeshauptstadt Hannover. Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum mit persönlicher Beratung, innovativen digitalen Prozessen und kurzer Durchlaufzeit – ohne Callcenter, dafür mit transparentem Service und regionaler Präsenz.
+<div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:flex-start;margin-bottom:2rem;">
+  <div style="flex:1;min-width:280px;">
+    <p>Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für Garbsen. Die Stadt mit etwa 60.600 Einwohnern bietet Gewerbe, Wohnviertel und eine direkte Verbindung zur Landeshauptstadt Hannover. Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum mit persönlicher Beratung, innovativen digitalen Prozessen und kurzer Durchlaufzeit – ohne Callcenter, dafür mit transparentem Service und regionaler Präsenz.</p>
+  </div>
+  <div style="flex:0 0 200px;text-align:center;">
+    <img src="/assets/img/marco-mueller.webp" 
+         alt="Marco Müller, Hausverwalter in Hannover und Garbsen" 
+         width="200" height="200" 
+         loading="lazy" decoding="async"
+         style="border-radius:50%;max-width:100%;height:auto;">
+    <p style="font-size:0.9rem;color:#444;margin-top:0.5rem;">Marco Müller<br>Inhaber & Verwalter</p>
+  </div>
+</div>
 
 <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:1rem;">
   <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
@@ -92,15 +104,15 @@ Lizenz: [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 ## FAQ zur Hausverwaltung in Garbsen
 
 <details>
-  <summary>Was kostet eine WEG-Verwaltung?<span class="sr-only"> (Antwort einblenden)</span></summary>
+  <summary>Was kostet eine WEG-Verwaltung?</summary>
   <p>Die Vergütung orientiert sich an Faktoren wie Größe der Einheit, Lage und Zustand des Gemeinschaftseigentums. Ich erstelle Ihnen gern ein individuelles Angebot für Ihr Objekt in Garbsen.</p>
 </details>
 <details>
-  <summary>Betreuen Sie auch kleinere Miethäuser?<span class="sr-only"> (Antwort einblenden)</span></summary>
+  <summary>Betreuen Sie auch kleinere Miethäuser?</summary>
   <p>Ja. Ich übernehme auch kleine Miethäuser in Garbsen mit persönlicher Betreuung, klarer Kommunikation und schneller Reaktionszeit.</p>
 </details>
 <details>
-  <summary>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?<span class="sr-only"> (Antwort einblenden)</span></summary>
+  <summary>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?</summary>
   <p>Bei uns stehen Transparenz, Erreichbarkeit und strukturierte Abläufe im Mittelpunkt. Als inhabergeführte Hausverwaltung bieten wir keine anonymen Callcenter, sondern direkte Ansprechpartner. Die Kombination aus digitaler Arbeitsweise, persönlichem Einsatz vor Ort und laufender Qualitätssicherung macht unsere Betreuung zuverlässig, modern und nachhaltig – für Eigentümergemeinschaften und Miethäuser gleichermaßen.</p>
 </details>
 
