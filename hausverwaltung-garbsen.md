@@ -29,12 +29,12 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
   <div style="flex:1;min-width:280px;">
     <p>Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für Garbsen. Die Stadt mit etwa 60.600 Einwohnern bietet Gewerbe, Wohnviertel und eine direkte Verbindung zur Landeshauptstadt Hannover. Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum mit persönlicher Beratung, innovativen digitalen Prozessen und kurzer Durchlaufzeit – ohne Callcenter, dafür mit transparentem Service und regionaler Präsenz.</p>
   </div>
-  <div style="flex:0 0 200px;text-align:center;">
+  <div style="flex:0 0 260px;text-align:center;">
     <img src="/assets/img/marco-mueller.webp" 
          alt="Marco Müller, Hausverwalter in Hannover und Garbsen" 
-         width="200" height="200" 
+         width="260" height="300"
          loading="lazy" decoding="async"
-         style="border-radius:50%;max-width:100%;height:auto;">
+         style="border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.08);max-width:100%;height:auto;">
     <p style="font-size:0.9rem;color:#444;margin-top:0.5rem;">Marco Müller<br>Inhaber & Verwalter</p>
   </div>
 </div>
