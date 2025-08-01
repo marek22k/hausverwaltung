@@ -25,19 +25,7 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 ## Hausverwaltung Garbsen, zertifizierte Betreuung für WEG, Mietshäuser und Sondereigentum
 
-<div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:flex-start;margin-bottom:2rem;">
-  <div style="flex:1;min-width:280px;">
-    <p>Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für Garbsen. Die Stadt mit etwa 60.600 Einwohnern bietet Gewerbe, Wohnviertel und eine direkte Verbindung zur Landeshauptstadt Hannover. Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum mit persönlicher Beratung, innovativen digitalen Prozessen und kurzer Durchlaufzeit – ohne Callcenter, dafür mit transparentem Service und regionaler Präsenz.</p>
-  </div>
-  <div style="flex:0 0 260px;text-align:center;">
-    <img src="/assets/img/marco-mueller.webp" 
-         alt="Marco Müller, Hausverwalter in Hannover und Garbsen" 
-         width="260" height="300"
-         loading="lazy" decoding="async"
-         style="border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.08);max-width:100%;height:auto;">
-    <p style="font-size:0.9rem;color:#444;margin-top:0.5rem;">Marco Müller<br>Inhaber & Verwalter</p>
-  </div>
-</div>
+Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für Garbsen. Die Stadt mit etwa 60.600 Einwohnern bietet Gewerbe, Wohnviertel und eine direkte Verbindung zur Landeshauptstadt Hannover. Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum mit persönlicher Beratung, innovativen digitalen Prozessen und kurzer Durchlaufzeit – ohne Callcenter, dafür mit transparentem Service und regionaler Präsenz.
 
 <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:1rem;">
   <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
@@ -115,6 +103,18 @@ Lizenz: [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
   <summary>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?</summary>
   <p>Bei uns stehen Transparenz, Erreichbarkeit und strukturierte Abläufe im Mittelpunkt. Als inhabergeführte Hausverwaltung bieten wir keine anonymen Callcenter, sondern direkte Ansprechpartner. Die Kombination aus digitaler Arbeitsweise, persönlichem Einsatz vor Ort und laufender Qualitätssicherung macht unsere Betreuung zuverlässig, modern und nachhaltig – für Eigentümergemeinschaften und Miethäuser gleichermaßen.</p>
 </details>
+
+---
+
+<section style="text-align:center;margin:3rem auto 2rem auto;max-width:520px;">
+  <img src="/assets/img/marco-mueller.webp" 
+       alt="Marco Müller, Hausverwalter in Hannover und Garbsen" 
+       width="300" height="360"
+       loading="lazy" decoding="async"
+       style="border-radius:12px;box-shadow:0 3px 12px rgba(0,0,0,0.1);max-width:100%;height:auto;">
+  <h3 style="margin-top:1rem;margin-bottom:0.3rem;">Marco Müller</h3>
+  <p style="margin:0;font-size:1rem;color:#555;">Inhaber & zertifizierter Hausverwalter<br>Ihr Ansprechpartner für Garbsen</p>
+</section>
 
 ## Jetzt unverbindlich beraten lassen {#kontakt}
 
