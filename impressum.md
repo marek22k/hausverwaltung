@@ -23,7 +23,7 @@ E-Mail: info@hausverwaltung-marcomueller.de<br>
 Web: [https://hausverwaltung-marcomueller.de](https://hausverwaltung-marcomueller.de)
 
 ### Umsatzsteuer-ID
-Steuernummer: 26/030/88097
+Steuernummer: 24/130/08092
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: in Erteilung
 ### Gewerbeerlaubnis
 Die Gewerbeerlaubnis nach § 34c GewO wurde durch die Industrie- und Handelskammer Hannover erteilt.
