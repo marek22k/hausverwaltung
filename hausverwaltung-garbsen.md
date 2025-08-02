@@ -9,89 +9,25 @@ keywords: Hausverwaltung Garbsen, WEG-Verwaltung Garbsen, Mietverwaltung Garbsen
 ---
 
 <style>
-.button-link{ display:inline-block; padding:0.75rem 1.25rem; border-radius:8px; font-weight:600; text-decoration:none; color:#fff !important; background:#00418f; transition:background .2s ease,transform .05s ease; }
-.button-link:hover{ background:#003274; }
-.button-link:active{ transform:scale(.97); }
-.button-link:focus-visible{ outline:3px solid currentColor; outline-offset:3px; }
-
-.service-section {
-  max-width: 960px;
-  margin: 0 auto 3rem auto;
-  padding: 0 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-.service-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 2rem;
-}
-.service-box {
-  background: #f9fbfd;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  border-left: 6px solid #00418f;
-  flex: 1 1 500px;
-}
-.service-box h3 {
-  margin-top: 0;
-}
-.service-align-left {
-  flex-direction: row;
-}
-.service-align-right {
-  flex-direction: row-reverse;
-}
-@media (max-width: 768px) {
-  .service-align-left,
-  .service-align-right {
-    flex-direction: column;
-  }
-}
-
-.faq-box {
-  border: 1px solid #dfe4ea;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-  padding: 1rem 1.25rem;
-  background: #ffffff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
-  transition: box-shadow 0.2s ease;
-}
-.faq-box:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-}
-details summary {
-  list-style: none;
-  cursor: pointer;
+.button-link {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
   font-weight: 600;
-  position: relative;
-  padding-right: 1.75rem;
+  text-decoration: none;
+  color: #fff !important;
+  background: #00418f;
+  transition: background 0.2s ease, transform 0.05s ease;
 }
-details summary::-webkit-details-marker {
-  display: none;
+.button-link:hover {
+  background: #003274;
 }
-details summary::after {
-  content: "▸";
-  position: absolute;
-  right: 0.25rem;
-  top: 0.1rem;
-  transition: transform 0.2s ease;
-  font-size: 1.1rem;
+.button-link:active {
+  transform: scale(0.97);
 }
-details[open] summary::after {
-  transform: rotate(90deg);
-}
-details[open] {
-  background: #f9fbfd;
-}
-details p {
-  margin-top: 0.75rem;
-  font-size: 16px;
-  line-height: 1.6;
+.button-link:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
 }
 </style>
 
@@ -99,7 +35,7 @@ details p {
   <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;">
     <h2 style="margin:0;font-size:26px;">Hausverwaltung Garbsen – persönlich, zuverlässig, digital</h2>
     <p style="font-size:18px;line-height:28px;margin:0;">
-      Als zertifizierter Hausverwalter betreue ich Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in Garbsen mit persönlicher Präsenz und digitaler Effizienz.  
+      Als zertifizierter Hausverwalter betreue ich Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in Garbsen mit persönlicher Präsenz und digitaler Effizienz. 
       Sie erreichen mich direkt – ganz ohne Callcenter – und profitieren von klaren Prozessen, schneller Reaktion und vollständigem Online-Zugang zu allen Unterlagen.
     </p>
     <p style="font-size:18px;line-height:28px;margin:0;">
@@ -131,29 +67,39 @@ details p {
 
 ## Unsere Leistungen
 
-<div class="service-section">
-  <div class="service-item service-align-left">
-    <div class="service-box">
-      <h3>WEG-Verwaltung</h3>
-      <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
-      <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
+<link rel="stylesheet" href="/assets/css/leistungen.css">
+{% include leistungen-garbsen.html %}
+
+<hr style="border: none; border-top: 1px solid #dde3ea; margin: 3rem auto; max-width: 960px;">
+
+<section style="background:#f9fbfd;padding:32px 20px;border-radius:12px;margin-bottom:2.5rem;">
+  <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;align-items:center;">
+    <figure style="margin:0 auto;max-width:540px;padding:16px;background:#ffffff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+      <a href="/assets/img/hero-garbsen.webp" target="_blank" style="display:block;">
+        <img src="/assets/img/hero-garbsen.webp"
+             alt="Straßenszene in Altgarbsen – Hannoversche Straße"
+             width="480" height="320"
+             loading="lazy" decoding="async"
+             sizes="(max-width:600px) 92vw, 480px"
+             style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.08);cursor:pointer;">
+      </a>
+      <figcaption style="font-size:13px;color:#666;margin-top:12px;text-align:center;line-height:1.4;">
+        <em>Garbsen, OT Altgarbsen – Hannoversche Straße</em>, Foto von Ingo Rickmann, via Wikimedia Commons<br>
+        Lizenz: <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener" style="color:#00418f;text-decoration:underline;">CC BY-SA 2.5</a>
+      </figcaption>
+    </figure>
+    <!-- Originalbild: https://commons.wikimedia.org/wiki/File:Garbsen,_OT_Altgarbsen,_Hannoversche_Stra%C3%9Fe.jpg -->
+
+    <div style="text-align:left;max-width:640px;">
+      <h3 style="margin-top:1rem;font-size:20px;">Garbsen im Überblick</h3>
+      <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
+        <li><strong>≈ 60.600 Einwohner (2020)</strong></li>
+        <li>Größte Mittelstadt im Raum Hannover mit 13 Stadtteilen und starker Infrastruktur</li>
+        <li>Gute Verkehrsanbindung über S-Bahn, Stadtbahnlinie 4 und Busnetz nach Hannover und Umgebung</li>
+      </ul>
     </div>
   </div>
-  <div class="service-item service-align-right">
-    <div class="service-box">
-      <h3>Mietverwaltung</h3>
-      <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
-      <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
-    </div>
-  </div>
-  <div class="service-item service-align-left">
-    <div class="service-box">
-      <h3>Sondereigentums­verwaltung</h3>
-      <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
-      <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
-    </div>
-  </div>
-</div>
+</section>
 
 <section style="padding:24px 20px;margin-bottom:2.5rem;max-width:800px;margin-left:auto;margin-right:auto;">
   <h3 style="margin-bottom:1rem;">Besonderheiten des Ortes</h3>
