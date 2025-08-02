@@ -67,8 +67,29 @@ keywords: Hausverwaltung Garbsen, WEG-Verwaltung Garbsen, Mietverwaltung Garbsen
 
 ## Unsere Leistungen
 
-<link rel="stylesheet" href="/assets/css/leistungen.css">
-{% include leistungen-garbsen.html %}
+<div class="service-section">
+  <div class="service-item service-align-left">
+    <div class="service-box">
+      <h3>WEG-Verwaltung</h3>
+      <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
+      <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
+    </div>
+  </div>
+  <div class="service-item service-align-right">
+    <div class="service-box">
+      <h3>Mietverwaltung</h3>
+      <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
+      <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
+    </div>
+  </div>
+  <div class="service-item service-align-left">
+    <div class="service-box">
+      <h3>Sondereigentums­verwaltung</h3>
+      <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
+      <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
+    </div>
+  </div>
+</div>
 
 <hr style="border: none; border-top: 1px solid #dde3ea; margin: 3rem auto; max-width: 960px;">
 
