@@ -130,7 +130,7 @@ image: /assets/img/besprechungsraum.webp
 
     <div class="kachel">
       <h2>Wirtschaftliche Alternative</h2>
-      <p>Grundsätzlich findet jede Versammlung so nah wie möglich an der jeweiligen Liegenschaft statt, doch gerade für kompakte WEGs kann es wirtschaftlich und organisatorisch sinnvoll sein, die Zusammenkunft in unserem Büro abzuhalten, wenn alle Eigentümer dies wünschen. So sparen Sie mögliche Raummieten vor Ort und profitieren von einer moderierten Sitzung in neutraler Umgebung.</p>
+      <p>Grundsätzlich findet jede Versammlung so nah wie möglich an der jeweiligen Liegenschaft statt, doch gerade für kompakte WEGs kann es wirtschaftlich und organisatorisch sinnvoll sein, die Zusammenkunft in unserem Büro abzuhalten, wenn alle Eigentümer dies wünschen. So sparen Sie mögliche teure Raummieten vor Ort und profitieren von einer moderierten Sitzung in neutraler Umgebung.</p>
     </div>
 
     <div class="kachel">
@@ -144,9 +144,7 @@ image: /assets/img/besprechungsraum.webp
   <div class="abschlussbox">
     <h2>Persönliche Betreuung vor Ort</h2>
     <p>Als Hausverwaltung Marco Müller stehen wir für persönliche Betreuung, geprüfte Kompetenz und hohes Engagement. Nutzen Sie das Angebot, um Entscheidungen schnell, transparent und rechtssicher zu treffen.</p>
-    <p><strong>Sprechen Sie uns an –</strong> Ihr zertifizierter Verwalter für Hannover und Umgebung freut sich auf Sie.</p>
-
-    <a href="{{ '/kontakt/' | relative_url }}" class="cta-button">Termin anfragen</a>
+    <p><strong>Sprechen Sie uns an -</strong> Ihr zertifizierter Verwalter für Hannover und Umgebung freut sich auf Sie.</p>
   </div>
 </section>
 
