@@ -2,7 +2,6 @@
 layout: page
 title: "Besprechungsraum"
 permalink: /besprechungsraum/
-nav_parent: verwaltung
 description: "Moderner, heller Besprechungsraum in Hannover für vertrauliche Gespräche, Belegprüfungen und Eigentümerversammlungen bis 7 Personen, zentral gelegen."
 keywords: "Besprechungsraum Hannover, Konferenzraum Hausverwaltung, Eigentümerversammlung, Belegprüfung, WEG Sitzung, Hausverwaltung Marco Müller"
 image: /assets/img/besprechungsraum.webp
