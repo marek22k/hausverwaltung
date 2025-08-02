@@ -185,21 +185,27 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 ---
 
-<section style="text-align:center;margin:3rem auto 2rem auto;max-width:520px;">
+<section style="background:#f9fbfd;padding:40px 20px;border-radius:12px;margin:48px auto 32px auto;max-width:620px;box-shadow:0 4px 16px rgba(0,0,0,0.04);text-align:center;">
   <img src="/assets/img/marco-mueller.webp" 
        alt="Marco Müller, Hausverwalter in Hannover und Garbsen" 
-       width="300" height="360"
+       width="320" height="380"
        loading="lazy" decoding="async"
-       style="border-radius:12px;box-shadow:0 3px 12px rgba(0,0,0,0.1);max-width:100%;height:auto;">
-  <h3 style="margin-top:1rem;margin-bottom:0.3rem;">Marco Müller</h3>
-  <p style="margin:0;font-size:1rem;color:#555;">Inhaber & zertifizierter Hausverwalter<br>Ihr Ansprechpartner für Garbsen</p>
+       style="border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,0.08);max-width:100%;height:auto;">
+  
+  <h3 style="margin-top:1.2rem;margin-bottom:0.5rem;font-size:22px;">Marco Müller</h3>
+  <p style="margin:0;font-size:16px;color:#555;line-height:1.5;">
+    Inhaber & zertifizierter Hausverwalter<br>
+    Ihr Ansprechpartner für Garbsen
+  </p>
+
+  <div style="margin-top:2rem;">
+    <p style="font-size:16px;margin-bottom:1rem;">Füllen Sie das Formular aus oder rufen Sie uns an unter <strong>0511 – 515 44 113</strong>.</p>
+
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
+      <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+      <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
+    </div>
+  </div>
 </section>
 
-## Jetzt unverbindlich beraten lassen {#kontakt}
 
-Füllen Sie das Formular aus oder rufen Sie uns an unter **0511 – 515 44 113**.
-
-<div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:1rem;">
-  <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
-  <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
-</div>
