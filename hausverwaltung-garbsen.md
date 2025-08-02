@@ -25,18 +25,39 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 ## Hausverwaltung Garbsen, zertifizierte Betreuung für WEG, Mietshäuser und Sondereigentum
 
-Willkommen bei der Hausverwaltung Marco Müller, Ihrem regionalen Partner für Garbsen. Die Stadt mit etwa 60.600 Einwohnern bietet Gewerbe, Wohnviertel und eine direkte Verbindung zur Landeshauptstadt Hannover. Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum mit persönlicher Beratung, innovativen digitalen Prozessen und kurzer Durchlaufzeit – ohne Callcenter, dafür mit transparentem Service und regionaler Präsenz.
-
-<div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:1rem;">
-  <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
-  <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
-</div>
+<section style="background:#f4f8fb;padding:2rem;border-radius:12px;margin-bottom:2rem;">
+  <div style="max-width:800px;margin:0 auto;">
+    <p style="font-size:1.1rem;line-height:1.6;margin:0;">
+      Willkommen bei der <strong>Hausverwaltung Marco Müller</strong>, Ihrem regionalen Partner für Garbsen.  
+      Die Stadt mit etwa 60.600 Einwohnern bietet Gewerbe, Wohnviertel und eine direkte Verbindung zur Landeshauptstadt Hannover.  
+      Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum mit persönlicher Beratung, innovativen digitalen Prozessen und kurzer Durchlaufzeit –  
+      ohne Callcenter, dafür mit transparentem Service und regionaler Präsenz.
+    </p>
+    
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-top:2rem;">
+      <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+      <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
+    </div>
+  </div>
+</section>
 
 ## Warum wir der richtige Partner in Garbsen sind
 
-* Zertifizierter WEG-Verwalter mit Erfahrung in städtisch geprägten Wohnlagen von Altgarbsen, Havelse und Berenbostel  
-* Etwa 20–25 Minuten Fahrtzeit ins Stadtzentrum – persönliche Präsenz bei Eigentümerversammlungen, Abnahmen und Objektbesichtigungen  
-* Eigentümer und Mieter profitieren vom 24/7-Onlineportal mit jeder Abrechnung, jedem Protokoll und allen Dokumenten digital verfügbar
+<div style="display:flex;flex-direction:column;gap:1.5rem;margin-bottom:2rem;">
+
+  <div style="background:#fcfdff;padding:1rem 1.5rem;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.03);">
+    <p style="margin:0;"><strong>Zertifizierter WEG-Verwalter</strong> mit Erfahrung in städtisch geprägten Wohnlagen von Altgarbsen, Havelse und Berenbostel</p>
+  </div>
+
+  <div style="background:#fcfdff;padding:1rem 1.5rem;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.03);">
+    <p style="margin:0;">Nur <strong>20–25 Minuten Fahrtzeit</strong> ins Stadtzentrum – persönliche Präsenz bei Eigentümerversammlungen, Abnahmen und Objektbesichtigungen</p>
+  </div>
+
+  <div style="background:#fcfdff;padding:1rem 1.5rem;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.03);">
+    <p style="margin:0;">Eigentümer und Mieter profitieren vom <strong>24/7-Onlineportal</strong> mit allen Abrechnungen, Protokollen und Dokumenten jederzeit digital verfügbar</p>
+  </div>
+
+</div>
 
 ## Unsere Leistungen
 
