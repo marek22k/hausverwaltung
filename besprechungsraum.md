@@ -7,123 +7,96 @@ keywords: "Besprechungsraum Hannover, Konferenzraum Hausverwaltung, Eigentümerv
 image: /assets/img/besprechungsraum.webp
 ---
 
-<!-- Skip-Link für Screenreader & Tastatur-Nutzer -->
-<a href="#inhalt" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 bg-white text-black px-4 py-2 rounded-lg shadow-lg">
-  Zum Inhalt springen
-</a>
-
-<!-- Hero / Titelbild -->
-<section class="relative">
-  <figure class="max-w-5xl mx-auto">
-    <img src="{{ '/assets/img/besprechungsraum.webp' | relative_url }}"
-         alt="Heller Besprechungsraum der Hausverwaltung Marco Müller mit großem Konferenztisch und ergonomischen Drehstühlen"
-         class="w-full h-auto object-cover rounded-b-3xl shadow-xl">
-    <figcaption class="sr-only">Besprechungsraum der Hausverwaltung Marco Müller in Hannover</figcaption>
-  </figure>
-
-  <!-- Visuelle Trennebene -->
-  <div class="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
+<!-- HERO-BEREICH -->
+<section class="relative bg-white py-12 lg:py-20">
+  <div class="max-w-6xl mx-auto px-4 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+        Ihr Besprechungsraum für<br class="hidden sm:inline"> klare Entscheidungen
+      </h1>
+      <p class="text-lg text-gray-700 mb-6">
+        Zentral in Hannover, hell, modern eingerichtet – perfekt für Eigentümerversammlungen, Belegprüfungen oder vertrauliche Gespräche mit Ihrer Hausverwaltung.
+      </p>
+      <a href="{{ '/kontakt/' | relative_url }}"
+         class="inline-block bg-red-600 text-white font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 transition">
+        Termin anfragen
+      </a>
+    </div>
+    <figure>
+      <img src="{{ '/assets/img/besprechungsraum.webp' | relative_url }}"
+           alt="Besprechungsraum der Hausverwaltung Marco Müller in Hannover mit Konferenztisch"
+           class="rounded-2xl shadow-lg w-full h-auto">
+      <figcaption class="sr-only">Besprechungsraum in Hannover mit Konferenztisch</figcaption>
+    </figure>
+  </div>
 </section>
 
-<!-- Hauptinhalt -->
-<main id="inhalt" class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 space-y-16">
-
-  <!-- Überschrift -->
-  <header class="text-center space-y-2">
-    <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">
-      Besprechungsraum
-    </h1>
-    <p class="text-lg text-gray-600">
-      Zentral in Hannover, perfekt für vertrauliche Gespräche & kleine Eigentümerversammlungen.
-    </p>
-  </header>
-
-  <!-- Info-Kacheln -->
-  <section aria-label="Eckdaten des Besprechungsraums" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-    <article class="rounded-2xl bg-white shadow-md p-6 flex flex-col items-center text-center">
-      <svg aria-hidden="true" class="w-12 h-12 mb-3" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
-      <h2 class="text-xl font-semibold mb-1">Helle Atmosphäre</h2>
-      <p class="text-gray-600">Großer Konferenztisch, ergonomische Stühle & viel Tageslicht.</p>
-    </article>
-
-    <article class="rounded-2xl bg-white shadow-md p-6 flex flex-col items-center text-center">
-      <svg aria-hidden="true" class="w-12 h-12 mb-3" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 6v6l4 2"/></svg>
-      <h2 class="text-xl font-semibold mb-1">Kapazität</h2>
-      <p class="text-gray-600">Bis zu <strong>7&nbsp;Personen</strong> – ideal für kompakte WEG-Versammlungen.</p>
-    </article>
-
-    <article class="rounded-2xl bg-white shadow-md p-6 flex flex-col items-center text-center">
-      <svg aria-hidden="true" class="w-12 h-12 mb-3" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 3h18v4H3zM3 9h18v12H3z"/></svg>
-      <h2 class="text-xl font-semibold mb-1">Wirtschaftlich</h2>
-      <p class="text-gray-600">Keine externe Raummiete, moderierte Sitzung in neutraler Umgebung.</p>
-    </article>
-  </section>
-
-  <!-- Abschnitt: Digital vs. Persönlich -->
-  <section aria-label="Digitale & persönliche Belegprüfung" class="space-y-6">
-    <h2 class="text-2xl font-bold text-gray-900">Digital oder persönlich – Sie entscheiden</h2>
-    <p class="text-gray-700 leading-relaxed">
-      Über unser <strong>Online-Portal</strong> haben Sie jederzeit Zugriff auf Unterlagen, Verträge und Protokolle. Für die Belegprüfung wählen Sie flexibel zwischen digitaler Einsicht von zu Hause oder der persönlichen Kontrolle vor Ort – selbstverständlich DSGVO-konform und barrierefrei.
-    </p>
-  </section>
-
-  <!-- Abschnitt: Persönliche Betreuung -->
-  <section aria-label="Persönliche Betreuung" class="space-y-6">
-    <h2 class="text-2xl font-bold text-gray-900">Persönliche Betreuung vor Ort</h2>
-    <p class="text-gray-700 leading-relaxed">
-      Als <strong>Hausverwaltung Marco Müller</strong> stehen wir für persönliche Betreuung, geprüfte Kompetenz und hohes Engagement. Nutzen Sie unser Angebot, um Entscheidungen <em>schnell</em>, <em>transparent</em> und <em>rechtssicher</em> zu treffen.
-    </p>
-  </section>
-
-  <!-- Call-to-Action -->
-  <div class="text-center">
-    <a href="{{ '/kontakt/' | relative_url }}"
-       class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-red-600 text-white text-lg font-semibold shadow-lg transition
-              hover:bg-red-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-red-300"
-       aria-label="Termin anfragen">
-      <svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
-           viewBox="0 0 24 24"><path d="M12 5v14m7-7H5"/></svg>
-      Termin anfragen
-    </a>
+<!-- VORTEILE -->
+<section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-5xl mx-auto text-center mb-12">
+    <h2 class="text-3xl font-bold text-gray-900">Ihre Vorteile auf einen Blick</h2>
+    <p class="text-gray-600 mt-4">Optimal ausgestattet für kleine WEGs, persönliche Besprechungen und effiziente Sitzungen.</p>
   </div>
+  <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+    <div class="bg-white p-6 rounded-xl shadow-md text-center">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Helle & ruhige Atmosphäre</h3>
+      <p class="text-gray-600">Großer Tisch, bequeme Stühle, viel Tageslicht. Ideal für fokussiertes Arbeiten.</p>
+    </div>
+    <div class="bg-white p-6 rounded-xl shadow-md text-center">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Kapazität für 7 Personen</h3>
+      <p class="text-gray-600">Perfekt geeignet für kleinere Eigentümergemeinschaften und Projektbesprechungen.</p>
+    </div>
+    <div class="bg-white p-6 rounded-xl shadow-md text-center">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Wirtschaftlich & neutral</h3>
+      <p class="text-gray-600">Keine zusätzlichen Mietkosten, kein Ablenkungspotenzial – alles in Ihrer Verwaltung.</p>
+    </div>
+  </div>
+</section>
 
-</main>
+<!-- MODUL: DIGITAL VS VOR ORT -->
+<section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+  <div class="max-w-4xl mx-auto space-y-6 text-center">
+    <h2 class="text-3xl font-bold text-gray-900">Digitale Einsicht oder persönlicher Termin</h2>
+    <p class="text-gray-700 text-lg">
+      Ihre Belegprüfung erfolgt bequem über unser digitales Eigentümerportal – oder direkt bei uns vor Ort. Sie entscheiden, wie Sie arbeiten möchten.
+    </p>
+    <p class="text-gray-700 text-lg">
+      Unsere Räume stehen Ihnen nach Terminabsprache jederzeit zur Verfügung. Datenschutzkonform, diskret und gut erreichbar.
+    </p>
+  </div>
+</section>
 
-<!-- Kontakt-Karte Marco Müller -->
-<section aria-label="Kontakt zu Marco Müller"
-         class="bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-  <div class="relative mx-auto max-w-lg text-center bg-white rounded-2xl shadow-xl p-8">
+<!-- CTA -->
+<section class="bg-red-50 py-16 px-4 sm:px-6 lg:px-8 text-center">
+  <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+    Persönlich, verbindlich, nah
+  </h2>
+  <p class="text-gray-700 text-lg mb-6">
+    Planen Sie Ihre nächste Versammlung oder Besprechung in unseren Räumen. Wir freuen uns auf Sie.
+  </p>
+  <a href="{{ '/kontakt/' | relative_url }}"
+     class="inline-block bg-red-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 transition">
+    Jetzt Termin anfragen
+  </a>
+</section>
 
-    <!-- Dekorativer Streifen -->
-    <div class="absolute inset-x-0 top-0 h-2 bg-blue-900 rounded-t-2xl"></div>
-
+<!-- MARCO MÜLLER PORTRÄT -->
+<section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+  <div class="max-w-3xl mx-auto text-center">
     <img src="/assets/img/marco-mueller.webp"
-         alt="Porträt von Marco Müller, zertifizierter Hausverwalter in Hannover"
-         width="320" height="380" loading="lazy" decoding="async"
-         class="mx-auto mt-6 w-48 h-auto rounded-xl shadow-lg">
-
-    <h3 class="mt-6 text-2xl font-bold">Marco Müller</h3>
-    <p class="text-gray-600">Inhaber & zertifizierter Hausverwalter</p>
-
-    <blockquote class="mt-4 italic text-gray-700 max-w-prose mx-auto">
+         alt="Marco Müller – Hausverwalter in Hannover"
+         class="mx-auto rounded-xl shadow-lg w-40 h-auto mb-6">
+    <h3 class="text-2xl font-bold text-gray-900">Marco Müller</h3>
+    <p class="text-gray-700">Inhaber & zertifizierter Hausverwalter</p>
+    <blockquote class="italic text-gray-600 mt-4">
       „Ich stehe für persönliche Betreuung, schnelle Reaktion und eine transparente Hausverwaltung ohne Callcenter.“
     </blockquote>
-
     <p class="mt-6 text-gray-700">
-      Füllen Sie das Formular aus oder rufen Sie uns an unter
-      <strong class="whitespace-nowrap">0511 – 515 44 113</strong>.
+      Fragen Sie telefonisch unter <strong>0511 – 515 44 113</strong> oder über unser Onlineformular an.
     </p>
-
-    <!-- Mini-CTA Buttons -->
-    <div class="mt-6 flex flex-col sm:flex-row justify-center gap-3">
-      <a href="/angebot-anfordern/" class="button-link"
-         aria-label="Angebot anfordern">
-        📄 Angebot anfordern
-      </a>
-      <a href="/kontakt/" class="button-link"
-         aria-label="Kontakt aufnehmen">
-        📨 Kontakt aufnehmen
-      </a>
+    <div class="mt-6 flex justify-center gap-4 flex-wrap">
+      <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+      <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
     </div>
   </div>
 </section>
