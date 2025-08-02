@@ -1,3 +1,4 @@
+---
 layout: page
 title: "Hausverwaltung Garbsen – Persönlich, digital, zertifiziert"
 description: "Ob WEG-, Miet- oder SE‑Verwaltung: Wir betreuen Ihr Objekt in Garbsen zuverlässig. Jetzt unverbindliches Angebot anfordern!"
