@@ -170,20 +170,64 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 ## FAQ zur Hausverwaltung in Garbsen
 
-<details>
+<style>
+.faq-box {
+  border: 1px solid #dfe4ea;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 1rem 1.25rem;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  transition: box-shadow 0.2s ease;
+}
+.faq-box:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+details summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  padding-right: 1.75rem;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+details summary::after {
+  content: "▸";
+  position: absolute;
+  right: 0.25rem;
+  top: 0.1rem;
+  transition: transform 0.2s ease;
+  font-size: 1.1rem;
+}
+details[open] summary::after {
+  transform: rotate(90deg);
+}
+details[open] {
+  background: #f9fbfd;
+}
+details p {
+  margin-top: 0.75rem;
+  font-size: 16px;
+  line-height: 1.6;
+}
+</style>
+
+<details class="faq-box">
   <summary>Was kostet eine WEG-Verwaltung?</summary>
   <p>Die Vergütung orientiert sich an Faktoren wie Größe der Einheit, Lage und Zustand des Gemeinschaftseigentums. Ich erstelle Ihnen gern ein individuelles Angebot für Ihr Objekt in Garbsen.</p>
 </details>
-<details>
+
+<details class="faq-box">
   <summary>Betreuen Sie auch kleinere Miethäuser?</summary>
   <p>Ja. Ich übernehme auch kleine Miethäuser in Garbsen mit persönlicher Betreuung, klarer Kommunikation und schneller Reaktionszeit.</p>
 </details>
-<details>
+
+<details class="faq-box">
   <summary>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?</summary>
   <p>Bei uns stehen Transparenz, Erreichbarkeit und strukturierte Abläufe im Mittelpunkt. Als inhabergeführte Hausverwaltung bieten wir keine anonymen Callcenter, sondern direkte Ansprechpartner. Die Kombination aus digitaler Arbeitsweise, persönlichem Einsatz vor Ort und laufender Qualitätssicherung macht unsere Betreuung zuverlässig, modern und nachhaltig – für Eigentümergemeinschaften und Miethäuser gleichermaßen.</p>
 </details>
-
----
 
 <section style="background:#f9fbfd;padding:48px 24px;border-radius:12px;margin:48px auto 32px auto;max-width:640px;box-shadow:0 4px 18px rgba(0,0,0,0.05);text-align:center;position:relative;overflow:hidden;">
 
