@@ -7,94 +7,98 @@ keywords: "Besprechungsraum Hannover, Konferenzraum Hausverwaltung, Eigentümerv
 image: /assets/img/besprechungsraum.webp
 ---
 
-<!-- HERO-BEREICH -->
-<section class="relative bg-white py-12 lg:py-20">
-  <div class="max-w-6xl mx-auto px-4 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
-    <div>
-      <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
-        Ihr Besprechungsraum für<br class="hidden sm:inline"> klare Entscheidungen
-      </h1>
-      <p class="text-lg text-gray-700 mb-6">
-        Zentral in Hannover, hell, modern eingerichtet – perfekt für Eigentümerversammlungen, Belegprüfungen oder vertrauliche Gespräche mit Ihrer Hausverwaltung.
+<!-- Bildbereich mit moderner Umrahmung -->
+<section class="max-w-4xl mx-auto mt-10 mb-16 px-4">
+  <figure class="rounded-2xl overflow-hidden shadow-xl">
+    <img src="{{ '/assets/img/besprechungsraum.webp' | relative_url }}"
+         alt="Heller Besprechungsraum der Hausverwaltung Marco Müller mit großem Konferenztisch und ergonomischen Drehstühlen"
+         class="w-full h-auto object-cover">
+    <figcaption class="sr-only">Besprechungsraum der Hausverwaltung Marco Müller in Hannover</figcaption>
+  </figure>
+</section>
+
+<!-- Inhaltsbereich in moderner Box -->
+<section class="max-w-3xl mx-auto space-y-12 px-4">
+
+  <header class="text-center">
+    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Besprechungsraum</h1>
+    <p class="text-lg text-gray-600">Ideal für Ihre Eigentümerversammlung, Belegprüfung oder Beratung.</p>
+  </header>
+
+  <div class="space-y-10">
+
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Helle Atmosphäre & moderne Ausstattung</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Der helle, modern ausgestattete Raum mit bequemen Drehstühlen und großem Konferenztisch bietet die ideale Umgebung für vertrauliche Vertragsgespräche, strukturierte Belegprüfungen oder detaillierte Abstimmungen zu Sanierungsarbeiten und Instandhaltungsplänen Ihrer Wohnanlage. Kurze Wege, persönlicher Service und eine ruhige Arbeitsatmosphäre fördern schnelle, fundierte Entscheidungen rund um Ihre Hausverwaltung.
       </p>
-      <a href="{{ '/kontakt/' | relative_url }}"
-         class="inline-block bg-red-600 text-white font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 transition">
-        Termin anfragen
-      </a>
     </div>
-    <figure>
-      <img src="{{ '/assets/img/besprechungsraum.webp' | relative_url }}"
-           alt="Besprechungsraum der Hausverwaltung Marco Müller in Hannover mit Konferenztisch"
-           class="rounded-2xl shadow-lg w-full h-auto">
-      <figcaption class="sr-only">Besprechungsraum in Hannover mit Konferenztisch</figcaption>
-    </figure>
+
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Kapazität</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Bis zu sieben Personen finden bequem Platz. Damit eignet sich der Raum perfekt für kleinere Wohnungseigentümergemeinschaften, die ihre Eigentümerversammlung in einem professionellen Umfeld abhalten möchten.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Wirtschaftliche Alternative</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Grundsätzlich findet jede Versammlung so nah wie möglich an der jeweiligen Liegenschaft statt, doch gerade für kompakte WEGs kann es wirtschaftlich und organisatorisch sinnvoll sein, die Zusammenkunft in unserem Büro abzuhalten, wenn alle Eigentümer dies wünschen. So sparen Sie mögliche Raummieten vor Ort und profitieren von einer moderierten Sitzung in neutraler Umgebung.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Digital oder persönlich – Sie entscheiden</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Über unser praktisches Online-Portal haben Sie jederzeit Zugriff auf Unterlagen, Verträge und Protokolle. Für die Belegprüfung wählen Sie flexibel zwischen digitaler Einsicht von zu Hause oder der persönlichen Kontrolle vor Ort in unserem Besprechungsraum.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Persönliche Betreuung vor Ort</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Als Hausverwaltung Marco Müller stehen wir für persönliche Betreuung, geprüfte Kompetenz und hohes Engagement. Nutzen Sie das Angebot, um Entscheidungen schnell, transparent und rechtssicher zu treffen. Gern reservieren wir Ihnen Ihren Wunschtermin oder planen gemeinsam Ihre nächste Eigentümerversammlung.
+      </p>
+      <p class="text-gray-700 mt-4 font-medium">
+        <strong>Sprechen Sie uns an –</strong> Ihr zertifizierter Verwalter für Hannover und Umgebung freut sich auf Sie.
+      </p>
+    </div>
+
   </div>
+
+  <!-- Call-to-Action Button -->
+  <div class="text-center pt-6">
+    <a href="{{ '/kontakt/' | relative_url }}"
+       class="inline-block px-6 py-3 rounded-2xl bg-red-600 text-white font-semibold shadow-md transition hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300">
+      Termin anfragen
+    </a>
+  </div>
+
 </section>
 
-<!-- VORTEILE -->
-<section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
-  <div class="max-w-5xl mx-auto text-center mb-12">
-    <h2 class="text-3xl font-bold text-gray-900">Ihre Vorteile auf einen Blick</h2>
-    <p class="text-gray-600 mt-4">Optimal ausgestattet für kleine WEGs, persönliche Besprechungen und effiziente Sitzungen.</p>
-  </div>
-  <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-    <div class="bg-white p-6 rounded-xl shadow-md text-center">
-      <h3 class="text-xl font-semibold text-gray-900 mb-2">Helle & ruhige Atmosphäre</h3>
-      <p class="text-gray-600">Großer Tisch, bequeme Stühle, viel Tageslicht. Ideal für fokussiertes Arbeiten.</p>
-    </div>
-    <div class="bg-white p-6 rounded-xl shadow-md text-center">
-      <h3 class="text-xl font-semibold text-gray-900 mb-2">Kapazität für 7 Personen</h3>
-      <p class="text-gray-600">Perfekt geeignet für kleinere Eigentümergemeinschaften und Projektbesprechungen.</p>
-    </div>
-    <div class="bg-white p-6 rounded-xl shadow-md text-center">
-      <h3 class="text-xl font-semibold text-gray-900 mb-2">Wirtschaftlich & neutral</h3>
-      <p class="text-gray-600">Keine zusätzlichen Mietkosten, kein Ablenkungspotenzial – alles in Ihrer Verwaltung.</p>
-    </div>
-  </div>
-</section>
+<section style="background:#f9fbfd;padding:48px 24px;border-radius:12px;margin:48px auto 32px auto;max-width:640px;box-shadow:0 4px 18px rgba(0,0,0,0.05);text-align:center;position:relative;overflow:hidden;">
+  <div style="position:absolute;top:0;left:0;width:100%;height:4px;background:#00418f;border-radius:12px 12px 0 0;"></div>
 
-<!-- MODUL: DIGITAL VS VOR ORT -->
-<section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-  <div class="max-w-4xl mx-auto space-y-6 text-center">
-    <h2 class="text-3xl font-bold text-gray-900">Digitale Einsicht oder persönlicher Termin</h2>
-    <p class="text-gray-700 text-lg">
-      Ihre Belegprüfung erfolgt bequem über unser digitales Eigentümerportal – oder direkt bei uns vor Ort. Sie entscheiden, wie Sie arbeiten möchten.
-    </p>
-    <p class="text-gray-700 text-lg">
-      Unsere Räume stehen Ihnen nach Terminabsprache jederzeit zur Verfügung. Datenschutzkonform, diskret und gut erreichbar.
-    </p>
-  </div>
-</section>
+  <img src="/assets/img/marco-mueller.webp" 
+       alt="Marco Müller, Hausverwalter in Hannover und Region" 
+       width="320" height="380"
+       loading="lazy" decoding="async"
+       style="border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,0.08);max-width:100%;height:auto;">
 
-<!-- CTA -->
-<section class="bg-red-50 py-16 px-4 sm:px-6 lg:px-8 text-center">
-  <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-    Persönlich, verbindlich, nah
-  </h2>
-  <p class="text-gray-700 text-lg mb-6">
-    Planen Sie Ihre nächste Versammlung oder Besprechung in unseren Räumen. Wir freuen uns auf Sie.
-  </p>
-  <a href="{{ '/kontakt/' | relative_url }}"
-     class="inline-block bg-red-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 transition">
-    Jetzt Termin anfragen
-  </a>
-</section>
+  <h3 style="margin-top:1.5rem;margin-bottom:0.3rem;font-size:24px;">Marco Müller</h3>
 
-<!-- MARCO MÜLLER PORTRÄT -->
-<section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-  <div class="max-w-3xl mx-auto text-center">
-    <img src="/assets/img/marco-mueller.webp"
-         alt="Marco Müller – Hausverwalter in Hannover"
-         class="mx-auto rounded-xl shadow-lg w-40 h-auto mb-6">
-    <h3 class="text-2xl font-bold text-gray-900">Marco Müller</h3>
-    <p class="text-gray-700">Inhaber & zertifizierter Hausverwalter</p>
-    <blockquote class="italic text-gray-600 mt-4">
-      „Ich stehe für persönliche Betreuung, schnelle Reaktion und eine transparente Hausverwaltung ohne Callcenter.“
-    </blockquote>
-    <p class="mt-6 text-gray-700">
-      Fragen Sie telefonisch unter <strong>0511 – 515 44 113</strong> oder über unser Onlineformular an.
-    </p>
-    <div class="mt-6 flex justify-center gap-4 flex-wrap">
+  <p style="margin:0;font-size:16px;color:#555;line-height:1.5;">
+    Inhaber & zertifizierter Hausverwalter<br>
+   </p>
+
+  <blockquote style="margin:1.5rem auto 0 auto;font-style:italic;font-size:16px;color:#444;max-width:480px;line-height:1.6;">
+    „Ich stehe für persönliche Betreuung, schnelle Reaktion und eine transparente Hausverwaltung ohne Callcenter.“
+  </blockquote>
+
+  <div style="margin-top:2rem;">
+    <p style="font-size:16px;margin-bottom:1rem;">Füllen Sie das Formular aus oder rufen Sie uns an unter <strong>0511 – 515 44 113</strong>.</p>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
       <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
       <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
     </div>
