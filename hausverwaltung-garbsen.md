@@ -23,18 +23,24 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 *:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 </style>
 
-## Hausverwaltung Garbsen, persönlich & digital betreut
+<section style="background:#f4f7fa;padding:40px 20px;margin-bottom:48px;border-radius:12px;">
+  <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;">
 
-<section style="text-align:center;max-width:800px;margin:0 auto 3rem auto;padding:1rem;">
-  <p style="font-size:1.15rem;line-height:1.7;margin-bottom:2rem;">
-    Willkommen bei der <strong>Hausverwaltung Marco Müller</strong>, Ihrem lokalen Verwalter für Garbsen und Umgebung.  
-    Ob WEG-, Miet- oder Sondereigentumsverwaltung: Wir betreuen Ihr Objekt mit <strong>transparenter Kommunikation</strong>,  
-    <strong>kurzen Reaktionszeiten</strong> und einem vollständig digitalen Dokumentenzugang – persönlich und ohne Callcenter.
-  </p>
+    <h2 style="margin:0;font-size:26px;">Hausverwaltung Garbsen – persönlich, zuverlässig, digital</h2>
 
-  <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-top:1.5rem;">
-    <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
-    <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
+    <p style="font-size:18px;line-height:28px;margin:0;">
+      Als zertifizierter Hausverwalter betreue ich Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in Garbsen mit persönlicher Präsenz und digitaler Effizienz.  
+      Sie erreichen mich direkt – ganz ohne Callcenter – und profitieren von klaren Prozessen, schneller Reaktion und vollständigem Online-Zugang zu allen Unterlagen.
+    </p>
+
+    <p style="font-size:18px;line-height:28px;margin:0;">
+      Garbsen liegt nur rund 20 Minuten von meinem Standort in Hannover entfernt. Ob Altgarbsen, Berenbostel oder Havelse – ich bin regelmäßig vor Ort und eng mit der Region verbunden.
+    </p>
+
+    <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:flex-start;margin-top:8px;">
+      <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
+      <a href="/kontakt/" class="button-link">Kontakt aufnehmen</a>
+    </div>
   </div>
 </section>
 
