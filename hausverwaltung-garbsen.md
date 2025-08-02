@@ -132,20 +132,20 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 <section style="background:#f9fbfd;padding:32px 20px;border-radius:12px;margin-bottom:2.5rem;">
   <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;align-items:center;">
 
-    <figure style="margin:0;">
-      <a href="/assets/img/hero-garbsen.webp" target="_blank" style="display:block;max-width:100%;margin:0 auto;">
-        <img src="/assets/img/hero-garbsen.webp"
-             alt="Straßenszene in Altgarbsen – Hannoversche Straße"
-             width="480" height="320"
-             loading="lazy" decoding="async"
-             sizes="(max-width:600px) 92vw, 480px"
-             style="width:100%;max-width:480px;height:auto;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);cursor:pointer;">
-      </a>
-      <figcaption style="font-size:14px;color:#555;margin-top:12px;text-align:center;">
-        *Garbsen, OT Altgarbsen – Hannoversche Straße*, Foto von Ingo Rickmann, via Wikimedia Commons  
-        Lizenz: <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener">CC BY-SA 2.5</a>
-      </figcaption>
-    </figure>
+   <figure style="margin:0 auto;max-width:540px;padding:16px;background:#ffffff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+  <a href="/assets/img/hero-garbsen.webp" target="_blank" style="display:block;">
+    <img src="/assets/img/hero-garbsen.webp"
+         alt="Straßenszene in Altgarbsen – Hannoversche Straße"
+         width="480" height="320"
+         loading="lazy" decoding="async"
+         sizes="(max-width:600px) 92vw, 480px"
+         style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.08);cursor:pointer;">
+  </a>
+  <figcaption style="font-size:13px;color:#666;margin-top:12px;text-align:center;line-height:1.4;">
+    <em>Garbsen, OT Altgarbsen – Hannoversche Straße</em>, Foto von Ingo Rickmann, via Wikimedia Commons<br>
+    Lizenz: <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener" style="color:#00418f;text-decoration:underline;">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
 
     <!-- Originalbild: https://commons.wikimedia.org/wiki/File:Garbsen,_OT_Altgarbsen,_Hannoversche_Stra%C3%9Fe.jpg -->
 
