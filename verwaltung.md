@@ -73,6 +73,14 @@ keywords: Hausverwaltung Hannover, Hausverwaltung Marco Müller, Kontakt Hausver
     <p>Schnelle und direkte Verbindung zur Hausverwaltung – für Anfragen und Mitteilungen.</p>
   </div>
 
+<div class="icon-box">
+    <a href="/besprechungsraum/">
+      <img src="/assets/img/verwaltung/07_besprechungsraum.png" alt="Besprechungsraum Icon">
+      <div>Besprechungsraum</div>
+    </a>
+    <p>Vor-Ort-Besprechungen in professionellem Rahmen - modern, ruhig, zentral in Hannover.</p>
+  </div>
+
   <div class="icon-box">
     <a href="/wissenswertes/">
       <img src="/assets/img/verwaltung/02_wissenswert.png" alt="Wissen Icon">
