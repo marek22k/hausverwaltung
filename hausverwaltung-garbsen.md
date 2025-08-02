@@ -185,19 +185,30 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 ---
 
-<section style="background:#f9fbfd;padding:40px 20px;border-radius:12px;margin:48px auto 32px auto;max-width:620px;box-shadow:0 4px 16px rgba(0,0,0,0.04);text-align:center;">
+<section style="background:#f9fbfd;padding:48px 24px;border-radius:12px;margin:48px auto 32px auto;max-width:640px;box-shadow:0 4px 18px rgba(0,0,0,0.05);text-align:center;position:relative;overflow:hidden;">
+
+  <!-- Zarte Linie oben -->
+  <div style="position:absolute;top:0;left:0;width:100%;height:4px;background:#00418f;border-radius:12px 12px 0 0;"></div>
+
   <img src="/assets/img/marco-mueller.webp" 
        alt="Marco Müller, Hausverwalter in Hannover und Garbsen" 
        width="320" height="380"
        loading="lazy" decoding="async"
        style="border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,0.08);max-width:100%;height:auto;">
-  
-  <h3 style="margin-top:1.2rem;margin-bottom:0.5rem;font-size:22px;">Marco Müller</h3>
+
+  <h3 style="margin-top:1.5rem;margin-bottom:0.3rem;font-size:24px;">Marco Müller</h3>
+
   <p style="margin:0;font-size:16px;color:#555;line-height:1.5;">
     Inhaber & zertifizierter Hausverwalter<br>
     Ihr Ansprechpartner für Garbsen
   </p>
 
+  <!-- Leitsatz -->
+  <blockquote style="margin:1.5rem auto 0 auto;font-style:italic;font-size:16px;color:#444;max-width:480px;line-height:1.6;">
+    „Ich stehe für persönliche Betreuung, schnelle Reaktion und eine transparente Hausverwaltung ohne Callcenter.“
+  </blockquote>
+
+  <!-- Kontaktinfo und Buttons -->
   <div style="margin-top:2rem;">
     <p style="font-size:16px;margin-bottom:1rem;">Füllen Sie das Formular aus oder rufen Sie uns an unter <strong>0511 – 515 44 113</strong>.</p>
 
