@@ -68,68 +68,52 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 ## Unsere Leistungen
 
 <style>
-@media (prefers-reduced-motion: no-preference) {
-  .fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.8s ease forwards;
-  }
-
-  .fade-in.delay-1 { animation-delay: 0.1s; }
-  .fade-in.delay-2 { animation-delay: 0.3s; }
-  .fade-in.delay-3 { animation-delay: 0.5s; }
-
-  @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 0 auto 3rem auto;
+  max-width: 1080px;
+  padding: 0 16px;
 }
-.box-service {
-  max-width: 540px;
+.service-card {
   background: #f9fbfd;
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   border-left: 6px solid #00418f;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.service-card:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  transform: translateY(-4px);
+}
+.service-card h3 {
+  margin-top: 0;
 }
 </style>
 
-<div style="max-width:1080px;margin:0 auto;padding:0 16px;">
+<div class="service-grid">
 
-  <div style="display:flex;flex-direction:column;gap:2rem;margin-bottom:2rem;">
-
-    <!-- Box 1: links -->
-    <div style="display:flex;justify-content:flex-start;">
-      <div class="box-service fade-in delay-1">
-        <h3 style="margin-top:0;">WEG-Verwaltung</h3>
-        <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
-        <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
-      </div>
-    </div>
-
-    <!-- Box 2: rechts -->
-    <div style="display:flex;justify-content:flex-end;">
-      <div class="box-service fade-in delay-2">
-        <h3 style="margin-top:0;">Mietverwaltung</h3>
-        <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
-        <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
-      </div>
-    </div>
-
-    <!-- Box 3: links -->
-    <div style="display:flex;justify-content:flex-start;">
-      <div class="box-service fade-in delay-3">
-        <h3 style="margin-top:0;">Sondereigentums­verwaltung</h3>
-        <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
-        <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
-      </div>
-    </div>
-
+  <div class="service-card fade-in delay-1">
+    <h3>WEG-Verwaltung</h3>
+    <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
+    <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
   </div>
-</div>
 
+  <div class="service-card fade-in delay-2">
+    <h3>Mietverwaltung</h3>
+    <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
+    <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
+  </div>
+
+  <div class="service-card fade-in delay-3">
+    <h3>Sondereigentums­verwaltung</h3>
+    <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
+    <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
+  </div>
+
+</div>
 
 
 <section style="background:#f9fbfd;padding:32px 20px;border-radius:12px;margin-bottom:2.5rem;">
