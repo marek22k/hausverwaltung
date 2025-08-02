@@ -145,6 +145,7 @@ image: /assets/img/besprechungsraum.webp
     <h2>Persönliche Betreuung vor Ort</h2>
     <p>Als Hausverwaltung Marco Müller stehen wir für persönliche Betreuung, geprüfte Kompetenz und hohes Engagement. Nutzen Sie das Angebot, um Entscheidungen schnell, transparent und rechtssicher zu treffen.</p>
     <p><strong>Sprechen Sie uns an -</strong> Ihr zertifizierter Verwalter für Hannover und Umgebung freut sich auf Sie.</p>
+    <p> <a href="/verwaltung/" class="button-link">Zurück zur Verwaltung</a></p>
   </div>
 </section>
 
