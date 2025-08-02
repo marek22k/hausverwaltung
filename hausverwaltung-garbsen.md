@@ -80,72 +80,53 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 ## Unsere Leistungen
 
 <style>
-.service-section {
-  max-width: 960px;
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
   margin: 0 auto 3rem auto;
   padding: 0 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-.service-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 2rem;
 }
 .service-box {
   background: #f9fbfd;
-  padding: 1.5rem;
+  padding: 1.75rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-left: 6px solid #00418f;
-  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
 }
 .service-box h3 {
   margin-top: 0;
+  margin-bottom: 0.5rem;
 }
-.service-align-left {
-  flex-direction: row;
-}
-.service-align-right {
-  flex-direction: row-reverse;
-}
-@media (max-width: 768px) {
-  .service-align-left,
-  .service-align-right {
-    flex-direction: column;
-  }
+.service-box p {
+  flex-grow: 1;
+  margin-bottom: 1.25rem;
 }
 </style>
 
-<div class="service-section">
+<div class="service-grid">
 
-  <!-- Block 1 -->
-  <div class="service-item service-align-left fade-in delay-1">
-    <div class="service-box">
-      <h3>WEG-Verwaltung</h3>
-      <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
-      <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
-    </div>
+  <div class="service-box fade-in delay-1">
+    <h3>WEG-Verwaltung</h3>
+    <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
+    <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
   </div>
 
-  <!-- Block 2 -->
-  <div class="service-item service-align-right fade-in delay-2">
-    <div class="service-box">
-      <h3>Mietverwaltung</h3>
-      <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
-      <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
-    </div>
+  <div class="service-box fade-in delay-2">
+    <h3>Mietverwaltung</h3>
+    <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
+    <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
   </div>
 
-  <!-- Block 3 -->
-  <div class="service-item service-align-left fade-in delay-3">
-    <div class="service-box">
-      <h3>Sondereigentums­verwaltung</h3>
-      <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
-      <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
-    </div>
+  <div class="service-box fade-in delay-3">
+    <h3>Sondereigentums­verwaltung</h3>
+    <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
+    <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
   </div>
 
 </div>
