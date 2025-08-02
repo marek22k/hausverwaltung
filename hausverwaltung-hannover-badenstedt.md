@@ -31,7 +31,7 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
       Sie erreichen mich direkt – ganz ohne Callcenter – und profitieren von klaren Prozessen, schneller Reaktion und vollständigem Online-Zugang zu allen Unterlagen.
     </p>
     <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:2rem;">
-      Badenstedt liegt nur rund 15 Minuten von meinem Bürostandort in Hannover entfernt. Ich bin regelmäßig vor Ort – ob am Volkspark, entlang der Badenstedter Straße oder am Siloah-Krankenhaus.
+      Badenstedt liegt rund 15 Minuten westlich meines Standorts in Hannover-Herrenhausen. Ich betreue Objekte rund um die Badenstedter Straße, den Volkspark und das Siloah-Krankenhaus – regelmäßig und persönlich.
     </p>
     <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
       <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
@@ -47,19 +47,19 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
       <div style="flex:1 1 280px;max-width:320px;background:#ffffff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
         <h4 style="margin-top:0;margin-bottom:0.75rem;font-size:18px;">Lokale Erfahrung</h4>
         <p style="margin:0;font-size:16px;line-height:1.6;color:#444;">
-          Vertraut mit Objekten rund um die Badenstedter Straße, dem Volkspark und dem Siloah-Krankenhaus – persönlich bei Versammlungen, Abnahmen und Vor-Ort-Terminen.
+          Vertraut mit Objekten in der Badenstedter Straße, am Volkspark oder am Siloah-Krankenhaus – persönliche Präsenz bei Versammlungen und Vor-Ort-Terminen.
         </p>
       </div>
       <div style="flex:1 1 280px;max-width:320px;background:#ffffff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
         <h4 style="margin-top:0;margin-bottom:0.75rem;font-size:18px;">Reaktionszeit</h4>
         <p style="margin:0;font-size:16px;line-height:1.6;color:#444;">
-          Nur etwa 15 Minuten Fahrzeit – dadurch schnelle Erreichbarkeit, kurze Wege und feste Ansprechpartner ohne Warteschleifen.
+          Kurze Wege: nur 15 Minuten Fahrzeit. Schnelle Abstimmungen, feste Ansprechpartner – keine Warteschleifen.
         </p>
       </div>
       <div style="flex:1 1 280px;max-width:320px;background:#ffffff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
         <h4 style="margin-top:0;margin-bottom:0.75rem;font-size:18px;">Digitaler Zugang</h4>
         <p style="margin:0;font-size:16px;line-height:1.6;color:#444;">
-          Rund um die Uhr: Abrechnungen, Protokolle und Unterlagen jederzeit online einsehbar – für Eigentümer und Mieter.
+          Rund um die Uhr Zugriff auf Abrechnungen, Protokolle und Unterlagen – digital, sicher, nachvollziehbar.
         </p>
       </div>
     </div>
@@ -68,27 +68,57 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 ## Unsere Leistungen
 
+<style>
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto 3rem auto;
+  padding: 0 16px;
+}
+.service-box {
+  background: #f9fbfd;
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-left: 6px solid #00418f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
+.service-box h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.service-box p {
+  flex-grow: 1;
+  margin-bottom: 1.25rem;
+}
+</style>
+
 <div class="service-grid">
   <div class="service-box fade-in delay-1">
     <h3>WEG-Verwaltung</h3>
-    <p>Kaufmännische und technische Verwaltung Ihrer WEG in Badenstedt – Versammlungen, Beschlussumsetzung, Abrechnung, Dokumentation.</p>
+    <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Badenstedt und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
     <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
   </div>
   <div class="service-box fade-in delay-2">
     <h3>Mietverwaltung</h3>
-    <p>Komplette Betreuung Ihrer Miethäuser – inklusive Kommunikation mit Mietern, Abnahmen, Abrechnung und laufender Betreuung.</p>
+    <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
     <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
   </div>
   <div class="service-box fade-in delay-3">
     <h3>Sondereigentums­verwaltung</h3>
-    <p>Verwaltung einzelner Eigentumswohnungen in Badenstedt – mit Onlinezugang, Bonitätsprüfung, Instandhaltungskoordination und Mieterkommunikation.</p>
+    <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
     <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
   </div>
 </div>
 
 <section style="background:#f9fbfd;padding:32px 20px;border-radius:12px;margin-bottom:2.5rem;">
   <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;align-items:center;">
-    
+
 <h2 style="font-size:24px;text-align:center;margin-bottom:1.5rem;margin-top:3rem;">
   Badenstedt auf einen Blick – Stadt, Struktur und Lebensqualität
 </h2>
@@ -96,14 +126,14 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 <figure style="margin:0 auto;max-width:540px;padding:16px;background:#ffffff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
   <a href="/assets/img/hero-badenstedt.webp" target="_blank" style="display:block;">
     <img src="/assets/img/hero-badenstedt.webp"
-         alt="St. Thomas Kirche in Badenstedt, Hannover"
+         alt="St. Thomas Kirche in Badenstedt"
          width="480" height="320"
          loading="lazy" decoding="async"
          sizes="(max-width:600px) 92vw, 480px"
          style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.08);cursor:pointer;">
   </a>
   <figcaption style="font-size:13px;color:#666;margin-top:12px;text-align:center;line-height:1.4;">
-    <em>St. Thomas Kirche in Badenstedt, Hannover</em>, Foto von AxelHH, via Wikimedia Commons<br>
+    <em>St. Thomas Kirche in Badenstedt</em>, Foto von AxelHH, via Wikimedia Commons<br>
     Lizenz: <a href="https://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank" rel="noopener" style="color:#00418f;text-decoration:underline;">CC BY-SA 3.0 DE</a>
   </figcaption>
 </figure>
@@ -114,21 +144,22 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
   <div style="background:#ffffff;padding:1.5rem 1.75rem;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.04);">
     <h3 style="margin-top:0;font-size:20px;margin-bottom:1rem;">Badenstedt im Überblick</h3>
     <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
-      <li><strong>≈ 12.400 Einwohner (2020)</strong></li>
-      <li>Stadtteil im Westen Hannovers mit eigenem Charakter und historischer Bebauung</li>
-      <li>Gute Anbindung mit der Stadtbahnlinie 9 sowie mehreren Busverbindungen</li>
+      <li><strong>≈ 12.000 Einwohner</strong></li>
+      <li>Stadtteil im Westen Hannovers mit gewachsenem Wohnbestand, viel Grün und guter Nahversorgung</li>
+      <li>Schnelle Anbindung über Stadtbahnlinie 9, Buslinien und B65</li>
     </ul>
   </div>
 
   <div style="background:#ffffff;padding:1.5rem 1.75rem;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.04);">
     <h3 style="margin-top:0;font-size:20px;margin-bottom:1rem;">Besonderheiten des Ortes</h3>
     <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
-      <li><strong>Volkspark Badenstedt</strong> – grüne Naherholung in direkter Umgebung</li>
-      <li><strong>Badebornteich</strong> – Naturidylle mitten im Stadtteil</li>
-      <li><strong>Siloah-Krankenhaus</strong> – moderne medizinische Versorgung</li>
+      <li><strong>Badenstedter Holz</strong>, beliebtes Naherholungsgebiet mit Spazierwegen</li>
+      <li><strong>St. Thomas-Kirche</strong> – markantes Gebäude und Kulturdenkmal</li>
+      <li><strong>Badebornteich</strong> als ruhiger Naturpunkt im Grünen</li>
     </ul>
   </div>
 </div>
+
 </div>
 </section>
 
@@ -136,34 +167,38 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 <details class="faq-box">
   <summary>Was kostet eine WEG-Verwaltung?</summary>
-  <p>Die Vergütung hängt von Größe, Lage und Zustand der Immobilie ab. Gern erstelle ich Ihnen ein individuelles Angebot für Ihre Eigentümergemeinschaft in Badenstedt.</p>
+  <p>Die Vergütung orientiert sich an Faktoren wie Größe der Einheit, Lage und Zustand des Gemeinschaftseigentums. Ich erstelle Ihnen gern ein individuelles Angebot für Ihr Objekt in Badenstedt.</p>
 </details>
 
 <details class="faq-box">
   <summary>Betreuen Sie auch kleinere Miethäuser?</summary>
-  <p>Ja. Ich verwalte auch kleinere Miethäuser in Badenstedt – mit klarer Kommunikation, persönlicher Betreuung und schneller Reaktion.</p>
+  <p>Ja. Ich übernehme auch kleine Miethäuser in Badenstedt mit persönlicher Betreuung, klarer Kommunikation und schneller Reaktionszeit.</p>
 </details>
 
 <details class="faq-box">
-  <summary>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?</summary>
+  <summary>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?<span class="sr-only"> (Antwort einblenden)</span></summary>
   <p>Bei uns stehen Transparenz, Erreichbarkeit und strukturierte Abläufe im Mittelpunkt. Als inhabergeführte Hausverwaltung bieten wir keine anonymen Callcenter, sondern direkte Ansprechpartner. Die Kombination aus digitaler Arbeitsweise, persönlichem Einsatz vor Ort und laufender Qualitätssicherung macht unsere Betreuung zuverlässig, modern und nachhaltig – für Eigentümergemeinschaften und Miethäuser gleichermaßen.</p>
 </details>
 
 <section style="background:#f9fbfd;padding:48px 24px;border-radius:12px;margin:48px auto 32px auto;max-width:640px;box-shadow:0 4px 18px rgba(0,0,0,0.05);text-align:center;position:relative;overflow:hidden;">
   <div style="position:absolute;top:0;left:0;width:100%;height:4px;background:#00418f;border-radius:12px 12px 0 0;"></div>
+
   <img src="/assets/img/marco-mueller.webp" 
        alt="Marco Müller, Hausverwalter in Hannover und Badenstedt" 
        width="320" height="380"
        loading="lazy" decoding="async"
        style="border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,0.08);max-width:100%;height:auto;">
+
   <h3 style="margin-top:1.5rem;margin-bottom:0.3rem;font-size:24px;">Marco Müller</h3>
   <p style="margin:0;font-size:16px;color:#555;line-height:1.5;">
     Inhaber & zertifizierter Hausverwalter<br>
     Ihr Ansprechpartner für Badenstedt
   </p>
+
   <blockquote style="margin:1.5rem auto 0 auto;font-style:italic;font-size:16px;color:#444;max-width:480px;line-height:1.6;">
     „Ich stehe für persönliche Betreuung, schnelle Reaktion und eine transparente Hausverwaltung ohne Callcenter.“
   </blockquote>
+
   <div style="margin-top:2rem;">
     <p style="font-size:16px;margin-bottom:1rem;">Füllen Sie das Formular aus oder rufen Sie uns an unter <strong>0511 – 515 44 113</strong>.</p>
     <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
