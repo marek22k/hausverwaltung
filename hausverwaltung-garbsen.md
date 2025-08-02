@@ -134,6 +134,10 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 <section style="background:#f9fbfd;padding:32px 20px;border-radius:12px;margin-bottom:2.5rem;">
   <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;align-items:center;">
+    
+<h2 style="font-size:24px;text-align:center;margin-bottom:1.5rem;margin-top:3rem;">
+  Garbsen auf einen Blick – Stadt, Struktur und Lebensqualität
+</h2>
 
    <figure style="margin:0 auto;max-width:540px;padding:16px;background:#ffffff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
   <a href="/assets/img/hero-garbsen.webp" target="_blank" style="display:block;">
