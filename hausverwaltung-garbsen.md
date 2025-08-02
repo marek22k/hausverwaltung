@@ -23,23 +23,34 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 *:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 </style>
 
-<section style="background:#f4f7fa;padding:40px 20px;margin-bottom:48px;border-radius:12px;">
-  <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;">
+<section style="background:#f0f4f9;padding:48px 20px;margin:64px auto;border-radius:12px;">
+  <div style="max-width:960px;margin:0 auto;text-align:center;">
 
-    <h2 style="margin:0;font-size:26px;">Hausverwaltung Garbsen – persönlich, zuverlässig, digital</h2>
+    <h2 style="font-size:26px;margin-bottom:2rem;">Warum wir der richtige Partner in Garbsen sind</h2>
 
-    <p style="font-size:18px;line-height:28px;margin:0;">
-      Als zertifizierter Hausverwalter betreue ich Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in Garbsen mit persönlicher Präsenz und digitaler Effizienz.  
-      Sie erreichen mich direkt – ganz ohne Callcenter – und profitieren von klaren Prozessen, schneller Reaktion und vollständigem Online-Zugang zu allen Unterlagen.
-    </p>
+    <div style="display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;">
 
-    <p style="font-size:18px;line-height:28px;margin:0;">
-      Garbsen liegt nur rund 20 Minuten von meinem Standort in Hannover entfernt. Ob Altgarbsen, Berenbostel oder Havelse – ich bin regelmäßig vor Ort und eng mit der Region verbunden.
-    </p>
+      <div style="flex:1 1 280px;max-width:320px;background:#ffffff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
+        <h4 style="margin-top:0;margin-bottom:0.75rem;font-size:18px;">Lokale Erfahrung</h4>
+        <p style="margin:0;font-size:16px;line-height:1.6;color:#444;">
+          Vertraut mit Objekten in Altgarbsen, Havelse und Berenbostel – persönliche Präsenz bei Versammlungen, Abnahmen und Besichtigungen.
+        </p>
+      </div>
 
-  <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-top:8px;">
-      <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
-      <a href="/kontakt/" class="button-link">Kontakt aufnehmen</a>
+      <div style="flex:1 1 280px;max-width:320px;background:#ffffff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
+        <h4 style="margin-top:0;margin-bottom:0.75rem;font-size:18px;">Reaktionszeit</h4>
+        <p style="margin:0;font-size:16px;line-height:1.6;color:#444;">
+          Kurze Wege: ca. 20–25 Minuten aus Hannover. Schnelle Abstimmungen und feste Ansprechpartner statt Warteschleifen.
+        </p>
+      </div>
+
+      <div style="flex:1 1 280px;max-width:320px;background:#ffffff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
+        <h4 style="margin-top:0;margin-bottom:0.75rem;font-size:18px;">Digitaler Zugang</h4>
+        <p style="margin:0;font-size:16px;line-height:1.6;color:#444;">
+          Rund um die Uhr: Abrechnungen, Protokolle und Unterlagen jederzeit online einsehbar – für Eigentümer und Mieter.
+        </p>
+      </div>
+
     </div>
   </div>
 </section>
