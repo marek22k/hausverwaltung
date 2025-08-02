@@ -23,6 +23,28 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 *:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 </style>
 
+<section style="background:#eaf1f8;padding:64px 20px 56px 20px;margin-bottom:56px;border-radius:14px;">
+  <div style="max-width:900px;margin:0 auto;text-align:center;">
+
+    <h1 style="font-size:30px;margin-bottom:1.5rem;">Hausverwaltung Garbsen – persönlich, zuverlässig, digital</h1>
+
+    <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:1.25rem;">
+      Als zertifizierter Hausverwalter betreue ich Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in Garbsen mit <strong>persönlicher Präsenz</strong> und <strong>digitaler Effizienz</strong>.  
+      Sie erreichen mich direkt – ganz ohne Callcenter – und profitieren von klaren Prozessen, schneller Reaktion und vollständigem Online-Zugang zu allen Unterlagen.
+    </p>
+
+    <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:2rem;">
+      Garbsen liegt nur rund 20 Minuten von meinem Standort in Hannover entfernt. Ob Altgarbsen, Berenbostel oder Havelse – ich bin regelmäßig vor Ort und eng mit der Region verbunden.
+    </p>
+
+    <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
+      <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
+      <a href="/kontakt/" class="button-link">Kontakt aufnehmen</a>
+    </div>
+
+  </div>
+</section>
+
 <section style="background:#f0f4f9;padding:48px 20px;margin:64px auto;border-radius:12px;">
   <div style="max-width:960px;margin:0 auto;text-align:center;">
 
@@ -54,27 +76,6 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
     </div>
   </div>
 </section>
-
-## Warum wir der richtige Partner in Garbsen sind
-
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1.5rem;margin-bottom:3rem;">
-
-  <div style="flex:1 1 280px;max-width:340px;padding:1.5rem;background:#f9fbfd;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-    <h4 style="margin-top:0;">Lokale Erfahrung</h4>
-    <p style="margin:0;">Vertraut mit Objekten in Altgarbsen, Havelse und Berenbostel – persönliche Präsenz bei Versammlungen, Abnahmen und Besichtigungen.</p>
-  </div>
-
-  <div style="flex:1 1 280px;max-width:340px;padding:1.5rem;background:#f9fbfd;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-    <h4 style="margin-top:0;">Reaktionszeit</h4>
-    <p style="margin:0;">Kurze Wege: ca. 20–25 Minuten aus Hannover. Schnelle Abstimmungen und feste Ansprechpartner statt Warteschleifen.</p>
-  </div>
-
-  <div style="flex:1 1 280px;max-width:340px;padding:1.5rem;background:#f9fbfd;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-    <h4 style="margin-top:0;">Digitaler Zugang</h4>
-    <p style="margin:0;">Rund um die Uhr: Abrechnungen, Protokolle und Unterlagen jederzeit online einsehbar – für Eigentümer und Mieter.</p>
-  </div>
-
-</div>
 
 ## Unsere Leistungen
 
