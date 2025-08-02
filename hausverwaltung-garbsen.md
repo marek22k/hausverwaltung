@@ -23,38 +23,38 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 *:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 </style>
 
-## Hausverwaltung Garbsen, zertifizierte Betreuung für WEG, Mietshäuser und Sondereigentum
+## Hausverwaltung Garbsen, persönlich & digital betreut
 
-<section style="background:#f4f8fb;padding:2rem;border-radius:12px;margin-bottom:2rem;">
-  <div style="max-width:800px;margin:0 auto;">
-    <p style="font-size:1.1rem;line-height:1.6;margin:0;">
-      Willkommen bei der <strong>Hausverwaltung Marco Müller</strong>, Ihrem regionalen Partner für Garbsen.  
-      Die Stadt mit etwa 60.600 Einwohnern bietet Gewerbe, Wohnviertel und eine direkte Verbindung zur Landeshauptstadt Hannover.  
-      Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum mit persönlicher Beratung, innovativen digitalen Prozessen und kurzer Durchlaufzeit –  
-      ohne Callcenter, dafür mit transparentem Service und regionaler Präsenz.
-    </p>
-    
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-top:2rem;">
-      <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
-      <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
-    </div>
+<section style="text-align:center;max-width:800px;margin:0 auto 3rem auto;padding:1rem;">
+  <p style="font-size:1.15rem;line-height:1.7;margin-bottom:2rem;">
+    Willkommen bei der <strong>Hausverwaltung Marco Müller</strong>, Ihrem lokalen Verwalter für Garbsen und Umgebung.  
+    Ob WEG-, Miet- oder Sondereigentumsverwaltung: Wir betreuen Ihr Objekt mit <strong>transparenter Kommunikation</strong>,  
+    <strong>kurzen Reaktionszeiten</strong> und einem vollständig digitalen Dokumentenzugang – persönlich und ohne Callcenter.
+  </p>
+
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-top:1.5rem;">
+    <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+    <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
   </div>
 </section>
 
 ## Warum wir der richtige Partner in Garbsen sind
 
-<div style="display:flex;flex-direction:column;gap:1.5rem;margin-bottom:2rem;">
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1.5rem;margin-bottom:3rem;">
 
-  <div style="background:#fcfdff;padding:1rem 1.5rem;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.03);">
-    <p style="margin:0;"><strong>Zertifizierter WEG-Verwalter</strong> mit Erfahrung in städtisch geprägten Wohnlagen von Altgarbsen, Havelse und Berenbostel</p>
+  <div style="flex:1 1 280px;max-width:340px;padding:1.5rem;background:#f9fbfd;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+    <h4 style="margin-top:0;">Lokale Erfahrung</h4>
+    <p style="margin:0;">Vertraut mit Objekten in Altgarbsen, Havelse und Berenbostel – persönliche Präsenz bei Versammlungen, Abnahmen und Besichtigungen.</p>
   </div>
 
-  <div style="background:#fcfdff;padding:1rem 1.5rem;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.03);">
-    <p style="margin:0;">Nur <strong>20–25 Minuten Fahrtzeit</strong> ins Stadtzentrum – persönliche Präsenz bei Eigentümerversammlungen, Abnahmen und Objektbesichtigungen</p>
+  <div style="flex:1 1 280px;max-width:340px;padding:1.5rem;background:#f9fbfd;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+    <h4 style="margin-top:0;">Reaktionszeit</h4>
+    <p style="margin:0;">Kurze Wege: ca. 20–25 Minuten aus Hannover. Schnelle Abstimmungen und feste Ansprechpartner statt Warteschleifen.</p>
   </div>
 
-  <div style="background:#fcfdff;padding:1rem 1.5rem;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.03);">
-    <p style="margin:0;">Eigentümer und Mieter profitieren vom <strong>24/7-Onlineportal</strong> mit allen Abrechnungen, Protokollen und Dokumenten jederzeit digital verfügbar</p>
+  <div style="flex:1 1 280px;max-width:340px;padding:1.5rem;background:#f9fbfd;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+    <h4 style="margin-top:0;">Digitaler Zugang</h4>
+    <p style="margin:0;">Rund um die Uhr: Abrechnungen, Protokolle und Unterlagen jederzeit online einsehbar – für Eigentümer und Mieter.</p>
   </div>
 
 </div>
@@ -121,7 +121,7 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 </div>
 
-<a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
+
 
 <a href="/assets/img/hero-garbsen.webp" target="_blank" style="display:block;width:max-content;margin:1.5rem auto;">
   <img src="/assets/img/hero-garbsen.webp"
