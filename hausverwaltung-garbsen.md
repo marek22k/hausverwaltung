@@ -96,35 +96,38 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 }
 </style>
 
-<div style="display:flex;flex-direction:column;gap:2rem;margin-bottom:2rem;">
+<div style="max-width:1080px;margin:0 auto;padding:0 16px;">
 
-  <!-- Box 1: links -->
-  <div style="display:flex;justify-content:flex-start;">
-    <div class="box-service fade-in delay-1">
-      <h3 style="margin-top:0;">WEG-Verwaltung</h3>
-      <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
-      <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
+  <div style="display:flex;flex-direction:column;gap:2rem;margin-bottom:2rem;">
+
+    <!-- Box 1: links -->
+    <div style="display:flex;justify-content:flex-start;">
+      <div class="box-service fade-in delay-1">
+        <h3 style="margin-top:0;">WEG-Verwaltung</h3>
+        <p>Wir übernehmen die kaufmännische und technische Verwaltung Ihrer WEG in Garbsen und Umgebung – inklusive Versammlungen, Beschlussumsetzung und digitaler Ablage.</p>
+        <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
+      </div>
     </div>
-  </div>
 
-  <!-- Box 2: rechts -->
-  <div style="display:flex;justify-content:flex-end;">
-    <div class="box-service fade-in delay-2">
-      <h3 style="margin-top:0;">Mietverwaltung</h3>
-      <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
-      <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
+    <!-- Box 2: rechts -->
+    <div style="display:flex;justify-content:flex-end;">
+      <div class="box-service fade-in delay-2">
+        <h3 style="margin-top:0;">Mietverwaltung</h3>
+        <p>Ob Einfamilienhaus oder Mietobjekt – wir unterstützen Sie mit Bonitätsprüfung, Vertragsabwicklung, Nebenkostenabrechnung und Ansprechpartnern vor Ort.</p>
+        <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
+      </div>
     </div>
-  </div>
 
-  <!-- Box 3: links -->
-  <div style="display:flex;justify-content:flex-start;">
-    <div class="box-service fade-in delay-3">
-      <h3 style="margin-top:0;">Sondereigentums­verwaltung</h3>
-      <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
-      <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
+    <!-- Box 3: links -->
+    <div style="display:flex;justify-content:flex-start;">
+      <div class="box-service fade-in delay-3">
+        <h3 style="margin-top:0;">Sondereigentums­verwaltung</h3>
+        <p>Kapitalanleger schätzen unsere transparente Betreuung einzelner Eigentumswohnungen – inklusive Instandhaltungskoordination, Dokumentation und Kommunikation mit Mietern.</p>
+        <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
+      </div>
     </div>
-  </div>
 
+  </div>
 </div>
 
 
