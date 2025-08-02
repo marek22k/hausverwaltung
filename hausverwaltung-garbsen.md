@@ -156,24 +156,48 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
     <!-- Originalbild: https://commons.wikimedia.org/wiki/File:Garbsen,_OT_Altgarbsen,_Hannoversche_Stra%C3%9Fe.jpg -->
 
-    <div style="text-align:left;max-width:640px;">
-      <h3 style="margin-top:1rem;font-size:20px;">Garbsen im Überblick</h3>
-      <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
-        <li><strong>≈ 60.600 Einwohner (2020)</strong></li>
-        <li>Größte Mittelstadt im Raum Hannover mit 13 Stadtteilen und starker Infrastruktur</li>
-        <li>Gute Verkehrsanbindung über S-Bahn, Stadtbahnlinie 4 und Busnetz nach Hannover und Umgebung</li>
-      </ul>
+## Das ist Garbsen
+
+<section style="background:#f4f7fa;padding:32px 20px;border-radius:12px;margin-bottom:2.5rem;">
+  <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:32px;align-items:center;">
+
+    <figure style="margin:0 auto;max-width:540px;padding:16px;background:#ffffff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+      <a href="/assets/img/hero-garbsen.webp" target="_blank" style="display:block;">
+        <img src="/assets/img/hero-garbsen.webp"
+             alt="Straßenszene in Altgarbsen – Hannoversche Straße"
+             width="480" height="320"
+             loading="lazy" decoding="async"
+             sizes="(max-width:600px) 92vw, 480px"
+             style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.08);cursor:pointer;">
+      </a>
+      <figcaption style="font-size:13px;color:#666;margin-top:12px;text-align:center;line-height:1.4;">
+        <em>Garbsen, OT Altgarbsen – Hannoversche Straße</em>, Foto von Ingo Rickmann, via Wikimedia Commons<br>
+        Lizenz: <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener" style="color:#00418f;text-decoration:underline;">CC BY-SA 2.5</a>
+      </figcaption>
+    </figure>
+
+    <div style="display:flex;flex-direction:column;gap:24px;max-width:720px;width:100%;text-align:left;">
+      <div style="background:#ffffff;padding:1.5rem 1.75rem;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.04);">
+        <h3 style="margin-top:0;font-size:20px;margin-bottom:1rem;">Garbsen im Überblick</h3>
+        <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
+          <li><strong>≈ 60.600 Einwohner (2020)</strong></li>
+          <li>Größte Mittelstadt im Raum Hannover mit 13 Stadtteilen und starker Infrastruktur</li>
+          <li>Gute Verkehrsanbindung über S-Bahn, Stadtbahnlinie 4 und Busnetz nach Hannover und Umgebung</li>
+        </ul>
+      </div>
+
+      <div style="background:#ffffff;padding:1.5rem 1.75rem;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.04);">
+        <h3 style="margin-top:0;font-size:20px;margin-bottom:1rem;">Besonderheiten des Ortes</h3>
+        <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
+          <li><strong>Stadtpark Garbsen mit Schwarzem See</strong>, beliebtes Naherholungsgebiet</li>
+          <li><strong>Barockkirche Schloß Ricklingen</strong>, sehenswertes Sakralbauwerk in Berenbostel</li>
+          <li><strong>Naturschutzgebiet Ricklinger Entenpool</strong> in der Nähe von Schloss Ricklingen</li>
+        </ul>
+      </div>
     </div>
+
   </div>
 </section>
-
-### Besonderheiten des Ortes
-
-<ul style="line-height:1.7;font-size:16px;margin-top:1rem;">
-  <li><strong>Stadtpark Garbsen mit Schwarzem See</strong>, beliebtes Naherholungsgebiet</li>
-  <li><strong>Barockkirche Schloß Ricklingen</strong>, sehenswertes Sakralbauwerk in Berenbostel</li>
-  <li><strong>Naturschutzgebiet Ricklinger Entenpool</strong> in der Nähe von Schloss Ricklingen</li>
-</ul>
 
 ## FAQ zur Hausverwaltung in Garbsen
 
