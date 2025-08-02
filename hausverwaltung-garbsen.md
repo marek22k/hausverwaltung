@@ -37,7 +37,7 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
       Garbsen liegt nur rund 20 Minuten von meinem Standort in Hannover entfernt. Ob Altgarbsen, Berenbostel oder Havelse – ich bin regelmäßig vor Ort und eng mit der Region verbunden.
     </p>
 
-    <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:flex-start;margin-top:8px;">
+  <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-top:8px;">
       <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
       <a href="/kontakt/" class="button-link">Kontakt aufnehmen</a>
     </div>
@@ -129,32 +129,44 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
 
 
-<a href="/assets/img/hero-garbsen.webp" target="_blank" style="display:block;width:max-content;margin:1.5rem auto;">
-  <img src="/assets/img/hero-garbsen.webp"
-       alt="Straßenszene in Altgarbsen – Hannoversche Straße"
-       width="480" height="320"
-       loading="lazy" decoding="async"
-       sizes="(max-width:600px) 92vw, 480px"
-       style="width:100%;max-width:480px;height:auto;border-radius:8px;cursor:pointer;">
-</a>
+<section style="background:#f9fbfd;padding:32px 20px;border-radius:12px;margin-bottom:2.5rem;">
+  <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;align-items:center;">
 
-<!-- Originalbild: https://commons.wikimedia.org/wiki/File:Garbsen,_OT_Altgarbsen,_Hannoversche_Stra%C3%9Fe.jpg -->
+    <figure style="margin:0;">
+      <a href="/assets/img/hero-garbsen.webp" target="_blank" style="display:block;max-width:100%;margin:0 auto;">
+        <img src="/assets/img/hero-garbsen.webp"
+             alt="Straßenszene in Altgarbsen – Hannoversche Straße"
+             width="480" height="320"
+             loading="lazy" decoding="async"
+             sizes="(max-width:600px) 92vw, 480px"
+             style="width:100%;max-width:480px;height:auto;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);cursor:pointer;">
+      </a>
+      <figcaption style="font-size:14px;color:#555;margin-top:12px;text-align:center;">
+        *Garbsen, OT Altgarbsen – Hannoversche Straße*, Foto von Ingo Rickmann, via Wikimedia Commons  
+        Lizenz: <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+      </figcaption>
+    </figure>
 
-**Bildnachweis:**  
-*Garbsen, OT Altgarbsen – Hannoversche Straße*, Foto von Ingo Rickmann, via Wikimedia Commons  
-Lizenz: [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+    <!-- Originalbild: https://commons.wikimedia.org/wiki/File:Garbsen,_OT_Altgarbsen,_Hannoversche_Stra%C3%9Fe.jpg -->
 
-## Garbsen im Überblick
-
-* **≈ 60.600 Einwohner (2020)**  
-* Größte Mittelstadt im Raum Hannover mit 13 Stadtteilen und starker Infrastruktur  
-* Gute Verkehrsanbindung über S-Bahn, Stadtbahnlinie 4 und Busnetz nach Hannover und Umgebung
+    <div style="text-align:left;max-width:640px;">
+      <h3 style="margin-top:1rem;font-size:20px;">Garbsen im Überblick</h3>
+      <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
+        <li><strong>≈ 60.600 Einwohner (2020)</strong></li>
+        <li>Größte Mittelstadt im Raum Hannover mit 13 Stadtteilen und starker Infrastruktur</li>
+        <li>Gute Verkehrsanbindung über S-Bahn, Stadtbahnlinie 4 und Busnetz nach Hannover und Umgebung</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 ### Besonderheiten des Ortes
 
-* **Stadtpark Garbsen mit Schwarzem See**, beliebtes Naherholungsgebiet  
-* **Barockkirche Schloß Ricklingen**, sehenswertes Sakralbauwerk in Berenbostel  
-* **Naturschutzgebiet Ricklinger Entenpool** in der Nähe von Schloss Ricklingen
+<ul style="line-height:1.7;font-size:16px;margin-top:1rem;">
+  <li><strong>Stadtpark Garbsen mit Schwarzem See</strong>, beliebtes Naherholungsgebiet</li>
+  <li><strong>Barockkirche Schloß Ricklingen</strong>, sehenswertes Sakralbauwerk in Berenbostel</li>
+  <li><strong>Naturschutzgebiet Ricklinger Entenpool</strong> in der Nähe von Schloss Ricklingen</li>
+</ul>
 
 ## FAQ zur Hausverwaltung in Garbsen
 
