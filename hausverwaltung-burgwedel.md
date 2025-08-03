@@ -122,6 +122,11 @@ summary:focus-visible, *:focus-visible{ outline:3px solid #00418f; outline-offse
 <details><summary>Betreuen Sie auch kleinere Miethäuser?</summary><p>Ja, auch kompakte Miethäuser – inklusive persönlicher Betreuung, Abnahme und schneller Kommunikation.</p></details>
 <details><summary>Was unterscheidet die Hausverwaltung Marco Müller?</summary><p>Transparenz, direkte Ansprechpartner ohne Callcenter sowie digitale Arbeitsweise und lokale Präsenz zeichnen mich aus.</p></details>
 
+<div style="background:#f9fbfd;padding:1.5rem 1.75rem;border-radius:12px;margin-top:2.5rem;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,0.04);">
+  <p style="font-size:16px;color:#444;margin-bottom:1rem;">Sie haben weitere Fragen?</p>
+  <a href="/faq/" class="button-link">🔎 Zur FAQ-Übersicht</a>
+</div>
+
 <section style="background:#f9fbfd;padding:48px 24px;border-radius:12px;max-width:640px;margin:48px auto;text-align:center;box-shadow:0 4px 18px rgba(0,0,0,0.05);position:relative;">
   <div style="position:absolute;top:0;left:0;width:100%;height:4px;background:#00418f;border-radius:12px 12px 0 0;"></div>
   <img src="/assets/img/marco-mueller.webp" alt="Marco Müller, Hausverwalter in Burgwedel" width="320" height="380" loading="lazy" decoding="async" style="border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,0.08);max-width:100%;height:auto;">
