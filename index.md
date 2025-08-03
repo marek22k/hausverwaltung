@@ -213,8 +213,8 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 .username .rating{
   font-size:2.8rem;          /* wie zuvor */
   margin-left:.35rem;        /* kleiner Abstand */
-  vertical-align:mi
-
+  vertical-align:middle;
+}
  
   #review-widget .username{font-weight:600;margin-bottom:.6rem}
   #review-widget .text{line-height:1.45}
