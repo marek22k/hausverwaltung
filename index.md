@@ -269,12 +269,10 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 }
 
 /* Adaptive Schrift (Desktop größer) – ganz ohne !important */
-@media (min-width:40rem){        /* ≈ 640 px  */
-  .leistungen{font-size:1.15rem;}/* ≈ 18 px   */
-}
-@media (min-width:60rem){        /* ≈ 960 px  */
-  .leistungen{font-size:1.25rem;}/* ≈ 20 px   */
-}
+@media (min-width:40rem){}        /* ≈ 640 px  */
+  
+@media (min-width:60rem){}        /* ≈ 960 px  */
+
 
 /* Überschriften skalieren ebenfalls flüssig */
 .leistungen h3{
