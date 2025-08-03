@@ -162,7 +162,6 @@ Natürlich hat moderne Software auch ihren Preis, doch sie ist eine gezielte Inv
 
 <details>
 <summary>Verfügen Sie in Ihrem Büro über einen eigenen Besprechungsraum?</summary>
-<
 
 <p>Ja, ich habe einen separaten, modern ausgestatteten Besprechungsraum, den wir für kleinere Eigentümerversammlungen oder vertrauliche Gespräche nutzen können.</p>
 </details>
