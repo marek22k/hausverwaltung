@@ -1,3 +1,4 @@
+---
 layout: page
 title: "Hausverwaltung Wedemark – Persönlich, digital, zertifiziert"
 description: "Ob WEG-, Miet- oder SE-Verwaltung: Wir betreuen Ihr Objekt in der Wedemark zuverlässig. Jetzt unverbindliches Angebot anfordern!"
