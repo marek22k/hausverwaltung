@@ -63,17 +63,17 @@ summary:focus-visible, *:focus-visible{ outline:3px solid #00418f; outline-offse
 <div class="service-grid">
   <div class="service-box">
     <h3>WEG‑Verwaltung</h3>
-    <p>Professionelle Verwaltung von Wohnungseigentümergemeinschaften in Burgwedel – rechtssicher, digital und persönlich betreut.</p>
+    <p>Als zertifizierter WEG Verwalter betreue ich Eigentümergemeinschaften in Burgwedel persönlich, digital und kostenklar. Regelmäßige Objektgänge von Großburgwedel bis Fuhrberg sichern den Wert Ihres Gemeinschaftseigentums, während alle Abrechnungen und Beschlüsse jederzeit im Online Portal abrufbar sind. Lokale Handwerksfirmen werden direkt koordiniert, dadurch bleiben Wege kurz und Budgets planbar.</p>
     <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG‑Verwaltung</a>
   </div>
   <div class="service-box">
     <h3>Mietverwaltung</h3>
-    <p>Bonitätsprüfung, Mietvertragsabwicklung, Nebenkostenabrechnung und schnelle Reaktion bei Anliegen Ihrer Mieter – direkt vor Ort.</p>
+    <p>In der Miethausverwaltung entlaste ich Hauseigentümer vollständig. Lückenlose Mieteingangskontrolle, ein 24 Stunden Notfalltelefon und engmaschige Wartungszyklen halten Ihr Gebäude attraktiv und Leerstände gering. Als unabhängiger Verwalter ohne Maklerprovisionen verhandle ich jedes Angebot im Interesse des Eigentümers und dokumentiere alles transparent im Online Portal.</p>
     <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
   </div>
   <div class="service-box">
     <h3>Sondereigentumsverwaltung</h3>
-    <p>Individuelle Betreuung von Eigentumswohnungen – inklusive Instandhaltung, Kommunikation und kompletter digitaler Dokumentation.</p>
+    <p>Burgwedel verfügt über eine überdurchschnittliche Kaufkraft, der Index liegt deutlich über dem Regionsschnitt, was stabile Mieteinnahmen begünstigt. Ich übernehme das komplette Management Ihrer vermieteten Wohnung, prüfe Interessenten sorgfältig, erstelle rechtssichere Verträge und halte Sie über das Portal stets aktuell. Klare Honorare ohne versteckte Posten sichern Ihre Rendite.</p>
     <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE‑Verwaltung</a>
   </div>
 </div>
