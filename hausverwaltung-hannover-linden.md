@@ -83,19 +83,19 @@ summary:focus-visible{ outline:3px solid #00418f; outline-offset:2px; }
 
   <div class="service-box fade-in delay-1">
     <h3>WEG-Verwaltung</h3>
-    <p>Ich betreue Eigentümergemeinschaften mit rechtssicherer Organisation, regelmäßiger Kommunikation und digitaler Unterlagenbereitstellung – egal ob Altbau oder Neubau.</p>
+    <p>Als zertifizierter Verwalter nach Paragraf 26a Wohnungseigentumsgesetz betreue ich Ihre Eigentümergemeinschaft mit fundierter Fachkenntnis und klarer Ortsverbundenheit. Mein Büro liegt nur wenige Minuten vom Küchengarten entfernt, daher prüfe ich Ihr Gemeinschaftseigentum regelmäßig vor Ort, koordiniere Handwerksfirmen aus Linden ohne lange Anfahrten und stehe in jeder Phase als fester Ansprechpartner bereit. Sämtliche Beschlüsse, Abrechnungen und Belege halten wir in einem jederzeit verfügbaren Online Portal bereit, dadurch behalten alle Eigentümer den Überblick und treffen Entscheidungen schneller. Dieses Zusammenspiel aus Präsenz, digitaler Transparenz und verlässlicher Kostenstruktur schützt langfristig den Wert Ihrer Immobilie im lebhaften Quartier rund um die Limmerstraße.</p>
     <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
   </div>
 
   <div class="service-box fade-in delay-2">
     <h3>Mietverwaltung</h3>
-    <p>Als Verwalter Ihrer Mietimmobilie übernehme ich Übergaben, Bonitätsprüfungen, Abrechnungen und die Mieterkommunikation – kompetent und zuverlässig.</p>
+    <p>Ob historisches Backsteinensemble nahe dem Lindener Hafen oder moderner Neubau an der Fössestraße, als Hausverwaltung Hannover Linden übernehme ich den gesamten Lebenszyklus Ihres Mietshauses. Ich akquiriere solvente Mietparteien, kontrolliere pünktliche Zahlungseingänge, erstelle rechtssichere Betriebskostenabrechnungen und halte eine rund-um-die-Uhr erreichbare Notfall-Hotline bereit, damit Schäden unmittelbar gemeldet und behoben werden. Digitale Ablage aller Dokumente kombiniert mit persönlicher Objektbegehung sichert Ihnen maximale Transparenz bei minimalem Aufwand. Durch diese Mischung aus modernem Prozessmanagement und echter Vor-Ort-Präsenz steigern wir die Mieterzufriedenheit und damit auch den Wert Ihres Gebäudes in einem der gefragtesten Stadtteile Hannovers.</p>
     <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
   </div>
 
   <div class="service-box fade-in delay-3">
     <h3>Sondereigentums­verwaltung</h3>
-    <p>Ich betreue einzelne Eigentumswohnungen innerhalb einer WEG, kümmere mich um Instandhaltung, Dokumentation und Mieterwechsel – digital und transparent.</p>
+    <p>Kapitalanleger profitieren in Hannover Linden von konstant hoher Nachfrage nach attraktivem Wohnraum. Als Ihr Verwalter übernehme ich die komplette Organisation einzelner Wohneinheiten innerhalb einer Eigentümergemeinschaft, prüfe Interessenten sorgfältig, erstelle rechtssichere Mietverträge und dokumentiere alle Vorgänge lückenlos im Online Portal. Dank enger Verbindungen zu lokalen Handwerksbetrieben werden Instandhaltungen schnell umgesetzt, während transparente Fixpreise ohne versteckte Posten Ihre Kalkulation vereinfachen. So bleibt Ihre Rendite zuverlässig planbar und Ihre Wohnung bleibt dauerhaft begehrt in einem Viertel, das mit Gründerzeitarchitektur und Ihmeufer gleichermaßen überzeugt. </p>
     <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
   </div>
 
