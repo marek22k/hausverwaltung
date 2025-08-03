@@ -247,70 +247,79 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 }
 .review-nav button:hover{background:#f5f5f5;}
   
-/* ---------- Hier beginnt der Code zum Style für den Dliesstext der Leistungen ---------- */
->
-/* 1 · Utility: für Screenreader versteckte H2, verbessert Struktur */
-.sr-only{
-  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
-  clip:rect(0,0,0,0);white-space:nowrap;border:0;overflow:hidden;
-}
+/* ---------- Hier beginnt der Code zum Style für den Fliesstext der Leistungen ---------- */
+  /* ---------- Hier beginnt der Code zum Style für den Fliesstext der Leistungen ---------- */
+  /* ---------- Hier beginnt der Code zum Style für den Fliesstext der Leistungen ---------- */
+  /* ---------- Hier beginnt der Code zum Style für den Fliesstext der Leistungen ---------- */
 
-/* 2 · Grundlayout der gesamten Section */
+  
+/* Utility für Screenreader (falls du später ein <h2> verstecken willst) */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;clip:rect(0,0,0,0);white-space:nowrap;border:0;overflow:hidden;}
+
+/* ── Grundlayout ────────────────── */
 .leistungen{
   padding:3rem 1rem;
-  max-width:72rem;        /* ≈1120 px – angenehme Zeilenlänge */
+  max-width:72rem;               /* angenehme Zeilenlänge auf Desktop */
   margin-inline:auto;
-  line-height:1.55;
+  line-height:1.6;
   font-size:1rem;
 }
 
-/* 3 · Überschriften mit Akzentbalken */
+/* ── Akzentierte <h3> ───────────── */
 .leistungen h3{
   position:relative;
-  margin:3rem 0 1.25rem;
-  font-size:1.5rem;
+  margin:3rem 0 1.5rem;
+  font-size:1.6rem;
   line-height:1.3;
-  padding-left:1.25rem;
+  padding-left:1rem;
+  border-bottom:3px solid #1251d1;
 }
 .leistungen h3::before{
-  content:'';
+  content:"";
   position:absolute;
   left:0;top:0;
-  height:100%;width:.3rem;
-  background:var(--accent, #1251d1);   /* Farbe zentral anpassbar */
-  border-radius:.25rem;
+  width:.35rem;height:100%;
+  background:#1251d1;
+  border-radius:.2rem;
 }
 
-/* 4 · Fließtext */
+/* ── Absätze ────────────────────── */
 .leistungen p{margin:0 0 1.25rem;text-wrap:pretty;}
 
-/* 5 · Buttons (Klasse existiert schon – hier nur Hover verfeinert) */
+/* ── Standardlinks in diesem Bereich ── */
+.leistungen a:not(.button-link){
+  color:#1251d1;
+  font-weight:600;
+  text-decoration:none;
+}
+.leistungen a:not(.button-link):hover{text-decoration:underline;}
+
+/* ── CTA-Buttons, Klasse existiert schon ── */
 .leistungen .button-link{
   display:inline-block;
-  padding:.75rem 1.5rem;
-  border-radius:.5rem;
-  background:var(--accent,#1251d1);
-  color:#fff;font-weight:700;text-decoration:none;
+  padding:.85rem 1.6rem;
+  border-radius:.55rem;
+  background:#1251d1;
+  color:#fff;
+  font-weight:700;
+  text-decoration:none;
   transition:transform .15s ease,box-shadow .15s ease;
 }
 .leistungen .button-link:hover{
-  transform:translateY(-2px);
-  box-shadow:0 .35rem .7rem rgba(0,0,0,.08);
+  transform:translateY(-3px);
+  box-shadow:0 .4rem .8rem rgba(0,0,0,.1);
 }
 @media(prefers-reduced-motion:reduce){
   .leistungen .button-link:hover{transform:none;}
 }
 
-/* 6 · Standardlinks innerhalb der Section */
-.leistungen a:not(.button-link){
-  color:var(--accent,#1251d1);font-weight:600;text-decoration:none;
-}
-.leistungen a:not(.button-link):hover{text-decoration:underline;}
-
-/* 7 · Responsive Zweispalter (ab 50 rem ≈ 800 px) */
+/* ── Responsiver Zweispalter ab 50 rem (~800 px) ── */
 @media(min-width:50rem){
-  .leistungen{column-count:2;column-gap:3rem;}
-  .leistungen h3{break-before:column;}  /* verhindert Waisenüberschriften */
+  .leistungs-texte{    /* extra Wrapper nur fürs Spalten-Layout */
+    column-count:2;
+    column-gap:3rem;
+  }
+  .leistungs-texte h3{break-before:column;}   /* keine Waisen-Überschrift */
 }
   
 </style>
@@ -463,12 +472,11 @@ Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 
 </div>
 
-<style>
-  h3 { background:#ff0; color:#000; }
-</style>
-
 <section class="leistungen" aria-labelledby="leistungen-heading">
   <h2 id="leistungen-heading" class="sr-only">Unsere Leistungen</h2>
+
+  <!-- Wrapper nur fürs Spalten-Layout -->
+  <div class="leistungs-texte">
 
   <!-- — WEG-Verwaltung — -->
   <h3>WEG-Verwaltung Hannover</h3>
@@ -510,6 +518,8 @@ Ihr zertifizierter Hausverwalter für Hannover und Umgebung
   <div style="text-align:center;margin-top:2rem;">
     <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
   </div>
+
+  </div><!-- /.leistungs-texte -->
 </section>
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
