@@ -268,7 +268,7 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 /* ── Akzentierte <h3> ───────────── */
 .leistungen h3{
   position:relative;
-  margin:3rem 0 1.5rem;
+  margin:4rem 0 1.5rem;
   font-size:1.8rem;        
   line-height:1.3;
   padding-left:1rem;
@@ -314,13 +314,6 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 }
 
 /* ── Responsiver Zweispalter ab 50 rem (~800 px) ── */
-@media (min-width:50rem){        /* ~800 px */
-  .leistungs-texte{
-    column-count:2;
-    column-gap:3rem;       /* etwas mehr Luft dazwischen */
-  }
-  .leistungs-texte h3{break-before:column;}
-}
 
 /* 4 · Sicherheitshalber Überlauf unterbinden */
 .leistungen{overflow:hidden;}
@@ -476,7 +469,7 @@ Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 </div>
 
 <section class="leistungen" aria-labelledby="leistungen-heading">
-  <h2 id="leistungen-heading" class="sr-only">Unsere Leistungen</h2>
+  
 
   <!-- Wrapper nur fürs Spalten-Layout -->
   <div class="leistungs-texte">
