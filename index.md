@@ -322,6 +322,57 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 
 /* 4 · Sicherheitshalber Überlauf unterbinden */
 .leistungen{overflow:hidden;}
+
+
+/* ─── FAQ-Boxen (Details/Accordion) ───────────────────────── */
+
+.faq-section{
+  max-width:900px;
+  margin:2rem auto;
+  padding:0 1rem;
+}
+
+.faq-section h2{
+  font-weight:700;
+  margin-bottom:1.5rem;
+  color:#111;
+}
+
+/* Rahmen & Hintergrund für jede Frage */
+details{
+  border:1px solid #ccc;
+  border-radius:8px;
+  margin-bottom:1.5rem;
+  padding:1.25rem;
+  background:#f9f9f9;
+  transition:border-color .2s,background-color .2s;
+}
+
+/* geöffnete Box – dunklerer Rahmen & weißer Hintergrund */
+details[open]{
+  background:#fff;
+  border-color:#666;
+}
+
+/* Kopfzeile (anklickbar) */
+summary{
+  font-weight:700;
+  cursor:pointer;
+  outline:none;          /* kein Standard-Focus-Ring */
+  color:#111;
+}
+
+/* Plus-/Minus-Symbol links */
+summary::marker{ content:"➕ "; }
+details[open] summary::marker{ content:"➖ "; }
+
+/* Antworttext */
+details p{
+  margin-top:1rem;
+  line-height:1.8;
+  color:#222;
+  white-space:pre-line;   /* Zeilenumbrüche aus Markdown respektieren */
+}
   
 </style>
 
@@ -708,7 +759,7 @@ Durch regelmäßiges Feedback von Eigentümern und Mietern entwickle ich meine D
   Häufig gestellte Fragen zur Hausverwaltung in Hannover
 </h2>
 
-<div class="faq-section" style="max-width:900px;margin:0 auto;">
+<div class="faq-section">
 
   <details>
     <summary>Gibt es einen 24/7&nbsp;Notdienst bei Rohrbruch oder Stromausfall?</summary>
