@@ -248,52 +248,70 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 .review-nav button:hover{background:#f5f5f5;}
   
 /* ---------- Hier beginnt der Code zum Style für den Dliesstext der Leistungen ---------- */
-/* ---------- Visually hidden utility ---------- */
-  /* ---------- Visually hidden utility ---------- */
-.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;clip:rect(0,0,0,0);overflow:hidden;border:0;}
+>
+/* 1 · Utility: für Screenreader versteckte H2, verbessert Struktur */
+.sr-only{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  clip:rect(0,0,0,0);white-space:nowrap;border:0;overflow:hidden;
+}
 
-/* ---------- Section ---------- */
-.services{padding:3rem 1rem;background:#f9fafc;}
-.services__grid{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:2rem;
-  max-width:1280px;
+/* 2 · Grundlayout der gesamten Section */
+.leistungen{
+  padding:3rem 1rem;
+  max-width:72rem;        /* ≈1120 px – angenehme Zeilenlänge */
   margin-inline:auto;
-}
-@media(min-width:640px){
-  .services__grid{grid-template-columns:repeat(auto-fit,minmax(320px,1fr));}
+  line-height:1.55;
+  font-size:1rem;
 }
 
-/* ---------- Cards ---------- */
-.service-card{
-  display:flex;
-  flex-direction:column;
-  padding:2rem 1.75rem;
-  border-radius:1rem;
-  background:#fff;
-  box-shadow:0 .5rem 1.5rem rgba(0,0,0,.05);
-}
-.service-card h3{
-  margin-top:0;
-  font-size:1.4rem;
+/* 3 · Überschriften mit Akzentbalken */
+.leistungen h3{
+  position:relative;
+  margin:3rem 0 1.25rem;
+  font-size:1.5rem;
   line-height:1.3;
+  padding-left:1.25rem;
 }
-.service-card a:not(.button-link){color:#1251d1;font-weight:600;text-decoration:none;}
-.service-card a:not(.button-link):hover{text-decoration:underline;}
-.service-card .cta{text-align:center;margin-top:2rem;}
-.button-link{
+.leistungen h3::before{
+  content:'';
+  position:absolute;
+  left:0;top:0;
+  height:100%;width:.3rem;
+  background:var(--accent, #1251d1);   /* Farbe zentral anpassbar */
+  border-radius:.25rem;
+}
+
+/* 4 · Fließtext */
+.leistungen p{margin:0 0 1.25rem;text-wrap:pretty;}
+
+/* 5 · Buttons (Klasse existiert schon – hier nur Hover verfeinert) */
+.leistungen .button-link{
   display:inline-block;
   padding:.75rem 1.5rem;
   border-radius:.5rem;
-  background:#1251d1;
-  color:#fff;
-  font-weight:700;
-  text-decoration:none;
+  background:var(--accent,#1251d1);
+  color:#fff;font-weight:700;text-decoration:none;
   transition:transform .15s ease,box-shadow .15s ease;
 }
-.button-link:hover{transform:translateY(-2px);box-shadow:0 .375rem .75rem rgba(0,0,0,.08);}
-@media(prefers-reduced-motion:reduce){.button-link:hover{transform:none;}}
+.leistungen .button-link:hover{
+  transform:translateY(-2px);
+  box-shadow:0 .35rem .7rem rgba(0,0,0,.08);
+}
+@media(prefers-reduced-motion:reduce){
+  .leistungen .button-link:hover{transform:none;}
+}
+
+/* 6 · Standardlinks innerhalb der Section */
+.leistungen a:not(.button-link){
+  color:var(--accent,#1251d1);font-weight:600;text-decoration:none;
+}
+.leistungen a:not(.button-link):hover{text-decoration:underline;}
+
+/* 7 · Responsive Zweispalter (ab 50 rem ≈ 800 px) */
+@media(min-width:50rem){
+  .leistungen{column-count:2;column-gap:3rem;}
+  .leistungen h3{break-before:column;}  /* verhindert Waisenüberschriften */
+}
   
 </style>
 
@@ -445,61 +463,48 @@ Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 
 </div>
 
-<section class="services" aria-labelledby="leistungen-heading">
+<section class="leistungen" aria-labelledby="leistungen-heading">
   <h2 id="leistungen-heading" class="sr-only">Unsere Leistungen</h2>
 
-  <div class="services__grid">
+  <!-- — WEG-Verwaltung — -->
+  <h3>WEG-Verwaltung Hannover</h3>
+  <p>Als persönliche, zertifizierte WEG-Verwaltung in Hannover betreuen wir speziell kleine und mittelgroße Eigentümergemeinschaften, sichern den Werterhalt Ihres Gemeinschaftseigentums und stehen Ihnen als Immobilienverwalter (IHK) sowie zertifizierter Verwalter nach §26a WEG mit regionaler Marktkenntnis, digitaler Kompetenz und hohem Engagement zur Seite, damit Sie sich auf transparente Abläufe, feste Ansprechpartner und eine verlässliche Kostenstruktur verlassen können.</p>
 
-    <!-- ───── WEG-Verwaltung ───── -->
-    <article class="service-card" id="weg-verwaltung">
-      <h3>WEG-Verwaltung Hannover</h3>
+  <p>Wir übernehmen die komplette kaufmännische Verwaltung – von der fristgerechten Einberufung und professionellen Moderation Ihrer jährlichen Eigentümerversammlung über die rechtssichere Erstellung der Hausgeldabrechnung bis hin zur konsequenten Umsetzung und Überwachung sämtlicher Beschlüsse und halten uns durch kontinuierliche Fortbildungen immer auf dem neuesten Stand der Gesetzgebung, damit Ihre Gemeinschaft rechtlich und wirtschaftlich optimal aufgestellt bleibt.</p>
 
-      <p>Als persönliche, zertifizierte WEG-Verwaltung in Hannover betreuen wir speziell kleine und mittelgroße Eigentümergemeinschaften, sichern den Werterhalt Ihres Gemeinschaftseigentums und stehen Ihnen als Immobilienverwalter (IHK) sowie zertifizierter Verwalter nach §26a WEG mit regionaler Marktkenntnis, digitaler Kompetenz und hohem Engagement zur Seite, damit Sie sich auf transparente Abläufe, feste Ansprechpartner und eine verlässliche Kostenstruktur verlassen können.</p>
+  <p>Regelmäßige Objektbegehungen, die Koordination von Hausmeister-, Reinigungs-, Winterdienst- und Gartenpflegeeinsätzen sowie die Organisation von Reparaturen bis hin zu energetischen Sanierungen garantieren eine lückenlose technische Betreuung, bei der Qualität, Kostenkontrolle und Nachhaltigkeit zusammenkommen, sodass Sie langfristig von niedrigen Betriebskosten und einer gepflegten Immobilie profitieren.</p>
 
-      <p>Wir übernehmen die komplette kaufmännische Verwaltung – von der fristgerechten Einberufung und professionellen Moderation Ihrer jährlichen Eigentümerversammlung über die rechtssichere Erstellung der Hausgeldabrechnung bis hin zur konsequenten Umsetzung und Überwachung sämtlicher Beschlüsse und halten uns durch kontinuierliche Fortbildungen immer auf dem neuesten Stand der Gesetzgebung, damit Ihre Gemeinschaft rechtlich und wirtschaftlich optimal aufgestellt bleibt.</p>
+  <p>Über unser benutzerfreundliches Online-Portal greifen Sie rund um die Uhr auf Belege, Verträge und Protokolle zu, verfolgen den Fortschritt laufender Projekte in Echtzeit und genießen kurze Reaktionszeiten ohne Call-Center-Schleifen – persönlich betreut durch den Inhaber, ohne Maklerprovisionen oder hausinterne Dienstleistungsverkäufe, dafür mit klarem Fokus auf Ihre Interessen. Fordern Sie jetzt Ihr unverbindliches Angebot für eine moderne WEG-Verwaltung in Hannover an und erleben Sie, wie einfach professionelle Hausverwaltung sein kann.</p>
 
-      <p>Regelmäßige Objektbegehungen, die Koordination von Hausmeister-, Reinigungs-, Winterdienst- und Gartenpflegeeinsätzen sowie die Organisation von Reparaturen bis hin zu energetischen Sanierungen garantieren eine lückenlose technische Betreuung, bei der Qualität, Kostenkontrolle und Nachhaltigkeit zusammenkommen, sodass Sie langfristig von niedrigen Betriebskosten und einer gepflegten Immobilie profitieren.</p>
+  <p><a href="/weg-verwaltung/">Weitere Informationen zur WEG-Verwaltung</a></p>
+  <div style="text-align:center;margin-top:2rem;">
+    <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+  </div>
 
-      <p>Über unser benutzerfreundliches Online-Portal greifen Sie rund um die Uhr auf Belege, Verträge und Protokolle zu, verfolgen den Fortschritt laufender Projekte in Echtzeit und genießen kurze Reaktionszeiten ohne Call-Center-Schleifen – persönlich betreut durch den Inhaber, ohne Maklerprovisionen oder hausinterne Dienstleistungsverkäufe, dafür mit klarem Fokus auf Ihre Interessen. Fordern Sie jetzt Ihr unverbindliches Angebot für eine moderne WEG-Verwaltung in Hannover an und erleben Sie, wie einfach professionelle Hausverwaltung sein kann.</p>
+  <!-- — SE-Verwaltung — -->
+  <h3>SE-Verwaltung</h3>
+  <p>Als Sondereigentumsverwaltung in Hannover verbinden wir persönliche Betreuung mit digitaler Effizienz, damit Ihre vermietete Eigentumswohnung nicht nur ihren Wert behält, sondern auch nachhaltig Rendite erwirtschaftet. Wir agieren als verlässliche Schnittstelle zwischen Wohnungseigentümer, Mietern und dem WEG-Verwalter, übernehmen die detaillierte Abrechnung einschließlich Nebenkosten, sorgen für ein reibungsloses Mieterwechsel-Management von der Inserat­schaltung bis zur protokollierten Wohnungsübergabe und behalten dabei stets alle rechtlichen Vorgaben im Blick – geprüft nach § 26a WEG und kontinuierlich geschult.</p>
 
-      <p><a href="/weg-verwaltung/">Weitere Informationen zur WEG-Verwaltung</a></p>
-      <div class="cta">
-        <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
-      </div>
-    </article>
+  <p>Dank unseres 24/7-Online-Portals greifen Sie und Ihre Mieter jederzeit auf Verträge, Belege und Statusberichte zu, verfolgen Reparaturaufträge und kommunizieren ohne Hotline-Warteschleifen direkt mit dem Inhaber. Klar definierte Prozesse, transparente Preisstrukturen ohne versteckte Kosten sowie regionale Marktkenntnis machen die SE-Verwaltung von Hausverwaltung Marco Müller zu einer stressfreien, kalkulierbaren Investition – ganz gleich, ob Sie nur eine Wohnung oder ein ganzes Portfolio besitzen.</p>
 
-    <!-- ───── SE-Verwaltung ───── -->
-    <article class="service-card" id="se-verwaltung">
-      <h3>SE-Verwaltung</h3>
+  <p><a href="/sondereigentumsverwaltung/">Weitere Informationen zur Sondereigentumsverwaltung</a></p>
+  <div style="text-align:center;margin-top:2rem;">
+    <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+  </div>
 
-      <p>Als Sondereigentumsverwaltung in Hannover verbinden wir persönliche Betreuung mit digitaler Effizienz, damit Ihre vermietete Eigentumswohnung nicht nur ihren Wert behält, sondern auch nachhaltig Rendite erwirtschaftet. Wir agieren als verlässliche Schnittstelle zwischen Wohnungseigentümer, Mietern und dem WEG-Verwalter, übernehmen die detaillierte Abrechnung einschließlich Nebenkosten, sorgen für ein reibungsloses Mieterwechsel-Management von der Inserat­schaltung bis zur protokollierten Wohnungsübergabe und behalten dabei stets alle rechtlichen Vorgaben im Blick – geprüft nach § 26a WEG und kontinuierlich geschult.</p>
+  <!-- — Mietverwaltung — -->
+  <h3>Mietverwaltung für Miethäuser</h3>
+  <p>Als persönliche Miethausverwaltung in Hannover verbinden wir regionales Markt-Know-how mit digitaler Effizienz, sodass Ihr Mietshaus rechtssicher betreut wird, seinen Wert behält und gleichzeitig eine planbare Rendite erwirtschaftet.</p>
 
-      <p>Dank unseres 24/7-Online-Portals greifen Sie und Ihre Mieter jederzeit auf Verträge, Belege und Statusberichte zu, verfolgen Reparaturaufträge und kommunizieren ohne Hotline-Warteschleifen direkt mit dem Inhaber. Klar definierte Prozesse, transparente Preisstrukturen ohne versteckte Kosten sowie regionale Marktkenntnis machen die SE-Verwaltung von Hausverwaltung Marco Müller zu einer stressfreien, kalkulierbaren Investition – ganz gleich, ob Sie nur eine Wohnung oder ein ganzes Portfolio besitzen.</p>
+  <p>Unsere tagesaktuelle Mieteingangskontrolle prüft jede Zahlung automatisiert, löst bei Bedarf sofort Mahnprozesse aus und stellt Ihnen im Online-Portal transparente Reportings bereit. Sie behalten Einnahmen, Rückstände und Nebenkosten jederzeit im Blick, ohne selbst Tabellen führen zu müssen.</p>
 
-      <p><a href="/sondereigentumsverwaltung/">Weitere Informationen zur Sondereigentumsverwaltung</a></p>
-      <div class="cta">
-        <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
-      </div>
-    </article>
+  <p>Proaktive Wartungszyklen, engmaschige Objektbegehungen und ein bewährtes Handwerker-Netzwerk halten die Instandhaltungskosten kalkulierbar, verhindern unerwartete Schäden und minimieren Leerstände, wodurch Ihr Gebäude dauerhaft einen gepflegten Eindruck hinterlässt. Bei einem Mieterwechsel übernehmen wir die komplette Neuvermietung: marktgerechte Exposés, Besichtigungsmanagement, gründliche Bonitätsprüfung inklusive SCHUFA-Score, rechtssichere Vertragsgestaltung und eine lückenlos protokollierte Wohnungs­übergabe sorgen dafür, dass ausschließlich zuverlässige, zahlungsstarke Mieter einziehen - ganz ohne Maklerprovision</p>
 
-    <!-- ───── Mietverwaltung ───── -->
-    <article class="service-card" id="mietverwaltung">
-      <h3>Mietverwaltung für Miethäuser</h3>
+  <p>Dank unserer Unabhängigkeit von eigenen Dienstleistungsverkäufen holen wir für jede Maßnahme Vergleichsangebote ein, verhandeln Konditionen und optimieren laufende Verträge, sodass Sie dauerhaft von fairen Preisen und dem besten Preis-Leistungs-Verhältnis profitieren. Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach professionelle Mietshausverwaltung in Hannover sein kann.</p>
 
-      <p>Als persönliche Miethausverwaltung in Hannover verbinden wir regionales Markt-Know-how mit digitaler Effizienz, sodass Ihr Mietshaus rechtssicher betreut wird, seinen Wert behält und gleichzeitig eine planbare Rendite erwirtschaftet.</p>
-
-      <p>Unsere tagesaktuelle Mieteingangskontrolle prüft jede Zahlung automatisiert, löst bei Bedarf sofort Mahnprozesse aus und stellt Ihnen im Online-Portal transparente Reportings bereit. Sie behalten Einnahmen, Rückstände und Nebenkosten jederzeit im Blick, ohne selbst Tabellen führen zu müssen.</p>
-
-      <p>Proaktive Wartungszyklen, engmaschige Objektbegehungen und ein bewährtes Handwerker-Netzwerk halten die Instandhaltungskosten kalkulierbar, verhindern unerwartete Schäden und minimieren Leerstände, wodurch Ihr Gebäude dauerhaft einen gepflegten Eindruck hinterlässt. Bei einem Mieterwechsel übernehmen wir die komplette Neuvermietung: marktgerechte Exposés, Besichtigungsmanagement, gründliche Bonitätsprüfung inklusive SCHUFA-Score, rechtssichere Vertragsgestaltung und eine lückenlos protokollierte Wohnungs­übergabe sorgen dafür, dass ausschließlich zuverlässige, zahlungsstarke Mieter einziehen - ganz ohne Maklerprovision</p>
-
-      <p>Dank unserer Unabhängigkeit von eigenen Dienstleistungsverkäufen holen wir für jede Maßnahme Vergleichsangebote ein, verhandeln Konditionen und optimieren laufende Verträge, sodass Sie dauerhaft von fairen Preisen und dem besten Preis-Leistungs-Verhältnis profitieren. Fordern Sie jetzt Ihr unverbindliches Angebot an und erleben Sie, wie einfach professionelle Mietshausverwaltung in Hannover sein kann.</p>
-
-      <p><a href="/miethausverwaltung/">Weitere Informationen zur Mietshausverwaltung</a></p>
-      <div class="cta">
-        <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
-      </div>
-    </article>
-
+  <p><a href="/miethausverwaltung/">Weitere Informationen zur Mietshausverwaltung</a></p>
+  <div style="text-align:center;margin-top:2rem;">
+    <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
   </div>
 </section>
 
