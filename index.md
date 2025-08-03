@@ -256,20 +256,31 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 /* Utility für Screenreader (falls du später ein <h2> verstecken willst) */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;clip:rect(0,0,0,0);white-space:nowrap;border:0;overflow:hidden;}
 
-/* ── Grundlayout ────────────────── */
+/* ——— Leistungen / Fließtext ——— */
+
+/* Grundlayout: keine feste Schriftgröße mehr */
 .leistungen{
   padding:3rem 1rem;
-  max-width:72rem;               /* angenehme Zeilenlänge auf Desktop */
+  max-width:72rem;
   margin-inline:auto;
-  font-size: 1.25rem;
-  line-height: 1.7;
+  /* übernimmt jetzt die Standardschrift des Themes          */
+  /* nur der Zeilenabstand bleibt angenehm luftig           */
+  line-height:1.7;
 }
 
-/* ── Akzentierte <h3> ───────────── */
+/* Adaptive Schrift (Desktop größer) – ganz ohne !important */
+@media (min-width:40rem){        /* ≈ 640 px  */
+  .leistungen{font-size:1.15rem;}/* ≈ 18 px   */
+}
+@media (min-width:60rem){        /* ≈ 960 px  */
+  .leistungen{font-size:1.25rem;}/* ≈ 20 px   */
+}
+
+/* Überschriften skalieren ebenfalls flüssig */
 .leistungen h3{
   position:relative;
   margin:4rem 0 1.5rem;
-  font-size:2rem;        
+  font-size:clamp(1.75rem,1.2vw+1.3rem,2.25rem); /* 28 – 36 px */
   line-height:1.3;
   padding-left:1rem;
   border-bottom:3px solid #1251d1;
@@ -277,20 +288,16 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 .leistungen h3::before{
   content:"";
   position:absolute;
-  left:0;top:0;
-  width:.35rem;height:100%;
+  inset:0 auto 0 0;
+  width:.35rem;
   background:#1251d1;
   border-radius:.2rem;
 }
 
-/* ── Absätze ────────────────────── */
+/* Absätze & Links bleiben unverändert  */
 .leistungen p{margin:0 0 1.25rem;text-wrap:pretty;}
-
-/* ── Standardlinks in diesem Bereich ── */
 .leistungen a:not(.button-link){
-  color:#1251d1;
-  font-weight:600;
-  text-decoration:none;
+  color:#1251d1;font-weight:600;text-decoration:none;
 }
 .leistungen a:not(.button-link):hover{text-decoration:underline;}
 
