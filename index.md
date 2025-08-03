@@ -261,15 +261,15 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
   padding:3rem 1rem;
   max-width:72rem;               /* angenehme Zeilenlänge auf Desktop */
   margin-inline:auto;
-  line-height:1.6;
-  font-size:1rem;
+  font-size:1.125rem;      /* ≈18 px */
+  line-height:1.65;
 }
 
 /* ── Akzentierte <h3> ───────────── */
 .leistungen h3{
   position:relative;
   margin:3rem 0 1.5rem;
-  font-size:1.6rem;
+  font-size:1.8rem;        
   line-height:1.3;
   padding-left:1rem;
   border-bottom:3px solid #1251d1;
@@ -314,13 +314,16 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
 }
 
 /* ── Responsiver Zweispalter ab 50 rem (~800 px) ── */
-@media(min-width:50rem){
-  .leistungs-texte{    /* extra Wrapper nur fürs Spalten-Layout */
+@media (min-width:50rem){        /* ~800 px */
+  .leistungs-texte{
     column-count:2;
-    column-gap:3rem;
+    column-gap:3rem;       /* etwas mehr Luft dazwischen */
   }
-  .leistungs-texte h3{break-before:column;}   /* keine Waisen-Überschrift */
+  .leistungs-texte h3{break-before:column;}
 }
+
+/* 4 · Sicherheitshalber Überlauf unterbinden */
+.leistungen{overflow:hidden;}
   
 </style>
 
