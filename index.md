@@ -261,15 +261,15 @@ display: inline-block;   /* sorgt dafür, dass text-decoration nicht mehr greift
   padding:3rem 1rem;
   max-width:72rem;               /* angenehme Zeilenlänge auf Desktop */
   margin-inline:auto;
-  font-size:1.125rem;      /* ≈18 px */
-  line-height:1.65;
+  font-size: 1.25rem;
+  line-height: 1.7;
 }
 
 /* ── Akzentierte <h3> ───────────── */
 .leistungen h3{
   position:relative;
   margin:4rem 0 1.5rem;
-  font-size:1.8rem;        
+  font-size:2rem;        
   line-height:1.3;
   padding-left:1rem;
   border-bottom:3px solid #1251d1;
