@@ -8,11 +8,15 @@ keywords: anonymes Feedback, Hausverwaltung Bewertung, Eigentümerzufriedenheit,
 
 # Feedback & Zufriedenheit
 
-**Nur durch ehrliches Feedback kann ich meine Leistungen gezielt verbessern. Als verantwortungsvoller Hausverwalter ist es mein Anspruch, die Verwaltung kontinuierlich zu optimieren. Ich lege Wert auf Transparenz, Verlässlichkeit und hohe Servicequalität. Ihre Bewertung hilft mir dabei.**
-Es werden **keine Namen, E-Mails oder IP-Adressen gespeichert.**
+<div style="background:#f9fafb; padding:24px 28px; border-radius:16px; font-size:18px; line-height:1.6; max-width:720px; margin:0 auto 2rem auto; color:#0f172a;">
 
+<p><strong>Nur durch ehrliches Feedback kann ich meine Leistungen gezielt verbessern.</strong></p>
 
----
+<p>Als verantwortungsvoller Hausverwalter ist es mein Anspruch, die Verwaltung kontinuierlich zu optimieren. Ich lege besonderen Wert auf Transparenz, Verlässlichkeit und eine hohe Servicequalität im Alltag der Eigentümer und Mieter.</p>
+
+<p>Ihre Bewertung hilft mir dabei, strukturelle Schwächen zu erkennen und funktionierende Abläufe weiter auszubauen. Es werden keine Namen, E-Mail-Adressen oder IP-Adressen gespeichert.</p>
+
+</div>
 
 <style>
 .feedback-form {
@@ -156,9 +160,6 @@ document.addEventListener('DOMContentLoaded', () => {
   <div class="feedback-info">
     Es werden keine Namen, E-Mail-Adressen oder IP-Adressen gespeichert. Ihre Rückmeldung ist vollkommen anonym und wird ausschließlich intern ausgewertet.
   </div>
-
-  <input type="checkbox" id="consent" name="consent" required aria-describedby="consent-hint">
-  <label for="consent" class="feedback-note">Ich habe verstanden, dass mein Feedback anonym erfasst wird.</label>
 
   <input type="text" id="company" name="company" class="feedback-sr-only" tabindex="-1" aria-hidden="true" autocomplete="off">
   <input type="hidden" id="t" name="t" value="">
