@@ -1,98 +1,170 @@
 ---
 layout: page
-title: Feedback
+title: Feedback & Zufriedenheit
 permalink: /feedback/
-description: Professionelle WEG-Verwaltung in Hannover – Als zertifizierter Hausverwalter biete ich eine zuverlässige, transparente und werterhaltende Verwaltung für Ihre Wohnungseigentümergemeinschaft. Mit modernster Technologie, regelmäßigen Objektbegehungen und einem benutzerfreundlichen Onlineportal sorgen wir für höchste Transparenz und eine reibungslose Kommunikation. Vertrauen Sie auf pünktliche Hausgeldabrechnungen und individuelle Betreuung. Kontaktieren Sie mich für eine maßgeschneiderte WEG-Verwaltung. 
-keywords: WEG-Verwaltung, Hausverwaltung, zertifizierter Verwalter, Wohnungseigentumsverwaltung, Immobilienverwaltung, Verwaltung WEG, professionelle WEG-Verwaltung mit Transparenz, zertifizierter WEG-Verwalter gemäß § 26a WEG, digitale WEG-Verwaltung mit Onlinezugang, moderne Hausverwaltung mit Fall-Management, zuverlässige Hausverwaltung für Wohnungseigentümer, WEG-Verwaltung mit schneller Kommunikation, Verwaltung von Eigentümergemeinschaften mit Qualität, Hausgeldabrechnung vor Eigentümerversammlung, persönliche Betreuung WEG-Verwaltung, regelmäßige Objektbegehungen und Eigentümerservice, WEG-Verwaltung Hannover, Hausverwaltung für Eigentümergemeinschaften in Hannover, zertifizierter Verwalter in Hannover, Verwaltung von Eigentumswohnungen in Hannover, zuverlässige Hausverwaltung in Hannover, digitale Immobilienverwaltung, transparente Hausverwaltung, Fall-Management Immobilien, kundenorientierte WEG-Verwaltung, Weiterbildung Hausverwalter, Onlineportal Wohnungseigentümer, § 19 Abs. 2 Nr. 6 WEG, § 26a WEG zertifizierter Verwalter, WEG-Reform Verwaltung, gesetzeskonforme WEG-Verwaltung, Verwalterbestellung Eigentümerversammlung
+description: Geben Sie anonym Feedback zur Hausverwaltung Marco Müller. Helfen Sie mit, Service und Verwaltung weiter zu verbessern – schnell, einfach und ganz ohne Registrierung.
+keywords: anonymes Feedback, Hausverwaltung Bewertung, Eigentümerzufriedenheit, Feedbackformular Hausverwaltung, Verbesserung Hausverwaltung, Kritik Hausverwaltung, Hausverwaltung Marco Müller Hannover Feedback
 ---
 
-## Hier kommt das Feedback
+# Feedback & Zufriedenheit
 
-und los!
+Ihr Feedback hilft uns, besser zu werden.  
+Bitte beantworten Sie drei einfache Fragen – **ganz anonym**.  
+Es werden **keine Namen, E-Mails oder IP-Adressen gespeichert.**
 
 ---
-
-## Anonymes Feedback
 
 <style>
-:root { --bg:#f7f7f8; --fg:#0f172a; --muted:#64748b; --card:#ffffff; }
-.feedback-wrap{max-width:760px;margin:40px auto;padding:0 16px}
-.feedback-card{background:var(--card);padding:24px;border-radius:16px;box-shadow:0 8px 24px rgba(15,23,42,.06)}
-.feedback-card h2{margin:0 0 12px;font-size:26px}
-.feedback-card p.lead{color:var(--muted);margin-top:0}
-.feedback-card label{display:block;font-weight:600;margin:18px 0 8px}
-.feedback-card select,.feedback-card textarea{width:100%;padding:12px 14px;border:1px solid #e5e7eb;border-radius:12px;background:#fff}
-.feedback-card textarea{min-height:140px;resize:vertical}
-.feedback-chips{display:flex;gap:8px;flex-wrap:wrap}
-.feedback-chip{display:inline-flex;align-items:center;gap:8px;border:1px solid #e5e7eb;border-radius:999px;padding:8px 12px}
-.feedback-hint{font-size:13px;color:var(--muted)}
-.feedback-actions{display:flex;gap:12px;align-items:center;margin-top:20px}
-.feedback-actions button{appearance:none;border:0;border-radius:12px;padding:12px 16px;font-weight:700;cursor:pointer}
-.feedback-primary{background:#111827;color:#fff}
-.feedback-muted{background:#e5e7eb}
-.feedback-sr-only{position:absolute;left:-9999px}
-.feedback-notice{background:#f1f5f9;border-radius:12px;padding:12px 14px;color:#0f172a;margin-top:20px}
+.feedback-form {
+  background: #ffffff;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 28px 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  font-family: system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0f172a;
+}
+.feedback-form h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #003366;
+  font-size: 26px;
+}
+.feedback-form label {
+  display: block;
+  font-weight: 600;
+  margin: 24px 0 8px;
+}
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+}
+.feedback-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+.feedback-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+.feedback-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: #f1f5f9;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.feedback-chip input {
+  transform: scale(1.3);
+}
+.feedback-note {
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 8px;
+}
+.feedback-actions {
+  text-align: center;
+  margin-top: 32px;
+}
+.feedback-actions button {
+  background: #0066cc;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.feedback-actions button:hover {
+  background: #0052a3;
+}
+.feedback-reset {
+  background: #e5e7eb;
+  color: #333;
+  margin-left: 12px;
+}
+.feedback-sr-only {
+  position: absolute;
+  left: -9999px;
+}
+.feedback-info {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 16px;
+  margin-top: 24px;
+}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const started = Date.now();
-  const f = document.querySelector('#feedback-form');
-  const hp = document.getElementById('company');
+  const form = document.querySelector('#feedback-form');
   const t = document.getElementById('t');
-  if (f) {
-    f.addEventListener('submit', (e) => {
+  const honeypot = document.getElementById('company');
+  if (form) {
+    form.addEventListener('submit', e => {
       t.value = Math.max(0, Date.now() - started);
-      if (hp.value) { e.preventDefault(); }
+      if (honeypot.value) {
+        e.preventDefault();
+      }
     });
   }
 });
 </script>
 
-<div class="feedback-wrap">
-  <div class="feedback-card" role="region" aria-label="Anonymes Feedback">
-    <h2>Anonymes Feedback</h2>
-    <p class="lead">Ihr Feedback ist anonym und hilft uns, Leistungen und Abläufe zu verbessern.</p>
+<form id="feedback-form" class="feedback-form" action="/feedback/feedback.php" method="POST" accept-charset="utf-8" autocomplete="off" novalidate>
+  <h2>Jetzt Feedback geben</h2>
 
-    <form id="feedback-form" action="/feedback/feedback.php" method="POST" accept-charset="utf-8" autocomplete="off" novalidate>
-      <label for="rating">Wie zufrieden sind Sie insgesamt?</label>
-      <select id="rating" name="rating" required>
-        <option value="" selected disabled>Bitte auswählen</option>
-        <option>Sehr zufrieden</option>
-        <option>Zufrieden</option>
-        <option>Teils/teils</option>
-        <option>Eher unzufrieden</option>
-        <option>Unzufrieden</option>
-      </select>
-      <div class="feedback-hint">Eine grobe Einschätzung reicht aus.</div>
+  <label for="rating">1. Wie zufrieden sind Sie insgesamt?</label>
+  <select id="rating" name="rating" required>
+    <option value="" disabled selected>Bitte auswählen</option>
+    <option>Sehr zufrieden 😊</option>
+    <option>Zufrieden 🙂</option>
+    <option>Teils/teils 😐</option>
+    <option>Eher unzufrieden 🙁</option>
+    <option>Unzufrieden 😠</option>
+  </select>
 
-      <label>Welche Themen betreffen Ihr Feedback?</label>
-      <div class="feedback-chips" role="group" aria-label="Themen">
-        <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Erreichbarkeit"> Erreichbarkeit</label>
-        <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Transparenz"> Transparenz</label>
-        <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Abrechnung"> Abrechnung</label>
-        <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Objektbetreuung"> Objektbetreuung</label>
-        <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Digitaler Zugang"> Digitaler Zugang</label>
-        <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Sonstiges"> Sonstiges</label>
-      </div>
-
-      <label for="text">Ihr Feedback</label>
-      <textarea id="text" name="text" placeholder="Was lief gut, was sollen wir verbessern?" required></textarea>
-
-      <div class="feedback-notice">
-        Es werden keine Namen, E-Mail-Adressen oder IP-Adressen gespeichert. Die Angaben werden ausschließlich intern ausgewertet.
-      </div>
-
-      <input type="checkbox" id="consent" name="consent" required aria-describedby="consent-hint">
-      <span id="consent-hint" class="feedback-hint">Ich habe verstanden, dass mein Feedback anonym erfasst wird.</span>
-
-      <input type="text" id="company" name="company" class="feedback-sr-only" tabindex="-1" aria-hidden="true" autocomplete="off">
-      <input type="hidden" id="t" name="t" value="">
-
-      <div class="feedback-actions">
-        <button class="feedback-primary" type="submit">Feedback absenden</button>
-        <button class="feedback-muted" type="reset">Zurücksetzen</button>
-      </div>
-    </form>
+  <label>2. Was betrifft Ihr Feedback?</label>
+  <div class="feedback-chips" role="group" aria-label="Themen">
+    <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Erreichbarkeit"> Erreichbarkeit</label>
+    <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Transparenz"> Transparenz</label>
+    <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Abrechnung"> Abrechnung</label>
+    <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Objektbetreuung"> Objektbetreuung</label>
+    <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Digitaler Zugang"> Digitaler Zugang</label>
+    <label class="feedback-chip"><input type="checkbox" name="topics[]" value="Sonstiges"> Sonstiges</label>
   </div>
-</div>
+
+  <label for="text">3. Was möchten Sie uns mitteilen?</label>
+  <textarea id="text" name="text" placeholder="Was lief gut? Was können wir besser machen?" required></textarea>
+
+  <div class="feedback-info">
+    Es werden keine Namen, E-Mail-Adressen oder IP-Adressen gespeichert. Ihre Rückmeldung ist vollkommen anonym und wird ausschließlich intern ausgewertet.
+  </div>
+
+  <input type="checkbox" id="consent" name="consent" required aria-describedby="consent-hint">
+  <label for="consent" class="feedback-note">Ich habe verstanden, dass mein Feedback anonym erfasst wird.</label>
+
+  <input type="text" id="company" name="company" class="feedback-sr-only" tabindex="-1" aria-hidden="true" autocomplete="off">
+  <input type="hidden" id="t" name="t" value="">
+
+  <div class="feedback-actions">
+    <button type="submit">Feedback absenden</button>
+    <button type="reset" class="feedback-reset">Zurücksetzen</button>
+  </div>
+</form>
