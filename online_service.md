@@ -109,4 +109,14 @@ Willkommen bei den digitalen Services Ihrer Hausverwaltung. Bitte wählen Sie de
     <p>Eigentümer und Mieter finden hier alle relevanten Unterlagen rund um ihre Immobilie oder Mietsache.</p>
   </div>
 
+<!-- Feedback geben -->
+  <div class="service-block">
+    <a href="/feedback/" aria-label="Feedback geben">
+      <img src="/assets/img/onlineservices/feedback.png" alt="Symbol: Sprechblase mit Stern">
+      <br/>📝 Feedback geben
+    </a>
+    <p>Geben Sie anonym Feedback zur Hausverwaltung – Lob, Kritik oder Vorschläge zur Verbesserung sind willkommen.</p>
+  </div>
+
+
 </div>
