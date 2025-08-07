@@ -8,9 +8,9 @@ keywords: anonymes Feedback, Hausverwaltung Bewertung, Eigentümerzufriedenheit,
 
 # Feedback & Zufriedenheit
 
-Ihr Feedback hilft uns, besser zu werden.  
-Bitte beantworten Sie drei einfache Fragen – **ganz anonym**.  
+**Nur durch ehrliches Feedback kann ich meine Leistungen gezielt verbessern. Als verantwortungsvoller Hausverwalter ist es mein Anspruch, die Verwaltung kontinuierlich zu optimieren. Ich lege Wert auf Transparenz, Verlässlichkeit und hohe Servicequalität. Ihre Bewertung hilft mir dabei.**
 Es werden **keine Namen, E-Mails oder IP-Adressen gespeichert.**
+
 
 ---
 
