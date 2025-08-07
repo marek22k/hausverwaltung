@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <h2>Anonymes Feedback</h2>
     <p class="lead">Ihr Feedback ist anonym und hilft uns, Leistungen und Abläufe zu verbessern.</p>
 
-    <form id="feedback-form" action="/feedback/submit.php" method="POST" accept-charset="utf-8" autocomplete="off" novalidate>
+    <form id="feedback-form" action="/feedback/feedback.php" method="POST" accept-charset="utf-8" autocomplete="off" novalidate>
       <label for="rating">Wie zufrieden sind Sie insgesamt?</label>
       <select id="rating" name="rating" required>
         <option value="" selected disabled>Bitte auswählen</option>
