@@ -72,8 +72,26 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
     Die kommunale Wärmeplanung in Hannover schafft klare Vorgaben und gibt Eigentümern wie Verwaltern Sicherheit. Wer in einem Fernwärmeanschlussgebiet lebt, kann sich auf eine zukunftsfähige, gesetzeskonforme und oft wirtschaftlich attraktive Wärmeversorgung einstellen. Frühzeitige Information, Nutzung von Fördermitteln und enge Zusammenarbeit mit der Stadt und dem Versorger sind der Schlüssel, um die Wärmewende vor Ort erfolgreich umzusetzen.
   </p>
 
+  <h2>Weiterführende Informationen</h2>
+  <p>
+    <a href="https://www.hannover.de/Leben-in-der-Region-Hannover/Umwelt-Nachhaltigkeit/Klimaschutz-Energie/Klimaschutz-konkret/W%C3%A4rmewende-Hannover/%C3%9Cbersicht-der-Umsetzungsma%C3%9Fnahmen" target="_blank" rel="noopener noreferrer">
+      Übersicht der Umsetzungsmaßnahmen – Wärmewende Hannover
+    </a>
+  </p>
+  <p>
+    <a href="https://www.hannover.de/Leben-in-der-Region-Hannover/Umwelt-Nachhaltigkeit/Klimaschutz-Energie/Klimaschutz-konkret/W%C3%A4rmewende-Hannover/Hannover-baut-Fernw%C3%A4rme-aus" target="_blank" rel="noopener noreferrer">
+      Hannover baut Fernwärme aus
+    </a>
+  </p>
+  <p>
+    <a href="https://www.enercity.de/fernwaerme/fernwaerme-satzungsgebiet" target="_blank" rel="noopener noreferrer">
+      Fernwärme-Satzungsgebiet – enercity
+    </a>
+  </p>
+
   <hr>
 </div>
+
 
 
 <div id="EmailVsBrief" class="box">
