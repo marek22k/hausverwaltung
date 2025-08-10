@@ -28,7 +28,7 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 ## 🔎 Inhaltsverzeichnis
 
 <ul>
-  <li><a href="#EmailVsBrief">Die kommunale Wärmeplanung in Hannover – Bedeutung für Eigentümer und Verwalter</a></li>
+  <li><a href="#waermeplanung-hannover">Die kommunale Wärmeplanung in Hannover – Bedeutung für Eigentümer und Verwalter</a></li>
   <li><a href="#EmailVsBrief">💌 E-Mail statt Brief, digitale Kommunikation in der Immobilienverwaltung</a></li>
   <li><a href="#AltpapierAbholung">Altpapier-Abholung nur noch alle 14 Tage – was bedeutet das für Ihre Wohnanlage?</a></li>
   <li><a href="#Kragplatten"> Betonschäden an Kragplatten – eine stille Gefahr für Wohnanlagen aus den 60ern in Hannover</a></li>
