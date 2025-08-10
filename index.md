@@ -744,22 +744,25 @@ Sind Sie mit unserer Hausverwaltung in Hannover zufrieden, bedanken wir uns herz
 
 <div class="section-card" style="display:flex;flex-wrap:wrap;gap:2rem;align-items:stretch;justify-content:center;">
   <!-- Text -->
-  <div style="flex:2 1 420px;min-width:280px;">
-    <p>Qualität entsteht im Dialog. Ich sammle kontinuierlich Rückmeldungen von Eigentümern und Mietern, werte sie anonym aus und lasse erkannte Verbesserungen in die tägliche Arbeit einfließen. So bleibt Ihre Verwaltung zuverlässig, transparent und nah an Ihren Erwartungen.</p>
-    <p>Feedback ist freiwillig, anonym und ohne Login möglich. Ihre Hinweise helfen mir, Abläufe gezielt zu optimieren und Verbesserungen zeitnah umzusetzen.</p>
-    <div style="margin-top:1.2rem;">
+  <div style="flex:2 1 420px;min-width:280px;display:flex;flex-direction:column;justify-content:space-between;">
+    <div>
+      <p>Qualität entsteht im Dialog. Ich sammle kontinuierlich Rückmeldungen von Eigentümern und Mietern, werte sie anonym aus und lasse erkannte Verbesserungen in die tägliche Arbeit einfließen. So bleibt Ihre Verwaltung zuverlässig, transparent und nah an Ihren Erwartungen.</p>
+      <p>Feedback ist freiwillig, anonym und ohne Login möglich. Ihre Hinweise helfen mir, Abläufe gezielt zu optimieren und Verbesserungen zeitnah umzusetzen.</p>
+    </div>
+    <div style="margin-top:1.5rem;display:flex;justify-content:center;">
       <a href="/feedback/" class="button-link">Anonymes Feedback abgeben</a>
     </div>
   </div>
 
   <!-- Karte mit Hinweis / Mini-Policy -->
   <div class="section-muted" style="flex:1 1 320px;min-width:260px;margin:0;">
-    <h3 style="margin-top:.5rem;font-size:1.25rem;color:#111;">So sichere ich Qualität</h3>
+    <h3 style="margin-top:.5rem;font-size:2.25rem;color:#111;">So sichere ich Qualität</h3>
     <p style="margin:.6rem 0 0;">Eingehende Rückmeldungen werden anonym erfasst, thematisch ausgewertet und fließen gezielt in die Optimierung der Abläufe ein. Wiederkehrende Hinweise und Verbesserungsvorschläge setze ich – soweit möglich – zeitnah um und dokumentiere die Änderungen transparent.</p>
     <p style="margin:.6rem 0 0;">Sie möchten Ihre Meinung lieber persönlich mitteilen? Sehr gern – telefonisch unter <a href="tel:+4951151544113" style="color:#1251d1;text-decoration:underline;">0511&nbsp;515&nbsp;44&nbsp;113</a> oder über die <a href="/kontakt/" style="color:#1251d1;text-decoration:underline;">Kontaktseite</a>.</p>
   </div>
 </div>
 <!-- ===================  /Feedback & Qualitätsmanagement  =================== -->
+
 
 
 
