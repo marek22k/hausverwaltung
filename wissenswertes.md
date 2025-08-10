@@ -28,6 +28,7 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 ## 🔎 Inhaltsverzeichnis
 
 <ul>
+  <li><a href="#EmailVsBrief">Die kommunale Wärmeplanung in Hannover – Bedeutung für Eigentümer und Verwalter</a></li>
   <li><a href="#EmailVsBrief">💌 E-Mail statt Brief, digitale Kommunikation in der Immobilienverwaltung</a></li>
   <li><a href="#AltpapierAbholung">Altpapier-Abholung nur noch alle 14 Tage – was bedeutet das für Ihre Wohnanlage?</a></li>
   <li><a href="#Kragplatten"> Betonschäden an Kragplatten – eine stille Gefahr für Wohnanlagen aus den 60ern in Hannover</a></li>
@@ -37,6 +38,43 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 </ul>
 
 ---
+
+<div id="waermeplanung-hannover" class="box">
+  <h1>Die kommunale Wärmeplanung in Hannover – Bedeutung für Eigentümer und Verwalter <small>(11.08.2025)</small></h1>
+
+  <img src="/assets/img/wissenswertes/waermeplanung-hannover.webp" alt="Fernwärmeleitungen in Hannover als Teil der Wärmewende" style="max-width:100%; height:auto; margin-bottom: 10px;">
+  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Fernwärmeleitungen in Hannover – zentrales Element der städtischen Wärmewende.</p>
+
+  <p>
+    Hannover hat als eine der ersten Großstädte in Niedersachsen die kommunale Wärmeplanung verbindlich abgeschlossen und damit eine klare Grundlage für die zukünftige Wärmeversorgung geschaffen. Ziel ist es, fossile Brennstoffe Schritt für Schritt zu ersetzen und den Anteil erneuerbarer Energien deutlich zu steigern. Rechtsgrundlage bilden das Gebäudeenergiegesetz (GEG) und das Wärmeplanungsgesetz (WPG), die seit Januar 2024 gelten. Sie schreiben vor, dass neue Heizungen künftig zu mindestens 65 Prozent mit erneuerbaren Energien betrieben werden müssen, sobald eine kommunale Wärmeplanung vorliegt.
+  </p>
+
+  <h2>Zeitplan und Umsetzung in Hannover</h2>
+  <p>
+    Die Arbeiten an der Wärmeplanung begannen bereits 2023. Im Januar 2024 stellte die Stadt zusammen mit enercity eine digitale Wärmekarte vor, die die geplanten Versorgungsgebiete aufzeigt. Nach einer öffentlichen Beteiligungsphase im Frühjahr 2024 beschloss der Rat der Landeshauptstadt am 27. März 2025 den endgültigen Plan. Damit liegt für Hannover die verbindliche Planung deutlich vor dem gesetzlich vorgegebenen Termin im Jahr 2026 vor. Halbjährliche Berichte sorgen seitdem für Transparenz und regelmäßige Fortschrittskontrolle.
+  </p>
+
+  <h2>Was das für Eigentümer in Fernwärmeanschlussgebieten bedeutet</h2>
+  <p>
+    Liegt eine Immobilie in einem ausgewiesenen Fernwärmeanschlussgebiet, ist mittelfristig der Anschluss an das Netz vorgesehen. Sobald die technische Möglichkeit besteht und die Leitungen vor dem Grundstück liegen, entfällt die Option, eine neue fossile Heizung einzubauen. Stattdessen ist der Fernwärmeanschluss herzustellen. Der Vorteil für Eigentümer liegt in einer wartungsarmen, zentral organisierten und sicheren Wärmeversorgung, die in der Regel die gesetzlichen Anforderungen an den Anteil erneuerbarer Energien erfüllt. Das erspart den aufwendigen Nachweis über eigene Anlagen und macht die Planung langfristig verlässlicher.
+  </p>
+  <p>
+    Wichtig ist, die Übergangszeit zu nutzen. Wer aktuell eine ältere Heizung betreibt, sollte sich frühzeitig informieren, wann der Anschluss geplant ist. So lassen sich kostspielige Zwischenlösungen vermeiden. Eine enge Abstimmung mit der Stadt und dem Versorger bietet hier Planungssicherheit und kann helfen, unnötige Investitionen zu verhindern.
+  </p>
+
+  <h2>Fördermöglichkeiten und Unterstützung</h2>
+  <p>
+    Für den Anschluss an ein Wärmenetz und den Austausch alter Heizsysteme stehen attraktive Fördermittel bereit. Über die Bundesförderung für effiziente Gebäude – Einzelmaßnahmen (BEG EM) sind Zuschüsse für Netzanschlüsse, neue Übergabestationen und begleitende Sanierungen möglich. Auch das Land Niedersachsen unterstützt klimafreundliche Wärmeprojekte über Programme der Klimaschutz- und Energieagentur. In Hannover selbst bietet enercity Infoveranstaltungen in betroffenen Stadtteilen an, um Eigentümer persönlich zu beraten und bei der Beantragung von Fördergeldern zu unterstützen.
+  </p>
+
+  <h2>Fazit</h2>
+  <p>
+    Die kommunale Wärmeplanung in Hannover schafft klare Vorgaben und gibt Eigentümern wie Verwaltern Sicherheit. Wer in einem Fernwärmeanschlussgebiet lebt, kann sich auf eine zukunftsfähige, gesetzeskonforme und oft wirtschaftlich attraktive Wärmeversorgung einstellen. Frühzeitige Information, Nutzung von Fördermitteln und enge Zusammenarbeit mit der Stadt und dem Versorger sind der Schlüssel, um die Wärmewende vor Ort erfolgreich umzusetzen.
+  </p>
+
+  <hr>
+</div>
+
 
 <div id="EmailVsBrief" class="box">
   <h1>💌 E-Mail statt Brief, warum moderne Immobilienverwaltung digital kommuniziert <small>(30.07.2025)</small></h1>
