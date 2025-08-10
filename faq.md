@@ -173,7 +173,7 @@ Natürlich hat moderne Software auch ihren Preis, doch sie ist eine gezielte Inv
 
 <details>
 <summary>Übernehmen Sie auch Verwaltungen außerhalb Ihres Tätigkeitsgebietes?</summary>
-<p>JJa, in bestimmten Fällen ist dies möglich. Wenn Sie eine Verwaltung außerhalb unseres üblichen Einsatzbereichs wünschen, prüfen wir gerne gemeinsam, ob wir eine passende Lösung finden.</p>
+<p>Ja, in bestimmten Fällen ist dies möglich. Wenn Sie eine Verwaltung außerhalb unseres üblichen Einsatzbereichs wünschen, prüfen wir gerne gemeinsam, ob wir eine passende Lösung finden.</p>
 </details>
 
 </div>
