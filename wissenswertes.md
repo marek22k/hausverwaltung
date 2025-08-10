@@ -42,8 +42,6 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 <div id="waermeplanung-hannover" class="box">
   <h1>Die kommunale Wärmeplanung in Hannover – Bedeutung für Eigentümer und Verwalter <small>(11.08.2025)</small></h1>
 
-  <img src="/assets/img/wissenswertes/waermeplanung-hannover.webp" alt="Fernwärmeleitungen in Hannover als Teil der Wärmewende" style="max-width:100%; height:auto; margin-bottom: 10px;">
-  <p style="font-size:0.9em; color:#666; margin-top: -10px;">Fernwärmeleitungen in Hannover – zentrales Element der städtischen Wärmewende.</p>
 
   <p>
     Hannover hat als eine der ersten Großstädte in Niedersachsen die kommunale Wärmeplanung verbindlich abgeschlossen und damit eine klare Grundlage für die zukünftige Wärmeversorgung geschaffen. Ziel ist es, fossile Brennstoffe Schritt für Schritt zu ersetzen und den Anteil erneuerbarer Energien deutlich zu steigern. Rechtsgrundlage bilden das Gebäudeenergiegesetz (GEG) und das Wärmeplanungsgesetz (WPG), die seit Januar 2024 gelten. Sie schreiben vor, dass neue Heizungen künftig zu mindestens 65 Prozent mit erneuerbaren Energien betrieben werden müssen, sobald eine kommunale Wärmeplanung vorliegt.
