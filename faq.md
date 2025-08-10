@@ -171,4 +171,9 @@ Natürlich hat moderne Software auch ihren Preis, doch sie ist eine gezielte Inv
 <p>Ja - selbstverständlich. Als Ihr persönlicher WEG-Verwalter in Hannover betreibe ich für jede Eigentümergemeinschaft ein verschlüsseltes Portal. Dort können Sie rund um die Uhr sämtliche Rechnungen, Zahlungsbelege und Kontoauszüge einsehen. So sparen wir Papier, schaffen volle Transparenz über Ihre Hausgeld­abrechnungen und Sie behalten die Kosten Ihrer WEG jederzeit im Blick.</p>
 </details>
 
+<details>
+<summary>Übernehmen Sie auch Verwaltungen außerhalb Ihres Tätigkeitsgebietes?</summary>
+<p>JJa, in bestimmten Fällen ist dies möglich. Wenn Sie eine Verwaltung außerhalb unseres üblichen Einsatzbereichs wünschen, prüfen wir gerne gemeinsam, ob wir eine passende Lösung finden.</p>
+</details>
+
 </div>
