@@ -85,6 +85,7 @@ summary:focus-visible,*:focus-visible{outline:3px solid #00418f;outline-offset:2
 
 <h2 style="font-size:24px;text-align:center;margin:3rem 0 1.5rem;">Herrenhausen auf einen Blick, Stadt, Struktur und Lebensqualität</h2>
 
+<!-- Bild 1: Wikimedia -->
 <figure style="margin:0 auto;max-width:540px;padding:16px;background:#ffffff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
   <a href="/assets/img/hero-herrenhausen.webp" target="_blank" style="display:block;">
     <img src="/assets/img/hero-herrenhausen.webp"
@@ -100,8 +101,23 @@ summary:focus-visible,*:focus-visible{outline:3px solid #00418f;outline-offset:2
     Lizenz: <a href="https://creativecommons.org/licenses/by-sa/3.0/de/" target="_blank" rel="noopener">CC BY-SA 3.0 DE</a>
   </figcaption>
 </figure>
-
 <!-- Originalbild: https://upload.wikimedia.org/wikipedia/commons/c/ce/Gro%C3%9Fer_Garten_Herrenhausen_%28Hannover%29_IMG_2159.jpg -->
+
+<!-- Bild 2: Eigene Aufnahme -->
+<figure style="margin:1.5rem auto 0;max-width:540px;padding:16px;background:#ffffff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+  <a href="/assets/img/hero-herrenhausen1.webp" target="_blank" style="display:block;">
+    <img src="/assets/img/hero-herrenhausen1.webp"
+         alt="Laternenfest im Großen Garten, Herrenhäuser Gärten in Hannover, Abendstimmung mit Laternenlicht"
+         width="480" height="320"
+         loading="lazy" decoding="async"
+         sizes="(max-width:600px) 92vw, 480px"
+         style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.08);cursor:pointer;">
+  </a>
+  <figcaption style="font-size:13px;color:#666;margin-top:12px;text-align:center;line-height:1.4;">
+    <em>Laternenfest im Großen Garten, Herrenhäuser Gärten</em> – Foto: Marco Müller (eigene Aufnahme)
+  </figcaption>
+</figure>
+<!-- Originalbild (eigene Aufnahme, direkte URL): https://hausverwaltung-marcomueller.de/assets/img/hero-herrenhausen1.webp -->
 
 <div style="display:flex;flex-direction:column;gap:24px;max-width:720px;width:100%;text-align:left;">
   <div style="background:#ffffff;padding:1.5rem 1.75rem;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.04);">
