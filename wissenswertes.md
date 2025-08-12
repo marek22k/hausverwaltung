@@ -28,6 +28,7 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 ## 🔎 Inhaltsverzeichnis
 
 <ul>
+  <li><a href="#kleine-wegs-hannover">Warum Hausverwaltung Marco Müller auch kleinere WEGs betreut</a></li>
   <li><a href="#waermeplanung-hannover">Die kommunale Wärmeplanung in Hannover – Bedeutung für Eigentümer und Verwalter</a></li>
   <li><a href="#EmailVsBrief">💌 E-Mail statt Brief, digitale Kommunikation in der Immobilienverwaltung</a></li>
   <li><a href="#AltpapierAbholung">Altpapier-Abholung nur noch alle 14 Tage – was bedeutet das für Ihre Wohnanlage?</a></li>
@@ -38,6 +39,47 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 </ul>
 
 ---
+
+<div id="kleine-wegs-hannover" class="box">
+  <h1>Warum Hausverwaltung Marco Müller auch kleinere WEGs betreut <small>(12.08.2025)</small></h1>
+
+  <p>
+    Viele Verwaltungen lehnen kleinere Wohnungseigentümergemeinschaften ab oder beenden bestehende Verträge, weil sich der Verwaltungsaufwand aus ihrer Sicht nicht lohnt. Bei der Hausverwaltung Marco Müller in Hannover ist das anders. Der Grund dafür liegt in einer besonders effizienten und modernen Arbeitsweise, die es ermöglicht, auch kleine WEGs wirtschaftlich und mit höchster Qualität zu betreuen.
+  </p>
+
+  <h2>Effiziente Buchhaltung dank moderner Technik</h2>
+  <p>
+    Während manche Kollegen noch mit Papierkontoauszügen arbeiten, diese Satz für Satz abtippen und manuell ins System übertragen, läuft es bei mir deutlich moderner. Meine Hausverwaltersoftware synchronisiert sich direkt mit dem Bankkonto, lädt alle Umsätze automatisch ein und ordnet diese im Idealfall selbstständig den passenden Sachkonten zu. Lediglich einzelne Positionen, wie den Anteil nach § 35a EStG, trage ich manuell nach.
+  </p>
+  <p>
+    Falls das Programm einen Umsatz einmal nicht automatisch erkennt, genügt ein Doppelklick, um die Buchung korrekt zuzuordnen. Das spart wertvolle Zeit, ohne dass die Kontrolle verloren geht. Die Verantwortung für jede Buchung trage ich als Verwalter selbstverständlich persönlich.
+  </p>
+
+  <h2>Schnelle und präzise Protokollführung</h2>
+  <p>
+    Auch bei Eigentümerversammlungen profitieren meine Kunden von dieser Effizienz. Die Tagesordnungspunkte lassen sich nach der Versammlung zügig in Beschlüsse umwandeln und in die digitale Beschlusssammlung übertragen. Das sorgt für eine lückenlose Dokumentation, die sofort nach der Versammlung vorliegt und jederzeit abrufbar ist.
+  </p>
+
+  <h2>Zentrales Objektmanagement für volle Übersicht</h2>
+  <p>
+    Ein weiterer Vorteil ist mein integriertes Objektmanagement-System. Damit lassen sich für jedes Objekt Vorgänge, Termine und Projekte zentral anlegen und verwalten. Jeder Vorgang kann in einzelne Schritte unterteilt werden, sodass ich jederzeit genau weiß, welche Aufgaben anstehen. Statt mich in Papierkalendern oder verschiedenen Programmen zurechtfinden zu müssen, habe ich alle Informationen an einem Ort.
+  </p>
+
+  <h2>Unterschiedliche Arbeitsweisen im Vergleich</h2>
+  <p>
+    Das waren nur einige Beispiele dafür, was bei mir automatisiert ist. Die Liste ließe sich noch deutlich erweitern. Entscheidend ist, dass diese Beispiele die unterschiedlichen Arbeitsweisen von Verwaltungen verdeutlichen und zeigen, welchen Unterschied moderne Prozesse machen können.
+  </p>
+
+  <h2>Fazit: Kleine WEGs in besten Händen</h2>
+  <p>
+    Dieses Zusammenspiel aus moderner Technik, klaren Prozessen und persönlicher Verantwortung sorgt dafür, dass ich als Verwalter auch kleinere WEGs effizient und mit hoher Qualität betreuen kann. Für meine Kunden bedeutet das: transparente Abläufe, schnelle Reaktionszeiten und eine Verwaltung, die mitdenkt.
+  </p>
+
+
+  <hr>
+</div>
+
+
 
 <div id="waermeplanung-hannover" class="box">
   <h1>Die kommunale Wärmeplanung in Hannover – Bedeutung für Eigentümer und Verwalter <small>(11.08.2025)</small></h1>
