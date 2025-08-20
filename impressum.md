@@ -25,23 +25,22 @@ Web: [https://hausverwaltung-marcomueller.de](https://hausverwaltung-marcomuelle
 ### Umsatzsteuer-ID
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE455822270
 
-### Steuernummer:
+### Steuernummer
 Steuernummer: 24/130/08092
 
-###  Wirtschafts-Identifikationsnummer:
-Wirtschafts-Identifikationsnummer nach §139c der Abgabenordnung: DE455822270-00001
+### Wirtschafts-Identifikationsnummer
+Wirtschafts-Identifikationsnummer nach § 139c der Abgabenordnung: DE455822270-00001
 
 ### Gewerbeerlaubnis
 Die Gewerbeerlaubnis nach § 34c GewO wurde durch die Industrie- und Handelskammer Hannover erteilt.
 
 ### Aufsichtsbehörde
 
-IHK-Hannover<br>
-Industrie- u. Handelskammer Hannover<br>
+IHK Hannover<br>
+Industrie- und Handelskammer Hannover<br>
 Bischofsholer Damm 91<br>
 30173 Hannover<br>
-https://www.hannover.ihk.de/
-
+[https://www.hannover.ihk.de/](https://www.hannover.ihk.de/)
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
@@ -49,14 +48,11 @@ Marco Müller
 Markgrafstraße 29  
 30419 Hannover
 
+### Mitgliedschaften
+
+Mitglied im **Verband der Immobilienverwalter Niedersachsen/Bremen e. V. (VDIV)**  
+[https://vdiv-niedersachsen-bremen.de](https://vdiv-niedersachsen-bremen.de)
+
 ### Berufshaftpflichtversicherung
 
 Versichert bei: andSafe mit der Vertragsnummer: VH251310041
-
-<!--
- /* Ersteinmal ausgetrennt, da noch kein Mitglied im VDIV*/
-/*### Mitgliedschaft*/
-/*Mitglied im **Verband der Immobilienverwalter Niedersachsen/Bremen e. V.**  */
-/*[https://vdiv-niedersachsen-bremen.de](https://vdiv-niedersachsen-bremen.de)*/
--->
-
