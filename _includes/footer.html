@@ -3,18 +3,19 @@
   <style>
     /* Layout */
     #footer{
-      background:#0f172a;              /* dunkler, ruhiger Hintergrund */
-      color:#e5e7eb;
-      padding:1.75rem 1rem;
+      background:#ffffff;              /* weißer Hintergrund */
+      color:#111111;                   /* schwarze Schrift */
+      padding:2rem 1rem;
       font-size:0.95rem;
+      border-top:1px solid #ddd;       /* dezente Abgrenzung */
     }
-    #footer a{ color:#e5e7eb; text-decoration:none; }
+    #footer a{ color:#111111; text-decoration:none; }
     #footer a:hover, #footer a:focus{ text-decoration:underline; }
 
     .footer-container{
       display:flex;
       flex-wrap:wrap;
-      gap:1.25rem 2rem;
+      gap:1.5rem 2rem;
       align-items:flex-start;
       justify-content:space-between;
       max-width:1200px;
@@ -22,8 +23,8 @@
     }
 
     .footer-left, .footer-center, .footer-right{
-      flex:1 1 260px;                   /* je Spalte wird mobil untereinander gestapelt */
-      min-width:220px;
+      flex:1 1 280px;
+      min-width:240px;
     }
 
     /* Logo-Zeile */
@@ -31,31 +32,30 @@
       display:flex;
       flex-wrap:wrap;
       align-items:center;
-      gap:.75rem 1rem;
+      gap:1.25rem 1.5rem;
       justify-content:center;
     }
 
     .footer-logo{
-      height:44px;                      /* einheitliche Höhe */
+      height:60px;                      /* größere Logos */
       width:auto;
       object-fit:contain;
       display:block;
-      filter:contrast(1) brightness(1); /* gute Lesbarkeit auf dunkel */
     }
 
-    /* VDIV kann etwas breiter sein, bleibt dennoch gleich hoch */
     .footer-logo--vdiv{
-      max-width:260px;
+      max-width:300px;                  /* VDIV darf breiter sein */
+      height:auto;
     }
 
     /* Feinheiten */
     .footer-left strong{ font-weight:700; }
     .footer-left a{ text-decoration:underline; text-underline-offset:2px; }
-    .footer-right a{ display:inline-block; margin:.15rem 0; }
+    .footer-right a{ display:inline-block; margin:.25rem 0; }
 
     /* Kontrast-Safe Focus-Outline */
     #footer a:focus-visible{
-      outline:2px solid #60a5fa;
+      outline:2px solid #0056b3;
       outline-offset:2px;
       border-radius:4px;
     }
@@ -74,7 +74,7 @@
       Markgrafstraße 29, 30419 Hannover<br>
       Tel.: <a href="tel:+4951151544113">0511&nbsp;515&nbsp;44&nbsp;113</a><br>
       Fax: 0511&nbsp;515&nbsp;44&nbsp;113&nbsp;05<br>
-      E‑Mail: <a href="mailto:info@hausverwaltung-marcomueller.de">info@hausverwaltung-marcomueller.de</a>
+      E-Mail: <a href="mailto:info@hausverwaltung-marcomueller.de">info@hausverwaltung-marcomueller.de</a>
     </div>
 
     <!-- Mittlere Spalte: Logos -->
