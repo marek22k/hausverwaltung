@@ -373,6 +373,25 @@ details p{
   color:#222;
   white-space:pre-line;   /* Zeilenumbrüche aus Markdown respektieren */
 }
+
+/* ===== Verband-Block (VDIV) ===== */
+.verband-section{
+  display:flex; flex-wrap:wrap; gap:1.5rem;
+  align-items:center; justify-content:center;
+  margin: 2rem 0; padding: 1.25rem 1rem;
+  background:#f9fbff; border:1px solid #dfe8f5; border-radius:10px;
+}
+.verband-section .verband-logo{
+  flex:0 1 260px; min-width:220px; text-align:center;
+}
+.verband-section .verband-logo img{
+  max-width: 260px; height:auto; width:100%;
+}
+.verband-section .verband-text{
+  flex:1 1 420px; min-width:260px;
+}
+.verband-section h3{ margin:.25rem 0 .5rem; font-size:clamp(1.25rem,1vw+1rem,1.6rem); }
+.verband-section p{ margin:.25rem 0; line-height:1.7; color:#222; }
   
 </style>
 
@@ -639,6 +658,20 @@ Ihr zertifizierter Hausverwalter für Hannover und Umgebung
 <p>Mit einem klaren <a href="/leistungsversprechen" style="color:#0056b3;text-decoration:underline;">Leistungsversprechen</a> stehe ich Ihnen als zuverlässiger und verantwortungsvoller Partner zur Seite.</p>
 </div>
 </div>
+
+<!-- ====== VDIV-Mitgliedschaft (neu) ====== -->
+<section class="verband-section" aria-labelledby="verband-heading">
+  <div class="verband-logo" role="img" aria-label="Logo Verband der Immobilienverwalter Niedersachsen Bremen">
+    <img src="/assets/img/vdiv-nds-bremen.png" alt="VDIV Niedersachsen Bremen Logo">
+    <p class="sr-only">Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen</p>
+  </div>
+  <div class="verband-text">
+    <h3 id="verband-heading">Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen</h3>
+    <p>Als aktives Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen stehe ich für geprüfte Qualität, verbindliche Branchenstandards und kontinuierliche Fortbildung. Die Zusammenarbeit im Verband sichert aktuelle Rechtsinformationen, praxiserprobte Leitlinien und ein starkes Netzwerk an Fachpartnern.</p>
+    <p>Eigentümer in Hannover und der Region profitieren von einer rechtssicheren, transparenten und effizienten Hausverwaltung für WEG, Mietverwaltung und Sondereigentum. Qualität ist damit nicht bloß ein Versprechen, sondern gelebter Standard.</p>
+  </div>
+</section>
+<!-- /VDIV-Mitgliedschaft -->
 
 <!-- ===================  Overlay für dieses Bild  =================== -->
 <div id="trustModal" class="zoom-overlay" aria-hidden="true">
