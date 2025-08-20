@@ -19,8 +19,8 @@ Deutschland
 ### Kontakt
 
 Telefon: +49 (0)511 - 515 44 113 <br>
-E-Mail: info@hausverwaltung-marcomueller.de<br>
-Web: [https://hausverwaltung-marcomueller.de](https://hausverwaltung-marcomueller.de)
+E-Mail: <a href="mailto:info@hausverwaltung-marcomueller.de" target="_blank" rel="noopener">info@hausverwaltung-marcomueller.de</a><br>
+Web: <a href="https://hausverwaltung-marcomueller.de" target="_blank" rel="noopener">https://hausverwaltung-marcomueller.de</a>
 
 ### Umsatzsteuer-ID
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE455822270
@@ -40,7 +40,7 @@ IHK Hannover<br>
 Industrie- und Handelskammer Hannover<br>
 Bischofsholer Damm 91<br>
 30173 Hannover<br>
-[https://www.hannover.ihk.de/](https://www.hannover.ihk.de/)
+<a href="https://www.hannover.ihk.de/" target="_blank" rel="noopener">https://www.hannover.ihk.de/</a>
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
@@ -51,7 +51,7 @@ Markgrafstraße 29
 ### Mitgliedschaften
 
 Mitglied im **Verband der Immobilienverwalter Niedersachsen/Bremen e. V. (VDIV)**  
-[https://vdiv-niedersachsen-bremen.de](https://vdiv-niedersachsen-bremen.de)
+<a href="https://vdiv-niedersachsen-bremen.de" target="_blank" rel="noopener">https://vdiv-niedersachsen-bremen.de</a>
 
 ### Berufshaftpflichtversicherung
 
