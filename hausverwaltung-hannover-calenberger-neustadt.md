@@ -37,7 +37,7 @@ summary:focus-visible,*:focus-visible{outline:3px solid #00418f;outline-offset:2
     Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in der Calenberger Neustadt mit klaren Prozessen und fester persönlicher Erreichbarkeit. Sie erreichen mich direkt ohne Callcenter und erhalten einen vollständigen Onlinezugang zu allen Unterlagen.
   </p>
   <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:2rem;">
-    Vom Büro in Hannover-Herrenhausen an der Markgrafstraße sind es nur etwa fünf Minuten in die Calenberger Neustadt. Termine vor Ort, Begehungen und Versammlungen setze ich kurzfristig um, ob an der Calenberger Straße, am Waterlooplatz oder am Neustädter Markt.
+    Von meinem Büro in Hannover Herrenhausen in der Markgrafstraße bin ich in nur wenigen Minuten in der Calenberger Neustadt. So kann ich Eigentümergemeinschaften bei allen wichtigen Aufgaben der WEG Verwaltung persönlich, zuverlässig und zeitnah betreuen. Ob Abnahmen oder individuelle Begehungen in der Calenberger Straße, am Waterlooplatz oder am Neustädter Markt, ich bin schnell vor Ort und stehe Ihnen als kompetenter Ansprechpartner zur Seite.
   </p>
   <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
     <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
