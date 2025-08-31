@@ -21,67 +21,59 @@ keywords: Marco Müller Hausverwaltung, Immobilienverwalter Hannover, WEG-Verwal
 
 ## Hallo, ich bin Marco Müller
 
-Geboren wurde ich am 7. März 1985 und bin gebürtiger Hannoveraner – und das mit Stolz.  
-Ich lebe gern in dieser Stadt, die für mich die grünste und vielseitigste Norddeutschlands ist.
+Hallo, mein Name ist Marco Müller. Ich wurde am 7. März 1985 in Hannover geboren und bin bis heute eng mit dieser Stadt verbunden. Hannover ist für mich nicht nur die grünste, sondern auch die vielseitigste Stadt Norddeutschlands, und genau hier habe ich meinen Lebensmittelpunkt gefunden.
 
-Ich bin selbstständig in der Immobilienverwaltung tätig – ganz klassisch als Einzelunternehmer, aber mit modernem Anspruch und persönlicher Note. Für meine Kunden bin ich der direkte Ansprechpartner, ohne Umwege, ohne Callcenter.
-
----
-
-## 🏠 Mein beruflicher Hintergrund
-
-- Immobilienverwalter (IHK)
-- Zertifizierter WEG-Verwalter (Sachkundeprüfung bestanden gemäß §26a WEG)
-
-Ich bin kein Makler und betreibe auch keinen eigenen Hausmeisterservice. Das bedeutet:  
-**Ich bin in meinen Entscheidungen völlig unabhängig – und genau das kommt meinen Kunden zugute.**
-
-Ich mag es, mich **ständig weiterzubilden**, Dinge aus **verschiedenen Perspektiven zu betrachten** und auch mal über den **beruflichen Tellerrand hinauszublicken**.  
-Ich gehe in vielen Bereichen **mit der Zeit** und bin **neuen Entwicklungen gegenüber offen**.
+Als selbstständiger Immobilienverwalter führe ich mein Unternehmen mit einem modernen Anspruch und zugleich klassisch seriös als Einzelunternehmer. Meine Kunden schätzen den direkten Kontakt, denn ich bin persönlich erreichbar und verzichte bewusst auf anonyme Callcenter. So entsteht eine vertrauensvolle Zusammenarbeit, die auf Transparenz und Verlässlichkeit basiert.
 
 ---
 
-## 💬 Was mir wichtig ist
+## Mein beruflicher Hintergrund
 
-Mich begeistert an meinem Beruf besonders, dass man **für Menschen arbeitet** – und dass man sieht, was man tut. Ich mag Ergebnisse, Klarheit und ehrliche Rückmeldungen.
+Ich verfüge über eine fundierte Ausbildung als Immobilienverwalter mit IHK-Abschluss und habe zusätzlich die Sachkundeprüfung zum zertifizierten WEG-Verwalter gemäß § 26a WEG erfolgreich bestanden. Darüber hinaus bin ich Mitglied im Verband der Immobilienverwalter Niedersachsen/Bremen e.V. und dadurch stets auf dem aktuellen rechtlichen Stand. Regelmäßige Fortbildungen, der Besuch von Kongressen und der Austausch mit Fachkollegen gehören für mich selbstverständlich dazu.
 
-**Kommunikation ist für mich das A und O.**  
-Verbindlichkeit, transparente Abläufe und Zuverlässigkeit sind für mich nicht nur Versprechen, sondern gelebte Praxis. Ich halte mich an Absprachen – weil ich es selbst genauso erwarte.
+Da ich weder als Makler tätig bin noch einen eigenen Hausmeisterservice betreibe, bin ich in meinen Entscheidungen vollkommen unabhängig. Diese Unabhängigkeit bedeutet, dass ich ausschließlich im Interesse meiner Kunden handle und dadurch für klare, transparente und objektive Lösungen sorge.
 
----
-
-## 📍 Wo ich tätig bin
-
-Ich arbeite in **Hannover und der umliegenden Region**.  
-Ich kenne die Stadt – und viele ihrer Häuser – seit Jahren und bin eng mit ihr verbunden.
+Fortbildung ist für mich ein wichtiger Bestandteil meiner täglichen Arbeit. Ich betrachte Themen gern aus verschiedenen Blickwinkeln, hinterfrage gewohnte Abläufe und bin neuen Entwicklungen gegenüber aufgeschlossen. So verbinde ich bewährte Methoden mit modernen Ansätzen und biete meinen Kunden eine Immobilienverwaltung, die sowohl zuverlässig als auch zukunftsorientiert ist.
 
 ---
 
-## 📈 Qualität – nicht nur ein Wort
+## Was mir wichtig ist
 
-Ich habe den Anspruch, mich und meine Leistungen **kontinuierlich zu verbessern**.  
-Deshalb betreibe ich ein eigenes kleines **Qualitätsmanagement**:
+An meinem Beruf begeistert mich vor allem, dass ich direkt für Menschen arbeite und die Ergebnisse meiner Tätigkeit sichtbar werden. Immobilienverwaltung bedeutet für mich Verantwortung zu übernehmen, Klarheit zu schaffen und ehrliche Rückmeldungen zu erhalten. Genau diese Mischung macht meine Arbeit so wertvoll und erfüllend.
 
-- Über meine Website können Sie **anonym Feedback oder auch Beschwerden** einreichen.
-- In regelmäßigen Abständen führe ich **Zufriedenheitsbefragungen** durch.
-
-So erfahre ich, was gut läuft – und wo es noch besser geht.
-
-➡️ **Klicken Sie gerne auch auf die [Problem melden](problem-melden.html) Seite**, wenn Sie ein Anliegen haben – schnell, unkompliziert und mit Bild-Upload.
+Eine offene und verlässliche Kommunikation ist dabei für mich das A und O. Verbindlichkeit, transparente Abläufe und Zuverlässigkeit sind keine leeren Versprechen, sondern gelebte Praxis. Absprachen halte ich konsequent ein, weil ich selbst den Anspruch habe, dass Kunden jederzeit auf mein Wort vertrauen können.
 
 ---
 
-## 🧗‍♂️ Und sonst so?
+## Wo ich tätig bin
 
-In meiner Freizeit bin ich gern **draußen unterwegs** – beim Wandern oder an Klettersteigen.  
-Wenn ich nicht gerade an einer Wand hänge, findet man mich wahrscheinlich **im Garten, am See oder im Fitnessstudio**. Dort tanke ich neue Energie für die täglichen Aufgaben.
-
-Ich bin verheiratet und wir haben drei Kinder – der älteste studiert Informatik, der kleinste geht in den Kindergarten.
-Und irgendwo dazwischen ist auch immer was los 😊
+Ich bin in Hannover und der gesamten umliegenden Region tätig. Die Stadt kenne ich seit vielen Jahren in all ihren Facetten und fühle mich mit ihr eng verbunden. Viele ihrer Straßen und Gebäude sind mir bestens vertraut, was mir einen besonderen Blick für die örtlichen Gegebenheiten und die Bedürfnisse der Eigentümergemeinschaften gibt. Diese regionale Nähe ermöglicht es mir, jederzeit schnell vor Ort zu sein und eine persönliche Betreuung sicherzustellen.
 
 ---
 
-Ich freue mich darauf, vielleicht auch bald **für Sie da sein zu dürfen**.
+## Unterwegs
+
+Unterwegs bin ich in Hannover und der Region flexibel und mobil. Je nach Anlass nutze ich mein Auto, das Fahrrad oder den E-Scooter. Gerade in Stadtteilen wie Linden oder der Calenberger Neustadt sind das Fahrrad und der E-Scooter besonders praktisch, weil die oft lange Parkplatzsuche entfällt und ich direkt vor Ort sein kann. So bin ich schnell erreichbar, flexibel im Einsatz und kann mich optimal auf die Gegebenheiten der Stadt einstellen.
+
+---
+
+## Qualität – nicht nur ein Wort
+
+Ich habe den Anspruch, mich und meine Leistungen kontinuierlich zu verbessern. Daher betreibe ich ein eigenes Qualitätsmanagement, das meinen Kunden eine echte Stimme gibt. Über meine Website besteht die Möglichkeit, anonym Feedback oder auch Beschwerden einzureichen. Zusätzlich führe ich in regelmäßigen Abständen Zufriedenheitsbefragungen durch. Auf diese Weise erfahre ich, was bereits gut funktioniert und an welchen Stellen ich meine Arbeit noch optimieren kann. Das Ergebnis ist eine Verwaltung, die sich stetig weiterentwickelt und sich konsequent an den Bedürfnissen meiner Kunden orientiert.
+
+➡**Klicken Sie gerne auch auf die [Problem melden](problem-melden.html) Seite**, wenn Sie ein Anliegen haben – schnell, unkompliziert und mit Bild-Upload.
+
+---
+
+In meiner Freizeit bin ich am liebsten draußen. Ich gehe gern wandern und erkunde Klettersteige, außerdem unternehme ich sehr gerne Fahrradtouren, bei denen ich neue Wege und Landschaften entdecke. Ebenso verbringe ich viel Zeit in meinem Kleingarten, in dem ich Obst und Gemüse anbaue und die Arbeit im Grünen genieße. Für mich ist das eine wunderbare Möglichkeit, die Natur zu erleben und die Jahreszeiten bewusst wahrzunehmen.
+
+Ich mag sowohl die Berge als auch das Meer. Besonders Österreich mit seiner beeindruckenden Alpenlandschaft und Kroatien mit der herrlichen Adriaküste gehören zu meinen liebsten Reisezielen. Auch Italien fasziniert mich immer wieder mit seiner Vielfalt und Schönheit.
+
+Wenn ich nicht unterwegs bin, findet man mich oft im Fitnessstudio. Sport gehört für mich einfach dazu und gibt mir ein gutes Gefühl.
+
+Ich bin verheiratet und habe drei Kinder. Mein ältester Sohn studiert Informatik, mein mittleres Kind geht zur Schule und mein kleiner Sohn besucht den Kindergarten. Bei uns ist also immer etwas los, und genau diese Lebendigkeit macht mein Privatleben für mich besonders wertvoll.
+
+Ich freue mich darauf, vielleicht auch bald für Sie da sein zu dürfen.
 
 Herzliche Grüße  
 **Marco Müller**
