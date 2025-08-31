@@ -6,74 +6,203 @@ description: Lernen Sie Marco Müller, zertifizierter WEG-Verwalter und Immobili
 keywords: Marco Müller Hausverwaltung, Immobilienverwalter Hannover, WEG-Verwalter Hannover, zertifizierter Hausverwalter, Immobilienverwaltung mit Qualität, persönliche Hausverwaltung Hannover, Hausverwalter ohne Makler, Hausverwalter Hannover privat, unabhängiger Immobilienverwalter, Hausverwaltung mit Feedbacksystem
 ---
 
-<div style="position: relative; text-align: center; color: white; margin-bottom: 30px;">
+<!--
+Bilder-Hinweis:
+Bitte die unten referenzierten Dateien in /assets/img/ ablegen.
+Empfohlene Dateinamen (je nach Auswahl):
+- ueber-mich-portrait-schafe.webp
+- ueber-mich-unterwegs-helm.webp
+- ueber-mich-klettersteig-1.webp
+- ueber-mich-klettersteig-2.webp
+- ueber-mich-garten-feigen.webp
+- ueber-mich-garten-obst.webp
+Die bereitgestellten Originale stammen aus Deinem Upload (Selfie mit Schafen, Kletterfotos, Helm, Feigen/Obst).
+Alle Bilder sind mit loading="lazy", decoding="async" und aussagekräftigem Alt-Text versehen.
+-->
 
-  <img src="/assets/img/linden_sepia.jpg" alt="Blick über Hannover in Richtung Linden – Sepia-Stil" style="width: 100%; max-height: 400px; object-fit: cover; filter: brightness(60%);">
+<style>
+  /* Seite "Über mich": schlankes, responsives Layout mit Fokus auf Barrierefreiheit */
+  .hero-wrap {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  .hero-wrap img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    filter: brightness(60%);
+  }
+  .hero-text {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+  }
+  .hero-text h1 { font-size: clamp(1.8rem, 2.5vw, 2.6rem); margin: 0 0 .2rem; }
+  .hero-text p  { font-size: clamp(1rem, 1.5vw, 1.2rem); margin: 0; }
 
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-    <h1 style="font-size: 2.5em; margin: 0;">Schön, dass Sie hier sind!</h1>
-    <p style="font-size: 1.2em;">Ein Blick über Hannover – hier bin ich zuhause.</p>
+  .about { display: grid; gap: 2rem; }
+  .about-row {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1.25rem;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 6px 24px rgba(0,0,0,.06);
+  }
+  .about-row:nth-child(even) {
+    grid-template-columns: 1.2fr 1fr; /* optischer Versatz */
+  }
+  .about-fig {
+    margin: 0;
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .about-fig img {
+    width: 100%;
+    height: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    display: block;
+  }
+  .about-text h2 {
+    margin: 0 0 .6rem;
+    font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+  }
+  .about-text p { margin: 0 0 .9rem; line-height: 1.65; }
+  .about-cta {
+    display: inline-block;
+    padding: .65rem 1rem;
+    border-radius: 999px;
+    text-decoration: none;
+    background: #0b5ed7;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  /* Mobile */
+  @media (max-width: 900px) {
+    .about-row,
+    .about-row:nth-child(even) {
+      grid-template-columns: 1fr;
+    }
+    .about-fig img { max-height: 320px; }
+  }
+
+  /* Bevorzugte Farbschemata respektieren */
+  @media (prefers-color-scheme: dark) {
+    .about-row { background: #111; box-shadow: 0 6px 24px rgba(0,0,0,.35); }
+    .about-cta { background: #0a58ca; }
+  }
+</style>
+
+<div class="hero-wrap" role="banner" aria-label="Hannover-Panorama">
+  <img src="/assets/img/linden_sepia.jpg"
+       alt="Blick über Hannover in Richtung Linden im warmen Sepia-Ton"
+       loading="eager" decoding="async">
+  <div class="hero-text" aria-hidden="true">
+    <div>
+      <h1>Schön, dass Sie hier sind!</h1>
+      <p>Ein Blick über Hannover – hier bin ich zuhause.</p>
+    </div>
   </div>
-
 </div>
 
 # Über mich
 
-## Hallo, ich bin Marco Müller
+<div class="about" role="list">
 
-Hallo, mein Name ist Marco Müller. Ich wurde am 7. März 1985 in Hannover geboren und bin bis heute eng mit dieser Stadt verbunden. Hannover ist für mich nicht nur die grünste, sondern auch die vielseitigste Stadt Norddeutschlands, und genau hier habe ich meinen Lebensmittelpunkt gefunden.
+  <!-- Abschnitt 1: Persönlicher Einstieg -->
+  <section class="about-row" role="group" aria-labelledby="about-intro">
+    <figure class="about-fig">
+      <img src="/assets/img/ueber-mich-portrait-schafe.webp"
+           alt="Marco Müller mit Sonnenbrille im Grünen, Schafe auf einer Weide im Hintergrund"
+           loading="lazy" decoding="async">
+    </figure>
+    <div class="about-text">
+      <h2 id="about-intro">Hallo, ich bin Marco Müller</h2>
+      <p>Ich wurde am 7. März 1985 in Hannover geboren und bin bis heute eng mit dieser Stadt verbunden. Als selbstständiger Immobilienverwalter führe ich mein Unternehmen klassisch seriös mit modernen Prozessen. Meine Kunden schätzen den direkten Draht ohne Callcenter. Verlässlichkeit und Transparenz stehen im Mittelpunkt meiner Arbeit.</p>
+    </div>
+  </section>
 
-Als selbstständiger Immobilienverwalter führe ich mein Unternehmen mit einem modernen Anspruch und zugleich klassisch seriös als Einzelunternehmer. Meine Kunden schätzen den direkten Kontakt, denn ich bin persönlich erreichbar und verzichte bewusst auf anonyme Callcenter. So entsteht eine vertrauensvolle Zusammenarbeit, die auf Transparenz und Verlässlichkeit basiert.
+  <!-- Abschnitt 2: Beruflicher Hintergrund -->
+  <section class="about-row" role="group" aria-labelledby="about-beruf">
+    <div class="about-text">
+      <h2 id="about-beruf">Mein beruflicher Hintergrund</h2>
+      <p>Ich bin Immobilienverwalter (IHK) und habe die Sachkundeprüfung zum zertifizierten WEG-Verwalter nach § 26a WEG erfolgreich bestanden. Außerdem bin ich Mitglied im Verband der Immobilienverwalter Niedersachsen/Bremen e. V. Regelmäßige Fortbildungen, Kongresse und der fachliche Austausch sind für mich selbstverständlich.</p>
+      <p>Ich bin weder Makler noch Hausmeisterdienstleister und handle damit unabhängig im Interesse meiner Kunden. Bewährte Methoden verbinde ich mit digitalen Lösungen – für klare, nachvollziehbare Entscheidungen und effiziente Abläufe.</p>
+    </div>
+    <figure class="about-fig">
+      <img src="/assets/img/ueber-mich-unterwegs-helm.webp"
+           alt="Marco Müller im weißen Hemd mit Fahrradhelm, umgeben von Bäumen – startklar für Termine in Hannover"
+           loading="lazy" decoding="async">
+    </figure>
+  </section>
 
----
+  <!-- Abschnitt 3: Region & Erreichbarkeit -->
+  <section class="about-row" role="group" aria-labelledby="about-region">
+    <figure class="about-fig">
+      <img src="/assets/img/ueber-mich-klettersteig-1.webp"
+           alt="Marco Müller mit Kletterhelm und Sonnenbrille vor bewaldeter Kulisse"
+           loading="lazy" decoding="async">
+    </figure>
+    <div class="about-text">
+      <h2 id="about-region">Wo ich tätig bin</h2>
+      <p>Ich arbeite in Hannover und der gesamten Region. Die Nähe zu meinen Objekten ist mir wichtig, weil schnelle Reaktionszeiten und persönliche Betreuung den Unterschied machen. Je nach Einsatz nutze ich Auto, Fahrrad oder E-Scooter – so bin ich flexibel und zügig vor Ort.</p>
+      <p>
+        Für konkrete Anliegen steht Ihnen mein Online-Service zur Verfügung:
+        <a class="about-cta" href="/problem-melden/" aria-label="Schaden oder Problem melden (öffnet interne Seite)">Problem melden</a>
+      </p>
+    </div>
+  </section>
 
-## Mein beruflicher Hintergrund
+  <!-- Abschnitt 4: Qualität & Feedback -->
+  <section class="about-row" role="group" aria-labelledby="about-qualitaet">
+    <div class="about-text">
+      <h2 id="about-qualitaet">Qualität – nicht nur ein Wort</h2>
+      <p>Ich betreibe ein aktives Qualitätsmanagement. Über meine Website können Sie anonym Rückmeldungen geben. Außerdem führe ich regelmäßig Zufriedenheitsbefragungen durch. So erkenne ich, was schon rund läuft und wo wir noch besser werden können.</p>
+      <p>
+        <a class="about-cta" href="/feedback/" aria-label="Feedback geben (öffnet interne Seite)">Feedback geben</a>
+      </p>
+    </div>
+    <figure class="about-fig">
+      <img src="/assets/img/ueber-mich-klettersteig-2.webp"
+           alt="Marco Müller mit Kind am Klettersteig, gesichert am Fels – Teamwork und Verantwortung"
+           loading="lazy" decoding="async">
+    </figure>
+  </section>
 
-Ich verfüge über eine fundierte Ausbildung als Immobilienverwalter mit IHK-Abschluss und habe zusätzlich die Sachkundeprüfung zum zertifizierten WEG-Verwalter gemäß § 26a WEG erfolgreich bestanden. Darüber hinaus bin ich Mitglied im Verband der Immobilienverwalter Niedersachsen/Bremen e.V. und dadurch stets auf dem aktuellen rechtlichen Stand. Regelmäßige Fortbildungen, der Besuch von Kongressen und der Austausch mit Fachkollegen gehören für mich selbstverständlich dazu.
+  <!-- Abschnitt 5: Freizeit – Natur & Garten -->
+  <section class="about-row" role="group" aria-labelledby="about-freizeit">
+    <figure class="about-fig">
+      <img src="/assets/img/ueber-mich-garten-feigen.webp"
+           alt="Zweig eines Feigenbaums mit heranreifenden Früchten in der Abendsonne"
+           loading="lazy" decoding="async">
+    </figure>
+    <div class="about-text">
+      <h2 id="about-freizeit">In der Freizeit draußen</h2>
+      <p>Ich gehe gern wandern, erkunde Klettersteige und fahre viel Fahrrad. Ebenso verbringe ich Zeit im Kleingarten – Obst, Gemüse und das Arbeiten im Grünen sind für mich ein guter Ausgleich. Ich mag sowohl die Berge als auch das Meer; Österreich, Italien und Kroatien zählen zu meinen Lieblingszielen.</p>
+      <p>Wenn ich nicht unterwegs bin, findet man mich häufig im Fitnessstudio. Sport gehört für mich einfach dazu.</p>
+    </div>
+  </section>
 
-Da ich weder als Makler tätig bin noch einen eigenen Hausmeisterservice betreibe, bin ich in meinen Entscheidungen vollkommen unabhängig. Diese Unabhängigkeit bedeutet, dass ich ausschließlich im Interesse meiner Kunden handle und dadurch für klare, transparente und objektive Lösungen sorge.
+  <!-- Abschnitt 6: Ein persönlicher Gruß -->
+  <section class="about-row" role="group" aria-labelledby="about-gruss">
+    <div class="about-text">
+      <h2 id="about-gruss">Und privat</h2>
+      <p>Ich bin verheiratet und habe drei Kinder. Bei uns ist immer etwas los, und genau diese Lebendigkeit schätze ich sehr. Ich freue mich darauf, vielleicht auch bald für Sie da sein zu dürfen.</p>
+      <p><strong>Herzliche Grüße<br>Marco Müller</strong></p>
+    </div>
+    <figure class="about-fig">
+      <img src="/assets/img/ueber-mich-garten-obst.webp"
+           alt="Frische Obstschalen mit blauen Beeren, gelben Mirabellen und Feigen auf dem Tisch"
+           loading="lazy" decoding="async">
+    </figure>
+  </section>
 
-Fortbildung ist für mich ein wichtiger Bestandteil meiner täglichen Arbeit. Ich betrachte Themen gern aus verschiedenen Blickwinkeln, hinterfrage gewohnte Abläufe und bin neuen Entwicklungen gegenüber aufgeschlossen. So verbinde ich bewährte Methoden mit modernen Ansätzen und biete meinen Kunden eine Immobilienverwaltung, die sowohl zuverlässig als auch zukunftsorientiert ist.
-
----
-
-## Was mir wichtig ist
-
-An meinem Beruf begeistert mich vor allem, dass ich direkt für Menschen arbeite und die Ergebnisse meiner Tätigkeit sichtbar werden. Immobilienverwaltung bedeutet für mich Verantwortung zu übernehmen, Klarheit zu schaffen und ehrliche Rückmeldungen zu erhalten. Genau diese Mischung macht meine Arbeit so wertvoll und erfüllend.
-
-Eine offene und verlässliche Kommunikation ist dabei für mich das A und O. Verbindlichkeit, transparente Abläufe und Zuverlässigkeit sind keine leeren Versprechen, sondern gelebte Praxis. Absprachen halte ich konsequent ein, weil ich selbst den Anspruch habe, dass Kunden jederzeit auf mein Wort vertrauen können.
-
----
-
-## Wo ich tätig bin
-
-Ich bin in Hannover und der gesamten umliegenden Region tätig. Die Stadt kenne ich seit vielen Jahren in all ihren Facetten und fühle mich mit ihr eng verbunden. Viele ihrer Straßen und Gebäude sind mir bestens vertraut, was mir einen besonderen Blick für die örtlichen Gegebenheiten und die Bedürfnisse der Eigentümergemeinschaften gibt. Diese regionale Nähe ermöglicht es mir, jederzeit schnell vor Ort zu sein und eine persönliche Betreuung sicherzustellen.
-
----
-
-## Unterwegs
-
-Unterwegs bin ich in Hannover und der Region flexibel und mobil. Je nach Anlass nutze ich mein Auto, das Fahrrad oder den E-Scooter. Gerade in Stadtteilen wie Linden oder der Calenberger Neustadt sind das Fahrrad und der E-Scooter besonders praktisch, weil die oft lange Parkplatzsuche entfällt und ich direkt vor Ort sein kann. So bin ich schnell erreichbar, flexibel im Einsatz und kann mich optimal auf die Gegebenheiten der Stadt einstellen.
-
----
-
-## Qualität – nicht nur ein Wort
-
-Ich habe den Anspruch, mich und meine Leistungen kontinuierlich zu verbessern. Daher betreibe ich ein eigenes Qualitätsmanagement, das meinen Kunden eine echte Stimme gibt. Über meine Website besteht die Möglichkeit, <a href="/feedback/" aria-label="Feedback geben">anonym Feedback </a> oder auch Beschwerden einzureichen. Zusätzlich führe ich in regelmäßigen Abständen Zufriedenheitsbefragungen durch. Auf diese Weise erfahre ich, was bereits gut funktioniert und an welchen Stellen ich meine Arbeit noch optimieren kann. Das Ergebnis ist eine Verwaltung, die sich stetig weiterentwickelt und sich konsequent an den Bedürfnissen meiner Kunden orientiert.
-
-➡**Klicken Sie gerne auch auf die <a href="/problem-melden/" aria-label="Schaden oder Problem melden">Problem melden </a> **, wenn Sie ein Anliegen haben. Schnell, unkompliziert und mit Bild-Upload.
-
----
-
-In meiner Freizeit bin ich am liebsten draußen. Ich gehe gern wandern und erkunde Klettersteige, außerdem unternehme ich sehr gerne Fahrradtouren, bei denen ich neue Wege und Landschaften entdecke. Ebenso verbringe ich viel Zeit in meinem Kleingarten, in dem ich Obst und Gemüse anbaue und die Arbeit im Grünen genieße. Für mich ist das eine wunderbare Möglichkeit, die Natur zu erleben und die Jahreszeiten bewusst wahrzunehmen.
-
-Ich mag sowohl die Berge als auch das Meer. Besonders Österreich mit seiner beeindruckenden Alpenlandschaft und Kroatien mit der herrlichen Adriaküste gehören zu meinen liebsten Reisezielen. Auch Italien fasziniert mich immer wieder mit seiner Vielfalt und Schönheit.
-
-Wenn ich nicht unterwegs bin, findet man mich oft im Fitnessstudio. Sport gehört für mich einfach dazu und gibt mir ein gutes Gefühl.
-
-Ich bin verheiratet und habe drei Kinder. Mein ältester Sohn studiert Informatik, mein mittleres Kind geht zur Schule und mein kleiner Sohn besucht den Kindergarten. Bei uns ist also immer etwas los, und genau diese Lebendigkeit macht mein Privatleben für mich besonders wertvoll.
-
-Ich freue mich darauf, vielleicht auch bald für Sie da sein zu dürfen.
-
-Herzliche Grüße  
-**Marco Müller**
+</div>
