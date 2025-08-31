@@ -37,7 +37,8 @@ summary:focus-visible,*:focus-visible{outline:3px solid #00418f;outline-offset:2
     Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in der Nordstadt mit klaren Prozessen und fester persönlicher Erreichbarkeit. Sie erreichen mich direkt ohne Callcenter und erhalten einen vollständigen Onlinezugang zu allen Unterlagen.
   </p>
   <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:2rem;">
-    Vom Büro in Hannover-Herrenhausen sind es nur etwa fünf Minuten in die Nordstadt. Versammlungen, Abnahmen und Vor-Ort-Termine organisiere ich kurzfristig und ohne lange Wege.
+    Vom Büro in Hannover-Herrenhausen sind es nur etwa fünf Minuten in die Nordstadt. Abnahmen und persönliche Vor-Ort-Termine rund um die WEG-Verwaltung in der Nordstadt organisiere ich zuverlässig,
+ kurzfristig und ohne lange Wege, sodass Eigentümergemeinschaften jederzeit auf eine direkte und persönliche Betreuung vertrauen können.
   </p>
   <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
     <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
