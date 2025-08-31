@@ -1,111 +1,180 @@
 ---
 layout: page
+title: "Hausverwaltung Hannover-Calenberger Neustadt – Persönlich, digital, zertifiziert"
+description: "Ob WEG-, Miet- oder SE-Verwaltung: Wir betreuen Ihr Objekt in Hannover-Calenberger Neustadt zuverlässig. Jetzt unverbindliches Angebot anfordern!"
+permalink: /hausverwaltung-hannover-calenberger-neustadt/
 lang: de
 sitemap: true
-permalink: /hausverwaltung-hannover-calenberger-neustadt/
-title: Hausverwaltung Calenberger Neustadt – Marco Müller
-keywords: Hausverwaltung Calenberger Neustadt, WEG-Verwaltung Calenberger Neustadt, Mietverwaltung Calenberger Neustadt, Sondereigentumsverwaltung Calenberger Neustadt, Hausverwaltung Hannover, WEG-Verwaltung Hannover
+keywords: Hausverwaltung Calenberger Neustadt, Hausverwaltung Hannover-Calenberger Neustadt, WEG-Verwaltung Calenberger Neustadt, Mietverwaltung Calenberger Neustadt, Sondereigentumsverwaltung Calenberger Neustadt, Verwalter Calenberger Neustadt, Immobilienverwaltung Calenberger Neustadt, Hausverwalter Calenberger Neustadt
 ---
 
-<section style="background:#e6f7ff;padding:2rem;">
-  <h1>Ihre zuverlässige Hausverwaltung in der Calenberger Neustadt</h1>
-  <p>Ich bin Marco Müller – zertifizierter Hausverwalter, persönlich für Sie da, ohne Callcenter-Zentrale. Mit modernem Onlinezugang behalten Sie alle Unterlagen stets im Blick.</p>
-  <p>Die Calenberger Neustadt ist nur etwa 10 Minuten Fahrt von meinem Büro in Hannover-Herrenhausen (Markgrafstraße 29) entfernt – so garantiere ich Ihnen kurze Wege und schnelle Hilfe.</p>
-  <p>
-    <a href="/kontakt/#angebot" class="button-link">Angebot anfordern</a>
-    <a href="/kontakt/" class="button-link">Kontakt aufnehmen</a>
+<style>
+.button-link{display:inline-block;padding:0.75rem 1.25rem;border-radius:8px;font-weight:600;text-decoration:none;color:#fff !important;background:#00418f;transition:background .2s ease,transform .05s ease;}
+.button-link:hover{background:#003274;}
+.button-link:active{transform:scale(.97);}
+.button-link:focus-visible{outline:3px solid currentColor;outline-offset:3px;}
+
+details{border:1px solid #dfe4ea;border-radius:10px;margin-bottom:1rem;padding:0.75rem 1rem;background:#fcfdff;}
+summary{list-style:none;cursor:pointer;font-weight:600;position:relative;padding-right:1.75rem;}
+summary::-webkit-details-marker{display:none;}
+summary::after{content:"▸";position:absolute;right:0.25rem;top:0.1rem;transition:transform 0.2s ease;font-size:1.1rem;}
+details[open] summary::after{transform:rotate(90deg);}
+details[open]{box-shadow:0 2px 6px rgba(0,0,0,0.04);}
+summary:focus-visible,*:focus-visible{outline:3px solid #00418f;outline-offset:2px;}
+
+.service-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;max-width:1000px;margin:0 auto 3rem;padding:0 16px;}
+.service-box{background:#f9fbfd;padding:1.75rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.05);border-left:6px solid #00418f;display:flex;flex-direction:column;justify-content:space-between;}
+.service-box h3{margin:0 0 0.5rem;}
+.service-box p{flex-grow:1;margin-bottom:1.25rem;}
+
+.faq-box{border:1px solid #dfe4ea;border-radius:10px;margin-bottom:1rem;padding:1rem 1.25rem;background:#ffffff;box-shadow:0 2px 6px rgba(0,0,0,0.03);}
+.faq-box:hover{box-shadow:0 4px 12px rgba(0,0,0,0.06);}
+</style>
+
+<section style="background:#eaf1f8;padding:64px 20px 56px 20px;margin-bottom:56px;border-radius:14px;text-align:center;">
+  <h1 style="font-size:30px;margin-bottom:1.5rem;">Hausverwaltung Hannover-Calenberger Neustadt, persönlich, zuverlässig, digital</h1>
+  <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:1.25rem;">
+    Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in der Calenberger Neustadt mit klaren Prozessen und fester persönlicher Erreichbarkeit. Sie erreichen mich direkt ohne Callcenter und erhalten einen vollständigen Onlinezugang zu allen Unterlagen.
   </p>
-</section>
-
-<section>
-  <h2>Warum wir der richtige Partner in der Calenberger Neustadt sind</h2>
-  <div class="three-grid">
-    <div class="tile">
-      <h3>Lokale Erfahrung</h3>
-      <p>Wir kennen die Besonderheiten der Calenberger Neustadt, ihre Geschichte, Infrastruktur und Bewohner – das schafft Vertrauen vor Ort.</p>
-    </div>
-    <div class="tile">
-      <h3>Schnelle Reaktionszeit</h3>
-      <p>Durch unsere Nähe sind wir persönlich erreichbar – bei Anliegen oder Notfällen sind wir schnell bei Ihnen.</p>
-    </div>
-    <div class="tile">
-      <h3>Digitaler Zugang</h3>
-      <p>Mit unserem Onlineportal erhalten Sie rund um die Uhr Zugriff auf Verträge, Rechnungen und Dokumente – bequem und transparent.</p>
-    </div>
-  </div>
-</section>
-
-<section>
-  <h2>Unsere Leistungen</h2>
-  <div class="service-grid">
-    <div>
-      <h3>WEG-Verwaltung</h3>
-      <a href="/weg-verwaltung/" class="button-link">Mehr erfahren</a>
-    </div>
-    <div>
-      <h3>Miethausverwaltung</h3>
-      <a href="/miethausverwaltung/" class="button-link">Mehr erfahren</a>
-    </div>
-    <div>
-      <h3>Sondereigentumsverwaltung</h3>
-      <a href="/sondereigentumsverwaltung/" class="button-link">Mehr erfahren</a>
-    </div>
-  </div>
-</section>
-
-<section>
-  <h2>Calenberger Neustadt auf einen Blick – Stadt, Struktur und Lebensqualität</h2>
-  <figure>
-    <img src="/assets/img/hero-calenberger-neustadt.webp" alt="Basilika St. Clemens in der Calenberger Neustadt" />
-    <figcaption><strong>Bildnachweis:</strong><br>*Basilika St. Clemens*, Foto von H. Helmlechner, via Wikimedia Commons<br>Lizenz: CC BY-SA 3.0</figcaption>
-  </figure>
-  <!-- Originalbild: https://upload.wikimedia.org/wikipedia/commons/…/…Basilika_St_Clemens.jpg -->
-</section>
-
-<section style="background:#fff;padding:2rem;border-radius:8px;margin-top:1.5rem;">
-  <h3>Calenberger Neustadt im Überblick</h3>
-  <ul>
-    <li>Stadtteil von Hannover mit ca. 7 000 Einwohnern im Bezirk Mitte :contentReference[oaicite:2]{index=2}</li>
-    <li>Zentral gelegen zwischen Leine, Ihme und Schneller Graben, nahe Leibnizufer und Innenstadt :contentReference[oaicite:3]{index=3}</li>
-    <li>Sehr gute Anbindung: Innenstadt, Maschsee und Georgengarten sind fußläufig erreichbar :contentReference[oaicite:4]{index=4}</li>
-  </ul>
-</section>
-
-<section style="background:#fff;padding:2rem;border-radius:8px;margin-top:1.5rem;">
-  <h3>Besonderheiten des Stadtteils</h3>
-  <ul>
-    <li>Neustädter Hof- und Stadtkirche St. Johannis sowie die katholische Basilika St. Clemens (Sehenswürdigkeit) :contentReference[oaicite:5]{index=5}</li>
-    <li>„Blauer Faden“ – ein Kulturweg entlang historischer Stationen wie der Skulpturenmeile und Wasserachsen :contentReference[oaicite:6]{index=6}</li>
-    <li>Lebendige Gastronomie- und Shopping-Szene entlang der Calenberger Straße, sowie Nähe zur Altstadt :contentReference[oaicite:7]{index=7}</li>
-  </ul>
-</section>
-
-<section>
-  <h2>FAQ</h2>
-  <dl>
-    <dt>Was kostet eine WEG-Verwaltung?</dt>
-    <dd>Die Kosten richten sich nach dem Umfang der Gemeinschaft. Für die Calenberger Neustadt bieten wir faire und transparente Pauschalen – gerne unterbreiten wir Ihnen ein individuelles Angebot.</dd>
-
-    <dt>Betreuen Sie auch kleinere Miethäuser?</dt>
-    <dd>Ja, auch kleinere Miethäuser in der Calenberger Neustadt betreuen wir kompetent und persönlich, gerade dort zeigen sich schnelle Wege und flexible Lösungen.</dd>
-
-    <dt>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?</dt>
-    <dd>Wir setzen auf absolute Transparenz, persönliche Betreuung ohne Callcenter und einen modernen Onlinezugang – das schafft Vertrauen und echte Sicherheit.</dd>
-  </dl>
-
-  <div style="background:#f9fbfd;padding:1.5rem 1.75rem;border-radius:12px;margin-top:2.5rem;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,0.04);">
-    <p style="font-size:16px;color:#444;margin-bottom:1rem;">Sie haben weitere Fragen?</p>
-    <a href="/faq/" class="button-link">🔎 Zur FAQ-Übersicht</a>
-  </div>
-</section>
-
-<section style="padding:2rem;text-align:center;">
-  <img src="/assets/img/portrait-marco-mueller.webp" alt="Portrait Marco Müller" style="width:120px;border-radius:50%;"/>
-  <h3>Marco Müller</h3>
-  <p>Ihr persönlicher Ansprechpartner – schlicht, direkt, kompetent.</p>
-  <p><strong>Telefon:</strong> 0511 – 515 44 113</p>
-  <p>
-    <a href="/kontakt/#angebot" class="button-link">Angebot anfordern</a>
-    <a href="/kontakt/" class="button-link">Kontakt aufnehmen</a>
+  <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:2rem;">
+    Vom Büro in Hannover-Herrenhausen an der Markgrafstraße sind es nur etwa fünf Minuten in die Calenberger Neustadt. Termine vor Ort, Begehungen und Versammlungen setze ich kurzfristig um, ob an der Calenberger Straße, am Waterlooplatz oder am Neustädter Markt.
   </p>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
+    <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
+    <a href="/kontakt/" class="button-link">Kontakt aufnehmen</a>
+  </div>
+</section>
+
+<section style="background:#f0f4f9;padding:48px 20px;margin:64px auto;border-radius:12px;text-align:center;">
+  <h2 style="font-size:26px;margin-bottom:2rem;">Warum wir der richtige Partner in der Calenberger Neustadt sind</h2>
+  <div style="display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;">
+    <div style="flex:1 1 280px;max-width:320px;background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
+      <h4 style="font-size:18px;margin:0 0 0.75rem;">Lokale Erfahrung</h4>
+      <p style="margin:0;font-size:16px;color:#444;line-height:1.6;">Vertraut mit Beständen rund um den Neustädter Markt, die Glocksee und die Ufer von Leine und Ihme. Persönliche Präsenz bei Terminen.</p>
+    </div>
+    <div style="flex:1 1 280px;max-width:320px;background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
+      <h4 style="font-size:18px;margin:0 0 0.75rem;">Kurze Wege</h4>
+      <p style="margin:0;font-size:16px;color:#444;line-height:1.6;">Nur wenige Minuten Anfahrt aus Herrenhausen. Das beschleunigt Entscheidungen und reduziert Abstimmungsaufwand.</p>
+    </div>
+    <div style="flex:1 1 280px;max-width:320px;background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
+      <h4 style="font-size:18px;margin:0 0 0.75rem;">Digitaler Zugang</h4>
+      <p style="margin:0;font-size:16px;color:#444;line-height:1.6;">Eigentümer und Mieter sehen Abrechnungen, Protokolle und Meldungen jederzeit online ein. Vollständig und transparent.</p>
+    </div>
+  </div>
+</section>
+
+## Unsere Leistungen
+
+<div class="service-grid">
+  <div class="service-box">
+    <h3>WEG-Verwaltung</h3>
+    <p>Rechtssichere kaufmännische und technische Betreuung Ihrer Eigentümergemeinschaft in Hannover-Calenberger Neustadt. Versammlungen, Beschlussumsetzung und digitale Dokumentation.</p>
+    <a href="/weg-verwaltung/" class="button-link">Mehr zur WEG-Verwaltung</a>
+  </div>
+  <div class="service-box">
+    <h3>Mietverwaltung</h3>
+    <p>Kompletter Service für Mietobjekte. Bonitätsprüfung, Mietvertragsmanagement, Betriebskostenabrechnung und schnelle Kommunikation mit Mietern.</p>
+    <a href="/miethausverwaltung/" class="button-link">Mehr zur Mietverwaltung</a>
+  </div>
+  <div class="service-box">
+    <h3>Sondereigentums­verwaltung</h3>
+    <p>Transparente Verwaltung einzelner Eigentumswohnungen. Ich koordiniere Instandhaltung, führe die Mieterkommunikation und stelle alle Unterlagen online bereit.</p>
+    <a href="/sondereigentumsverwaltung/" class="button-link">Mehr zur SE-Verwaltung</a>
+  </div>
+</div>
+
+<section style="background:#f9fbfd;padding:32px 20px;border-radius:12px;margin-bottom:2.5rem;">
+  <div style="max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:24px;align-items:center;">
+
+<h2 style="font-size:24px;text-align:center;margin:3rem 0 1.5rem;">Calenberger Neustadt auf einen Blick, Stadt, Struktur und Lebensqualität</h2>
+
+<figure style="margin:0 auto;max-width:540px;padding:16px;background:#ffffff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+  <a href="/assets/img/hero-calenberger-neustadt.webp" target="_blank" style="display:block;">
+    <img src="/assets/img/hero-calenberger-neustadt.webp"
+         alt="Neustädter Hof- und Stadtkirche St. Johannis am Neustädter Markt in Hannover-Calenberger Neustadt, Außenansicht 2011"
+         width="480" height="320"
+         loading="lazy" decoding="async"
+         sizes="(max-width:600px) 92vw, 480px"
+         style="width:100%;height:auto;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.08);cursor:pointer;">
+  </a>
+  <figcaption style="font-size:13px;color:#666;margin-top:12px;text-align:center;line-height:1.4;">
+    <em>Neustädter Hof- und Stadtkirche St. Johannis</em>, Foto von <a href="https://commons.wikimedia.org/wiki/User:Dguendel" target="_blank" rel="noopener">Dguendel</a>, via
+    <a href="https://commons.wikimedia.org/wiki/File:Hannover,_die_Neust%C3%A4dter_Hof-_und_Stadtkirche_St._Johannis.JPG" target="_blank" rel="noopener">Wikimedia Commons</a><br>
+    Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
+  </figcaption>
+</figure>
+<!-- Originalbild: https://upload.wikimedia.org/wikipedia/commons/b/bc/Hannover%2C_die_Neust%C3%A4dter_Hof-_und_Stadtkirche_St._Johannis.JPG -->
+
+<div style="display:flex;flex-direction:column;gap:24px;max-width:720px;width:100%;text-align:left;">
+  <div style="background:#ffffff;padding:1.5rem 1.75rem;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.04);">
+    <h3 style="margin:0 0 1rem;font-size:20px;">Calenberger Neustadt im Überblick</h3>
+    <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
+      <li>Stadtteil westlich der Altstadt auf der „Insel“ zwischen Leine, Ihme und Schneller Graben</li>
+      <li>Sehr gute Anbindung mit Stadtbahn, Bus und kurzen Wegen in die Innenstadt</li>
+      <li>Lebendige Achsen an der Calenberger Straße, am Goetheplatz und am Waterlooplatz</li>
+    </ul>
+  </div>
+
+  <div style="background:#ffffff;padding:1.5rem 1.75rem;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.04);">
+    <h3 style="margin:0 0 1rem;font-size:20px;">Besonderheiten des Ortes</h3>
+    <ul style="list-style:none;padding-left:0;line-height:1.7;font-size:16px;margin:0;">
+      <li><strong>Neustädter Kirche St. Johannis</strong> als bedeutendes Beispiel des norddeutschen Barocks</li>
+      <li><strong>Waterloosäule auf dem Waterlooplatz</strong> als weithin sichtbares Wahrzeichen</li>
+      <li><strong>Kulturorte wie Glocksee und Leibniz Theater</strong> mit Programm von Konzert bis Kabarett</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+</section>
+
+## FAQ zur Hausverwaltung in der Calenberger Neustadt
+
+<details class="faq-box">
+  <summary>Was kostet eine WEG-Verwaltung?</summary>
+  <p>Die Vergütung richtet sich nach Anzahl der Einheiten, Lage und Zustand des Gemeinschaftseigentums. Gern erstelle ich ein individuelles Angebot für Ihr Objekt in Hannover-Calenberger Neustadt.</p>
+</details>
+
+<details class="faq-box">
+  <summary>Betreuen Sie auch kleinere Miethäuser?</summary>
+  <p>Ja. Auch kompakte Mehrfamilienhäuser mit wenigen Einheiten betreue ich zuverlässig mit direkter Kommunikation und klaren Abläufen.</p>
+</details>
+
+<details class="faq-box">
+  <summary>Was unterscheidet die Hausverwaltung Marco Müller von anderen Verwaltern?</summary>
+  <p>Transparenz, persönliche Erreichbarkeit ohne Callcenter und strukturierte Prozesse sind mir wichtig. Die Kombination aus digitaler Arbeitsweise und Präsenz vor Ort sorgt für eine moderne und verlässliche Verwaltung.</p>
+</details>
+
+<div style="background:#f9fbfd;padding:1.5rem 1.75rem;border-radius:12px;margin-top:2.5rem;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,0.04);">
+  <p style="font-size:16px;color:#444;margin-bottom:1rem;">Sie haben weitere Fragen?</p>
+  <a href="/faq/" class="button-link">🔎 Zur FAQ-Übersicht</a>
+</div>
+
+<section style="background:#f9fbfd;padding:48px 24px;border-radius:12px;margin:48px auto;max-width:640px;text-align:center;box-shadow:0 4px 18px rgba(0,0,0,0.05);position:relative;">
+  <div style="position:absolute;top:0;left:0;width:100%;height:4px;background:#00418f;border-radius:12px 12px 0 0;"></div>
+
+  <img src="/assets/img/marco-mueller.webp"
+       alt="Marco Müller, Hausverwalter in Hannover-Calenberger Neustadt"
+       width="320" height="380"
+       loading="lazy" decoding="async"
+       style="border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,0.08);max-width:100%;height:auto;">
+
+  <h3 style="margin-top:1.5rem;margin-bottom:0.3rem;font-size:24px;">Marco Müller</h3>
+
+  <p style="margin:0;font-size:16px;color:#555;line-height:1.5;">
+    Inhaber und zertifizierter Hausverwalter<br>
+    Ihr Ansprechpartner für Hannover-Calenberger Neustadt
+  </p>
+
+  <blockquote style="margin:1.5rem auto 0;font-style:italic;font-size:16px;color:#444;max-width:480px;line-height:1.6;">
+    „Ich stehe für persönliche Betreuung, schnelle Reaktion und eine transparente Hausverwaltung ohne Callcenter.“
+  </blockquote>
+
+  <div style="margin-top:2rem;">
+    <p style="font-size:16px;margin-bottom:1rem;">Füllen Sie das Formular aus oder rufen Sie mich an unter <strong>0511 515 44 113</strong>.</p>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
+      <a href="/angebot-anfordern/" class="button-link">📄 Angebot anfordern</a>
+      <a href="/kontakt/" class="button-link">📨 Kontakt aufnehmen</a>
+    </div>
+  </div>
 </section>
