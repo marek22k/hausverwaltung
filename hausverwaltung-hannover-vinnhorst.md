@@ -34,10 +34,10 @@ summary:focus-visible,*:focus-visible{outline:3px solid #00418f;outline-offset:2
 <section style="background:#eaf1f8;padding:64px 20px 56px 20px;margin-bottom:56px;border-radius:14px;text-align:center;">
   <h1 style="font-size:30px;margin-bottom:1.5rem;">Hausverwaltung Hannover-Vinnhorst, persönlich, zuverlässig, digital</h1>
   <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:1.25rem;">
-    Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in Vinnhorst mit klaren Prozessen und direkter Erreichbarkeit ohne Callcenter. Sie erhalten einen vollständigen Onlinezugang zu allen Unterlagen.
+    Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in Hannover Vinnhorst mit klar strukturierten Prozessen, zuverlässigem Qualitätsmanagement und persönlicher Erreichbarkeit ohne den Umweg über ein Callcenter. Eigentümer profitieren von einem vollständigen und sicheren Onlinezugang zu sämtlichen Verwaltungsunterlagen, wodurch jederzeit volle Transparenz und Nachvollziehbarkeit gewährleistet ist. So verbinden sich digitale Lösungen mit einer persönlichen Betreuung, die Vertrauen schafft und den Verwaltungsalltag erleichtert.
   </p>
   <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:2rem;">
-    Vom Büro in Hannover-Herrenhausen an der Markgrafstraße sind es nur etwa zwölf Minuten nach Vinnhorst. Termine vor Ort, Begehungen und Versammlungen organisiere ich kurzfristig, ob am Bahnhof Hannover-Vinnhorst, in Alt-Vinnhorst oder entlang der Beneckeallee.
+    Von meinem Büro in Hannover Herrenhausen an der Markgrafstraße sind es nur wenige Minuten bis nach Vinnhorst, sodass ich schnell vor Ort sein kann. Persönliche Termine, fachgerechte Abnahmen und individuelle Begehungen organisiere ich flexibel und zuverlässig, ganz gleich ob am Bahnhof Hannover Vinnhorst, in Alt Vinnhorst oder entlang der Beneckeallee. Die räumliche Nähe erlaubt mir, Eigentümergemeinschaften und Vermieter in Vinnhorst effizient zu unterstützen und eine Verwaltung zu bieten, die sich durch Transparenz, Erreichbarkeit und Kompetenz auszeichnet.
   </p>
   <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
     <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
