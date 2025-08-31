@@ -135,7 +135,7 @@ Alle Bilder sind mit loading="lazy", decoding="async" und aussagekräftigem Alt-
     <div class="about-text">
       <h2 id="about-beruf">Mein beruflicher Hintergrund</h2>
       <p>Ich bin Immobilienverwalter (IHK) und habe die Sachkundeprüfung zum zertifizierten WEG-Verwalter nach § 26a WEG erfolgreich bestanden. Außerdem bin ich Mitglied im Verband der Immobilienverwalter Niedersachsen/Bremen e. V. Regelmäßige Fortbildungen, Kongresse und der fachliche Austausch sind für mich selbstverständlich.</p>
-      <p>Ich bin weder Makler noch Hausmeisterdienstleister und handle damit unabhängig im Interesse meiner Kunden. Bewährte Methoden verbinde ich mit digitalen Lösungen – für klare, nachvollziehbare Entscheidungen und effiziente Abläufe.</p>
+      <p>Ich bin weder Makler noch Hausmeisterdienstleister und handle damit unabhängig im Interesse meiner Kunden. Bewährte Methoden verbinde ich mit digitalen Lösungen; Für klare, nachvollziehbare Entscheidungen und effiziente Abläufe.</p>
     </div>
     <figure class="about-fig">
       <img src="/assets/img/ueber-mich-unterwegs-helm.webp"
