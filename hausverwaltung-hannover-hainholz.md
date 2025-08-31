@@ -37,7 +37,7 @@ summary:focus-visible,*:focus-visible{outline:3px solid #00418f;outline-offset:2
     Ich betreue Wohnungseigentümergemeinschaften, Miethäuser und Sondereigentum in Hainholz mit klaren Prozessen und direkter Erreichbarkeit. Sie erhalten einen vollständigen Onlinezugang zu allen Unterlagen ohne Callcenter.
   </p>
   <p style="font-size:18px;line-height:1.75;color:#333;margin-bottom:2rem;">
-    Vom Büro in Hannover-Herrenhausen an der Markgrafstraße sind es nur etwa zehn Minuten bis zum Hainhölzer Markt. Termine vor Ort, Begehungen und Versammlungen setze ich kurzfristig um, ob an der Schulenburger Landstraße, rund um die St. Marienkirche oder am Bahnhof Hannover Leinhausen.
+    Von meinem Büro in Hannover Herrenhausen in der Markgrafstraße erreiche ich den Hainhölzer Markt in nur wenigen Minuten. Diese Nähe ermöglicht es mir, Eigentümergemeinschaften in Hannover Hainholz besonders effizient und zuverlässig zu betreuen. Persönliche Termine vor Ort gehören ebenso zu meinem Leistungsangebot wie regelmäßige Begehungen von Wohnanlagen. Dabei bin ich flexibel in allen Bereichen des Stadtteils präsent, ganz gleich ob an der Schulenburger Landstraße, im Umfeld der St. Marienkirche oder rund um den Bahnhof Hannover Leinhausen. Durch meine persönliche Präsenz vor Ort können Eigentümer auf eine direkte Kommunikation, kurze Wege und eine Betreuung vertrauen, die individuell auf die Bedürfnisse jeder Gemeinschaft zugeschnitten ist. So wird die WEG Verwaltung in Hainholz nicht nur professionell, sondern auch transparent und nahbar gestaltet.
   </p>
   <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
     <a href="/angebot-anfordern/" class="button-link">Angebot anfordern</a>
