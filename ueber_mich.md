@@ -11,7 +11,7 @@ keywords: Marco Müller Hausverwaltung, Immobilienverwalter Hannover, WEG-Verwal
   <img src="/assets/img/linden_sepia.jpg" alt="Blick über Hannover in Richtung Linden – Sepia-Stil" style="width: 100%; max-height: 400px; object-fit: cover; filter: brightness(60%);">
 
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-    <h1 style="font-size: 2.5em; margin: 0;">👋 Schön, dass Sie hier sind!</h1>
+    <h1 style="font-size: 2.5em; margin: 0;">Schön, dass Sie hier sind!</h1>
     <p style="font-size: 1.2em;">Ein Blick über Hannover – hier bin ich zuhause.</p>
   </div>
 
@@ -59,9 +59,9 @@ Unterwegs bin ich in Hannover und der Region flexibel und mobil. Je nach Anlass 
 
 ## Qualität – nicht nur ein Wort
 
-Ich habe den Anspruch, mich und meine Leistungen kontinuierlich zu verbessern. Daher betreibe ich ein eigenes Qualitätsmanagement, das meinen Kunden eine echte Stimme gibt. Über meine Website besteht die Möglichkeit, anonym Feedback oder auch Beschwerden einzureichen. Zusätzlich führe ich in regelmäßigen Abständen Zufriedenheitsbefragungen durch. Auf diese Weise erfahre ich, was bereits gut funktioniert und an welchen Stellen ich meine Arbeit noch optimieren kann. Das Ergebnis ist eine Verwaltung, die sich stetig weiterentwickelt und sich konsequent an den Bedürfnissen meiner Kunden orientiert.
+Ich habe den Anspruch, mich und meine Leistungen kontinuierlich zu verbessern. Daher betreibe ich ein eigenes Qualitätsmanagement, das meinen Kunden eine echte Stimme gibt. Über meine Website besteht die Möglichkeit, <a href="/feedback/" aria-label="Feedback geben">anonym Feedback </a> oder auch Beschwerden einzureichen. Zusätzlich führe ich in regelmäßigen Abständen Zufriedenheitsbefragungen durch. Auf diese Weise erfahre ich, was bereits gut funktioniert und an welchen Stellen ich meine Arbeit noch optimieren kann. Das Ergebnis ist eine Verwaltung, die sich stetig weiterentwickelt und sich konsequent an den Bedürfnissen meiner Kunden orientiert.
 
-➡**Klicken Sie gerne auch auf die [Problem melden](problem-melden.html) Seite**, wenn Sie ein Anliegen haben – schnell, unkompliziert und mit Bild-Upload.
+➡**Klicken Sie gerne auch auf die <a href="/problem-melden/" aria-label="Schaden oder Problem melden">Problem melden </a> **, wenn Sie ein Anliegen haben. Schnell, unkompliziert und mit Bild-Upload.
 
 ---
 
