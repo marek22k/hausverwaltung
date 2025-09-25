@@ -79,6 +79,13 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
 
   <!-- Reihe 3 -->
   <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2025_09_25_Teilnahmebescheinigung VDIV.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/2025_09_25_iSFP.JPG" alt="Online-Seminar 25129 - Energetisch sanieren mit Plan: Wie Verwalter und Eigentümer profitieren können">
+    </a>
+    <div class="cert-title">Online-Seminar 25129 "Energetisch sanieren mit Plan: Wie Verwalter und Eigentümer profitieren können"</div>
+  </div>
+  
+  <div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/Teilnahmebescheinigung VDIV.pdf" target="_blank">
       <img src="/assets/img/nachweise-und-zertifikate/2025_09_01_VDIV.JPG" alt="Online-Seminar 25113 - Die häufigsten Fragen in 
 der Rechtsberatung">
