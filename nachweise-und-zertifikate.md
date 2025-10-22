@@ -78,6 +78,14 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   </div>
 
   <!-- Reihe 3 -->
+  
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2025_10_22_Teilnahmebescheinigung VDIV.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/bild_besch_Energiekomplettlösungen.JPG" alt="Online-Seminar 25132 - Heizung neu gedacht: Wie Verwalter von digitalen Energiekomplettlösungen profitieren">
+    </a>
+    <div class="cert-title">Online-Seminar 25132 "Heizung neu gedacht: Wie Verwalter von digitalen Energiekomplettlösungen profitieren"</div>
+  </div>
+  
   <div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/2025_09_25_Teilnahmebescheinigung VDIV.pdf" target="_blank">
       <img src="/assets/img/nachweise-und-zertifikate/2025_09_25_iSFP.JPG" alt="Online-Seminar 25129 - Energetisch sanieren mit Plan: Wie Verwalter und Eigentümer profitieren können">
