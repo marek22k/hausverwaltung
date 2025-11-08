@@ -83,7 +83,7 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
     <a href="/assets/img/nachweise-und-zertifikate/04.11.2025-vdiv-WEG Buchhaltung.pdf" target="_blank">
       <img src="/assets/img/nachweise-und-zertifikate/2025-11-04-vdiv-Weg-buchfuehrung.JPG" alt="Online-Seminar 25134 - WEG-Buchführung für Fortgeschrittene">
     </a>
-    <div class="cert-title">Online-Seminar 25134 "WEG-Buchführung für Fortgeschrittene"</div>
+    <div class="cert-title">Online-Seminar 25134 "WEG-Buchführung für Fortgeschrittene"</div>.
   </div>
 
   <div class="cert-card">
