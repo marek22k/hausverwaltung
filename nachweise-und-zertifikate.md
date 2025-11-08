@@ -78,6 +78,20 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   </div>
 
   <!-- Reihe 3 -->
+
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/04.11.2025-vdiv-WEG Buchhaltung.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/2025-11-04-vdiv-Weg-buchfuehrung.JPG" alt="Online-Seminar 25134 - WEG-Buchführung für Fortgeschrittene">
+    </a>
+    <div class="cert-title">Online-Seminar 25134 "WEG-Buchführung für Fortgeschrittene"</div>
+  </div>
+
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/howden.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/2025-10-30-howden.JPG" alt="Versicherungsfall und Sondereigentum – Was nun?">
+    </a>
+    <div class="cert-title">Versicherungsfall und Sondereigentum – Was nun?</div>
+  </div>
   
   <div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/2025_10_22_Teilnahmebescheinigung VDIV.pdf" target="_blank">
