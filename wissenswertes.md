@@ -28,6 +28,7 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 ## 🔎 Inhaltsverzeichnis
 
 <ul>
+  <li><a href="#e-check">Keine Pflicht zum anlasslosen E-Check für Vermieter</a></li>
   <li><a href="#kleine-wegs-hannover">Warum Hausverwaltung Marco Müller auch kleinere WEGs betreut</a></li>
   <li><a href="#waermeplanung-hannover">Die kommunale Wärmeplanung in Hannover – Bedeutung für Eigentümer und Verwalter</a></li>
   <li><a href="#EmailVsBrief">💌 E-Mail statt Brief, digitale Kommunikation in der Immobilienverwaltung</a></li>
@@ -39,6 +40,23 @@ keywords: kragplatten betonschäden, balkon sanierung 60er jahre, eichhörnchen 
 </ul>
 
 ---
+
+<div id="e-check" class="box">
+<h1>Keine Pflicht zum anlasslosen E-Check für Vermieter <small>(26.12.2025)</small></h1>
+
+  <p> Mit Urteil vom 15. Oktober 2008, Aktenzeichen VIII ZR 321/07, hat der Bundesgerichtshof eine für Vermieter wichtige Klarstellung zur Verkehrssicherungspflicht getroffen.
+
+In dem entschiedenen Fall kam es in einer Mietwohnung zu einem Brand, der durch einen Kurzschluss verursacht wurde. Der Mieter nahm den Vermieter auf Schadensersatz in Anspruch und begründete dies mit der fehlenden regelmäßigen Überprüfung der Elektroleitungen und Elektrogeräte in der Wohnung. Konkret ging es um die Frage, ob Vermieter verpflichtet sind, ohne besonderen Anlass sogenannte Generalinspektionen der elektrischen Anlagen durchführen zu lassen, wie sie im Elektrohandwerk etwa als E-Check angeboten werden.
+
+Der Bundesgerichtshof hat den Schadensersatzanspruch abgelehnt. Nach Auffassung des Gerichts besteht für Vermieter keine Pflicht, Elektroleitungen und elektrische Anlagen in Mietwohnungen regelmäßig und ohne konkreten Anlass durch einen Elektrofachbetrieb überprüfen zu lassen. Zwar gehört es zu den vertraglichen Nebenpflichten des Vermieters, die Mietsache in einem verkehrssicheren Zustand zu erhalten. Eine anlasslose und umfassende Generalinspektion der gesamten Elektroinstallation ist hiervon jedoch nicht umfasst.
+
+Eine weitergehende Prüfung kann nach der Rechtsprechung nur dann erforderlich sein, wenn konkrete Hinweise auf Mängel vorliegen. Dazu zählen etwa ungewöhnliche oder wiederholt auftretende Störungen, die über einen einzelnen erkennbaren Defekt hinausgehen. In solchen Fällen kann es geboten sein, die Elektroinstallation umfassender überprüfen zu lassen.
+
+Das Urteil schafft Rechtssicherheit für Vermieter und verdeutlicht zugleich, dass eine regelmäßige Kontrolle ohne konkreten Anlass rechtlich nicht geschuldet ist, während bei erkennbaren Auffälligkeiten weiterhin Handlungsbedarf besteht.
+  </p>
+
+  <hr>
+</div>
 
 <div id="kleine-wegs-hannover" class="box">
   <h1>Warum Hausverwaltung Marco Müller auch kleinere WEGs betreut <small>(12.08.2025)</small></h1>
