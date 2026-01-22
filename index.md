@@ -478,7 +478,17 @@ font-size: 1.8rem;
 
 <div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
+Sehr geehrte Eigentümerinnen und Eigentümer,
 
+vielen Dank für Ihr Interesse an meiner Hausverwaltung und das mir entgegengebrachte Vertrauen.
+
+Um die Qualität meiner Verwaltungsleistungen sowie eine persönliche, zuverlässige Betreuung der von mir verwalteten Gemeinschaften der Wohnungseigentümer dauerhaft sicherzustellen, habe ich mich entschieden, derzeit keine neuen Gemeinschaften in die Verwaltung aufzunehmen. Dieser Schritt dient der Sicherung von Kontinuität, Sorgfalt und Erreichbarkeit.
+
+Nach derzeitiger Planung beabsichtige ich, ab Anfang 2027 wieder neue Gemeinschaften der Wohnungseigentümer in meinen Verwaltungsbestand aufzunehmen. Gern nehme ich Interessierte unverbindlich in eine Warteliste auf und komme zu gegebener Zeit auf Sie zu.
+
+Ich bitte um Verständnis für dieses Vorgehen und danke Ihnen für Ihr Vertrauen.
+
+<div style="height: 40px; background: #f0f4fa; border-radius: 8px; margin: 4rem 0;"></div>
 
 <!-- Vorstellungstext mit Bild (mobilfreundlich) -->
 <h2 style="margin-top:3rem;text-align:center;">
