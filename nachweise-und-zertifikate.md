@@ -78,6 +78,20 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   </div>
 
   <!-- Reihe 3 -->
+
+<div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2026-02-03-Teilnahmebescheinigung VDIV.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/2026-02-Mieterhoehung.jpg" alt="Online-Seminar - Die ortsübliche Vergleichsmiete: richtig berechnen anhand des Mietspiegels">
+    </a>
+    <div class="cert-title">Online-Seminar 25016 - Grundlagen der Betriebskostenabrechnung bei Wohnraum</div>
+  </div>
+
+<div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/Certificate of Course ATTIKON Verwaltersprechstunde – Januar 2026 for Müller.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/2026-01-Verwaltersprechstunde-attikon.jpg" alt="ATTIKON Verwaltersprechstunde – Januar 2026">
+    </a>
+    <div class="cert-title">ATTIKON Verwaltersprechstunde – Januar 2026</div>
+  </div>
   
 <div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/2025-11-11-Teilnahmebescheinigung VDIV.pdf" target="_blank">
