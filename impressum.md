@@ -56,3 +56,6 @@ Mitglied im **Verband der Immobilienverwalter Niedersachsen/Bremen e. V. (VDIV)*
 ### Berufshaftpflichtversicherung
 
 Versichert bei: andSafe mit der Vertragsnummer: VH251310041
+
+### Betriebshaftpflichtversicherung
+Versichert bei: Gothaer Allgemeine Versicherung AG mit der Versicherungsscheinnummer: 31.863.570261
