@@ -80,6 +80,13 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   <!-- Reihe 3 -->
 
 <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2026-02-05-Teilnahmebescheinigung VDIV.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/2026-02-FdRb.jpg" alt="Online-Seminar - "Die häufigsten Fragen in der Rechtsberatung">
+    </a>
+    <div class="cert-title">Online-Seminar - "Die häufigsten Fragen in der Rechtsberatung"</div>
+  </div>
+  
+<div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/2026-02-03-Teilnahmebescheinigung VDIV.pdf" target="_blank">
       <img src="/assets/img/nachweise-und-zertifikate/2026-02-Mieterhoehung.jpg" alt="Online-Seminar - Die ortsübliche Vergleichsmiete: richtig berechnen anhand des Mietspiegels">
     </a>
