@@ -78,6 +78,12 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   </div>
 
   <!-- Reihe 3 -->
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2026-02-19-Teilnahmebescheinigung VDIV.pdf" target="_blank">
+     <img src="/assets/img/nachweise-und-zertifikate/frjf.png" alt="Frühjahrsforum Hannover 2026">
+    </a>
+    <div class="cert-title">Frühjahrsforum Hannover 2026</div>
+  </div>
 
 <div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/2026-02-05-Teilnahmebescheinigung VDIV.pdf" target="_blank">
