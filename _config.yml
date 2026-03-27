@@ -18,11 +18,11 @@ menu:
   url: /verwaltung/
   weight: 3
 
-  - title: Wohnungsangebote
+- title: Wohnungsangebote
   url: /Wohnungsangebote/
   weight: 4
 
-  - title: Onlineservice
+- title: Onlineservice
   url: /onlineservice/
   weight: 5
 
