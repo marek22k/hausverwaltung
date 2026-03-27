@@ -12,19 +12,23 @@ menu:
 
 - title: Onlineservice
   url: /onlineservice/
-  weight: 2
+  weight: 5
 
 - title: Leistungen
   url: /leistungen/
-  weight: 3
+  weight: 2
 
 - title: Verwaltung
   url: /verwaltung/
+  weight: 3
+
+  - title: Wohnungsangebote
+  url: /Wohnungsangebote/
   weight: 4
 
 - title: Notfall-Telefon
   url: /notfall/
-  weight: 5
+  weight: 6
 
 
 contact:
