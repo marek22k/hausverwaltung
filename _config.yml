@@ -18,18 +18,13 @@ menu:
   url: /verwaltung/
   weight: 3
 
-<!-- Kommentar 
-- title: Wohnungsangebote
-  url: /Wohnungsangebote/
-  weight: 4
--->
 - title: Onlineservice
   url: /onlineservice/
-  weight: 5
+  weight: 4
 
 - title: Notfall-Telefon
   url: /notfall/
-  weight: 6
+  weight: 5
 
 
 contact:
