@@ -71,10 +71,17 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   </div>
 
   <div class="cert-card">
-    <a href="/assets/img/nachweise-und-zertifikate/Versicherungsbestaetigung_Pflichtversicherungen VH251310041.PDF" target="_blank">
-      <img src="/assets/img/nachweise-und-zertifikate/versicherung.jpg" alt="Nachweis Vermögensschadenhaftpflicht" />
+    <a href="/assets/img/nachweise-und-zertifikate/Versicherungsbestaetigung_Vermoegensschadenhaftpflicht.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/Vermoegen2026.png" alt="Nachweis Vermögensschadenhaftpflicht" />
     </a>
-    <div class="cert-title">Vermögensschadenhaftpflicht – andsafe (gültig ab 01.06.2025)</div>
+    <div class="cert-title">Vermögensschadenhaftpflicht- 31.863.550487</div>
+  </div>
+  
+  <div class="cert-card">
+    <a href="assets/img/nachweise-und-zertifikate/Versicherungsbestaetigung_Betriebshaftpflicht.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/betriebshp2026.png" alt="Nachweis Betriebshaftpflichtversicherung" />
+    </a>
+    <div class="cert-title">Betriebshaftpflichtversicherung - 31.863.570261 </div>
   </div>
 
   <!-- Reihe 3 -->
