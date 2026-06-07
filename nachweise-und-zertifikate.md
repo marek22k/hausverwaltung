@@ -78,7 +78,7 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   </div>
   
   <div class="cert-card">
-    <a href="assets/img/nachweise-und-zertifikate/Versicherungsbestaetigung_Betriebshaftpflicht.pdf" target="_blank">
+    <a href="/assets/img/nachweise-und-zertifikate/Versicherungsbestaetigung_Betriebshaftpflicht.pdf" target="_blank">
       <img src="/assets/img/nachweise-und-zertifikate/betriebshp2026.png" alt="Nachweis Betriebshaftpflichtversicherung" />
     </a>
     <div class="cert-title">Betriebshaftpflichtversicherung - 31.863.570261 </div>
