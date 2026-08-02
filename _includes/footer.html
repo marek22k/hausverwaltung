@@ -2,6 +2,8 @@
 <div id="footer">
   <style>
     #footer {
+      width: 100%;
+      box-sizing: border-box;
       background: #ffffff;
       color: #111111;
       padding: 24px 16px;
@@ -9,6 +11,12 @@
       line-height: 1.6;
       border-top: 1px solid #e5e7eb;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    #footer *,
+    #footer *::before,
+    #footer *::after {
+      box-sizing: border-box;
     }
 
     #footer a {
@@ -21,76 +29,100 @@
       text-decoration: underline;
     }
 
-    .footer-container {
-      max-width: 1200px;
-      margin: 0 auto;
+    /* Eigener, eindeutig benannter Hauptcontainer */
+    #footer .mm-footer-inner {
+      width: 100%;
+      max-width: none;
+      margin: 0;
     }
 
-    /* Obere Zeile: Kontaktdaten links, Links ganz rechts */
-    .footer-top {
+    /* Obere Zeile */
+    #footer .mm-footer-top {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       gap: 40px;
     }
 
-    .footer-left strong {
+    #footer .mm-footer-contact {
+      flex: 0 1 auto;
+    }
+
+    #footer .mm-footer-contact strong {
       font-size: 18px;
       font-weight: 700;
     }
 
-    .footer-left a {
+    #footer .mm-footer-contact a {
       text-decoration: underline;
       text-underline-offset: 2px;
     }
 
-    .footer-right {
-      flex-shrink: 0;
+    /* Links zwingend an den rechten Rand */
+    #footer .mm-footer-links {
+      flex: 0 0 auto;
+      margin-left: auto;
       text-align: left;
     }
 
-    .footer-right a {
+    #footer .mm-footer-links a {
       display: inline-block;
       margin: 4px 0;
       font-size: 16px;
     }
 
-    /* Untere Zeile: alle vier Logos nebeneinander */
-    .footer-logos {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 30px;
-      margin-top: 32px;
-      padding-top: 24px;
-      border-top: 1px solid #e5e7eb;
+    /* Vollständig durchgehende Trennlinie */
+    #footer .mm-footer-divider {
+      width: 100%;
+      height: 1px;
+      margin: 32px 0 24px;
+      background: #e5e7eb;
     }
 
-    .footer-logos a {
-      flex: 1 1 0;
+    /* Vier exakt gleich große Bereiche */
+    #footer .mm-footer-logos {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      align-items: center;
+    }
+
+    #footer .mm-footer-logo-link {
+      width: 100%;
+      min-height: 130px;
+      padding: 10px 20px;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-width: 0;
     }
 
-    .footer-logo {
+    #footer .mm-footer-logo {
       display: block;
-      max-width: 100%;
       width: auto;
       height: auto;
-      max-height: 110px;
+      max-width: 100%;
       object-fit: contain;
     }
 
-    .footer-logo--vdiv {
-      max-width: 280px;
+    #footer .mm-footer-logo-vdiv {
+      max-width: 230px;
+      max-height: 110px;
     }
 
-    .footer-logo--projektmanager,
-    .footer-logo--ihk,
-    .footer-logo--zertifikat {
-      max-width: 210px;
+    #footer .mm-footer-logo-projektmanager {
+      max-width: 190px;
+      max-height: 120px;
+    }
+
+    #footer .mm-footer-logo-ihk {
+      max-width: 190px;
+      max-height: 120px;
+    }
+
+    #footer .mm-footer-logo-zertifikat {
+      max-width: 230px;
+      max-height: 110px;
     }
 
     #footer a:focus-visible {
@@ -101,40 +133,35 @@
 
     /* Tablet */
     @media (max-width: 900px) {
-      .footer-logos {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+      #footer .mm-footer-logos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 20px;
       }
     }
 
     /* Smartphone */
     @media (max-width: 640px) {
-      .footer-top {
+      #footer .mm-footer-top {
         flex-direction: column;
       }
 
-      .footer-right {
-        margin-top: 8px;
+      #footer .mm-footer-links {
+        margin-left: 0;
       }
 
-      .footer-logos {
+      #footer .mm-footer-logos {
         grid-template-columns: 1fr;
-      }
-
-      .footer-logo {
-        max-height: 110px;
       }
     }
   </style>
 
-  <div class="footer-container" role="contentinfo" aria-label="Fußbereich">
+  <div class="mm-footer-inner" role="contentinfo" aria-label="Fußbereich">
 
     <!-- Obere Zeile -->
-    <div class="footer-top">
+    <div class="mm-footer-top">
 
       <!-- Kontaktdaten links -->
-      <div class="footer-left" aria-label="Unternehmensdaten">
+      <div class="mm-footer-contact" aria-label="Unternehmensdaten">
         <strong>Hausverwaltung Marco Müller</strong><br>
         Markgrafstraße 29, 30419 Hannover<br>
         Tel.:
@@ -147,7 +174,7 @@
       </div>
 
       <!-- Links ganz rechts -->
-      <div class="footer-right" aria-label="Wichtige Links">
+      <div class="mm-footer-links" aria-label="Wichtige Links">
         <a href="/kontakt/">Kontakt</a><br>
         <a href="/impressum/">Impressum</a><br>
         <a href="/datenschutz/">Datenschutzerklärung</a>
@@ -155,18 +182,22 @@
 
     </div>
 
-    <!-- Neue Zeile mit vier gleichmäßig verteilten Logos -->
-    <div class="footer-logos" aria-label="Nachweise und Mitgliedschaften">
+    <!-- Durchgehende Linie -->
+    <div class="mm-footer-divider" aria-hidden="true"></div>
 
-      <!-- VDIV Niedersachsen Bremen -->
+    <!-- Logozeile -->
+    <div class="mm-footer-logos" aria-label="Nachweise und Mitgliedschaften">
+
+      <!-- VDIV -->
       <a href="https://vdiv-niedersachsen-bremen.de/"
          target="_blank"
          rel="noopener"
+         class="mm-footer-logo-link"
          aria-label="Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen">
         <img
           src="/assets/img/vdiv-nds-bremen.png"
-          alt="Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen"
-          class="footer-logo footer-logo--vdiv"
+          alt="Mitglied im VDIV Niedersachsen Bremen"
+          class="mm-footer-logo mm-footer-logo-vdiv"
           loading="lazy">
       </a>
 
@@ -174,11 +205,12 @@
       <a href="/assets/img/nachweise-und-zertifikate/2026-Projekt Manager Sanierung IHK.pdf"
          target="_blank"
          rel="noopener"
+         class="mm-footer-logo-link"
          aria-label="Projektmanager Sanierung IHK">
         <img
           src="/assets/img/nachweise-und-zertifikate/EIA-Projektmanager_Sanierung-MarcoMüller.png"
           alt="Projektmanager Sanierung IHK"
-          class="footer-logo footer-logo--projektmanager"
+          class="mm-footer-logo mm-footer-logo-projektmanager"
           loading="lazy">
       </a>
 
@@ -186,11 +218,12 @@
       <a href="https://badges.ihk-kompetenz.plus/assertion/f215ab3c-9e25-4efe-83a8-da10036371b5?id=U2FsdGVkX19lBDNHu0Cv1IgLjduX0Ui/m%209pxj/c1hfx1jaMzmEQjGfhNLWDXZfG4GEqCM/fldCq4QhMBqIaBQ=="
          target="_blank"
          rel="noopener"
+         class="mm-footer-logo-link"
          aria-label="IHK-Qualifikationsnachweis Immobilienverwalter">
         <img
           src="/assets/img/nachweise-und-zertifikate/badge.png"
           alt="Immobilienverwalter IHK"
-          class="footer-logo footer-logo--ihk"
+          class="mm-footer-logo mm-footer-logo-ihk"
           loading="lazy">
       </a>
 
@@ -198,11 +231,12 @@
       <a href="https://www.gesetze-im-internet.de/woeigg/__26a.html"
          target="_blank"
          rel="noopener"
+         class="mm-footer-logo-link"
          aria-label="Zertifizierter Verwalter nach Paragraph 26a WEG">
         <img
           src="/assets/img/zW.jpg"
           alt="Zertifizierter Verwalter nach § 26a WEG"
-          class="footer-logo footer-logo--zertifikat"
+          class="mm-footer-logo mm-footer-logo-zertifikat"
           loading="lazy">
       </a>
 
