@@ -62,6 +62,13 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
     <div class="cert-title">zertifizierter Verwalter nach §26a WEG</div>
   </div>
 
+    <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2026-Projekt Manager Sanierung IHK.pdf" target="_blank">
+      <img src="/assets/img/nachweise-und-zertifikate/2026-ProjektManagerVorschaubild.jpg" alt="Projektmanager Sanierung (IHK)">
+    </a>
+    <div class="cert-title">Projektmanager Sanierung (IHK) </div>
+  </div>
+
   <!-- Reihe 2 -->
   <div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/Gewerbeerlaubnis.pdf" target="_blank">
