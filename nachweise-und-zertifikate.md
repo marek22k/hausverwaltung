@@ -92,6 +92,28 @@ Hier finden Sie eine Auswahl meiner wichtigsten Zertifikate und Nachweise – vo
   </div>
 
   <!-- Reihe 3 -->
+  
+<div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2026-07-12-Teilnahmezertifikat.pdf" target="_blank">
+     <img src="/assets/img/nachweise-und-zertifikate/2026-07-12-ZertifikatVorschauProjektmanager.jpg" alt="Projektmanager/in Sanierung Zertifikat nach§15 Absatz 1 MaBV">
+    </a>
+    <div class="cert-title">Projektmanager/in Sanierung Zertifikat nach§15 Absatz 1 MaBV</div>
+  </div>
+  
+<div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2026-06-30-Teilnahmebescheinigung VDIV.pdf" target="_blank">
+     <img src="/assets/img/nachweise-und-zertifikate/dieErhaltungsmassnahmeInDerGdWEVorschau.jpg" alt="Die Erhaltungsmaßnahme in der GdWE von A-Z">
+    </a>
+    <div class="cert-title">Die Erhaltungsmaßnahme in der GdWE von A-Z</div>
+  </div>
+
+  <div class="cert-card">
+    <a href="/assets/img/nachweise-und-zertifikate/2026-06-11-Teilnahmebescheinigung VDIV.pdf" target="_blank">
+     <img src="/assets/img/nachweise-und-zertifikate/2026-06-11-dieWEGalsAuftraggeberVorschau.jpg" alt="Die WEG als Auftraggeber – rechtssichere Durchführung baulicher Maßnahmen">
+    </a>
+    <div class="cert-title">Die WEG als Auftraggeber – rechtssichere Durchführung baulicher Maßnahmen</div>
+  </div>
+  
 <div class="cert-card">
     <a href="/assets/img/nachweise-und-zertifikate/BescheinigungWeiterbildung_2.pdf" target="_blank">
      <img src="/assets/img/nachweise-und-zertifikate/verwaltertreff-howden.png" alt="Verwaltertreff HOWDEN Hannover 2026">
