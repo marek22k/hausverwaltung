@@ -1,148 +1,213 @@
-<!-- =========================  FOOTER  ========================= -->
+<!-- ========================= FOOTER ========================= -->
 <div id="footer">
   <style>
-    /* Basis */
-    #footer{
-      background:#ffffff;            /* weißer Hintergrund */
-      color:#111111;                 /* schwarze Schrift */
-      padding:24px 16px;             /* oben/unten 24px, links/rechts 16px */
-      font-size:16px;                /* normale Schriftgröße in px */
-      line-height:1.6;               /* angenehme Zeilenhöhe */
-      border-top:1px solid #e5e7eb;  /* dezente Abgrenzung */
-      font-family:system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    }
-    #footer a{ color:#111111; text-decoration:none; }
-    #footer a:hover, #footer a:focus{ text-decoration:underline; }
-
-    /* Layout-Container: Desktop = 3 Spalten, Mobil = Stapel */
-    .footer-container{
-      max-width:1200px;
-      margin:0 auto;
-      display:grid;
-      grid-template-columns: 1.2fr 1fr 0.8fr; /* links breiter, rechts schmaler */
-      gap:24px;
-      align-items:start;
+    #footer {
+      background: #ffffff;
+      color: #111111;
+      padding: 24px 16px;
+      font-size: 16px;
+      line-height: 1.6;
+      border-top: 1px solid #e5e7eb;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     }
 
-    /* Spalten */
-    .footer-left strong{ font-size:18px; font-weight:700; }
-    .footer-left a{ text-decoration:underline; text-underline-offset:2px; }
-
-    .footer-right a{ display:inline-block; margin:4px 0; font-size:16px; }
-
-    /* Logos: großzügig und klar lesbar */
-    .footer-center{
-      display:flex;
-      flex-wrap:wrap;
-      align-items:center;
-      justify-content:center;
-      gap:16px 20px;  /* vertikal 16px, horizontal 20px */
-      padding-top:4px;
-    }
-    .footer-logo{ display:block; object-fit:contain; }
-
-    /* Größen je Logo (in px) */
-    .footer-logo--vdiv{
-      max-width:320px;   /* breit, bleibt aber im Raster */
-      width:100%;
-      height:auto;
-    }
-    .footer-logo--ihk{
-      height:110px;      /* deutlich größer für bessere Lesbarkeit */
-      width:auto;
-    }
-    .footer-logo--zertifikat{
-      height:110px;      /* ebenfalls groß */
-      width:auto;
+    #footer a {
+      color: #111111;
+      text-decoration: none;
     }
 
-    /* Tastatur-Fokus klar sichtbar */
-    #footer a:focus-visible{
-      outline:2px solid #2563eb;  /* kräftiges Blau */
-      outline-offset:2px;
-      border-radius:4px;
+    #footer a:hover,
+    #footer a:focus {
+      text-decoration: underline;
     }
 
-    /* Hilfsklasse für Screenreader */
-    .sr-only{
-      position:absolute; width:1px; height:1px; padding:0; margin:-1px;
-      overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
     }
 
-    /* Responsiv: unter 900px etwas luftiger, unter 640px stapeln */
-    @media (max-width: 900px){
-      .footer-container{
-        grid-template-columns: 1fr; /* Spalten untereinander */
+    /* Obere Zeile: Kontaktdaten links, Links ganz rechts */
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .footer-left strong {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .footer-left a {
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .footer-right {
+      flex-shrink: 0;
+      text-align: left;
+    }
+
+    .footer-right a {
+      display: inline-block;
+      margin: 4px 0;
+      font-size: 16px;
+    }
+
+    /* Untere Zeile: alle vier Logos nebeneinander */
+    .footer-logos {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .footer-logos a {
+      flex: 1 1 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .footer-logo {
+      display: block;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      max-height: 110px;
+      object-fit: contain;
+    }
+
+    .footer-logo--vdiv {
+      max-width: 280px;
+    }
+
+    .footer-logo--projektmanager,
+    .footer-logo--ihk,
+    .footer-logo--zertifikat {
+      max-width: 210px;
+    }
+
+    #footer a:focus-visible {
+      outline: 2px solid #2563eb;
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    /* Tablet */
+    @media (max-width: 900px) {
+      .footer-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
       }
-      .footer-right, .footer-left{ font-size:16px; }
     }
 
-    @media (max-width: 640px){
-      .footer-center{
-        flex-direction:column;      /* Logos untereinander */
-        align-items:center;
+    /* Smartphone */
+    @media (max-width: 640px) {
+      .footer-top {
+        flex-direction: column;
       }
-      .footer-center a{ margin-bottom:8px; }
-      .footer-logo--vdiv{ max-width:300px; }
-      .footer-logo--ihk, .footer-logo--zertifikat{ height:110px; }
+
+      .footer-right {
+        margin-top: 8px;
+      }
+
+      .footer-logos {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-logo {
+        max-height: 110px;
+      }
     }
   </style>
 
   <div class="footer-container" role="contentinfo" aria-label="Fußbereich">
 
-    <!-- Linke Spalte: Adresse/Kontakt -->
-    <div class="footer-left" aria-label="Unternehmensdaten">
-      <strong>Hausverwaltung Marco Müller</strong><br>
-      Markgrafstraße 29, 30419 Hannover<br>
-      Tel.: <a href="tel:+4951151544113">0511&nbsp;515&nbsp;44&nbsp;113</a><br>
-      Fax: 0511&nbsp;515&nbsp;44&nbsp;113&nbsp;05<br>
-      E‑Mail: <a href="mailto:info@hausverwaltung-marcomueller.de">info@hausverwaltung-marcomueller.de</a>
+    <!-- Obere Zeile -->
+    <div class="footer-top">
+
+      <!-- Kontaktdaten links -->
+      <div class="footer-left" aria-label="Unternehmensdaten">
+        <strong>Hausverwaltung Marco Müller</strong><br>
+        Markgrafstraße 29, 30419 Hannover<br>
+        Tel.:
+        <a href="tel:+4951151544113">0511&nbsp;515&nbsp;44&nbsp;113</a><br>
+        Fax: 0511&nbsp;515&nbsp;44&nbsp;113&nbsp;05<br>
+        E-Mail:
+        <a href="mailto:info@hausverwaltung-marcomueller.de">
+          info@hausverwaltung-marcomueller.de
+        </a>
+      </div>
+
+      <!-- Links ganz rechts -->
+      <div class="footer-right" aria-label="Wichtige Links">
+        <a href="/kontakt/">Kontakt</a><br>
+        <a href="/impressum/">Impressum</a><br>
+        <a href="/datenschutz/">Datenschutzerklärung</a>
+      </div>
+
     </div>
 
-    <!-- Mitte: Logos/Mitgliedschaften -->
-    <div class="footer-center" aria-label="Nachweise und Mitgliedschaften">
+    <!-- Neue Zeile mit vier gleichmäßig verteilten Logos -->
+    <div class="footer-logos" aria-label="Nachweise und Mitgliedschaften">
+
       <!-- VDIV Niedersachsen Bremen -->
-      <a href="https://vdiv-niedersachsen-bremen.de/" target="_blank" rel="noopener"
-         aria-label="Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen – öffnet externe Seite">
-        <img src="/assets/img/vdiv-nds-bremen.png"
-             alt="Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen (VDIV)"
-             class="footer-logo footer-logo--vdiv" loading="lazy">
+      <a href="https://vdiv-niedersachsen-bremen.de/"
+         target="_blank"
+         rel="noopener"
+         aria-label="Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen">
+        <img
+          src="/assets/img/vdiv-nds-bremen.png"
+          alt="Mitglied im Verband der Immobilienverwalter Niedersachsen Bremen"
+          class="footer-logo footer-logo--vdiv"
+          loading="lazy">
       </a>
 
-      <!-- IHK Badge (Qualifikationsnachweis) -->
+      <!-- Projektmanager Sanierung -->
+      <a href="/assets/img/nachweise-und-zertifikate/2026-Projekt Manager Sanierung IHK.pdf"
+         target="_blank"
+         rel="noopener"
+         aria-label="Projektmanager Sanierung IHK">
+        <img
+          src="/assets/img/nachweise-und-zertifikate/EIA-Projektmanager_Sanierung-MarcoMüller.png"
+          alt="Projektmanager Sanierung IHK"
+          class="footer-logo footer-logo--projektmanager"
+          loading="lazy">
+      </a>
+
+      <!-- Immobilienverwalter IHK -->
       <a href="https://badges.ihk-kompetenz.plus/assertion/f215ab3c-9e25-4efe-83a8-da10036371b5?id=U2FsdGVkX19lBDNHu0Cv1IgLjduX0Ui/m%209pxj/c1hfx1jaMzmEQjGfhNLWDXZfG4GEqCM/fldCq4QhMBqIaBQ=="
-         target="_blank" rel="noopener"
-         aria-label="IHK‑Qualifikationsnachweis Immobilienverwalter – öffnet externe Seite">
-        <img src="/assets/img/nachweise-und-zertifikate/badge.png"
-             alt="IHK‑Badge Immobilienverwalter"
-             class="footer-logo footer-logo--ihk" loading="lazy">
+         target="_blank"
+         rel="noopener"
+         aria-label="IHK-Qualifikationsnachweis Immobilienverwalter">
+        <img
+          src="/assets/img/nachweise-und-zertifikate/badge.png"
+          alt="Immobilienverwalter IHK"
+          class="footer-logo footer-logo--ihk"
+          loading="lazy">
       </a>
 
-      <!-- Zertifizierter Verwalter nach § 26a WEG -->
-      <a href="https://www.gesetze-im-internet.de/woeigg/__26a.html" target="_blank" rel="noopener"
-         aria-label="Zertifizierter Verwalter nach § 26a WEG – öffnet externe Seite">
-        <img src="/assets/img/zW.jpg"
-             alt="Zertifizierter Verwalter nach § 26a WEG"
-             class="footer-logo footer-logo--zertifikat" loading="lazy">
+      <!-- Zertifizierter Verwalter -->
+      <a href="https://www.gesetze-im-internet.de/woeigg/__26a.html"
+         target="_blank"
+         rel="noopener"
+         aria-label="Zertifizierter Verwalter nach Paragraph 26a WEG">
+        <img
+          src="/assets/img/zW.jpg"
+          alt="Zertifizierter Verwalter nach § 26a WEG"
+          class="footer-logo footer-logo--zertifikat"
+          loading="lazy">
       </a>
-      
-      <!-- Projektmanager Sanierung (IHK) -->
-      <a href="/assets/img/nachweise-und-zertifikate/2026-Projekt Manager Sanierung IHK.pdf" target="_blank" rel="noopener"
-         aria-label="Projektmanager Sanierung (IHK) – öffnet externe Seite">
-        <img src="/assets/img/nachweise-und-zertifikate/EIA-Projektmanager_Sanierung-MarcoMüller.png"
-             alt="Projektmanager Sanierung (IHK)"
-             class="footer-logo footer-logo--zertifikat" loading="lazy">
-      </a>
-      
-    </div>
 
-    <!-- Rechte Spalte: Wichtige Links -->
-    <div class="footer-right" aria-label="Wichtige Links">
-      <a href="/kontakt/">Kontakt</a><br>
-      <a href="/impressum/">Impressum</a><br>
-      <a href="/datenschutz/">Datenschutzerklärung</a>
     </div>
 
   </div>
 </div>
-<!-- =======================  /FOOTER  ======================= -->
+<!-- ======================= /FOOTER ======================= -->
